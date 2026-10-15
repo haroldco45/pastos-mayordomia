@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pastos y Forrajes · Escuela de Mayordomía</title>
+<meta name="description" content="Material de estudio de la Escuela de Mayordomía: cuántas vacas sostiene una hectárea de pasto de corte y cuáles son los pastos más sembrados en Colombia. Con calculadora y quiz.">
+<meta name="theme-color" content="#1F5E3B">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta property="og:title" content="Pastos y Forrajes · Escuela de Mayordomía">
+<meta property="og:description" content="Aprende a calcular cuántas vacas sostiene tu pasto y cuál sembrar según tu suelo y tu región.">
+<meta property="og:image" content="icon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --verde:#1F5E3B; --verde2:#2E7D4F; --verde-claro:#E7F2EA;
+  --oro:#F5B301; --oro-claro:#FFF4D1;
+  --tierra:#8A5A2B; --rojo:#C0392B; --azul:#1F6FB2;
+  --bg:#FAFAF6; --card:#FFFFFF; --txt:#1C2420; --muted:#5D6B63; --borde:#E2E6DF;
+  --sombra:0 2px 10px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#111814; --card:#1A231E; --txt:#ECF1EC; --muted:#A3B2A8; --borde:#2C3832;
+    --verde-claro:#1E3326; --oro-claro:#3A3115; --sombra:0 2px 10px rgba(0,0,0,.4); }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Figtree,system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.55;padding-bottom:84px}
+h1,h2,h3{font-family:"Bricolage Grotesque",Figtree,sans-serif;line-height:1.15}
+a{color:var(--verde2)}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+section{padding:28px 0}
+.vista{display:none}
+.vista.activa{display:block;animation:entra .25s ease}
+@keyframes entra{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* Hero */
+.hero{background:linear-gradient(160deg,var(--verde) 0%,#174A2E 100%);color:#fff;padding:34px 0 30px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-60px;bottom:-60px;width:220px;height:220px;border-radius:50%;background:rgba(245,179,1,.18)}
+.sello{display:inline-block;background:var(--oro);color:#1C2420;font-weight:700;font-size:.78rem;padding:4px 10px;border-radius:99px;letter-spacing:.04em;text-transform:uppercase}
+.hero h1{font-size:2.1rem;margin:12px 0 8px}
+.hero p{opacity:.92;max-width:560px}
+.cifra-hero{display:flex;gap:12px;margin-top:20px;flex-wrap:wrap}
+.cifra-hero div{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:10px 14px;min-width:120px}
+.cifra-hero b{display:block;font-family:"Bricolage Grotesque";font-size:1.7rem;color:var(--oro)}
+.cifra-hero span{font-size:.82rem;opacity:.9}
+
+.titulo-sec{font-size:1.5rem;margin-bottom:6px}
+.sub{color:var(--muted);margin-bottom:16px}
+.etq{color:var(--verde2);font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}
+@media (prefers-color-scheme: dark){.etq{color:#7FCB9A}}
+
+.card{background:var(--card);border:1px solid var(--borde);border-radius:16px;padding:16px;box-shadow:var(--sombra)}
+.grid{display:grid;gap:12px}
+@media(min-width:620px){.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}}
+
+/* Módulos inicio */
+.modulo{display:flex;gap:14px;align-items:flex-start;cursor:pointer;text-align:left;width:100%;font:inherit;color:inherit}
+.modulo .num{flex:0 0 44px;height:44px;border-radius:12px;background:var(--verde);color:#fff;display:grid;place-items:center;font-family:"Bricolage Grotesque";font-weight:800;font-size:1.2rem}
+.modulo h3{font-size:1.08rem;margin-bottom:2px}
+.modulo p{color:var(--muted);font-size:.92rem}
+
+/* Pasos */
+.pasos{counter-reset:p;display:grid;gap:10px}
+.paso{display:flex;gap:12px;align-items:flex-start}
+.paso::before{counter-increment:p;content:counter(p);flex:0 0 30px;height:30px;border-radius:50%;background:var(--oro);color:#1C2420;font-weight:800;display:grid;place-items:center}
+.paso b{color:var(--verde2)}
+@media (prefers-color-scheme: dark){.paso b{color:#7FCB9A}}
+
+.resultado-grande{background:var(--verde);color:#fff;border-radius:16px;padding:18px;text-align:center;margin-top:14px}
+.resultado-grande b{font-family:"Bricolage Grotesque";font-size:2.6rem;color:var(--oro);display:block}
+
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+th,td{padding:9px 8px;border-bottom:1px solid var(--borde);text-align:left}
+th{font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.tabla-scroll{overflow-x:auto}
+
+.ojo{background:var(--oro-claro);border-left:4px solid var(--oro);border-radius:10px;padding:12px 14px;margin-top:12px;font-size:.95rem}
+.peligro{background:#FBE9E7;border-left:4px solid var(--rojo);border-radius:10px;padding:12px 14px;font-size:.95rem}
+@media (prefers-color-scheme: dark){.peligro{background:#3A1F1C}}
+
+/* Barras */
+.barra{margin:10px 0}
+.barra .fila{display:flex;justify-content:space-between;font-size:.9rem;margin-bottom:4px}
+.barra .pista{height:12px;background:var(--borde);border-radius:99px;overflow:hidden}
+.barra .lleno{height:100%;border-radius:99px;background:var(--verde2);width:0;transition:width .8s ease}
+
+/* Calculadora */
+.campo{margin-bottom:12px}
+.campo label{display:flex;justify-content:space-between;font-weight:600;font-size:.92rem;margin-bottom:4px}
+.campo label span{color:var(--verde2);font-family:"Bricolage Grotesque"}
+@media (prefers-color-scheme: dark){.campo label span{color:#7FCB9A}}
+input[type=range]{width:100%;accent-color:var(--verde2)}
+select,input[type=number]{width:100%;padding:10px;border-radius:10px;border:1px solid var(--borde);background:var(--card);color:var(--txt);font:inherit}
+.salidas{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.salida{background:var(--verde-claro);border-radius:12px;padding:10px}
+.salida small{display:block;color:var(--muted);font-size:.78rem}
+.salida b{font-family:"Bricolage Grotesque";font-size:1.3rem}
+.salida.dest{grid-column:1/-1;background:var(--verde);color:#fff}
+.salida.dest small{color:#D6E9DC}
+.salida.dest b{color:var(--oro);font-size:1.9rem}
+
+/* Filtros pastos */
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.chip{border:1px solid var(--borde);background:var(--card);color:var(--txt);padding:7px 12px;border-radius:99px;font:inherit;font-size:.88rem;cursor:pointer}
+.chip.on{background:var(--verde);color:#fff;border-color:var(--verde)}
+.pasto h3{font-size:1.05rem}
+.pasto .grupo{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.pasto .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.tag{font-size:.75rem;padding:3px 8px;border-radius:99px;background:var(--verde-claro)}
+.tag.sem{background:var(--oro-claro)}
+.pasto p{font-size:.92rem;margin-top:6px}
+
+/* Acordeón */
+details{background:var(--card);border:1px solid var(--borde);border-radius:12px;margin-bottom:8px}
+summary{padding:13px 14px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:10px}
+summary::after{content:"+";color:var(--verde2);font-weight:800}
+details[open] summary::after{content:"–"}
+details>div{padding:0 14px 14px;color:var(--muted)}
+
+/* Quiz */
+.preg h3{font-size:1.1rem;margin-bottom:12px}
+.opc{display:block;width:100%;text-align:left;padding:12px 14px;margin-bottom:8px;border-radius:12px;border:1px solid var(--borde);background:var(--card);color:var(--txt);font:inherit;cursor:pointer}
+.opc.bien{background:#DDF1E3;border-color:var(--verde2);color:#123321}
+.opc.mal{background:#F9DEDA;border-color:var(--rojo);color:#4A1410}
+.explica{margin-top:6px;font-size:.92rem;color:var(--muted)}
+.progreso{height:8px;background:var(--borde);border-radius:99px;margin-bottom:14px;overflow:hidden}
+.progreso div{height:100%;background:var(--oro);width:0;transition:width .3s}
+.btn{display:inline-block;background:var(--verde);color:#fff;border:0;padding:12px 18px;border-radius:12px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none}
+.btn.oro{background:var(--oro);color:#1C2420}
+.btn.linea{background:transparent;border:2px solid var(--verde2);color:var(--verde2)}
+
+/* Barra inferior */
+nav.abajo{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--borde);display:flex;justify-content:space-around;padding:6px 4px calc(6px + env(safe-area-inset-bottom));z-index:20}
+nav.abajo button{background:none;border:0;color:var(--muted);font:inherit;font-size:.72rem;display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 8px;cursor:pointer;min-width:62px}
+nav.abajo button .ic{font-size:1.3rem}
+nav.abajo button.on{color:var(--verde2);font-weight:700}
+
+#instalar{display:none;position:fixed;left:16px;right:16px;bottom:78px;z-index:30;background:var(--oro);color:#1C2420;border-radius:14px;padding:12px 14px;box-shadow:0 6px 20px rgba(0,0,0,.2);align-items:center;gap:10px}
+#instalar.ver{display:flex}
+#instalar p{flex:1;font-size:.9rem;font-weight:600}
+#instalar button{border:0;border-radius:10px;padding:8px 12px;font:inherit;font-weight:700;cursor:pointer}
+
+footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+
+<!-- ============ INICIO ============ -->
+<main id="v-inicio" class="vista activa">
+  <header class="hero">
+    <div class="wrap">
+      <span class="sello">Escuela de Mayordomía</span>
+      <h1>Pastos y Forrajes para el mayordomo</h1>
+      <p>Material de estudio: cuánto come una vaca, cuántas vacas sostiene una hectárea y qué pasto sembrar según el suelo y la región.</p>
+      <div class="cifra-hero">
+        <div><b>50 kg</b><span>pasto picado por vaca al día</span></div>
+        <div><b>10</b><span>vacas por hectárea de corte abonada</span></div>
+        <div><b>1</b><span>vaca por hectárea en potrero promedio</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+      <p class="etq">Ruta de estudio</p>
+      <h2 class="titulo-sec">Cuatro módulos</h2>
+      <p class="sub">Estúdialos en orden. Al final, presenta la evaluación.</p>
+      <div class="grid">
+        <button class="card modulo" onclick="ir('corte')"><div class="num">1</div><div><h3>La cuenta del pasto de corte</h3><p>Materia seca, consumo diario y cuántas vacas sostiene una hectárea. Con calculadora.</p></div></button>
+        <button class="card modulo" onclick="ir('corte','abono')"><div class="num">2</div><div><h3>El abono hace la diferencia</h3><p>Por qué la misma hectárea da 10 vacas abonada y solo 3 sin abonar.</p></div></button>
+        <button class="card modulo" onclick="ir('pastos')"><div class="num">3</div><div><h3>Los pastos más sembrados en Colombia</h3><p>Brachiarias, Guineas, Estrella, pastos de corte y de clima frío. Cuál aguanta qué.</p></div></button>
+        <button class="card modulo" onclick="ir('pastos','regiones')"><div class="num">4</div><div><h3>Qué sembrar en cada región</h3><p>Llanos, Amazonía, Caribe, laderas y clima frío. Y los errores que cuestan plata.</p></div></button>
+        <button class="card modulo" onclick="ir('quiz')"><div class="num" style="background:var(--oro);color:#1C2420">✓</div><div><h3>Evaluación</h3><p>15 preguntas para comprobar lo aprendido.</p></div></button>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Antes de empezar</p>
+      <h2 class="titulo-sec">Palabras que vas a usar</h2>
+      <details><summary>Materia seca (MS)</summary><div>Lo que queda del pasto si le quitas toda el agua. Es lo que de verdad alimenta. El pasto verde de corte tiene más o menos 20 % de materia seca: de cada 100 kg verdes, solo 20 kg son comida "seca".</div></details>
+      <details><summary>Forraje verde</summary><div>El pasto tal como se corta, con su agua. Es lo que se pesa y se pica para el comedero.</div></details>
+      <details><summary>Pasto de corte</summary><div>Pasto que se cosecha, se pica y se lleva al comedero (sistema de corte y acarreo). La vaca no entra al lote. Ejemplos: Cuba 22, Maralfalfa, King Grass, Clon 51.</div></details>
+      <details><summary>Potrero o pastoreo</summary><div>La vaca entra al lote y come directamente. Hay pisoteo y rechazo, por eso sostiene muchas menos vacas por hectárea que el corte.</div></details>
+      <details><summary>Aforo</summary><div>Medir cuánto forraje hay en un potrero (cortar y pesar muestras) para saber cuántos animales caben y por cuántos días.</div></details>
+      <details><summary>Banco de proteína</summary><div>Lote de árboles o arbustos forrajeros (Matarratón, Leucaena, Botón de Oro) que se usan para dar proteína y bajar el gasto en concentrado.</div></details>
+      <details><summary>Estolón</summary><div>Tallo que corre por el suelo y echa raíz. Pastos como la Estrella africana o el Kikuyo se siembran con estolones porque no hay semilla.</div></details>
+      <details><summary>msnm</summary><div>Metros sobre el nivel del mar. Sirve para saber si un pasto se da en tu clima: la mayoría de pastos de clima cálido llegan hasta unos 1.800 msnm.</div></details>
+      <details><summary>Suelo ácido</summary><div>Suelo con pH bajo y a veces aluminio alto. Cerca del 80 % de los suelos de Colombia son ácidos; por eso se trajeron las Brachiarias, que lo aguantan.</div></details>
+    </div>
+  </section>
+</main>
+
+<!-- ============ MÓDULO 1 y 2: CORTE ============ -->
+<main id="v-corte" class="vista">
+  <section>
+    <div class="wrap">
+      <p class="etq">Módulo 1</p>
+      <h2 class="titulo-sec">¿Cuántas vacas alimenta una hectárea de pasto de corte?</h2>
+      <p class="sub">La respuesta corta: <b>unas 10 vacas</b> de 500 kg, si la hectárea está bien abonada. En potrero, esa misma hectárea sostiene más o menos una. Así se llega a ese número:</p>
+
+      <div class="card">
+        <h3 style="margin-bottom:12px">Paso a paso con una vaca de 500 kg</h3>
+        <div class="pasos">
+          <div class="paso"><div>Una vaca come cerca del <b>2,5 % de su peso</b> en materia seca: 500 × 2,5 % = <b>12,5 kg de MS al día</b>.</div></div>
+          <div class="paso"><div>El pasto verde es solo <b>20 % materia seca</b>. Para dar 12,5 kg secos: 12,5 ÷ 0,20 = <b>62,5 kg de pasto verde</b>.</div></div>
+          <div class="paso"><div>En la práctica el pasto es el <b>80 % de la dieta</b>; el resto es concentrado, melaza, maíz, sal mineralizada y proteína. 62,5 × 80 % = <b>50 kg de pasto picado al día</b>.</div></div>
+          <div class="paso"><div>Al año: 50 kg × 365 días = <b>18 toneladas</b> de pasto verde por vaca.</div></div>
+          <div class="paso"><div>Una hectárea de corte bien abonada produce unas <b>180 toneladas</b> de verde al año.</div></div>
+          <div class="paso"><div>180 ÷ 18 = <b>10 vacas por hectárea</b>.</div></div>
+        </div>
+        <div class="resultado-grande"><b>10 vacas</b>por hectárea de corte bien abonada</div>
+      </div>
+
+      <div class="ojo"><b>¿Por qué 50 kg y no 62,5?</b> El pasto de corte da volumen y energía, pero poca proteína. Ese 20 % que falta (concentrado, melaza, maíz, sal, banco de proteína) hace el trabajo fino. Si le das <b>solo</b> pasto, la cuenta es con 62,5 kg y te salen 8 vacas, no 10 — y hay que vigilar la proteína.</div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Practica</p>
+      <h2 class="titulo-sec">Calculadora del mayordomo</h2>
+      <p class="sub">Mueve los valores y mira cómo cambia el resultado.</p>
+      <div class="card">
+        <div class="campo"><label>Peso de la vaca <span id="o-peso">500 kg</span></label><input type="range" id="peso" min="250" max="700" step="10" value="500"></div>
+        <div class="campo"><label>Consumo de materia seca <span id="o-cons">2,5 %</span></label><input type="range" id="cons" min="2" max="3.5" step="0.1" value="2.5"></div>
+        <div class="campo"><label>Pasto en la dieta <span id="o-dieta">80 %</span></label><input type="range" id="dieta" min="50" max="100" step="5" value="80"></div>
+        <div class="campo"><label for="prod">Producción de la hectárea</label>
+          <select id="prod">
+            <option value="180" selected>Bien abonada · 180 t verde/año</option>
+            <option value="120">Abonada a medias · 120 t/año</option>
+            <option value="56">Sin abonar · 56 t/año</option>
+          </select></div>
+        <div class="campo"><label>¿Cuántas vacas quieres sostener? <span id="o-vacas">10</span></label><input type="range" id="vacas" min="1" max="60" step="1" value="10"></div>
+
+        <div class="salidas">
+          <div class="salida"><small>Materia seca/día</small><b id="r-ms">12,5 kg</b></div>
+          <div class="salida"><small>Pasto picado/día</small><b id="r-verde">50 kg</b></div>
+          <div class="salida"><small>Pasto por vaca al año</small><b id="r-anual">18 t</b></div>
+          <div class="salida"><small>Vacas por hectárea</small><b id="r-vxha">10</b></div>
+          <div class="salida dest"><small>Hectáreas de corte en producción que necesitas</small><b id="r-ha">1,0 ha</b><small id="r-colchon">Si vas a arrancar, piensa en 2 ha de colchón.</small></div>
+        </div>
+      </div>
+      <div class="ojo"><b>Consejo para arrancar:</b> si quieres 10 vacas y todavía no tienes pasto de corte, siembra al menos el doble del área. Las vacas paren, el hato crece y necesitas un colchón de seguridad.</div>
+    </div>
+  </section>
+
+  <section id="abono" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Módulo 2</p>
+      <h2 class="titulo-sec">El abono hace la diferencia</h2>
+      <p class="sub">Ensayo con Maralfalfa cortada a los 49 días (Guanacaste, Costa Rica), con distintas dosis de nitrógeno. Toneladas de verde por hectárea en <b>un solo corte</b>:</p>
+      <div class="card" id="barras-n">
+        <div class="barra"><div class="fila"><span>Sin nitrógeno (0 kg N/ha)</span><b>9,4 t</b></div><div class="pista"><div class="lleno" data-v="9.4" style="background:var(--rojo)"></div></div></div>
+        <div class="barra"><div class="fila"><span>30 kg N/ha</span><b>32,8 t</b></div><div class="pista"><div class="lleno" data-v="32.8"></div></div></div>
+        <div class="barra"><div class="fila"><span>60 kg N/ha</span><b>51,4 t</b></div><div class="pista"><div class="lleno" data-v="51.4"></div></div></div>
+        <div class="barra"><div class="fila"><span>90 kg N/ha</span><b>67,3 t</b></div><div class="pista"><div class="lleno" data-v="67.3"></div></div></div>
+      </div>
+      <div class="ojo"><b>Haz la cuenta sin abono:</b> 9,4 t × 6 cortes = unas 56 t al año. 56 ÷ 18 = <b>3 vacas</b>. Con buen abono, la misma tierra da 10. Si no hay con qué abonar, es mejor sembrar menos área y abonarla bien.</div>
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin-bottom:6px">El abono más barato está en el establo</h3>
+        <p>El efluente que sale del establo (estiércol y orina lavados) es la mejor alternativa y la más económica para abonar el pasto de corte. Aumenta mucho la producción de cualquier variedad.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Variedades</p>
+      <h2 class="titulo-sec">Pastos de corte de clima cálido y medio</h2>
+      <div class="card tabla-scroll">
+        <table>
+          <thead><tr><th>Pasto</th><th>Se corta cada</th><th>Comentario</th></tr></thead>
+          <tbody>
+            <tr><td><b>Cuba 22</b></td><td>45–60 días</td><td>Ciclo corto: más cortes al año</td></tr>
+            <tr><td><b>Clon 51</b></td><td>45–60 días</td><td>Ciclo corto</td></tr>
+            <tr><td><b>Maralfalfa</b></td><td>60–90 días</td><td>Más bulto por corte</td></tr>
+            <tr><td><b>King Grass</b></td><td>60–90 días</td><td>Más bulto por corte</td></tr>
+            <tr><td><b>Elefante Morado</b></td><td>60–90 días</td><td>Más bulto por corte</td></tr>
+            <tr><td><b>BRS Capiazú</b></td><td>60–90 días</td><td>Si se pasa, pierde proteína</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="ojo"><b>No dejes pasar el corte.</b> En el Capiazú, la proteína bajó de casi 9 % a los 60 días a 4,5 % a los 120 días (EMBRAPA). Pasto viejo = más palo, menos alimento.</div>
+
+      <div class="grid g2" style="margin-top:12px">
+        <div class="card"><h3 style="margin-bottom:6px">⏳ Cuenta meses antes de contar vacas</h3><p>Las 10 vacas son de un lote ya produciendo. Si arrancas por semillero (lo más barato), el primer corte llega cerca del mes 12. Sembrando directo con tallos comprados, en 4 o 5 meses, pero el material cuesta mucho más.</p></div>
+        <div class="card"><h3 style="margin-bottom:6px">🌳 Proteína barata</h3><p>Matarratón, Leucaena y Botón de Oro abaratan la ración y reducen bastante el uso de concentrado costoso.</p></div>
+      </div>
+      <div class="peligro" style="margin-top:12px"><b>Ojo:</b> estas variedades son de clima cálido y medio. En clima frío no sirven. Y recuerda: esta cuenta es de <b>corte</b>. En potrero el promedio nacional es cerca de 1 vaca por hectárea, y entre 3 y 5 en pradera mejorada bien manejada.</div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ MÓDULO 3 y 4: PASTOS ============ -->
+<main id="v-pastos" class="vista">
+  <section>
+    <div class="wrap">
+      <p class="etq">Módulo 3</p>
+      <h2 class="titulo-sec">Los pastos más sembrados en Colombia</h2>
+      <p class="sub">Mandan las <b>Brachiarias</b>, seguidas de las <b>Guineas</b>. Casi todos llegaron de África; el ICA los introdujo desde los años 60 para los suelos ácidos, que son cerca del 80 % del país.</p>
+
+      <div class="grid g2" style="margin-bottom:16px">
+        <div class="card"><h3>🌾 Brachiarias</h3><p style="color:var(--muted);font-size:.92rem">Decumbens, Humidicola, Llanero, Marandú, Toledo y los híbridos Mulato 2, Cayman y Camello. Base del clima cálido porque aguantan suelo ácido.</p></div>
+        <div class="card"><h3>🌿 Guineas</h3><p style="color:var(--muted);font-size:.92rem">Mombasa, Tanzania, Massai y Zuri. Dan más forraje, pero casi todas piden suelo fértil.</p></div>
+        <div class="card"><h3>⭐ Cynodon</h3><p style="color:var(--muted);font-size:.92rem">Estrella africana, Tifton-85 y Estrella Gaucho. Rastreros, de pastoreo y heno.</p></div>
+        <div class="card"><h3>✂️ Corte y ❄️ frío</h3><p style="color:var(--muted);font-size:.92rem">Corte: Cuba 22, Maralfalfa, King Grass, Clon 51. Clima frío: Kikuyo y Ryegrass.</p></div>
+      </div>
+
+      <h3 style="margin-bottom:8px">Busca el pasto según tu problema</h3>
+      <div class="chips" id="chips">
+        <button class="chip on" data-f="todos">Todos</button>
+        <button class="chip" data-f="acido">Suelo ácido o pobre</button>
+        <button class="chip" data-f="encharca">Se encharca</button>
+        <button class="chip" data-f="seco">Zona seca</button>
+        <button class="chip" data-f="fertil">Suelo fértil</button>
+        <button class="chip" data-f="corte">Corte</button>
+        <button class="chip" data-f="frio">Clima frío</button>
+      </div>
+      <div class="grid g2" id="lista-pastos"></div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Dato duro</p>
+      <h2 class="titulo-sec">¿Cuál aguanta el encharcamiento?</h2>
+      <p class="sub">Tolerancia tras 28 días de inundación continua (revista Stresses, 2024):</p>
+      <div class="card" id="barras-agua">
+        <div class="barra"><div class="fila"><span>Humidicola / Llanero</span><b>78,7 %</b></div><div class="pista"><div class="lleno" data-v="78.7" data-max="100" style="background:var(--azul)"></div></div></div>
+        <div class="barra"><div class="fila"><span>Braquipará</span><b>64,5 %</b></div><div class="pista"><div class="lleno" data-v="64.5" data-max="100" style="background:var(--azul)"></div></div></div>
+        <div class="barra"><div class="fila"><span>Cayman</span><b>41 %</b></div><div class="pista"><div class="lleno" data-v="41" data-max="100" style="background:var(--azul)"></div></div></div>
+        <div class="barra"><div class="fila"><span>Marandú</span><b>23,1 %</b></div><div class="pista"><div class="lleno" data-v="23.1" data-max="100" style="background:var(--rojo)"></div></div></div>
+      </div>
+      <div class="ojo"><b>Sequía:</b> ningún pasto produce bien en pleno verano. En un ensayo de AGROSAVIA en el Caribe, 12 gramíneas bajaron en promedio <b>67,6 %</b> su producción de la época de lluvias a la seca. Para el verano, ayudan los árboles forrajeros (sistemas silvopastoriles).</div>
+    </div>
+  </section>
+
+  <section id="regiones" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Módulo 4</p>
+      <h2 class="titulo-sec">Qué se siembra en cada región</h2>
+      <details open><summary>☀️ Caribe: Córdoba, Sucre, Bolívar, Cesar</summary><div><b>Reto:</b> verano largo.<br>Colosuana y Angleton (el Colosuana fue el más estable en la seca, según AGROSAVIA). Mulato 2 rindió más en lluvias. Para el verano, árboles forrajeros.</div></details>
+      <details><summary>🌾 Llanos: Meta, Casanare, Arauca, Vichada</summary><div><b>Reto:</b> sabana ácida con aluminio alto y bajos que se encharcan.<br>Humidicola o Llanero en los bajos, Decumbens en las lomas. Guaratara en sabana mal drenada.</div></details>
+      <details><summary>🌧️ Amazonía y piedemonte: Caquetá, Putumayo, Guaviare</summary><div><b>Reto:</b> suelo ácido y pobre, mucha lluvia.<br>Decumbens en suelo pobre; Marandú donde la fertilidad es media.</div></details>
+      <details><summary>🏜️ Alta Guajira</summary><div><b>Reto:</b> semidesierto y suelo alcalino.<br>Buffel, aunque su semilla no se consigue en el comercio colombiano.</div></details>
+      <details><summary>⛰️ Laderas de la zona andina</summary><div><b>Reto:</b> pendiente y erosión.<br>Rastreros que amarran el suelo: grama trenza, Estrella africana, Decumbens, Estrella Gaucho y maní forrajero.</div></details>
+      <details><summary>❄️ Trópico alto y lecherías de clima frío</summary><div>Kikuyo, Ryegrass y pasto azul Orchoro. Ryegrass y trébol se usan para renovar el Kikuyo.</div></details>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Errores que cuestan plata</p>
+      <h2 class="titulo-sec">Lo que NO funciona</h2>
+      <div class="grid">
+        <div class="peligro"><b>Mombasa o Tanzania bajo árboles:</b> las Guineas pierden la mitad del rendimiento con 50 % de sombra. Para silvopastoril, mejor Marandú o Toledo.</div>
+        <div class="peligro"><b>Marandú en bajos:</b> solo aguanta 23,1 % en el ensayo de encharcamiento. Se muere.</div>
+        <div class="peligro"><b>Camello en suelo que se encharca:</b> es pasto de sequía, no de humedad.</div>
+        <div class="peligro"><b>Humidicola para leche o engorde intensivo:</b> aguanta todo, pero tiene poca proteína. Es pasto de cría y mantenimiento.</div>
+        <div class="peligro"><b>"Semilla de Estrella africana":</b> no existe. Se siembra con estolones. Por semilla, la opción es la Estrella Gaucho.</div>
+        <div class="peligro"><b>Estrella Gaucho mal sembrada:</b> pide suelo fértil, buena preparación del terreno y tapar la semilla. En suelo ácido o tirada al voleo sin tapar, se pierde la plata.</div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Para saber más</p>
+      <h2 class="titulo-sec">Pastos que no tienen semilla comercial</h2>
+      <p class="sub">Se consiguen en fincas vecinas y casi siempre se siembran con tallos, cepas o estolones.</p>
+      <div class="card tabla-scroll">
+        <table>
+          <thead><tr><th>Nombre común</th><th>Nombre científico</th><th>Para qué</th></tr></thead>
+          <tbody>
+            <tr><td><b>Pará</b></td><td><i>Brachiaria mutica</i></td><td>Suelos húmedos o inundables</td></tr>
+            <tr><td><b>Alemán</b></td><td><i>Echinochloa polystachya</i></td><td>Inundables · nativo de América</td></tr>
+            <tr><td><b>Janeiro</b></td><td><i>Eriochloa polystachya</i></td><td>Inundables · nativo de América</td></tr>
+            <tr><td><b>Guaratara</b></td><td><i>Axonopus purpusii</i></td><td>Sabana mal drenada · nativo</td></tr>
+            <tr><td><b>Carimagua</b></td><td><i>Andropogon gayanus</i></td><td>Muy tolerante a sequía</td></tr>
+            <tr><td><b>Pangola</b></td><td><i>Digitaria eriantha</i></td><td>Suelo fértil, buen drenaje</td></tr>
+            <tr><td><b>Gordura</b></td><td><i>Melinis minutiflora</i></td><td>Suelos fértiles y pobres</td></tr>
+            <tr><td><b>Puntero</b></td><td><i>Hyparrhenia rufa</i></td><td>En desuso</td></tr>
+            <tr><td><b>Buffel</b></td><td><i>Cenchrus ciliaris</i></td><td>Semidesierto (Guajira)</td></tr>
+            <tr><td><b>Colosuana</b></td><td><i>Bothriochloa pertusa</i></td><td>Caribe seco</td></tr>
+            <tr><td><b>Kikuyo</b></td><td><i>Cenchrus clandestinus</i></td><td>Clima frío · por estolón</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="ojo"><b>Pará y Braquipará no son lo mismo.</b> El Braquipará es un cruce que se siembra por semilla. Y el <b>Llanero</b> (vendido como Dictyoneura) es en realidad la misma especie que el Humidicola, por eso aguanta lo mismo.</div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ QUIZ ============ -->
+<main id="v-quiz" class="vista">
+  <section>
+    <div class="wrap">
+      <p class="etq">Evaluación</p>
+      <h2 class="titulo-sec">¿Cuánto aprendiste?</h2>
+      <p class="sub" id="q-cuenta">Pregunta 1 de 15</p>
+      <div class="progreso"><div id="q-barra"></div></div>
+      <div class="card preg" id="q-caja"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><b>Escuela de Mayordomía</b> · Material de estudio</p>
+    <p style="margin-top:6px">Fuente de los datos: guías técnicas de <a href="https://pasturastropicales.com" target="_blank" rel="noopener">Pasturas Tropicales</a> (con ensayos de AGROSAVIA, EMBRAPA, CIAT, ICA y FEDEGÁN).</p>
+    <p style="margin-top:6px">Hecho por <b>Vibras Positivas HM</b> · <a href="https://wa.me/573117700431" target="_blank" rel="noopener">WhatsApp 311 770 0431</a></p>
+  </div>
+</footer>
+
+<div id="instalar"><p>Instala la app y estudia sin internet</p><button id="b-inst" style="background:#1C2420;color:#fff">Instalar</button><button id="b-no" style="background:transparent">✕</button></div>
+
+<nav class="abajo">
+  <button data-v="inicio" class="on"><span class="ic">🏠</span>Inicio</button>
+  <button data-v="corte"><span class="ic">✂️</span>Corte</button>
+  <button data-v="pastos"><span class="ic">🌾</span>Pastos</button>
+  <button data-v="quiz"><span class="ic">✅</span>Evaluación</button>
+</nav>
+
+<script>
+/* ---------- Navegación ---------- */
+function ir(v, ancla){
+  document.querySelectorAll('.vista').forEach(e=>e.classList.remove('activa'));
+  document.getElementById('v-'+v).classList.add('activa');
+  document.querySelectorAll('nav.abajo button').forEach(b=>b.classList.toggle('on', b.dataset.v===v));
+  if(ancla){ setTimeout(()=>document.getElementById(ancla).scrollIntoView({behavior:'smooth'}),60); }
+  else window.scrollTo({top:0,behavior:'smooth'});
+  animarBarras();
+  if(v==='quiz' && !quizIniciado) iniciarQuiz();
+}
+document.querySelectorAll('nav.abajo button').forEach(b=>b.onclick=()=>ir(b.dataset.v));
+
+function animarBarras(){
+  document.querySelectorAll('.vista.activa .lleno').forEach(el=>{
+    const max = parseFloat(el.dataset.max||70);
+    el.style.width = Math.min(100, parseFloat(el.dataset.v)/max*100)+'%';
+  });
+}
+
+/* ---------- Calculadora ---------- */
+const fmt=(n,d=1)=>n.toLocaleString('es-CO',{minimumFractionDigits:d,maximumFractionDigits:d});
+const $=id=>document.getElementById(id);
+function calcular(){
+  const peso=+$('peso').value, cons=+$('cons').value, dieta=+$('dieta').value, prod=+$('prod').value, vacas=+$('vacas').value;
+  $('o-peso').textContent=peso+' kg'; $('o-cons').textContent=fmt(cons)+' %'; $('o-dieta').textContent=dieta+' %'; $('o-vacas').textContent=vacas;
+  const ms=peso*cons/100, verde=ms/0.20, picado=verde*dieta/100, anual=picado*365/1000, vxha=prod/anual, ha=vacas/vxha;
+  $('r-ms').textContent=fmt(ms)+' kg'; $('r-verde').textContent=fmt(picado,0)+' kg';
+  $('r-anual').textContent=fmt(anual)+' t'; $('r-vxha').textContent=fmt(vxha);
+  $('r-ha').textContent=fmt(ha)+' ha';
+  $('r-colchon').textContent='Si vas a arrancar desde cero, piensa en '+fmt(ha*2)+' ha de colchón.';
+}
+['peso','cons','dieta','prod','vacas'].forEach(id=>$(id).addEventListener('input',calcular));
+calcular();
+
+/* ---------- Fichas de pastos ---------- */
+const PASTOS=[
+ {n:'Brachiaria decumbens',g:'Brachiaria',s:'Semilla · 10 kg/ha',f:['acido'],t:'La más sembrada del país. Suelo ácido y pobre, bien drenado; ladera. 0–2.000 msnm. Ojo: puede causar fotosensibilización en animales jóvenes.'},
+ {n:'Humidicola',g:'Brachiaria',s:'Semilla · 10–12 kg/ha',f:['acido','encharca'],t:'Suelo pobre que se encharca, aguanta aluminio alto. Poca proteína en verano: pasto de cría y mantenimiento.'},
+ {n:'Llanero (Dictyoneura)',g:'Brachiaria',s:'Semilla · 10–12 kg/ha',f:['acido','encharca'],t:'Es la misma especie que el Humidicola. Sabana ácida y suelo pobre.'},
+ {n:'Marandú',g:'Brachiaria brizantha',s:'Semilla · 10–12 kg/ha',f:['fertil'],t:'Segunda más sembrada. Fertilidad media a buena, bien drenado. Muy tolerante al salivazo. No en bajos.'},
+ {n:'Toledo',g:'Brachiaria brizantha',s:'Semilla',f:['fertil','seco'],t:'Bueno para carne y leche. Fertilidad media, aguanta sequía y encharcamiento corto (menos de un mes).'},
+ {n:'Mulato 2',g:'Brachiaria híbrida',s:'Semilla',f:['fertil'],t:'El híbrido más sembrado. Pastoreo intensivo en fertilidad media. Rindió más en lluvias en el Caribe.'},
+ {n:'Cayman',g:'Brachiaria híbrida',s:'Semilla',f:['acido','encharca'],t:'Suelo pesado con humedad temporal, pero no inundación (41 %). Poca tolerancia a la sombra.'},
+ {n:'Camello',g:'Brachiaria híbrida',s:'Semilla',f:['seco'],t:'El híbrido más tolerante a sequía. Nunca en suelo que se encharca.'},
+ {n:'Mombasa',g:'Guinea',s:'Semilla · 10 kg/ha',f:['fertil'],t:'"Reina del trópico bajo", 0–1.500 msnm. Suelo fértil y sol pleno. Pierde mucho bajo sombra.'},
+ {n:'Tanzania',g:'Guinea',s:'Semilla',f:['fertil'],t:'Suelo profundo, fértil y bien drenado.'},
+ {n:'Massai',g:'Guinea',s:'Semilla',f:['acido'],t:'Tolera suelo pobre, pero no el encharcamiento. Menos proteína (9–10 %).'},
+ {n:'Estrella africana',g:'Cynodon',s:'Estolón (no hay semilla)',f:['fertil'],t:'Fertilidad media a alta, 0–2.200 msnm. Sirve en ladera. Por semilla, la prima es la Estrella Gaucho.'},
+ {n:'Tifton-85',g:'Cynodon',s:'Estolón',f:['fertil'],t:'Pastoreo y heno.'},
+ {n:'Braquipará',g:'Brachiaria híbrida',s:'Semilla',f:['encharca','fertil'],t:'Aguanta encharcamiento (64,5 %) pero pide fertilidad media a alta. No es el pasto Pará.'},
+ {n:'Cuba 22',g:'Pennisetum · corte',s:'Tallo',f:['corte'],t:'Corte y acarreo, ensilaje. Ciclo corto: 45–60 días.'},
+ {n:'Maralfalfa',g:'Pennisetum · corte',s:'Tallo',f:['corte'],t:'Corte y acarreo. Ciclo de 60–90 días.'},
+ {n:'King Grass',g:'Pennisetum · corte',s:'Tallo',f:['corte'],t:'Corte y acarreo. Ciclo de 60–90 días.'},
+ {n:'Kikuyo',g:'Clima frío',s:'Estolón',f:['frio'],t:'El más sembrado en clima frío. Se renueva con Ryegrass y trébol.'},
+ {n:'Ryegrass',g:'Clima frío',s:'Semilla',f:['frio'],t:'Lecherías de trópico alto, sirve para renovar el Kikuyo.'},
+];
+const NOMBRE_F={acido:'Ácido/pobre',encharca:'Encharca',seco:'Sequía',fertil:'Fértil',corte:'Corte',frio:'Frío'};
+function pintarPastos(f){
+  $('lista-pastos').innerHTML=PASTOS.filter(p=>f==='todos'||p.f.includes(f)).map(p=>`
+    <div class="card pasto"><div class="grupo">${p.g}</div><h3>${p.n}</h3><p>${p.t}</p>
+    <div class="tags"><span class="tag sem">🌱 ${p.s}</span>${p.f.map(x=>`<span class="tag">${NOMBRE_F[x]}</span>`).join('')}</div></div>`).join('');
+}
+document.querySelectorAll('#chips .chip').forEach(c=>c.onclick=()=>{
+  document.querySelectorAll('#chips .chip').forEach(x=>x.classList.remove('on'));
+  c.classList.add('on'); pintarPastos(c.dataset.f);
+});
+pintarPastos('todos');
+
+/* ---------- Quiz ---------- */
+const PREG=[
+ {p:'¿Cuánta materia seca come al día una vaca, como porcentaje de su peso?',o:['1 %','2,5 %','5 %','10 %'],r:1,e:'Cerca del 2,5 %. Una vaca de 500 kg come unos 12,5 kg de materia seca.'},
+ {p:'El pasto verde de corte tiene más o menos qué porcentaje de materia seca?',o:['20 %','50 %','80 %','100 %'],r:0,e:'Solo el 20 %. El otro 80 % es agua.'},
+ {p:'¿Cuántos kg de pasto picado se le dan al día a una vaca de 500 kg con dieta normal?',o:['12,5 kg','25 kg','50 kg','100 kg'],r:2,e:'50 kg: el 80 % de los 62,5 kg verdes que necesita.'},
+ {p:'¿Por qué se cuentan 50 kg y no 62,5 kg?',o:['Porque la vaca bota el resto','Porque el otro 20 % de la dieta va en concentrado, melaza, sal y proteína','Porque el pasto se seca','Porque así lo dice la ley'],r:1,e:'El pasto da volumen y energía; el otro 20 % aporta lo que el pasto no tiene, sobre todo proteína.'},
+ {p:'¿Cuántas toneladas de pasto verde come una vaca en un año?',o:['5 t','18 t','50 t','180 t'],r:1,e:'50 kg × 365 días ≈ 18 toneladas.'},
+ {p:'Una hectárea de corte bien abonada produce unas 180 t al año. ¿Cuántas vacas sostiene?',o:['1','3','10','18'],r:2,e:'180 ÷ 18 = 10 vacas.'},
+ {p:'Esa misma hectárea SIN abonar, ¿cuántas vacas sostiene?',o:['Unas 3','Unas 8','Unas 10','Unas 15'],r:0,e:'Sin abono produce unas 56 t al año. 56 ÷ 18 ≈ 3 vacas.'},
+ {p:'¿Cuál es el abono más económico para el pasto de corte?',o:['Urea importada','El efluente del propio establo','Cal','Ninguno, no hace falta'],r:1,e:'El efluente del establo es la alternativa más barata y efectiva.'},
+ {p:'Si arrancas desde cero y quieres 10 vacas, ¿cuántas hectáreas de corte deberías pensar?',o:['Media hectárea','1 hectárea','Al menos 2 hectáreas','10 hectáreas'],r:2,e:'Al menos 2 ha, como colchón: el hato crece cuando las vacas paren.'},
+ {p:'¿Qué pasa si dejas pasar mucho el corte (por ejemplo, 120 días)?',o:['Gana proteína','Pierde proteína','No cambia nada','Se vuelve más blando'],r:1,e:'En el Capiazú la proteína bajó de casi 9 % a 4,5 % de los 60 a los 120 días.'},
+ {p:'¿Cuál es el pasto más sembrado en Colombia?',o:['Kikuyo','Mombasa','Brachiaria decumbens','Maralfalfa'],r:2,e:'La Brachiaria decumbens, por su adaptación a suelo ácido y pobre.'},
+ {p:'Tienes un bajo que se encharca y suelo pobre. ¿Qué siembras?',o:['Marandú','Camello','Humidicola o Llanero','Mombasa'],r:2,e:'Humidicola y Llanero (la misma especie) aguantan mejor el encharcamiento: 78,7 %.'},
+ {p:'¿Dónde NO debes sembrar Marandú?',o:['En ladera','En bajos que se encharcan','En suelo de fertilidad media','En clima cálido'],r:1,e:'Solo aguantó 23,1 % en el ensayo de inundación. Se muere en los bajos.'},
+ {p:'Alguien te ofrece "semilla de Estrella africana". ¿Qué haces?',o:['La compras, es barata','Desconfías: la Estrella africana se siembra con estolones, no hay semilla','La siembras al voleo','La mezclas con Kikuyo'],r:1,e:'No existe semilla de Estrella africana. Por semilla, la opción es la Estrella Gaucho.'},
+ {p:'Para un sistema silvopastoril (pasto bajo árboles), ¿qué es mejor?',o:['Mombasa','Tanzania','Marandú o Toledo','Camello'],r:2,e:'Las Guineas (Mombasa, Tanzania) pierden la mitad del rendimiento con 50 % de sombra.'},
+];
+let qi=0, puntos=0, quizIniciado=false;
+function iniciarQuiz(){quizIniciado=true;qi=0;puntos=0;pintarPregunta();}
+function pintarPregunta(){
+  const q=PREG[qi];
+  $('q-cuenta').textContent=`Pregunta ${qi+1} de ${PREG.length}`;
+  $('q-barra').style.width=(qi/PREG.length*100)+'%';
+  $('q-caja').innerHTML=`<h3>${q.p}</h3>`+q.o.map((t,i)=>`<button class="opc" data-i="${i}">${t}</button>`).join('')+`<div id="q-fb"></div>`;
+  $('q-caja').querySelectorAll('.opc').forEach(b=>b.onclick=()=>responder(+b.dataset.i));
+}
+function responder(i){
+  const q=PREG[qi], bs=$('q-caja').querySelectorAll('.opc');
+  bs.forEach(b=>b.disabled=true);
+  bs[q.r].classList.add('bien');
+  if(i===q.r) puntos++; else bs[i].classList.add('mal');
+  $('q-fb').innerHTML=`<p class="explica">${i===q.r?'✅ ¡Correcto!':'❌ No es esa.'} ${q.e}</p><button class="btn" style="margin-top:12px" id="q-sig">${qi<PREG.length-1?'Siguiente':'Ver resultado'}</button>`;
+  $('q-sig').onclick=()=>{qi++; qi<PREG.length?pintarPregunta():final();};
+}
+function final(){
+  $('q-barra').style.width='100%';
+  const pct=Math.round(puntos/PREG.length*100);
+  const msj=pct>=80?'¡Excelente, mayordomo! Dominas el tema.':pct>=60?'Bien. Repasa los módulos donde fallaste.':'Vuelve a estudiar los módulos y presenta otra vez.';
+  $('q-cuenta').textContent='Resultado';
+  const texto=encodeURIComponent(`Escuela de Mayordomía · Pastos y Forrajes: saqué ${puntos} de ${PREG.length} (${pct} %) en la evaluación.`);
+  $('q-caja').innerHTML=`<div class="resultado-grande" style="margin-top:0"><b>${puntos}/${PREG.length}</b>${pct} % · ${msj}</div>
+   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">
+    <button class="btn" onclick="iniciarQuiz()">Repetir</button>
+    <a class="btn oro" href="https://wa.me/?text=${texto}" target="_blank" rel="noopener">Enviar resultado por WhatsApp</a>
+   </div>`;
+}
+
+/* ---------- PWA ---------- */
+let evInst=null;
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();evInst=e;
+  try{ if(!localStorage.getItem('noInstalar')) $('instalar').classList.add('ver'); }catch(_){ $('instalar').classList.add('ver'); }});
+$('b-inst').onclick=async()=>{ if(evInst){evInst.prompt(); await evInst.userChoice; evInst=null;} $('instalar').classList.remove('ver'); };
+$('b-no').onclick=()=>{ $('instalar').classList.remove('ver'); try{localStorage.setItem('noInstalar','1')}catch(_){} };
+if('serviceWorker' in navigator){ window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+</script>
+</body>
+</html>
