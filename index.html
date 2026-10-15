@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Pastos y Forrajes · Escuela de Mayordomía</title>
-<meta name="description" content="Material de estudio de la Escuela de Mayordomía: pastos de corte, pastos de Colombia y salud animal en ganadería bovina: vacunas, buenas prácticas, primeros auxilios y reproducción (ciclo corto, celo, IATF). Con calculadoras y evaluación.">
+<meta name="description" content="Material de estudio de la Escuela de Mayordomía: pastos de corte, pastos de Colombia y salud animal en ganadería bovina: vacunas, buenas prácticas, primeros auxilios y reproducción (ciclo corto, celo, IATF) y registros ganaderos en el celular. Con calculadoras y evaluación.">
 <meta name="theme-color" content="#1F5E3B">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon-192.png">
@@ -147,8 +147,8 @@ details>div{padding:0 14px 14px;color:var(--muted)}
 
 /* Barra inferior */
 nav.abajo{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--borde);display:flex;justify-content:space-around;padding:6px 4px calc(6px + env(safe-area-inset-bottom));z-index:20}
-nav.abajo button{background:none;border:0;color:var(--muted);font:inherit;font-size:.68rem;display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 4px;cursor:pointer;min-width:50px}
-nav.abajo button .ic{font-size:1.3rem}
+nav.abajo button{background:none;border:0;color:var(--muted);font:inherit;font-size:.62rem;display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 0;cursor:pointer;min-width:0;flex:1}
+nav.abajo button .ic{font-size:1.2rem}
 nav.abajo button.on{color:var(--verde2);font-weight:700}
 
 #instalar{display:none;position:fixed;left:16px;right:16px;bottom:78px;z-index:30;background:var(--oro);color:#1C2420;border-radius:14px;padding:12px 14px;box-shadow:0 6px 20px rgba(0,0,0,.2);align-items:center;gap:10px}
@@ -212,6 +212,41 @@ input[type=time],input[type=date]{width:100%;padding:10px;border-radius:10px;bor
 .diag span{grid-row:span 2;align-self:center;font-family:"Bricolage Grotesque";font-weight:800;color:var(--verde2);font-size:.95rem}
 .diag em{font-style:normal;font-size:.85rem;color:var(--muted)}
 .salida b.fecha{font-size:1.05rem}
+/* Registros */
+.reg-tabs{display:flex;gap:6px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none}
+.reg-tabs::-webkit-scrollbar{display:none}
+.reg-tabs button{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:2px;min-width:74px;padding:8px 6px;border-radius:12px;border:1px solid var(--borde);background:var(--card);color:var(--txt);font:inherit;font-size:.75rem;font-weight:600;cursor:pointer;position:relative}
+.reg-tabs button span{font-size:1.3rem}
+.reg-tabs button em{position:absolute;top:3px;right:5px;font-style:normal;font-size:.65rem;color:var(--muted)}
+.reg-tabs button.on{background:var(--verde);color:#fff;border-color:var(--verde)}
+.reg-tabs button.on em{color:#D6E9DC}
+.fgrid{display:grid;gap:10px}
+@media(min-width:620px){.fgrid{grid-template-columns:1fr 1fr}}
+.fcampo{display:flex;flex-direction:column;gap:4px;font-size:.85rem;font-weight:600}
+.fcampo input,.fcampo select,.fcampo textarea{width:100%;padding:10px;border-radius:10px;border:1px solid var(--borde);background:var(--bg);color:var(--txt);font:inherit;font-weight:400;font-size:1rem}
+.botones{display:flex;flex-wrap:wrap;gap:8px}
+.botones .btn{flex:1 1 auto}
+.busca{width:100%;padding:10px 12px;border-radius:12px;border:1px solid var(--borde);background:var(--card);color:var(--txt);font:inherit;margin-bottom:8px}
+.reg-item{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--borde);border-radius:12px;padding:10px 12px;margin-bottom:6px;font:inherit;color:var(--txt);cursor:pointer;position:relative}
+.reg-item b{display:block;font-size:.95rem}
+.reg-item span{font-size:.85rem;color:var(--muted)}
+.reg-item em{position:absolute;top:10px;right:12px;font-style:normal;font-size:.72rem;color:var(--verde2);font-weight:700}
+.rojo{color:var(--rojo)}
+.resumen{border:2px solid var(--verde2);margin-bottom:12px}
+.dash-g{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.dash-g div{background:var(--verde-claro);border-radius:12px;padding:10px}
+.dash-g b{display:block;font-family:"Bricolage Grotesque";font-size:1.4rem}
+.dash-g span{font-size:.78rem;color:var(--muted)}
+.alerta{margin-top:8px;background:var(--oro-claro);border-left:4px solid var(--oro);border-radius:10px;padding:9px 11px;font-size:.88rem}
+.alerta.rojo-a{background:#FBE9E7;border-color:var(--rojo)}
+@media (prefers-color-scheme: dark){.alerta.rojo-a{background:#3A1F1C}}
+.ficha{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:40;display:flex;align-items:flex-end;justify-content:center}
+.ficha-c{background:var(--card);width:100%;max-width:620px;max-height:85vh;overflow:auto;border-radius:18px 18px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));position:relative}
+.ficha-x{position:absolute;top:10px;right:12px;border:0;background:var(--borde);color:var(--txt);border-radius:50%;width:32px;height:32px;font-size:1rem;cursor:pointer}
+.hist{list-style:none;display:grid;gap:6px}
+.hist li{display:grid;grid-template-columns:78px 1fr;font-size:.9rem;border-bottom:1px solid var(--borde);padding-bottom:5px}
+.hist li span{color:var(--muted);font-size:.8rem}
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#1C2420;color:#fff;padding:10px 16px;border-radius:99px;z-index:50;font-weight:600}
 /* Salud */
 .hero-foto{background-size:cover;background-position:center}
 .hero-foto::after{display:none}
@@ -284,7 +319,7 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
   <section>
     <div class="wrap">
       <p class="etq">Ruta de estudio</p>
-      <h2 class="titulo-sec">Nueve módulos</h2>
+      <h2 class="titulo-sec">Diez módulos</h2>
       <p class="sub">Estúdialos en orden. Al final, presenta la evaluación.</p>
       <div class="grid">
         <button class="card modulo" onclick="ir('corte')"><div class="num">1</div><div><h3>La cuenta del pasto de corte</h3><p>Materia seca, consumo diario y cuántas vacas sostiene una hectárea. Con calculadora.</p></div></button>
@@ -296,7 +331,8 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
         <button class="card modulo" onclick="ir('salud','s-vacunas')"><div class="num" style="background:var(--rojo)">7</div><div><h3>Vacunas</h3><p>Ciclos oficiales 2026 del ICA y plan de vacunación de la finca.</p></div></button>
         <button class="card modulo" onclick="ir('salud','s-bpg')"><div class="num" style="background:var(--rojo)">8</div><div><h3>Buenas prácticas y primeros auxilios</h3><p>BPG, bienestar animal, emergencias paso a paso, suero oral y botiquín.</p></div></button>
         <button class="card modulo" onclick="ir('repro')"><div class="num" style="background:var(--azul)">9</div><div><h3>Reproducción y ciclo corto</h3><p>Celo, ciclo corto posparto, IATF, Nelore Ciclo Corto y calculadoras de parto e inseminación.</p></div></button>
-        <button class="card modulo" onclick="ir('quiz')"><div class="num" style="background:var(--oro);color:#1C2420">✓</div><div><h3>Evaluación</h3><p>Pastos, salud, reproducción o todo junto.</p></div></button>
+        <button class="card modulo" onclick="ir('reg')"><div class="num" style="background:var(--tierra)">10</div><div><h3>Registros ganaderos</h3><p>Qué exige el ICA hoy y el cuaderno de la finca en el celular: animales, partos, pesos, sanidad, leche y potreros.</p></div></button>
+        <button class="card modulo" onclick="ir('quiz')"><div class="num" style="background:var(--oro);color:#1C2420">✓</div><div><h3>Evaluación</h3><p>Pastos, salud, reproducción, registros o todo junto.</p></div></button>
       </div>
     </div>
   </section>
@@ -1152,6 +1188,115 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
   </section>
 </main>
 
+<!-- ============ MÓDULO 10: REGISTROS ============ -->
+<main id="v-reg" class="vista">
+  <header class="hero">
+    <div class="wrap">
+      <span class="sello">Módulo 10 · Registros</span>
+      <h1>El cuaderno ganadero, en el celular</h1>
+      <p>Lo que no se anota, no se puede mejorar. Aquí aprende qué registrar, qué le exige la ley en Colombia y lleva los registros de la finca desde el potrero, aunque no haya señal.</p>
+      <div class="cifra-hero">
+        <div><b>9</b><span>registros listos para llenar</span></div>
+        <div><b>21 días</b><span>mínimo de cuarentena para animales que llegan (BPG)</span></div>
+        <div><b>Sin señal</b><span>se guarda en el celular</span></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="subnav" id="subnav-reg">
+    <button data-a="g-por">❓ Por qué</button>
+    <button data-a="g-ley">⚖️ La ley</button>
+    <button data-a="g-cuaderno">📒 Mi cuaderno</button>
+    <button data-a="g-cinta">📏 Peso con cinta</button>
+  </div>
+
+  <section id="g-por">
+    <div class="wrap">
+      <p class="etq">Por qué anotar</p>
+      <h2 class="titulo-sec">Sin registros, se maneja a ciegas</h2>
+      <p class="sub">La falta de registros confiables es el problema de muchas fincas. Con la tarjeta de cada animal al día, el mayordomo sabe qué vaca está fallando, cuál vender y cuándo viene cada parto.</p>
+      <div class="grid g2">
+        <div class="card"><h3>🔎 Encuentra las vacas que fallan</h3><p class="mut">La que lleva 150 días parida y no se ha servido, la que repite celo, la que abortó. Sin anotar, se pierden entre el hato.</p></div>
+        <div class="card"><h3>💉 Evita leche y carne con residuos</h3><p class="mut">Anotar cada tratamiento con su tiempo de retiro evita vender leche que no se debe vender.</p></div>
+        <div class="card"><h3>⚖️ Muestra quién engorda</h3><p class="mut">Pesar cada tanto dice cuántos gramos al día gana cada animal y qué potrero rinde.</p></div>
+        <div class="card"><h3>📄 Cumple con el ICA</h3><p class="mut">Vacunas, movilizaciones, identificación y BPG piden registros. Sin ellos no hay guía ni certificado.</p></div>
+      </div>
+      <div class="ojo"><b>Regla de oro:</b> el registro se llena <b>junto al animal y el mismo día</b>, no "después en la casa". Lo que se deja para luego, se olvida.</div>
+    </div>
+  </section>
+
+  <section id="g-ley" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Colombia 2026</p>
+      <h2 class="titulo-sec">Lo que exige la norma</h2>
+
+      <details open><summary>🏷️ Identificación y SINIGÁN</summary><div>
+        <p>La Ley 914 de 2004 creó el <b>SINIGÁN</b> (Sistema Nacional de Identificación e Información del Ganado Bovino), hoy administrado por el ICA. La Resolución 380 de 2012 hizo obligatoria la identificación y el registro en todo el país.</p>
+        <p style="margin-top:6px">El <b>DIN</b> (Dispositivo de Identificación Nacional) es una chapeta visual más una electrónica. En la frontera con Venezuela (La Guajira, Cesar, Arauca, Vichada, Norte de Santander y Cubará) un proyecto del ICA de 2025 lo pide por edades para movilizar: menores de 6 meses desde oct. 2025, de 12 meses desde mayo de 2026, y todos desde mayo de 2028.</p>
+        <p style="margin-top:6px">En 2026 entró a funcionar la versión 6 de SINIGÁN (<b>sinigan.co</b>), con app para registrar movimientos e inventario; el registro se hace con la cédula y el RUV del predio. Fuentes del sector hablan de una resolución de 2026 que extiende el DIN a todo el país: <b>confirme fechas con el ICA o su comité</b> antes de comprar chapetas.</p>
+      </div></details>
+      <details><summary>🚚 Movilización</summary><div>Todo animal que se mueva de predio necesita la <b>Guía Sanitaria de Movilización Interna</b> del ICA. Para sacarla, el predio debe tener la vacunación al día (el <b>RUV</b>) y el inventario conciliado. Sin guía, el animal no se mueve.</div></details>
+      <details><summary>✅ BPG en fincas de leche (Res. ICA 67449 de 2020)</summary><div>
+        <p>La certificación es voluntaria, pero quien la pide debe tener:</p>
+        <ul class="lista" style="margin-top:6px">
+          <li>Identificación única de cada animal y su <b>ficha individual</b> con todos sus eventos.</li>
+          <li><b>Registro de tratamientos:</b> fecha, producto, vencimiento, registro ICA, lote, dosis, vía, animal, tiempo de retiro y responsable. Historial mínimo de 3 meses; fórmulas, 1 año.</li>
+          <li>Plan sanitario firmado por veterinario, registro de enfermedades y muertes.</li>
+          <li><b>Libro de visitantes y vehículos</b> (fecha, nombre, placa, teléfono, procedencia y motivo).</li>
+          <li>Cuarentena de <b>mínimo 21 días</b> para animales que llegan.</li>
+          <li>Inventario de medicamentos y de alimentos, temperatura del tanque de leche y de la nevera de biológicos.</li>
+          <li>Análisis anual del agua si hay tanques de almacenamiento.</li>
+        </ul>
+      </div></details>
+      <details><summary>💉 Vacunación oficial</summary><div>El RUV de cada ciclo de aftosa y brucelosis (pestaña Salud) es el registro oficial. Guárdelo: sin él no hay guía de movilización.</div></details>
+    </div>
+  </section>
+
+  <section id="g-cuaderno" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Herramienta</p>
+      <h2 class="titulo-sec">Mi cuaderno ganadero</h2>
+      <p class="sub">Basado en los formatos del cuaderno de registros ganaderos del MAG y PROAmazonía, y adaptado a lo que pide el ICA en Colombia. Todo queda guardado <b>en este celular</b>.</p>
+
+      <div class="card resumen" id="dash"></div>
+
+      <div class="reg-tabs" id="reg-tabs"></div>
+      <div class="card" id="reg-form-card">
+        <h3 id="reg-form-tit" style="margin-bottom:10px"></h3>
+        <form id="reg-form" autocomplete="off"></form>
+      </div>
+      <div id="reg-lista" style="margin-top:12px"></div>
+
+      <div class="card" style="margin-top:14px">
+        <h3 style="margin-bottom:8px">💾 Copias y envíos</h3>
+        <div class="botones">
+          <button class="btn" id="b-csv">Descargar esta tabla (Excel/CSV)</button>
+          <button class="btn oro" id="b-wa">Enviar resumen por WhatsApp</button>
+          <button class="btn linea" id="b-backup">Guardar copia completa</button>
+          <label class="btn linea" style="text-align:center">Recuperar copia<input type="file" id="f-backup" accept=".json,application/json" hidden></label>
+          <button class="btn linea" id="b-demo">Cargar finca de ejemplo</button>
+          <button class="btn linea" id="b-borrar" style="border-color:var(--rojo);color:var(--rojo)">Borrar todo</button>
+        </div>
+        <p class="mut" style="font-size:.82rem;margin-top:8px">Los datos viven en este celular y en este navegador. Si borra los datos del navegador o cambia de teléfono, se pierden: guarde una copia completa cada semana y mándesela por WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="g-cinta" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Sin báscula</p>
+      <h2 class="titulo-sec">Peso con cinta</h2>
+      <p class="sub">Con el animal parado derecho en suelo plano, mida en centímetros el contorno del pecho (justo detrás de las patas delanteras) y el largo del cuerpo (de la punta del hombro a la punta del anca).</p>
+      <div class="card">
+        <div class="campo"><label>Contorno del pecho <span id="o-pt">170 cm</span></label><input type="range" id="pt" min="70" max="240" step="1" value="170"></div>
+        <div class="campo"><label>Largo del cuerpo <span id="o-lc">150 cm</span></label><input type="range" id="lc" min="50" max="210" step="1" value="150"></div>
+        <div class="salidas"><div class="salida dest"><small>Peso estimado</small><b id="r-peso">—</b><small>Fórmula de Schaeffer: pecho² × largo ÷ 10.840</small></div></div>
+        <div class="ojo">La cinta da un estimado, con error de varios kilos; sirve para seguir al mismo animal en el tiempo y para dosificar, no para vender. Mida siempre igual y a la misma hora.</div>
+      </div>
+    </div>
+  </section>
+</main>
+
 <!-- ============ QUIZ ============ -->
 <main id="v-quiz" class="vista">
   <section>
@@ -1168,7 +1313,7 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
 <footer>
   <div class="wrap">
     <p><b>Escuela de Mayordomía</b> · Material de estudio</p>
-    <p style="margin-top:6px">Fuentes: <a href="https://pasturastropicales.com" target="_blank" rel="noopener">Pasturas Tropicales</a>, cartilla de Salud Animal de FEDEGÁN, manual de reproducción de la UNAD – TECNIG@N, manual de prácticas de la FMVZ-UNAM, catálogo Territorio Nelore Ciclo Corto, AGROSAVIA, ICA y Universidad Nacional. Cada módulo cita las suyas.</p>
+    <p style="margin-top:6px">Fuentes: <a href="https://pasturastropicales.com" target="_blank" rel="noopener">Pasturas Tropicales</a>, cartilla de Salud Animal de FEDEGÁN, manual de reproducción de la UNAD – TECNIG@N, manual de prácticas de la FMVZ-UNAM, catálogo Territorio Nelore Ciclo Corto, cuaderno de registros ganaderos MAG–PROAmazonía, Resolución ICA 67449 de 2020, AGROSAVIA, ICA y Universidad Nacional. Cada módulo cita las suyas.</p>
     <p style="margin-top:6px">Hecho por <b>Vibras Positivas HM</b> · <a href="https://wa.me/573117700431" target="_blank" rel="noopener">WhatsApp 311 770 0431</a></p>
   </div>
 </footer>
@@ -1181,6 +1326,7 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
   <button data-v="pastos"><span class="ic">🌾</span>Pastos</button>
   <button data-v="salud"><span class="ic">🩺</span>Salud</button>
   <button data-v="repro"><span class="ic">🐄</span>Repro</button>
+  <button data-v="reg"><span class="ic">📒</span>Registros</button>
   <button data-v="quiz"><span class="ic">✅</span>Evaluación</button>
 </nav>
 
@@ -1561,6 +1707,252 @@ function ies(){
 $('ies').addEventListener('input',ies); ies();
 
 
+/* ---------- REGISTROS GANADEROS ---------- */
+document.querySelectorAll('#subnav-reg button').forEach(b=>b.onclick=()=>{
+  const el=document.getElementById(b.dataset.a);
+  window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-60,behavior:'smooth'});
+});
+
+/* Peso con cinta */
+function cinta(){
+  const pt=+$('pt').value, lc=+$('lc').value;
+  $('o-pt').textContent=pt+' cm'; $('o-lc').textContent=lc+' cm';
+  $('r-peso').textContent='≈ '+Math.round(pt*pt*lc/10840)+' kg';
+}
+['pt','lc'].forEach(i=>$(i).addEventListener('input',cinta)); cinta();
+
+/* Almacenamiento */
+const CK='cuadernoGanadero_v1';
+let DB=(()=>{try{return JSON.parse(localStorage.getItem(CK))||{}}catch(_){return {}}})();
+const guardarDB=()=>{try{localStorage.setItem(CK,JSON.stringify(DB));return true}catch(_){alert('No se pudo guardar en este navegador. Use "Guardar copia completa".');return false}};
+const hoyCO=()=>{const d=new Date(new Date().toLocaleString('en-US',{timeZone:'America/Bogota'}));return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`};
+const dDate=s=>{if(!s)return null;const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)};
+const difDias=(a,b)=>Math.round((dDate(b)-dDate(a))/864e5);
+const sumDias=(s,n)=>{const d=dDate(s);d.setDate(d.getDate()+n);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`};
+const fCorta=s=>s?dDate(s).toLocaleDateString('es-CO',{day:'numeric',month:'short',year:'2-digit'}):'';
+const esc=t=>String(t??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,6);
+
+const RAZAS_CEBU=/ceb|nelor|brahm|gyr|guzer|indu|sardo|romos|blanco orej|bon|criollo/i;
+const gestacion=arete=>{const a=(DB.animales||[]).find(x=>x.arete===arete);if(!a||!a.raza)return 288;if(RAZAS_CEBU.test(a.raza))return 294;if(/holst|jers|pardo|normand|ayrsh/i.test(a.raza))return 283;return 288;};
+
+/* Esquemas de los registros */
+const T={
+ finca:{t:'Datos de la finca',i:'🏡',unico:true,c:[
+   ['nombre','Nombre de la finca','text',1],['propietario','Propietario(a)','text'],['mayordomo','Mayordomo','text'],
+   ['municipio','Municipio','text'],['vereda','Vereda','text'],['ruv','RUV / código del predio ICA','text'],
+   ['area','Área total (ha)','number'],['sistema','Sistema','select',0,['Cría','Levante','Ceba','Leche','Doble propósito','Ciclo completo']],
+   ['libre','Libre de brucelosis y tuberculosis','select',0,['Sí, certificado','En trámite','No']],
+   ['coord','Ubicación (lat, long)','text']]},
+ animales:{t:'Inventario de animales',i:'🐄',c:[
+   ['arete','Arete / chapeta / DIN','text',1],['nombre','Nombre','text'],['fnac','Fecha de nacimiento','date'],
+   ['sexo','Sexo','select',1,['Hembra','Macho']],['raza','Raza','text'],['madre','Arete de la madre','animal'],['padre','Padre / pajilla','text'],
+   ['origen','Origen','select',0,['Nacido en la finca','Comprado']],['fing','Fecha de ingreso','date'],['guia','N.º guía de movilización (si llegó)','text'],
+   ['estado','Estado','select',0,['Activo','Vendido','Sacrificio','Muerto','Descarte']],['fsal','Fecha de salida','date'],['obs','Observaciones','textarea']],
+   res:r=>`${r.sexo||''}${r.raza?' · '+r.raza:''}${r.fnac?' · '+edadTxt(r.fnac):''}${r.estado&&r.estado!=='Activo'?' · <b>'+r.estado+'</b>':''}`},
+ partos:{t:'Partos y nacimientos',i:'🍼',c:[
+   ['fecha','Fecha del parto','date',1],['madre','Arete de la vaca','animal',1],['cria','Arete de la cría','text'],['sexo','Sexo de la cría','select',0,['Hembra','Macho']],
+   ['peso','Peso al nacer (kg)','number'],['padre','Padre / pajilla','text'],['tipo','Parto','select',0,['Normal','Asistido','Difícil (veterinario)','Aborto','Nació muerto']],
+   ['placenta','Botó la placenta antes de 12 h','select',0,['Sí','No']],['obs','Observaciones y tratamiento','textarea']],
+   res:r=>`Vaca ${esc(r.madre)}${r.cria?' → cría '+esc(r.cria):''}${r.sexo?' ('+r.sexo+')':''}${r.peso?' · '+r.peso+' kg':''} · ${r.tipo||''}`},
+ repro:{t:'Registro reproductivo',i:'💞',c:[
+   ['fecha','Fecha','date',1],['hembra','Arete de la hembra','animal',1],
+   ['evento','Evento','select',1,['Celo visto','Monta natural','Inseminación (IA)','IATF','Transferencia de embrión','Palpación: preñada','Palpación: vacía','Aborto']],
+   ['toro','Toro / pajilla / embrión','text'],['resp','Responsable','text'],['obs','Observaciones','textarea']],
+   res:r=>{let x=`Hembra ${esc(r.hembra)} · ${r.evento}${r.toro?' · '+esc(r.toro):''}`;if(/Monta|IA|IATF|Transfer/.test(r.evento))x+=` · parto probable <b>${fCorta(sumDias(r.fecha,gestacion(r.hembra)))}</b>`;return x;}},
+ pesos:{t:'Control de peso',i:'⚖️',c:[
+   ['fecha','Fecha','date',1],['arete','Arete','animal',1],['peso','Peso (kg)','number',1],['metodo','Método','select',0,['Báscula','Cinta']],['obs','Observaciones','text']],
+   res:r=>{const g=gdp(r);return `Animal ${esc(r.arete)} · <b>${r.peso} kg</b>${g!==null?` · ganó ${g} g/día desde el pesaje anterior`:''}`}},
+ sanidad:{t:'Tratamientos y vacunas',i:'💉',c:[
+   ['fecha','Fecha','date',1],['quien','Animal o lote','animal',1],['producto','Producto (nombre comercial)','text',1],['activo','Principio activo','text'],
+   ['regica','Registro ICA','text'],['lote','Lote','text'],['venc','Vencimiento','date'],['dosis','Dosis (ml)','number'],
+   ['via','Vía','select',0,['Subcutánea','Intramuscular','Intravenosa','Oral','Tópica','Intramamaria','Pour-on']],
+   ['motivo','Motivo','select',0,['Vacuna','Purga','Baño / garrapaticida','Vitamina','Tratamiento','Otro']],
+   ['rleche','Retiro de leche (días)','number'],['rcarne','Retiro de carne (días)','number'],['resp','Responsable','text'],['formula','Formulado por (veterinario)','text']],
+   res:r=>{let x=`${esc(r.quien)} · ${esc(r.producto)}${r.dosis?' · '+r.dosis+' ml':''}${r.via?' '+r.via.toLowerCase():''}`;const h=hoyCO();
+     if(+r.rleche&&sumDias(r.fecha,+r.rleche)>=h)x+=` · <b class="rojo">leche en retiro hasta ${fCorta(sumDias(r.fecha,+r.rleche))}</b>`;
+     if(+r.rcarne&&sumDias(r.fecha,+r.rcarne)>=h)x+=` · <b class="rojo">no vender para carne hasta ${fCorta(sumDias(r.fecha,+r.rcarne))}</b>`;return x;}},
+ leche:{t:'Producción de leche',i:'🥛',c:[
+   ['fecha','Fecha','date',1],['vacas','Vacas en ordeño','number',1],['am','Litros mañana (AM)','number'],['pm','Litros tarde (PM)','number'],['destino','Destino','text']],
+   res:r=>{const t=(+r.am||0)+(+r.pm||0);return `<b>${fmt(t)} L</b> · ${r.vacas} vacas · ${r.vacas?fmt(t/r.vacas)+' L/vaca':''}`}},
+ potreros:{t:'Manejo de potreros',i:'🌿',c:[
+   ['potrero','Potrero','text',1],['area','Área (ha)','number'],['pasto','Pasto','text'],['entrada','Fecha de entrada','date',1],['salida','Fecha de salida','date'],
+   ['adultos','Adultos','number'],['jovenes','Novillas / toretes','number'],['terneros','Terneros','number'],
+   ['labor','Labor','select',0,['Ninguna','Corte de igualación','Fertilización','Resiembra','Riego','Control de malezas']]],
+   res:r=>{const d=r.salida?difDias(r.entrada,r.salida):difDias(r.entrada,hoyCO());const n=(+r.adultos||0)+(+r.jovenes||0)+(+r.terneros||0);return `${esc(r.pasto||'')} · ${n} animales · ${r.salida?'ocupado '+d+' días':'<b>ocupado hace '+d+' días</b>'}`}},
+ visitas:{t:'Visitantes y vehículos',i:'🚗',c:[
+   ['fecha','Fecha','date',1],['nombre','Nombre','text',1],['placa','Placa','text'],['tel','Teléfono','text'],['procedencia','Procedencia','text'],['motivo','Motivo de la visita','text'],
+   ['desinf','Pasó por desinfección','select',0,['Sí','No']]],
+   res:r=>`${esc(r.nombre)}${r.placa?' · '+esc(r.placa):''}${r.procedencia?' · de '+esc(r.procedencia):''} · ${esc(r.motivo||'')}`}
+};
+const titulo=(k,r)=>({animales:`${esc(r.arete)}${r.nombre?' · '+esc(r.nombre):''}`,partos:fCorta(r.fecha),repro:fCorta(r.fecha),pesos:fCorta(r.fecha),sanidad:fCorta(r.fecha),leche:fCorta(r.fecha),potreros:esc(r.potrero)+' · '+fCorta(r.entrada),visitas:fCorta(r.fecha)}[k]);
+
+function edadTxt(f){const m=Math.floor(difDias(f,hoyCO())/30.44);return m<24?m+' meses':fmt(m/12)+' años';}
+function categoria(a){if(!a.fnac)return a.sexo==='Macho'?'Toros y machos':'Vacas';const m=difDias(a.fnac,hoyCO())/30.44;
+  if(m<12)return a.sexo==='Macho'?'Terneros':'Terneras';if(m<30)return a.sexo==='Macho'?'Toretes / novillos':'Novillas';return a.sexo==='Macho'?'Toros y machos':'Vacas';}
+function gdp(r){const ps=(DB.pesos||[]).filter(p=>p.arete===r.arete&&p.fecha<r.fecha).sort((a,b)=>a.fecha<b.fecha?1:-1);if(!ps.length)return null;const d=difDias(ps[0].fecha,r.fecha);if(d<=0)return null;return Math.round((r.peso-ps[0].peso)/d*1000);}
+
+let tab='animales', editId=null;
+function pintarTabs(){
+  const CORTO={finca:'Finca',animales:'Animales',partos:'Partos',repro:'Repro',pesos:'Pesos',sanidad:'Sanidad',leche:'Leche',potreros:'Potreros',visitas:'Visitas'};
+  $('reg-tabs').innerHTML=Object.entries(T).map(([k,v])=>`<button class="${k===tab?'on':''}" data-k="${k}"><span>${v.i}</span>${CORTO[k]}<em>${v.unico?'':((DB[k]||[]).length||'')}</em></button>`).join('');
+  $('reg-tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{tab=b.dataset.k;editId=null;pintarTodo();});
+}
+function campoHTML(c,val){
+  const [id,lab,tipo,req,ops]=c;const v=esc(val??'');const r=req?'required':'';
+  let inp;
+  if(tipo==='select')inp=`<select name="${id}" ${r}><option value="">—</option>${ops.map(o=>`<option ${o===val?'selected':''}>${o}</option>`).join('')}</select>`;
+  else if(tipo==='textarea')inp=`<textarea name="${id}" rows="2">${v}</textarea>`;
+  else if(tipo==='animal')inp=`<input name="${id}" list="dl-aretes" value="${v}" ${r} placeholder="Escriba o escoja">`;
+  else inp=`<input name="${id}" type="${tipo==='number'?'number':tipo}" ${tipo==='number'?'step="any" inputmode="decimal"':''} value="${v}" ${r}>`;
+  return `<label class="fcampo"><span>${lab}${req?' *':''}</span>${inp}</label>`;
+}
+function pintarForm(){
+  const s=T[tab];
+  let rec={};
+  if(s.unico)rec=DB[tab]||{};
+  else if(editId)rec=(DB[tab]||[]).find(x=>x.id===editId)||{};
+  else{ s.c.forEach(c=>{if(c[2]==='date'&&c[3])rec[c[0]]=hoyCO();}); if(tab==='animales'){rec.estado='Activo';rec.origen='Nacido en la finca';} }
+  $('reg-form-tit').textContent=`${s.i} ${s.t}${editId?' · editando':''}`;
+  const dl=`<datalist id="dl-aretes">${(DB.animales||[]).filter(a=>!a.estado||a.estado==='Activo').map(a=>`<option value="${esc(a.arete)}">${esc(a.nombre||'')}</option>`).join('')}</datalist>`;
+  $('reg-form').innerHTML=dl+`<div class="fgrid">${s.c.map(c=>campoHTML(c,rec[c[0]])).join('')}</div>
+   <div class="botones" style="margin-top:10px"><button class="btn" type="submit">${s.unico?'Guardar datos':editId?'Guardar cambios':'Anotar'}</button>
+   ${tab==='finca'?'<button class="btn linea" type="button" id="b-gps">📍 Tomar ubicación</button>':''}
+   ${editId?'<button class="btn linea" type="button" id="b-cancel">Cancelar</button><button class="btn linea" type="button" id="b-del" style="border-color:var(--rojo);color:var(--rojo)">Eliminar</button>':''}</div>`;
+  $('reg-form').onsubmit=e=>{e.preventDefault();
+    const fd=new FormData($('reg-form'));const o={};s.c.forEach(c=>{o[c[0]]=(fd.get(c[0])||'').toString().trim();});
+    if(s.unico){DB[tab]=o;}
+    else{DB[tab]=DB[tab]||[];
+      if(tab==='animales'&&!editId&&DB.animales.some(a=>a.arete===o.arete)){alert('Ya existe un animal con ese arete.');return;}
+      if(editId){const i=DB[tab].findIndex(x=>x.id===editId);DB[tab][i]={...DB[tab][i],...o};}
+      else{o.id=uid();DB[tab].push(o);
+        if(tab==='partos'&&o.cria&&!(DB.animales||[]).some(a=>a.arete===o.cria)){
+          const m=(DB.animales||[]).find(a=>a.arete===o.madre);
+          (DB.animales=DB.animales||[]).push({id:uid(),arete:o.cria,fnac:o.fecha,sexo:o.sexo,raza:m?m.raza:'',madre:o.madre,padre:o.padre,origen:'Nacido en la finca',estado:/muerto|Aborto/i.test(o.tipo)?'Muerto':'Activo',obs:'Creado desde el registro de partos'});
+          if(o.peso)(DB.pesos=DB.pesos||[]).push({id:uid(),fecha:o.fecha,arete:o.cria,peso:o.peso,metodo:'Báscula',obs:'Peso al nacer'});
+        }}
+    }
+    editId=null; if(guardarDB()){pintarTodo(); toast('Anotado ✔');}
+  };
+  if($('b-cancel'))$('b-cancel').onclick=()=>{editId=null;pintarTodo();};
+  if($('b-del'))$('b-del').onclick=()=>{if(confirm('¿Eliminar este registro?')){DB[tab]=DB[tab].filter(x=>x.id!==editId);editId=null;guardarDB();pintarTodo();}};
+  if($('b-gps'))$('b-gps').onclick=()=>{if(!navigator.geolocation){alert('Este celular no da ubicación.');return;}
+    navigator.geolocation.getCurrentPosition(p=>{$('reg-form').coord.value=p.coords.latitude.toFixed(5)+', '+p.coords.longitude.toFixed(5);},()=>alert('No se pudo tomar la ubicación.'),{enableHighAccuracy:true,timeout:15000});};
+}
+function pintarLista(){
+  const s=T[tab];
+  if(s.unico){const f=DB.finca;$('reg-lista').innerHTML=f&&f.nombre?`<div class="card"><h3>🏡 ${esc(f.nombre)}</h3><p class="mut">${[f.municipio,f.vereda].filter(Boolean).map(esc).join(' · ')}${f.ruv?' · RUV '+esc(f.ruv):''}${f.area?' · '+f.area+' ha':''}${f.sistema?' · '+f.sistema:''}</p></div>`:'';return;}
+  let rs=[...(DB[tab]||[])];
+  if(tab==='animales')rs.sort((a,b)=>(a.estado==='Activo'||!a.estado?0:1)-(b.estado==='Activo'||!b.estado?0:1)||String(a.arete).localeCompare(String(b.arete),'es',{numeric:true}));
+  else rs.sort((a,b)=>String(b.fecha||b.entrada).localeCompare(String(a.fecha||a.entrada)));
+  const busq=`<input class="busca" id="busca-reg" placeholder="Buscar en ${s.t.toLowerCase()}…" value="${esc(window._busca||'')}">`;
+  const q=(window._busca||'').toLowerCase();
+  if(q)rs=rs.filter(r=>JSON.stringify(r).toLowerCase().includes(q));
+  $('reg-lista').innerHTML=busq+(rs.length?rs.map(r=>`<button class="reg-item" data-id="${r.id}"><b>${titulo(tab,r)}</b><span>${s.res(r)}</span>${tab==='animales'?`<em>${categoria(r)}</em>`:''}</button>`).join(''):`<p class="mut" style="padding:10px 2px">Aún no hay registros aquí.</p>`);
+  $('busca-reg').oninput=e=>{window._busca=e.target.value;const pos=e.target.selectionStart;pintarLista();const n=$('busca-reg');n.focus();n.setSelectionRange(pos,pos);};
+  $('reg-lista').querySelectorAll('.reg-item').forEach(b=>b.onclick=()=>{
+    if(tab==='animales'){fichaAnimal(b.dataset.id);return;}
+    editId=b.dataset.id;pintarForm();$('reg-form-card').scrollIntoView({behavior:'smooth',block:'start'});});
+}
+function fichaAnimal(id){
+  const a=DB.animales.find(x=>x.id===id);if(!a)return;
+  const ev=[];
+  (DB.partos||[]).filter(p=>p.madre===a.arete).forEach(p=>ev.push([p.fecha,`🍼 Parió${p.cria?' a '+esc(p.cria):''} (${p.tipo||'—'})`]));
+  (DB.repro||[]).filter(p=>p.hembra===a.arete).forEach(p=>ev.push([p.fecha,`💞 ${p.evento}${p.toro?' · '+esc(p.toro):''}`]));
+  (DB.pesos||[]).filter(p=>p.arete===a.arete).forEach(p=>{const g=gdp(p);ev.push([p.fecha,`⚖️ ${p.peso} kg${g!==null?' ('+g+' g/día)':''}`])});
+  (DB.sanidad||[]).filter(p=>p.quien===a.arete).forEach(p=>ev.push([p.fecha,`💉 ${esc(p.producto)}${p.dosis?' '+p.dosis+' ml':''}`]));
+  ev.sort((x,y)=>x[0]<y[0]?1:-1);
+  const hijos=(DB.animales||[]).filter(x=>x.madre===a.arete).length;
+  const html=`<div class="ficha"><div class="ficha-c"><button class="ficha-x" aria-label="Cerrar">✕</button>
+    <div class="grupo">${categoria(a)} · ${a.estado||'Activo'}</div><h3 style="font-size:1.3rem">${esc(a.arete)}${a.nombre?' · '+esc(a.nombre):''}</h3>
+    <p class="mut">${[a.sexo,a.raza,a.fnac?'nació '+fCorta(a.fnac)+' ('+edadTxt(a.fnac)+')':'',a.madre?'madre '+esc(a.madre):'',a.padre?'padre '+esc(a.padre):'',hijos?hijos+' crías':''].filter(Boolean).join(' · ')}</p>
+    ${a.obs?`<p style="margin-top:6px">${esc(a.obs)}</p>`:''}
+    <h4 style="margin:12px 0 6px">Historia</h4>${ev.length?`<ul class="hist">${ev.map(e=>`<li><span>${fCorta(e[0])}</span>${e[1]}</li>`).join('')}</ul>`:'<p class="mut">Sin eventos anotados.</p>'}
+    <div class="botones" style="margin-top:12px"><button class="btn" id="fa-edit">Editar datos</button></div></div></div>`;
+  document.body.insertAdjacentHTML('beforeend',html);
+  const f=document.querySelector('.ficha');const cerrar=()=>f.remove();
+  f.querySelector('.ficha-x').onclick=cerrar;f.onclick=e=>{if(e.target===f)cerrar();};
+  f.querySelector('#fa-edit').onclick=()=>{cerrar();editId=id;pintarForm();$('reg-form-card').scrollIntoView({behavior:'smooth',block:'start'});};
+}
+function pintarDash(){
+  const h=hoyCO(), an=(DB.animales||[]).filter(a=>!a.estado||a.estado==='Activo');
+  const cats={};an.forEach(a=>{const c=categoria(a);cats[c]=(cats[c]||0)+1;});
+  // estado reproductivo por hembra
+  const hembras=an.filter(a=>a.sexo==='Hembra');
+  const ultimo=(arr,f)=>arr.filter(f).sort((x,y)=>x.fecha<y.fecha?1:-1)[0];
+  let preñadas=0; const proximos=[], abiertas=[];
+  hembras.forEach(v=>{
+    const parto=ultimo(DB.partos||[],p=>p.madre===v.arete);
+    const evs=(DB.repro||[]).filter(r=>r.hembra===v.arete&&(!parto||r.fecha>parto.fecha)).sort((x,y)=>x.fecha<y.fecha?1:-1);
+    const serv=evs.find(r=>/Monta|IA|IATF|Transfer/.test(r.evento));
+    const palp=evs.find(r=>/Palpación|Aborto/.test(r.evento));
+    const preñ=serv&&!(palp&&palp.fecha>=serv.fecha&&/vacía|Aborto/.test(palp.evento));
+    if(preñ){preñadas++;const pp=sumDias(serv.fecha,gestacion(v.arete));const d=difDias(h,pp);if(d>=-7&&d<=60)proximos.push([v.arete,pp,d]);}
+    else if(parto){const d=difDias(parto.fecha,h);if(d>90)abiertas.push([v.arete,d]);}
+  });
+  proximos.sort((a,b)=>a[2]-b[2]);abiertas.sort((a,b)=>b[1]-a[1]);
+  const retiro=(DB.sanidad||[]).filter(s=>(+s.rleche&&sumDias(s.fecha,+s.rleche)>=h)||(+s.rcarne&&sumDias(s.fecha,+s.rcarne)>=h));
+  const l7=(DB.leche||[]).filter(l=>difDias(l.fecha,h)<7&&difDias(l.fecha,h)>=0);
+  const lt=l7.reduce((s,l)=>s+(+l.am||0)+(+l.pm||0),0);
+  const ocup=(DB.potreros||[]).filter(p=>!p.salida);
+  const f=DB.finca||{};
+  $('dash').innerHTML=`<div class="grupo">${f.nombre?esc(f.nombre):'Mi finca'} · hoy ${fCorta(h)}</div>
+   <div class="dash-g">
+    <div><b>${an.length}</b><span>animales activos</span></div>
+    <div><b>${preñadas}</b><span>hembras preñadas o servidas</span></div>
+    <div><b>${fmt(lt)} L</b><span>leche últimos 7 días</span></div>
+    <div><b>${ocup.length}</b><span>potreros ocupados</span></div>
+   </div>
+   ${Object.keys(cats).length?`<div class="chips-fijos sig" style="margin-top:8px">${Object.entries(cats).map(([c,n])=>`<span>${c}: ${n}</span>`).join('')}</div>`:''}
+   ${retiro.length?`<div class="alerta rojo-a">⚠️ <b>En retiro:</b> ${retiro.map(s=>esc(s.quien)+' ('+esc(s.producto)+')').join(', ')}. No mandar esa leche ni vender para carne.</div>`:''}
+   ${proximos.length?`<div class="alerta">🍼 <b>Partos próximos:</b> ${proximos.slice(0,6).map(p=>`${esc(p[0])} ${p[2]<0?'(pasada '+(-p[2])+' d)':'en '+p[2]+' d'}`).join(' · ')}. Llévelas al potrero de maternidad una semana antes.</div>`:''}
+   ${abiertas.length?`<div class="alerta">⏱️ <b>Paridas hace más de 90 días sin servicio:</b> ${abiertas.slice(0,6).map(a=>esc(a[0])+' ('+a[1]+' d)').join(' · ')}. Revisar celo y condición corporal.</div>`:''}
+   ${!an.length?'<p class="mut" style="margin-top:8px">Empiece por los datos de la finca y el inventario de animales, o cargue la finca de ejemplo para practicar.</p>':''}`;
+}
+function toast(t){const d=document.createElement('div');d.className='toast';d.textContent=t;document.body.appendChild(d);setTimeout(()=>d.remove(),1800);}
+function pintarTodo(){pintarTabs();pintarForm();pintarLista();pintarDash();}
+pintarTodo();
+
+/* Exportar */
+function descargar(nombre,contenido,tipo){
+  const blob=new Blob([contenido],{type:tipo});
+  const file=new File([blob],nombre,{type:tipo});
+  if(navigator.canShare&&navigator.canShare({files:[file]})){navigator.share({files:[file],title:nombre}).catch(()=>{});return;}
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=nombre;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);
+}
+$('b-csv').onclick=()=>{
+  const s=T[tab];const rs=s.unico?(DB[tab]?[DB[tab]]:[]):(DB[tab]||[]);
+  if(!rs.length){alert('Esta tabla está vacía.');return;}
+  const q=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
+  const csv='﻿'+s.c.map(c=>q(c[1])).join(';')+'\n'+rs.map(r=>s.c.map(c=>q(r[c[0]])).join(';')).join('\n');
+  descargar(`${tab}_${hoyCO()}.csv`,csv,'text/csv');
+};
+$('b-backup').onclick=()=>descargar(`cuaderno_ganadero_${hoyCO()}.json`,JSON.stringify(DB),'application/json');
+$('f-backup').onchange=e=>{const f=e.target.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>{try{const d=JSON.parse(rd.result);if(typeof d!=='object')throw 0;if(confirm('Esto reemplaza los datos de este celular por los de la copia. ¿Seguir?')){DB=d;guardarDB();pintarTodo();toast('Copia recuperada ✔');}}catch(_){alert('Ese archivo no es una copia válida del cuaderno.');}};rd.readAsText(f);e.target.value='';};
+$('b-wa').onclick=()=>{pintarDash();const t=$('dash').innerText.replace(/\n{2,}/g,'\n');window.open('https://wa.me/?text='+encodeURIComponent('📒 Cuaderno ganadero\n'+t),'_blank');};
+$('b-borrar').onclick=()=>{if(confirm('¿Borrar TODOS los registros de este celular? No se puede deshacer.')&&confirm('¿Seguro? Guarde antes una copia si la necesita.')){DB={};guardarDB();pintarTodo();}};
+$('b-demo').onclick=()=>{
+  if((DB.animales||[]).length&&!confirm('Ya tiene datos. La finca de ejemplo los reemplaza. ¿Seguir?'))return;
+  const h=hoyCO(),d=n=>sumDias(h,-n);
+  DB={finca:{nombre:'La Esperanza (ejemplo)',propietario:'Escuela de Mayordomía',mayordomo:'Estudiante',municipio:'Caucasia',vereda:'Ejemplo',ruv:'',area:'60',sistema:'Doble propósito',libre:'En trámite',coord:''},
+   animales:[
+    {id:uid(),arete:'101',nombre:'Paloma',fnac:d(2190),sexo:'Hembra',raza:'Gyr x Holstein',origen:'Nacido en la finca',estado:'Activo'},
+    {id:uid(),arete:'102',nombre:'Canela',fnac:d(1800),sexo:'Hembra',raza:'Brahman',origen:'Comprado',fing:d(700),guia:'GSMI-00000',estado:'Activo'},
+    {id:uid(),arete:'103',nombre:'Mariposa',fnac:d(1500),sexo:'Hembra',raza:'Cebú comercial',origen:'Nacido en la finca',estado:'Activo'},
+    {id:uid(),arete:'104',nombre:'Estrella',fnac:d(820),sexo:'Hembra',raza:'Nelore',origen:'Nacido en la finca',estado:'Activo'},
+    {id:uid(),arete:'T1',nombre:'Capitán',fnac:d(1460),sexo:'Macho',raza:'Brahman',origen:'Comprado',fing:d(400),estado:'Activo'},
+    {id:uid(),arete:'201',fnac:d(130),sexo:'Macho',raza:'Gyr x Holstein',madre:'101',origen:'Nacido en la finca',estado:'Activo'},
+    {id:uid(),arete:'202',fnac:d(70),sexo:'Hembra',raza:'Brahman',madre:'102',padre:'T1',origen:'Nacido en la finca',estado:'Activo'}],
+   partos:[{id:uid(),fecha:d(130),madre:'101',cria:'201',sexo:'Macho',peso:'32',tipo:'Normal',placenta:'Sí'},{id:uid(),fecha:d(70),madre:'102',cria:'202',sexo:'Hembra',peso:'28',tipo:'Asistido',placenta:'Sí'}],
+   repro:[{id:uid(),fecha:d(50),hembra:'102',evento:'Celo visto'},{id:uid(),fecha:d(29),hembra:'102',evento:'Inseminación (IA)',toro:'Pajilla Nelore'},{id:uid(),fecha:d(250),hembra:'103',evento:'Monta natural',toro:'T1'},{id:uid(),fecha:d(200),hembra:'103',evento:'Palpación: preñada'},{id:uid(),fecha:d(20),hembra:'104',evento:'IATF',toro:'Pajilla Nelore CIA'}],
+   pesos:[{id:uid(),fecha:d(130),arete:'201',peso:'32',metodo:'Báscula'},{id:uid(),fecha:d(40),arete:'201',peso:'105',metodo:'Cinta'},{id:uid(),fecha:d(70),arete:'202',peso:'28',metodo:'Báscula'}],
+   sanidad:[{id:uid(),fecha:d(2),quien:'101',producto:'Antibiótico intramamario',motivo:'Tratamiento',via:'Intramamaria',dosis:'10',rleche:'4',rcarne:'7',resp:'Mayordomo',formula:'MVZ de la finca'},{id:uid(),fecha:d(150),quien:'Todo el hato',producto:'Vacuna aftosa (ciclo oficial)',motivo:'Vacuna',via:'Subcutánea',dosis:'2',resp:'Vacunador del comité'}],
+   leche:[0,1,2,3,4,5,6].map(n=>({id:uid(),fecha:d(n),vacas:'2',am:String(7+n%2),pm:'4'})),
+   potreros:[{id:uid(),potrero:'P1 La Ceiba',area:'3',pasto:'Brachiaria decumbens',entrada:d(3),adultos:'5',terneros:'2',labor:'Ninguna'},{id:uid(),potrero:'P2 El Bajo',area:'4',pasto:'Humidicola',entrada:d(35),salida:d(3),adultos:'5',terneros:'2',labor:'Fertilización'}],
+   visitas:[{id:uid(),fecha:d(5),nombre:'Técnico del comité',placa:'ABC123',procedencia:'Caucasia',motivo:'Visita técnica',desinf:'Sí'}]};
+  guardarDB();tab='animales';editId=null;pintarTodo();toast('Finca de ejemplo cargada');
+};
+
 /* ---------- Quiz ---------- */
 const PREG_PASTOS=[
  {p:'¿Cuánta materia seca come al día una vaca, como porcentaje de su peso?',o:['1 %','2,5 %','5 %','10 %'],r:1,e:'Cerca del 2,5 %. Una vaca de 500 kg come unos 12,5 kg de materia seca.'},
@@ -1620,6 +2012,18 @@ const PREG_REPRO=[
  {p:'Si detecta el 50 % de los celos y la concepción es 40 %, ¿cuál es la tasa de preñez?',o:['90 %','50 %','40 %','20 %'],r:3,e:'Tasa de preñez = detección × concepción = 0,5 × 0,4 = 20 %.'},
  {p:'¿Qué hace el destete temporal de 48 a 72 horas?',o:['Engorda al ternero','Ayuda a que la vaca vuelva a ovular','Previene la mastitis','Cura la diarrea'],r:1,e:'Quitar el efecto del amamantamiento sube la LH y la vaca ovula, si está en buena condición corporal.'},
 ];
+ const PREG_REG=[
+ {p:'¿Cuándo se debe llenar un registro?',o:['A fin de mes','Junto al animal y el mismo día','Cuando venga el veterinario','Solo si hay problema'],r:1,e:'Lo que se deja para después se olvida o se anota mal.'},
+ {p:'¿Qué documento necesita para mover animales a otro predio?',o:['La factura','La Guía Sanitaria de Movilización Interna del ICA','El carné de vacunas del mayordomo','Ninguno'],r:1,e:'Sin guía el animal no se moviliza; para sacarla se necesita el RUV y el inventario conciliado.'},
+ {p:'¿Qué es el SINIGÁN?',o:['Una vacuna','El sistema nacional de identificación e información del ganado bovino','Una raza','Un pasto'],r:1,e:'Creado por la Ley 914 de 2004 y administrado por el ICA.'},
+ {p:'En el registro de tratamientos, ¿qué dato evita vender leche con residuos?',o:['El color del frasco','El tiempo de retiro','El nombre del almacén','La hora'],r:1,e:'El tiempo de retiro dice hasta qué día no se puede vender la leche o la carne.'},
+ {p:'Según la norma de BPG, ¿cuántos días mínimo de cuarentena para un animal que llega?',o:['3','7','21','90'],r:2,e:'Mínimo 21 días antes de juntarlo con el hato.'},
+ {p:'Un ternero pesaba 32 kg al nacer y 105 kg a los 90 días. ¿Cuánto ganó por día?',o:['Unos 200 g','Unos 810 g','Unos 1.500 g','Unos 73 g'],r:1,e:'(105 − 32) ÷ 90 = 0,81 kg = 810 gramos por día.'},
+ {p:'¿Para qué sirve la cinta bovinométrica?',o:['Para estimar el peso midiendo el pecho','Para medir la leche','Para marcar el ganado','Para vacunar'],r:0,e:'Da un peso aproximado: útil para seguir al animal y dosificar, no para vender.'},
+ {p:'¿Qué debe llevar el libro de visitantes?',o:['Solo el nombre','Fecha, nombre, placa, teléfono, procedencia y motivo','La edad del visitante','Nada, es opcional siempre'],r:1,e:'Es parte de la bioseguridad que pide la norma de BPG.'},
+ {p:'Una vaca parió hace 130 días y no tiene ningún servicio anotado. ¿Qué indica el cuaderno?',o:['Que va muy bien','Que está atrasada: hay que revisar celo y condición corporal','Que está preñada','Nada'],r:1,e:'Para una cría al año debería estar preñada hacia el día 80 a 90 posparto.'},
+ {p:'¿Cada cuánto conviene guardar una copia del cuaderno digital?',o:['Nunca','Cada semana, y mandarla por WhatsApp','Cada 5 años','Solo cuando se dañe el celular'],r:1,e:'Los datos viven en el celular: si se pierde o se borra, sin copia se pierde todo.'},
+];
 let PREG=PREG_PASTOS;
 let qi=0, puntos=0, quizIniciado=false, quizNombre='Pastos y Forrajes';
 function iniciarQuiz(){
@@ -1629,11 +2033,12 @@ function iniciarQuiz(){
    <button class="opc" data-q="p">🌾 Pastos y forrajes · ${PREG_PASTOS.length} preguntas</button>
    <button class="opc" data-q="s">🩺 Salud animal · ${PREG_SALUD.length} preguntas</button>
    <button class="opc" data-q="r">🐄 Reproducción · ${PREG_REPRO.length} preguntas</button>
-   <button class="opc" data-q="t">🎓 Examen completo · ${PREG_PASTOS.length+PREG_SALUD.length+PREG_REPRO.length} preguntas</button></div>`;
+   <button class="opc" data-q="g">📒 Registros · ${PREG_REG.length} preguntas</button>
+   <button class="opc" data-q="t">🎓 Examen completo · ${PREG_PASTOS.length+PREG_SALUD.length+PREG_REPRO.length+PREG_REG.length} preguntas</button></div>`;
   $('q-caja').querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{
     const q=b.dataset.q;
-    PREG=q==='p'?PREG_PASTOS:q==='s'?PREG_SALUD:q==='r'?PREG_REPRO:PREG_PASTOS.concat(PREG_SALUD,PREG_REPRO);
-    quizNombre=q==='p'?'Pastos y Forrajes':q==='s'?'Salud Animal':q==='r'?'Reproducción':'Examen completo';
+    PREG=q==='p'?PREG_PASTOS:q==='s'?PREG_SALUD:q==='r'?PREG_REPRO:q==='g'?PREG_REG:PREG_PASTOS.concat(PREG_SALUD,PREG_REPRO,PREG_REG);
+    quizNombre=q==='p'?'Pastos y Forrajes':q==='s'?'Salud Animal':q==='r'?'Reproducción':q==='g'?'Registros':'Examen completo';
     qi=0;puntos=0;pintarPregunta();
   });
 }
