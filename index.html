@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Pastos y Forrajes · Escuela de Mayordomía</title>
-<meta name="description" content="Material de estudio de la Escuela de Mayordomía: pastos de corte, pastos de Colombia y salud animal en ganadería bovina: vacunas, buenas prácticas, primeros auxilios y reproducción (ciclo corto, celo, IATF) y registros ganaderos en el celular. Con calculadoras y evaluación.">
+<meta name="description" content="Material de estudio de la Escuela de Mayordomía: pastos de corte, pastos de Colombia y salud animal en ganadería bovina: vacunas, buenas prácticas, primeros auxilios y reproducción (ciclo corto, celo, IATF) registros ganaderos en el celular y alimentación (ensilaje, bloques, silvopastoreo). Con calculadoras y evaluación.">
 <meta name="theme-color" content="#1F5E3B">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon-192.png">
@@ -247,6 +247,22 @@ input[type=time],input[type=date]{width:100%;padding:10px;border-radius:10px;bor
 .hist li{display:grid;grid-template-columns:78px 1fr;font-size:.9rem;border-bottom:1px solid var(--borde);padding-bottom:5px}
 .hist li span{color:var(--muted);font-size:.8rem}
 .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#1C2420;color:#fff;padding:10px 16px;border-radius:99px;z-index:50;font-weight:600}
+/* Alimentación */
+.svg-rumen{width:100%;height:auto;display:block}
+.svg-rumen .eso{fill:none;stroke:var(--muted);stroke-width:6;stroke-linecap:round;opacity:.5}
+.svg-rumen .org{cursor:pointer}
+.svg-rumen .org ellipse,.svg-rumen .org path{fill:var(--verde-claro);stroke:var(--verde2);stroke-width:2;transition:fill .2s}
+.svg-rumen .org.sel ellipse,.svg-rumen .org.sel path{fill:var(--oro)}
+.svg-rumen .org text{font:700 11px Figtree,sans-serif;fill:var(--txt);text-anchor:middle;pointer-events:none}
+.svg-rumen .t-mini{font-size:9px;fill:var(--muted);font-family:Figtree,sans-serif}
+.pastoreo{display:grid;gap:8px}
+@media(min-width:620px){.pastoreo{grid-template-columns:1fr 1fr 1fr}}
+.pastoreo div{background:var(--card);border:1px solid var(--borde);border-radius:12px;padding:10px 12px;position:relative}
+.pastoreo b{display:block;font-family:"Bricolage Grotesque";font-size:1.05rem}
+.pastoreo span{font-size:.86rem;color:var(--muted);display:block;margin:3px 0 6px}
+.pastoreo em{font-style:normal;font-size:.72rem;font-weight:700;background:var(--verde-claro);color:var(--verde2);padding:2px 8px;border-radius:99px}
+.pastoreo em.malo{background:#FBE9E7;color:var(--rojo)}
+.ir-corte{display:inline-flex;gap:6px;align-items:center;margin-bottom:12px}
 /* Salud */
 .hero-foto{background-size:cover;background-position:center}
 .hero-foto::after{display:none}
@@ -319,7 +335,7 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
   <section>
     <div class="wrap">
       <p class="etq">Ruta de estudio</p>
-      <h2 class="titulo-sec">Diez módulos</h2>
+      <h2 class="titulo-sec">Once módulos</h2>
       <p class="sub">Estúdialos en orden. Al final, presenta la evaluación.</p>
       <div class="grid">
         <button class="card modulo" onclick="ir('corte')"><div class="num">1</div><div><h3>La cuenta del pasto de corte</h3><p>Materia seca, consumo diario y cuántas vacas sostiene una hectárea. Con calculadora.</p></div></button>
@@ -332,7 +348,8 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
         <button class="card modulo" onclick="ir('salud','s-bpg')"><div class="num" style="background:var(--rojo)">8</div><div><h3>Buenas prácticas y primeros auxilios</h3><p>BPG, bienestar animal, emergencias paso a paso, suero oral y botiquín.</p></div></button>
         <button class="card modulo" onclick="ir('repro')"><div class="num" style="background:var(--azul)">9</div><div><h3>Reproducción y ciclo corto</h3><p>Celo, ciclo corto posparto, IATF, Nelore Ciclo Corto y calculadoras de parto e inseminación.</p></div></button>
         <button class="card modulo" onclick="ir('reg')"><div class="num" style="background:var(--tierra)">10</div><div><h3>Registros ganaderos</h3><p>Qué exige el ICA hoy y el cuaderno de la finca en el celular: animales, partos, pesos, sanidad, leche y potreros.</p></div></button>
-        <button class="card modulo" onclick="ir('quiz')"><div class="num" style="background:var(--oro);color:#1C2420">✓</div><div><h3>Evaluación</h3><p>Pastos, salud, reproducción, registros o todo junto.</p></div></button>
+        <button class="card modulo" onclick="ir('ali')"><div class="num" style="background:#5B6B1E">11</div><div><h3>Alimentación y suplementos</h3><p>Rumen, nutrientes, ración, aforo, ensilaje, heno, bloques multinutricionales y silvopastoreo.</p></div></button>
+        <button class="card modulo" onclick="ir('quiz')"><div class="num" style="background:var(--oro);color:#1C2420">✓</div><div><h3>Evaluación</h3><p>Pastos, salud, reproducción, registros, alimentación o todo junto.</p></div></button>
       </div>
     </div>
   </section>
@@ -358,6 +375,7 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
 <main id="v-corte" class="vista">
   <section>
     <div class="wrap">
+      <button class="btn linea ir-corte" onclick="ir('pastos')">🌾 Pastos más sembrados (módulos 3 y 4)</button>
       <p class="etq">Módulo 1</p>
       <h2 class="titulo-sec">¿Cuántas vacas alimenta una hectárea de pasto de corte?</h2>
       <p class="sub">La respuesta corta: <b>unas 10 vacas</b> de 500 kg, si la hectárea está bien abonada. En potrero, esa misma hectárea sostiene más o menos una. Así se llega a ese número:</p>
@@ -459,6 +477,7 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
 <main id="v-pastos" class="vista">
   <section>
     <div class="wrap">
+      <button class="btn linea ir-corte" onclick="ir('corte')">✂️ Pasto de corte y calculadora (módulos 1 y 2)</button>
       <p class="etq">Módulo 3</p>
       <h2 class="titulo-sec">Los pastos más sembrados en Colombia</h2>
       <p class="sub">Mandan las <b>Brachiarias</b>, seguidas de las <b>Guineas</b>. Casi todos llegaron de África; el ICA los introdujo desde los años 60 para los suelos ácidos, que son cerca del 80 % del país.</p>
@@ -1297,6 +1316,234 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
   </section>
 </main>
 
+<!-- ============ MÓDULO 11: ALIMENTACIÓN ============ -->
+<main id="v-ali" class="vista">
+  <header class="hero" style="background:linear-gradient(160deg,#5B6B1E 0%,#2F4A1A 100%)">
+    <div class="wrap">
+      <span class="sello">Módulo 11 · SENA CampeSENA</span>
+      <h1>Alimentación y suplementos</h1>
+      <p>Cómo come la vaca, qué necesita, cómo medir el pasto, cómo guardar comida para el verano y cómo hacer bloques nutricionales en la finca.</p>
+      <div class="cifra-hero">
+        <div><b>2–3 %</b><span>de su peso come en materia seca al día</span></div>
+        <div><b>150 L</b><span>de agua puede tomar en clima caliente</span></div>
+        <div><b>80 %</b><span>de su energía sale del rumen</span></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="subnav" id="subnav-ali">
+    <button data-a="a-rumen">🐄 Rumen</button>
+    <button data-a="a-nutri">🧪 Nutrientes</button>
+    <button data-a="a-racion">🧮 Ración</button>
+    <button data-a="a-pastoreo">🔄 Pastoreo</button>
+    <button data-a="a-aforo">📐 Aforo</button>
+    <button data-a="a-conserva">🛢️ Ensilaje y heno</button>
+    <button data-a="a-suple">🧱 Bloques</button>
+    <button data-a="a-silvo">🌳 Silvopastoril</button>
+  </div>
+
+  <section id="a-rumen">
+    <div class="wrap">
+      <p class="etq">Cómo funciona</p>
+      <h2 class="titulo-sec">Un estómago con cuatro partes</h2>
+      <p class="sub">La vaca es rumiante: traga rápido casi sin masticar, después se echa, devuelve el bocado y lo vuelve a masticar con saliva (la rumia). Toque cada parte.</p>
+      <div class="card" style="padding:10px">
+        <svg viewBox="0 0 360 200" class="svg-rumen" role="img" aria-label="Sistema digestivo del bovino">
+          <path d="M20 70 Q40 40 70 52 L118 70" class="eso"/>
+          <text x="22" y="40" class="t-mini">boca · esófago</text>
+          <g class="org" data-o="0"><ellipse cx="190" cy="95" rx="92" ry="62"/><text x="190" y="100">Rumen</text></g>
+          <g class="org" data-o="1"><ellipse cx="108" cy="92" rx="26" ry="24"/><text x="108" y="96">Retículo</text></g>
+          <g class="org" data-o="2"><ellipse cx="110" cy="148" rx="24" ry="20"/><text x="110" y="152">Omaso</text></g>
+          <g class="org" data-o="3"><path d="M130 160 Q190 190 250 170 Q262 164 256 156 Q190 172 134 142Z"/><text x="196" y="182">Abomaso</text></g>
+          <path d="M256 162 Q300 150 310 120 Q320 90 345 95" class="eso"/>
+          <text x="300" y="80" class="t-mini">intestinos</text>
+        </svg>
+        <div id="org-det" class="fase-det" style="margin-top:6px"></div>
+      </div>
+      <div class="grid g2" style="margin-top:12px">
+        <div class="card"><h3>💧 20 a 35 litros de saliva</h3><p class="mut">Produce una vaca adulta al día. Calma la acidez del rumen. Por eso necesita fibra: sin fibra no hay rumia, y sin rumia no hay saliva.</p></div>
+        <div class="card"><h3>🦠 Los que de verdad comen son los microbios</h3><p class="mut">Las bacterias del rumen digieren la fibra. Alimentar bien a la vaca es alimentar bien a sus bacterias.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="a-nutri" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Lo que necesita</p>
+      <h2 class="titulo-sec">Los nutrientes</h2>
+      <div class="grid g2">
+        <div class="card"><h3>💧 Agua</h3><p class="mut">El nutriente más importante. Siempre limpia, fresca y a voluntad: hasta 150 litros al día en clima caliente.</p></div>
+        <div class="card"><h3>⚡ Energía</h3><p class="mut">El combustible. Si falta, las bacterias no aprovechan la proteína y baja la leche y la carne.</p></div>
+        <div class="card"><h3>💪 Proteína</h3><p class="mut">Para crecer y producir leche. El rumen necesita al menos 7 % de proteína para trabajar bien; las leguminosas aportan cerca del 20 %.</p></div>
+        <div class="card"><h3>🌾 Fibra</h3><p class="mut">Mueve el rumen y da saliva. En vacas de leche, entre 17 y 22 % de la materia seca: menos baja la leche y la grasa.</p></div>
+        <div class="card"><h3>☀️ Vitaminas A, D y E</h3><p class="mut">La A sale del pasto verde (falta en verano); la D la hace el sol en la piel. La B y la K las fabrican las bacterias del rumen.</p></div>
+        <div class="card"><h3>🧂 Minerales</h3><p class="mut">Calcio, fósforo, magnesio, cobre, zinc, cobalto, selenio, yodo… Los suelos colombianos son pobres: sal mineralizada siempre.</p></div>
+      </div>
+
+      <h3 class="h3sec">¿Qué mineral le falta?</h3>
+      <p class="sub">Toque lo que ve en el ganado y le mostramos qué minerales revisar con el veterinario o el zootecnista.</p>
+      <div class="chips" id="chips-sint"></div>
+      <div class="card" id="min-res"></div>
+    </div>
+  </section>
+
+  <section id="a-racion" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Calculadora</p>
+      <h2 class="titulo-sec">¿Cuánto come y cuánto toma?</h2>
+      <div class="card">
+        <div class="campo"><label>Peso del animal <span id="o-ap">450 kg</span></label><input type="range" id="ap" min="80" max="750" step="10" value="450"></div>
+        <div class="campo"><label>Consumo de materia seca <span id="o-ams">2,5 %</span></label><input type="range" id="ams" min="2" max="3" step="0.1" value="2.5"></div>
+        <div class="campo"><label>Número de animales <span id="o-an">20</span></label><input type="range" id="an" min="1" max="300" step="1" value="20"></div>
+        <div class="salidas">
+          <div class="salida"><small>Materia seca por animal</small><b id="r-ams">—</b></div>
+          <div class="salida"><small>Si fuera solo pasto verde (20 % MS)</small><b id="r-averde">—</b></div>
+          <div class="salida"><small>Forraje (2/3 de la MS)</small><b id="r-aforr">—</b></div>
+          <div class="salida"><small>Agua por animal</small><b id="r-aagua">—</b></div>
+          <div class="salida dest"><small>Para todo el lote, al día</small><b id="r-alote">—</b><small id="r-alote2"></small></div>
+        </div>
+        <p class="mut" style="font-size:.8rem;margin-top:8px">El agua es un estimado (unos 5 litros por kilo de materia seca, más en calor y en vacas de leche). Nunca la restrinja.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="a-pastoreo" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Organizar los potreros</p>
+      <h2 class="titulo-sec">Sistemas de pastoreo</h2>
+      <div class="pastoreo">
+        <div><b>Continuo</b><span>Todo el tiempo en el mismo potrero. Barato, pero el ganado agota unas zonas y desperdicia otras. Es el más común.</span><em class="malo">Poca carga</em></div>
+        <div><b>Rotacional</b><span>Se divide y se rota: el potrero descansa y se recupera.</span><em>Recomendado</em></div>
+        <div><b>Alterno</b><span>Dos partes: una se pastorea, otra descansa. Solo necesita una cerca.</span><em>Fácil de empezar</em></div>
+        <div><b>Por franjas</b><span>Una franja nueva cada día, con cerca eléctrica. Ideal para lechería.</span><em>Más inversión</em></div>
+        <div><b>Diferido</b><span>Se deja crecer meses para el verano; el pasto pierde calidad.</span><em class="malo">Pasto viejo</em></div>
+        <div><b>Estabulado</b><span>Se corta y se lleva al comedero. Más mano de obra.</span><em>Ver pasto de corte</em></div>
+      </div>
+      <div class="ojo"><b>El caso de don Miguel (SENA):</b> dividió su potrero en 6 con cerca eléctrica, rotó cada semana y dejó descansar cada potrero 5 semanas. El pasto creció mejor y parejo, subió la leche y el suelo dejó de compactarse.</div>
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin-bottom:8px">🧮 ¿Cuántos potreros necesito?</h3>
+        <div class="campo"><label>Días que el ganado pasa en cada potrero <span id="o-ocu">7</span></label><input type="range" id="ocu" min="1" max="14" step="1" value="7"></div>
+        <div class="campo"><label>Días de descanso que necesita el pasto <span id="o-des">35</span></label><input type="range" id="des" min="14" max="60" step="1" value="35"></div>
+        <div class="salidas"><div class="salida dest"><small>Potreros necesarios</small><b id="r-potr">6</b><small>descanso ÷ ocupación + 1</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="a-aforo" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Medir antes de meter el ganado</p>
+      <h2 class="titulo-sec">Aforo de potreros</h2>
+      <div class="pasos">
+        <div class="paso"><div>Haga un <b>marco de 1 m × 1 m</b> con tubo PVC de media pulgada.</div></div>
+        <div class="paso"><div>Recorra el potrero en <b>zigzag o en X</b> y tire el marco en varios puntos (entre más muestras, mejor; unas 15 a 20 por cada 10 ha).</div></div>
+        <div class="paso"><div>Corte a ras todo el pasto dentro del marco con machete o tijera y <b>péselo</b>.</div></div>
+        <div class="paso"><div>Promedie los pesos: ese es el pasto en kilos por metro cuadrado.</div></div>
+      </div>
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin-bottom:8px">🧮 Calculadora de aforo</h3>
+        <div class="campo"><label for="muestras">Pesos de las muestras en kg (separados por coma)</label><input type="text" id="muestras" value="1.0, 1.3, 1.0, 1.1, 1.1, 1.2, 1.5, 1.5, 4.5, 5.0" style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--borde);background:var(--card);color:var(--txt);font:inherit"></div>
+        <div class="campo"><label>Área del potrero <span id="o-aha">2 ha</span></label><input type="range" id="aha" min="0.25" max="20" step="0.25" value="2"></div>
+        <div class="campo"><label>Pasto que realmente se aprovecha <span id="o-apr">60 %</span></label><input type="range" id="apr" min="30" max="90" step="5" value="60"></div>
+        <div class="campo"><label>Animales que entran <span id="o-aan">20</span></label><input type="range" id="aan" min="1" max="200" step="1" value="20"></div>
+        <div class="campo"><label>Peso promedio <span id="o-apes">400 kg</span></label><input type="range" id="apes" min="100" max="650" step="10" value="400"></div>
+        <div class="salidas">
+          <div class="salida"><small>Promedio</small><b id="r-prom">—</b></div>
+          <div class="salida"><small>Pasto verde en el potrero</small><b id="r-tot">—</b></div>
+          <div class="salida"><small>Consumo del lote al día</small><b id="r-cons">—</b></div>
+          <div class="salida dest"><small>Alcanza para</small><b id="r-dias">—</b><small id="r-dias2"></small></div>
+        </div>
+        <p class="mut" style="font-size:.8rem;margin-top:8px">El ganado no se come todo: pisotea, ensucia y deja. Por eso se descuenta el aprovechamiento. El consumo se calcula con 2,5 % del peso en materia seca y pasto con 20 % de materia seca.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="a-conserva" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Guardar el invierno para el verano</p>
+      <h2 class="titulo-sec">Ensilaje, heno y henolaje</h2>
+      <p class="sub">En lluvias sobra pasto y se pierde pisoteado; en verano falta. Conservar forraje es la forma de pasar la sequía sin que caiga la leche ni el peso.</p>
+
+      <div class="grid g2">
+        <div class="card"><h3>🛢️ Ensilaje</h3><p class="mut">Forraje verde picado que se fermenta sin aire. Se ensila maíz (en estado lechoso, ~60 días), sorgo (~50 días), pastos de corte (50–60 días, 1,2–1,5 m de alto) y caña (al año).</p></div>
+        <div class="card"><h3>🌾 Heno</h3><p class="mut">Pasto cortado y secado al sol hasta 12–20 % de humedad. Panicum y Brachiaria se cortan a los 28–35 días; la cratylia a los 56–70. Tallos quebradizos = listo para guardar.</p></div>
+      </div>
+
+      <h3 class="h3sec">Ensilaje paso a paso</h3>
+      <div class="pasos">
+        <div class="paso"><div>Cortar en su punto y <b>picar en trozos de 1 a 3 cm</b>.</div></div>
+        <div class="paso"><div>Orearlo hasta unos <b>70 % de humedad</b> (prueba del puño: al apretar no debe chorrear).</div></div>
+        <div class="paso"><div>Llenar el silo del centro hacia afuera, <b>pisando bien</b>, sobre todo en las orillas, para sacar el aire.</div></div>
+        <div class="paso"><div>Agregar melaza a los pastos (el maíz, el sorgo y la caña no la necesitan).</div></div>
+        <div class="paso"><div>Sellar con plástico y tierra o costales. <b>No abrir antes de 28 días.</b></div></div>
+        <div class="paso"><div>Ya abierto, sacar cada día y volver a tapar. Empezar con 2 kg por animal y subir poco a poco: se acostumbran en unos 15 días.</div></div>
+      </div>
+      <div class="grid g2" style="margin-top:12px">
+        <div class="card"><h3>Tipos de silo</h3><ul class="lista"><li><b>Montón:</b> plástico abajo y arriba, con peso encima. ~3 meses.</li><li><b>Trinchera:</b> zanja con ligera pendiente. ~3 meses.</li><li><b>Cincho o formaleta:</b> cilindro que se pisa. ~2 meses.</li><li><b>Bolsa:</b> por capas con melaza. ~1 mes. El más fácil para el pequeño productor.</li></ul></div>
+        <div class="card"><h3>🔍 ¿Salió bueno? Califíquelo</h3><div id="silo-eval"></div></div>
+      </div>
+      <div class="ojo"><b>Henolaje:</b> el punto medio entre heno y ensilaje. Se seca un poco el forraje y luego se ensila, normalmente en pacas envueltas en plástico.</div>
+    </div>
+  </section>
+
+  <section id="a-suple" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Completar lo que el pasto no da</p>
+      <h2 class="titulo-sec">Suplementos y bloques nutricionales</h2>
+      <div class="grid g2">
+        <div class="card"><h3>🌾 Fibrosos</h3><p class="mut">Pasto de corte, leguminosas arbustivas, ensilaje, heno y residuos de cosecha (tamos, socas).</p></div>
+        <div class="card"><h3>💪 Proteicos</h3><p class="mut">Torta de algodón, cascarilla de soya, leguminosas. Los concentrados comunes traen cerca de 16 % de proteína.</p></div>
+        <div class="card"><h3>⚡ Energéticos</h3><p class="mut">Melaza, yuca, maíz, sorgo, arroz, salvados y semilla de algodón.</p></div>
+        <div class="card"><h3>🧂 Minerales y vitaminas</h3><p class="mut">Sal mineralizada a voluntad todo el año, formulada por un profesional para su zona.</p></div>
+      </div>
+
+      <h3 class="h3sec">El bloque multinutricional</h3>
+      <p class="sub">Una masa dura que la vaca lame poco a poco: le da nitrógeno, energía y minerales a las bacterias del rumen y hace que aproveche mejor un pasto pobre. Según la cartilla, en verano mejora la ganancia de peso (en promedio 420 g/día en los estudios citados) y la leche.</p>
+      <div class="card">
+        <h3 style="margin-bottom:8px">🧮 ¿Cuánto de cada cosa?</h3>
+        <div class="campo"><label>Kilos de bloque a preparar <span id="o-bk">50 kg</span></label><input type="range" id="bk" min="10" max="500" step="10" value="50"></div>
+        <div id="bloque-tabla"></div>
+        <div class="pasos" style="margin-top:10px">
+          <div class="paso"><div>Pese todo. Mezcle primero los sólidos.</div></div>
+          <div class="paso"><div>Disuelva la <b>urea en la melaza</b> (no en agua) y únalo con los sólidos, revolviendo hasta que quede parejo.</div></div>
+          <div class="paso"><div>Prueba del puño: no debe salir líquido entre los dedos y debe quedar una masa.</div></div>
+          <div class="paso"><div>Llene baldes o moldes, apisone duro y deje secar unos 10 días a la sombra.</div></div>
+        </div>
+      </div>
+      <div class="peligro" style="margin-top:12px"><b>Cuidado con la urea, puede matar.</b> Nunca la dé suelta ni disuelta en el agua de beber, y no a terneros que todavía no rumian. En bloque el animal la consume despacio; acostúmbrelo poco a poco y con agua siempre disponible. La fórmula exacta para su ganado, con el zootecnista.</div>
+    </div>
+  </section>
+
+  <section id="a-silvo" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Árboles en el potrero</p>
+      <h2 class="titulo-sec">Sistemas silvopastoriles y bancos de proteína</h2>
+      <p class="sub">Pasto + árboles + ganado en el mismo terreno. Los árboles dan sombra (la vaca come más y produce más), alimento, madera, protegen el suelo y el agua y guardan carbono.</p>
+      <div class="grid g2">
+        <div class="card"><h3>🌳 Árboles dispersos</h3><p class="mut">Árboles regados en el potrero para sombra y refugio.</p></div>
+        <div class="card"><h3>🌿 Hileras y callejones</h3><p class="mut">Baja densidad: árboles cada 2–3 m, hileras a 4–6 m. Alta densidad: uno cada metro. Hilera doble: separada 6 m.</p></div>
+        <div class="card"><h3>🚧 Cercas vivas</h3><p class="mut">Árboles cada 1 a 3 m: matarratón, guayabo, ciruelo, ceiba tolúa (pachote). Más baratas que el poste y dan forraje y sombra.</p></div>
+        <div class="card"><h3>💨 Barreras rompevientos</h3><p class="mut">Leucaena, matarratón, madrecacao y guandul contra el viento dominante.</p></div>
+      </div>
+      <h3 class="h3sec">Banco de proteína</h3>
+      <p class="sub">Un lote sembrado tupido con arbustos forrajeros que aguantan la poda y rebrotan. Se corta y se lleva al ganado como suplemento del pasto.</p>
+      <div class="chips-fijos sig"><span>Matarratón (0–1.500 msnm, suelos pobres)</span><span>Leucaena (rica en fósforo y caroteno)</span><span>Botón de oro</span><span>Nacedero</span><span>Guandul (16 % de proteína en la hoja)</span><span>Cratylia</span><span>Kudzú y maní forrajero</span></div>
+      <div class="ojo" style="margin-top:10px">Recomendación de la cartilla: que la pradera tenga cerca de un <b>30 % de leguminosas</b> mezcladas con el pasto.</div>
+
+      <h3 class="h3sec">Videos de la cartilla</h3>
+      <div class="videos">
+        <button class="video" data-yt="gqjMJqunp80"><b>El agua en la vida de los bovinos</b></button>
+        <button class="video" data-yt="4MWi-eQbmmU"><b>Planificación de un sistema silvopastoril</b></button>
+        <button class="video" data-yt="8RB-CkeZQKc"><b>Ganadería y medio ambiente</b></button>
+      </div>
+
+      <div class="card" style="margin-top:16px">
+        <h3 style="margin-bottom:6px">📘 Fuente</h3>
+        <p class="mut">Cartilla <i>Alimentación bovina</i>, SENA – CampeSENA Radial (2024), Centro Agroindustrial del Quindío y Centro Agroempresarial y Desarrollo Pecuario del Huila. Licencia Creative Commons BY-NC-SA: se puede usar sin fines comerciales, citando al SENA.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
 <!-- ============ QUIZ ============ -->
 <main id="v-quiz" class="vista">
   <section>
@@ -1313,7 +1560,7 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
 <footer>
   <div class="wrap">
     <p><b>Escuela de Mayordomía</b> · Material de estudio</p>
-    <p style="margin-top:6px">Fuentes: <a href="https://pasturastropicales.com" target="_blank" rel="noopener">Pasturas Tropicales</a>, cartilla de Salud Animal de FEDEGÁN, manual de reproducción de la UNAD – TECNIG@N, manual de prácticas de la FMVZ-UNAM, catálogo Territorio Nelore Ciclo Corto, cuaderno de registros ganaderos MAG–PROAmazonía, Resolución ICA 67449 de 2020, AGROSAVIA, ICA y Universidad Nacional. Cada módulo cita las suyas.</p>
+    <p style="margin-top:6px">Fuentes: <a href="https://pasturastropicales.com" target="_blank" rel="noopener">Pasturas Tropicales</a>, cartilla de Salud Animal de FEDEGÁN, manual de reproducción de la UNAD – TECNIG@N, manual de prácticas de la FMVZ-UNAM, catálogo Territorio Nelore Ciclo Corto, cuaderno de registros ganaderos MAG–PROAmazonía, cartilla de Alimentación bovina del SENA, Resolución ICA 67449 de 2020, AGROSAVIA, ICA y Universidad Nacional. Cada módulo cita las suyas.</p>
     <p style="margin-top:6px">Hecho por <b>Vibras Positivas HM</b> · <a href="https://wa.me/573117700431" target="_blank" rel="noopener">WhatsApp 311 770 0431</a></p>
   </div>
 </footer>
@@ -1322,10 +1569,10 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
 
 <nav class="abajo">
   <button data-v="inicio" class="on"><span class="ic">🏠</span>Inicio</button>
-  <button data-v="corte"><span class="ic">✂️</span>Corte</button>
   <button data-v="pastos"><span class="ic">🌾</span>Pastos</button>
   <button data-v="salud"><span class="ic">🩺</span>Salud</button>
   <button data-v="repro"><span class="ic">🐄</span>Repro</button>
+  <button data-v="ali"><span class="ic">🌽</span>Alimento</button>
   <button data-v="reg"><span class="ic">📒</span>Registros</button>
   <button data-v="quiz"><span class="ic">✅</span>Evaluación</button>
 </nav>
@@ -1335,7 +1582,7 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
 function ir(v, ancla){
   document.querySelectorAll('.vista').forEach(e=>e.classList.remove('activa'));
   document.getElementById('v-'+v).classList.add('activa');
-  document.querySelectorAll('nav.abajo button').forEach(b=>b.classList.toggle('on', b.dataset.v===v));
+  document.querySelectorAll('nav.abajo button').forEach(b=>b.classList.toggle('on', b.dataset.v===(v==='corte'?'pastos':v)));
   if(ancla){ setTimeout(()=>document.getElementById(ancla).scrollIntoView({behavior:'smooth'}),60); }
   else window.scrollTo({top:0,behavior:'smooth'});
   animarBarras();
@@ -1953,6 +2200,115 @@ $('b-demo').onclick=()=>{
   guardarDB();tab='animales';editId=null;pintarTodo();toast('Finca de ejemplo cargada');
 };
 
+/* ---------- ALIMENTACIÓN ---------- */
+document.querySelectorAll('#subnav-ali button').forEach(b=>b.onclick=()=>{
+  const el=document.getElementById(b.dataset.a);
+  window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-60,behavior:'smooth'});
+});
+
+/* Órganos */
+const ORG=[
+ ['Rumen','El más grande: guarda de 100 a 120 kg de comida. Ahí los microbios fermentan la fibra y producen hasta el 80 % de la energía de la vaca. Tiene tres capas: gas arriba, sólidos en el medio y líquido abajo; se mueve unas tres veces por minuto y el gas sale por el eructo (si no sale: timpanismo).'],
+ ['Retículo','El más pequeño, pegado al rumen (juntos se llaman retículo-rumen). Es un colador: solo deja pasar partículas de menos de 2 mm. Ahí van a parar clavos y alambres que se trague.'],
+ ['Omaso','Las "hojas de libro". Absorbe agua y minerales y deja pasar solo lo bien molido.'],
+ ['Abomaso','El estómago verdadero, como el nuestro: ácidos y enzimas que preparan la comida para el intestino. En el ternero que mama, la leche pasa directo aquí.']
+];
+function verOrg(k){
+  document.querySelectorAll('.svg-rumen .org').forEach((g,i)=>g.classList.toggle('sel',i===k));
+  $('org-det').innerHTML=`<h3 style="margin-bottom:4px">${ORG[k][0]}</h3><p>${ORG[k][1]}</p>`;
+}
+document.querySelectorAll('.svg-rumen .org').forEach(g=>g.onclick=()=>verOrg(+g.dataset.o));
+verOrg(0);
+
+/* Minerales por síntoma (cartilla SENA) */
+const SINT={
+ 'Abortos o muerte del embrión':['Cobre','Yodo','Selenio','Manganeso'],
+ 'Retención de placenta':['Magnesio','Yodo','Selenio'],
+ 'Vacas que no preñan':['Zinc','Cobre','Manganeso','Fósforo'],
+ 'Quistes o celos raros':['Fósforo','Hierro','Manganeso'],
+ 'Crece poco':['Calcio','Fósforo','Zinc','Potasio'],
+ 'Anemia, mucosas pálidas':['Cobre','Cobalto','Hierro'],
+ 'Lame tierra, palos o huesos':['Sodio','Fósforo'],
+ 'Pelo descolorido o se le cae':['Cobre','Zinc'],
+ 'Toro con poco deseo o mal semen':['Fósforo','Yodo','Sodio'],
+ 'Temblores o "tetania"':['Magnesio'],
+ 'Huesos débiles o deformes':['Calcio','Fósforo','Vitamina D'],
+ 'Poco apetito':['Cobalto','Vitamina A'],
+ 'Problemas en las patas':['Zinc']
+};
+let sintSel=new Set();
+$('chips-sint').innerHTML=Object.keys(SINT).map(s=>`<button class="chip">${s}</button>`).join('');
+$('chips-sint').querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
+  const s=c.textContent; sintSel.has(s)?sintSel.delete(s):sintSel.add(s); c.classList.toggle('on'); minRes();
+});
+function minRes(){
+  if(!sintSel.size){$('min-res').innerHTML='<p class="mut">Toque uno o varios síntomas.</p>';return;}
+  const cnt={};sintSel.forEach(s=>SINT[s].forEach(m=>cnt[m]=(cnt[m]||0)+1));
+  const ord=Object.entries(cnt).sort((a,b)=>b[1]-a[1]);
+  $('min-res').innerHTML=`<p style="margin-bottom:6px">Minerales a revisar:</p><div class="chips-fijos">${ord.map(([m,n])=>`<span style="background:${n>1?'var(--rojo)':'var(--verde2)'}">${m}${n>1?' ×'+n:''}</span>`).join('')}</div>
+   <p class="mut" style="margin-top:8px">Estos síntomas también los causan enfermedades y parásitos. No cambie la sal por su cuenta: pida un análisis y una fórmula al profesional.</p>`;
+}
+minRes();
+
+/* Ración */
+function racion(){
+  const p=+$('ap').value,ms=+$('ams').value,n=+$('an').value;
+  $('o-ap').textContent=p+' kg';$('o-ams').textContent=fmt(ms)+' %';$('o-an').textContent=n;
+  const msk=p*ms/100, verde=msk/0.20, forr=msk*2/3, agua=msk*5;
+  $('r-ams').textContent=fmt(msk)+' kg';$('r-averde').textContent=fmt(verde,0)+' kg';
+  $('r-aforr').textContent=fmt(forr)+' kg MS';$('r-aagua').textContent='≈ '+fmt(agua,0)+' L';
+  $('r-alote').textContent=fmt(verde*n/1000)+' t de pasto verde';
+  $('r-alote2').textContent=`y unos ${fmt(agua*n,0)} litros de agua`;
+}
+['ap','ams','an'].forEach(i=>$(i).addEventListener('input',racion)); racion();
+
+/* Potreros necesarios */
+function potr(){const o=+$('ocu').value,d=+$('des').value;$('o-ocu').textContent=o;$('o-des').textContent=d;$('r-potr').textContent=Math.ceil(d/o)+1;}
+['ocu','des'].forEach(i=>$(i).addEventListener('input',potr)); potr();
+
+/* Aforo */
+function aforo(){
+  const ms=$('muestras').value.split(/[;,\s]+/).map(x=>parseFloat(x.replace(',','.'))).filter(x=>!isNaN(x)&&x>=0);
+  const ha=+$('aha').value,apr=+$('apr').value,n=+$('aan').value,pe=+$('apes').value;
+  $('o-aha').textContent=fmt(ha,ha%1?2:0)+' ha';$('o-apr').textContent=apr+' %';$('o-aan').textContent=n;$('o-apes').textContent=pe+' kg';
+  if(!ms.length){$('r-prom').textContent='—';return;}
+  const prom=ms.reduce((a,b)=>a+b,0)/ms.length;
+  const tot=prom*10000*ha;
+  const cons=n*pe*0.025/0.20;
+  const dias=tot*apr/100/cons;
+  $('r-prom').textContent=fmt(prom,2)+' kg/m²';
+  $('r-tot').textContent=fmt(tot/1000)+' t';
+  $('r-cons').textContent=fmt(cons,0)+' kg';
+  $('r-dias').textContent=dias>=1?fmt(dias,0)+' días':'menos de 1 día';
+  $('r-dias2').textContent=`${ms.length} muestras · ${fmt(n/ha)} animales por hectárea`;
+}
+['muestras','aha','apr','aan','apes'].forEach(i=>$(i).addEventListener('input',aforo)); aforo();
+
+/* Calidad del ensilaje */
+const SILO=[
+ ['Color',['Verde aceituna','Verde amarillento','Verde oscuro','Carmelita casi negro']],
+ ['Olor',['Agradable, a fruta madura','Agradable, algo a vinagre','Ácido, fuerte a vinagre','Podrido, rancio']],
+ ['Textura',['Hojas pegadas al tallo','Hojas pegadas al tallo ','Las hojas se sueltan','Una sola masa']],
+ ['Al apretar',['No moja la mano','No moja la mano ','Gotea','Chorrea líquido']]
+];
+const CAL=['Excelente','Bueno','Regular','Malo'];
+$('silo-eval').innerHTML=SILO.map((s,i)=>`<label class="fcampo" style="margin-bottom:8px"><span>${s[0]}</span><select data-i="${i}"><option value="">—</option>${s[1].map((o,j)=>`<option value="${j}">${o.trim()}</option>`).join('')}</select></label>`).join('')+'<div class="salida dest" id="silo-res" style="margin-top:6px"><small>Calificación</small><b>—</b></div>';
+$('silo-eval').querySelectorAll('select').forEach(s=>s.onchange=()=>{
+  const v=[...$('silo-eval').querySelectorAll('select')].map(x=>x.value).filter(x=>x!=='').map(Number);
+  if(!v.length)return;const peor=Math.max(...v);
+  const box=$('silo-res');box.innerHTML=`<small>Calificación (manda el peor aspecto)</small><b>${CAL[peor]}</b><small>${peor===3?'No lo dé: puede enfermar al ganado.':peor===2?'Úselo pronto y revise la compactación la próxima vez.':'Buen trabajo.'}</small>`;
+  box.style.background=['var(--verde2)','var(--verde2)','#B7791F','var(--rojo)'][peor];
+});
+
+/* Bloque multinutricional */
+const BLOQ=[['Melaza','40 %',.40,'Energía; es el pegante. Pura, sin agua.'],['Urea','10 %',.10,'Nitrógeno para las bacterias. ¡Medir exacto!'],['Harina (maíz, yuca, sorgo o salvado)','25 %',.25,'Energía'],['Torta de algodón o soya / cascarilla','10 %',.10,'Proteína y soporte'],['Sal mineralizada','5 %',.05,'Minerales y sabor'],['Cal viva o cemento','10 %',.10,'Endurece y aporta calcio']];
+function bloque(){
+  const k=+$('bk').value;$('o-bk').textContent=k+' kg';
+  $('bloque-tabla').innerHTML=`<div class="tabla-scroll"><table><thead><tr><th>Ingrediente</th><th>%</th><th>Kilos</th></tr></thead><tbody>${BLOQ.map(b=>`<tr><td><b>${b[0]}</b><br><span class="mut" style="font-size:.78rem">${b[3]}</span></td><td>${b[1]}</td><td><b>${fmt(k*b[2])}</b></td></tr>`).join('')}</tbody></table></div>
+  <p class="mut" style="font-size:.8rem;margin-top:6px">Fórmula de práctica dentro de los rangos de la cartilla del SENA (melaza 30–60 %, urea 5–20 %, sal 2–5 %). Ajústela con el zootecnista.</p>`;
+}
+$('bk').addEventListener('input',bloque); bloque();
+
 /* ---------- Quiz ---------- */
 const PREG_PASTOS=[
  {p:'¿Cuánta materia seca come al día una vaca, como porcentaje de su peso?',o:['1 %','2,5 %','5 %','10 %'],r:1,e:'Cerca del 2,5 %. Una vaca de 500 kg come unos 12,5 kg de materia seca.'},
@@ -2024,6 +2380,20 @@ const PREG_REPRO=[
  {p:'Una vaca parió hace 130 días y no tiene ningún servicio anotado. ¿Qué indica el cuaderno?',o:['Que va muy bien','Que está atrasada: hay que revisar celo y condición corporal','Que está preñada','Nada'],r:1,e:'Para una cría al año debería estar preñada hacia el día 80 a 90 posparto.'},
  {p:'¿Cada cuánto conviene guardar una copia del cuaderno digital?',o:['Nunca','Cada semana, y mandarla por WhatsApp','Cada 5 años','Solo cuando se dañe el celular'],r:1,e:'Los datos viven en el celular: si se pierde o se borra, sin copia se pierde todo.'},
 ];
+ const PREG_ALI=[
+ {p:'¿Cuál es el compartimiento más grande del estómago de la vaca?',o:['Abomaso','Omaso','Rumen','Retículo'],r:2,e:'El rumen guarda 100 a 120 kg y allí los microbios fermentan la fibra.'},
+ {p:'¿Cuánta materia seca come un bovino al día?',o:['0,5 % de su peso','2 a 3 % de su peso','10 % de su peso','20 % de su peso'],r:1,e:'Entre el 2 y el 3 % del peso vivo; dos tercios deben ser forraje.'},
+ {p:'¿Cuál es el nutriente más importante?',o:['La melaza','El agua','La urea','La sal común'],r:1,e:'Agua limpia y fresca siempre: hasta 150 litros al día en clima caliente.'},
+ {p:'¿Para qué sirve la fibra en la dieta?',o:['Para engordar rápido','Para que la vaca rumie, produzca saliva y el rumen funcione','Para dar color a la leche','No sirve'],r:1,e:'Sin fibra no hay rumia; sin rumia no hay saliva que calme la acidez del rumen.'},
+ {p:'En un aforo, ¿de qué tamaño es el marco?',o:['10 × 10 cm','1 × 1 metro','5 × 5 metros','Una hectárea'],r:1,e:'Un metro cuadrado, hecho con tubo PVC de media pulgada.'},
+ {p:'Si el pasto necesita 35 días de descanso y el ganado dura 7 días por potrero, ¿cuántos potreros necesita?',o:['2','5','6','35'],r:2,e:'35 ÷ 7 + 1 = 6 potreros.'},
+ {p:'¿Qué humedad debe tener el forraje para ensilar?',o:['Cerca de 70 %','10 %','95 %','Totalmente seco'],r:0,e:'Entre 70 y 75 %. Con más de 80 % se pierden jugos y se pudre.'},
+ {p:'¿Cuándo se puede abrir un silo?',o:['Al día siguiente','Nunca antes de 28 días','A la semana','A los 2 años'],r:1,e:'No antes de 28 días; en bolsa, cerca de un mes; en montón o trinchera, unos 3 meses.'},
+ {p:'Un ensilaje color carmelita casi negro y olor a podrido es…',o:['Excelente','Bueno','Regular','Malo: no se le debe dar al ganado'],r:3,e:'El bueno es verde aceituna o amarillento y huele a fruta madura o a vinagre suave.'},
+ {p:'¿En qué se disuelve la urea al preparar un bloque?',o:['En el agua de beber','En la melaza','En leche','No se disuelve'],r:1,e:'En la melaza. Nunca en el agua de beber: la urea suelta puede intoxicar y matar.'},
+ {p:'¿Qué es un banco de proteína?',o:['Un banco de la finca','Un lote tupido de arbustos forrajeros como matarratón o leucaena que se cortan para el ganado','Un concentrado comercial','Un tipo de silo'],r:1,e:'Aguantan la poda y rebrotan; dan proteína barata y bajan el gasto en concentrado.'},
+ {p:'¿Cuál es un beneficio de la sombra de los árboles en el potrero?',o:['La vaca come menos','La vaca regula su temperatura, come más y produce más','Atrae garrapatas','Ninguno'],r:1,e:'Menos calor, más consumo y mejor producción de leche y carne.'},
+];
 let PREG=PREG_PASTOS;
 let qi=0, puntos=0, quizIniciado=false, quizNombre='Pastos y Forrajes';
 function iniciarQuiz(){
@@ -2034,11 +2404,12 @@ function iniciarQuiz(){
    <button class="opc" data-q="s">🩺 Salud animal · ${PREG_SALUD.length} preguntas</button>
    <button class="opc" data-q="r">🐄 Reproducción · ${PREG_REPRO.length} preguntas</button>
    <button class="opc" data-q="g">📒 Registros · ${PREG_REG.length} preguntas</button>
-   <button class="opc" data-q="t">🎓 Examen completo · ${PREG_PASTOS.length+PREG_SALUD.length+PREG_REPRO.length+PREG_REG.length} preguntas</button></div>`;
+   <button class="opc" data-q="a">🌽 Alimentación · ${PREG_ALI.length} preguntas</button>
+   <button class="opc" data-q="t">🎓 Examen completo · ${PREG_PASTOS.length+PREG_SALUD.length+PREG_REPRO.length+PREG_REG.length+PREG_ALI.length} preguntas</button></div>`;
   $('q-caja').querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{
     const q=b.dataset.q;
-    PREG=q==='p'?PREG_PASTOS:q==='s'?PREG_SALUD:q==='r'?PREG_REPRO:q==='g'?PREG_REG:PREG_PASTOS.concat(PREG_SALUD,PREG_REPRO,PREG_REG);
-    quizNombre=q==='p'?'Pastos y Forrajes':q==='s'?'Salud Animal':q==='r'?'Reproducción':q==='g'?'Registros':'Examen completo';
+    PREG=q==='p'?PREG_PASTOS:q==='s'?PREG_SALUD:q==='r'?PREG_REPRO:q==='g'?PREG_REG:q==='a'?PREG_ALI:PREG_PASTOS.concat(PREG_SALUD,PREG_REPRO,PREG_REG,PREG_ALI);
+    quizNombre=q==='p'?'Pastos y Forrajes':q==='s'?'Salud Animal':q==='r'?'Reproducción':q==='g'?'Registros':q==='a'?'Alimentación':'Examen completo';
     qi=0;puntos=0;pintarPregunta();
   });
 }
