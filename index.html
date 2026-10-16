@@ -10,19 +10,19 @@
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta property="og:title" content="El Mayordomo · Escuela de Mayordomía">
-<meta property="og:description" content="Todo lo que un mayordomo debe saber de la finca ganadera colombiana: pastos, salud, reproducción, leche, razas, búfalos, cerdos, cultivos menores, las Parcelas de La Paraguay y los números del ganado. 20 módulos con calculadoras y evaluación.">
+<meta property="og:description" content="Todo lo que un mayordomo debe saber de la finca ganadera colombiana: pastos, salud, reproducción, leche, razas, búfalos, cerdos, cultivos menores, las Parcelas de La Paraguay, liderazgo y salud ocupacional y los números del ganado. 21 módulos con calculadoras y evaluación.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://pastos-mayordomia.netlify.app/">
 <meta property="og:site_name" content="Escuela de Mayordomía">
 <meta property="og:locale" content="es_CO">
-<meta property="og:image" content="https://pastos-mayordomia.netlify.app/og.png?v=5">
-<meta property="og:image:secure_url" content="https://pastos-mayordomia.netlify.app/og.png?v=5">
+<meta property="og:image" content="https://pastos-mayordomia.netlify.app/og.png?v=6">
+<meta property="og:image:secure_url" content="https://pastos-mayordomia.netlify.app/og.png?v=6">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="El Mayordomo · Escuela de Mayordomía">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://pastos-mayordomia.netlify.app/og.png?v=5">
+<meta name="twitter:image" content="https://pastos-mayordomia.netlify.app/og.png?v=6">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -289,6 +289,7 @@ input[type=time],input[type=date]{width:100%;padding:10px;border-radius:10px;bor
 .raza-foto.sin::after{content:"📶 La foto necesita internet";position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-size:.85rem}
 .estante{display:flex;align-items:center;gap:8px;font-size:1.05rem;margin:22px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--borde)}
 .estante span{font-size:1.3rem}
+#lid-test .chk input:checked+span,#lid-sst .chk input:checked+span{text-decoration:none;color:var(--verde2);font-weight:600}
 /* Salud */
 .hero-foto{background-size:cover;background-position:center}
 .hero-foto::after{display:none}
@@ -351,8 +352,8 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
       <h1>El Mayordomo</h1>
       <p>Todo lo que un mayordomo debe saber de la finca ganadera colombiana: pasto y comida, salud y reproducción, leche, razas, búfalos, nuestra región y los números del ganado.</p>
       <div class="cifra-hero">
-        <div><b>20</b><span>módulos de estudio en 6 estantes</span></div>
-        <div><b>14</b><span>exámenes por tema y uno completo</span></div>
+        <div><b>21</b><span>módulos de estudio en 6 estantes</span></div>
+        <div><b>15</b><span>exámenes por tema y uno completo</span></div>
         <div><b>Sin señal</b><span>funciona en el campo después de abrirla una vez</span></div>
       </div>
     </div>
@@ -361,7 +362,7 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
   <section>
     <div class="wrap">
       <p class="etq">Ruta de estudio</p>
-      <h2 class="titulo-sec">20 módulos en 6 estantes</h2>
+      <h2 class="titulo-sec">21 módulos en 6 estantes</h2>
       <p class="sub">Escoge un estante y empieza por donde más te sirva. Al final, presenta la evaluación.</p>
       <h3 class="estante"><span>🌿</span> Pasto y comida</h3>
       <div class="grid">
@@ -400,7 +401,8 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
       <div class="grid">
         <button class="card modulo" onclick="ir('reg')"><div class="num" style="background:var(--tierra)">10</div><div><h3>Registros ganaderos</h3><p>Qué exige el ICA hoy y el cuaderno de la finca en el celular: animales, partos, pesos, sanidad, leche y potreros.</p></div></button>
         <button class="card modulo" onclick="ir('num')"><div class="num" style="background:#5D6B63">16</div><div><h3>Los números del ganado</h3><p>Signos vitales, celo y gestación, edad por los dientes, peso con cinta, UGG y carga, ceba, canal y leche, con una calculadora para cada uno.</p></div></button>
-        <button class="card modulo" onclick="ir('quiz')"><div class="num" style="background:var(--oro);color:#1C2420">✓</div><div><h3>Evaluación</h3><p>Pastos, salud, reproducción, registros, alimentación, ordeño, búfalos, nuestra región, el futuro, los números, las razas, los cerdos, los cultivos, las parcelas o todo junto.</p></div></button>
+        <button class="card modulo" onclick="ir('lid')"><div class="num" style="background:#7B3FA0">21</div><div><h3>Liderazgo y salud ocupacional</h3><p>Dirigir la cuadrilla, resolver conflictos, habilidades para la vida, riesgos por tarea, mordedura de serpiente, SG-SST y derechos laborales 2026.</p></div></button>
+        <button class="card modulo" onclick="ir('quiz')"><div class="num" style="background:var(--oro);color:#1C2420">✓</div><div><h3>Evaluación</h3><p>Pastos, salud, reproducción, registros, alimentación, ordeño, búfalos, nuestra región, el futuro, los números, las razas, los cerdos, los cultivos, las parcelas, liderazgo y salud ocupacional o todo junto.</p></div></button>
       </div>
     </div>
   </section>
@@ -3485,6 +3487,159 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
   </section>
 </main>
 
+<!-- ============ MÓDULO 21: LIDERAZGO Y SALUD OCUPACIONAL ============ -->
+<main id="v-lid" class="vista">
+  <header class="hero">
+    <div class="wrap">
+      <span class="sello">Módulo 21 · Personas</span>
+      <h1>Liderazgo y salud ocupacional</h1>
+      <p>El mayordomo no solo maneja ganado: maneja gente. Cómo dirigir una cuadrilla, resolver conflictos y cuidar la vida de quienes trabajan en la finca, con las normas de Colombia en 2026.</p>
+      <div class="cifra-hero">
+        <div><b>42 horas</b><span>de jornada máxima semanal desde el 15 de julio de 2026</span></div>
+        <div><b>90 %</b><span>de recargo por trabajar domingo o festivo (julio 2026)</span></div>
+        <div><b>3</b><span>estándares mínimos de SST para una finca de 10 o menos trabajadores</span></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="subnav" id="subnav-lid">
+    <button data-a="l-lider">🧭 Liderazgo</button>
+    <button data-a="l-conf">🤝 Conflictos</button>
+    <button data-a="l-hab">💬 Habilidades</button>
+    <button data-a="l-riesgos">⚠️ Riesgos por tarea</button>
+    <button data-a="l-serp">🐍 Serpientes</button>
+    <button data-a="l-sst">📋 SG-SST</button>
+    <button data-a="l-ley">⚖️ Derechos</button>
+  </div>
+
+  <section id="l-lider">
+    <div class="wrap">
+      <p class="etq">Mandar no es gritar</p>
+      <h2 class="titulo-sec">El mayordomo líder</h2>
+      <div class="grid g2">
+        <div class="card"><h3>🎯 Dice qué, cómo y para qué</h3><p class="mut">La orden clara evita errores: "hoy vacunamos el lote 3 contra aftosa, en la manga, a las 6 a. m., porque el vacunador viene a las 7". Repita y pregunte si quedó claro.</p></div>
+        <div class="card"><h3>👀 Da el ejemplo</h3><p class="mut">Si el mayordomo usa botas, guantes y trata bien al ganado, la cuadrilla lo copia. Si grita y pega, también.</p></div>
+        <div class="card"><h3>🧩 Delega y confía</h3><p class="mut">Asigne tareas según lo que cada uno sabe hacer y enséñele al nuevo. Revise el resultado, no esté encima todo el día.</p></div>
+        <div class="card"><h3>🙌 Reconoce</h3><p class="mut">Un "bien hecho" delante de los demás vale mucho. La gente que se siente valorada se queda, cuida la finca y comete menos errores con los animales.</p></div>
+      </div>
+      <div class="ojo" style="margin-top:12px"><b>Charla de los 5 minutos:</b> antes de empezar la jornada, reúna a la cuadrilla. Explique qué se hace hoy, quién hace qué, cuál es el peligro principal del día (toro bravo, fumigación, tormenta) y pregunte si alguien está enfermo o tiene un problema. Cinco minutos que evitan accidentes.</div>
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin-bottom:8px">🪞 ¿Qué tan buen líder soy?</h3>
+        <p class="mut" style="margin-bottom:6px">Marque lo que hace casi siempre:</p>
+        <div id="lid-test"></div>
+        <div class="salida dest" id="lid-test-res" style="margin-top:10px"><small>Resultado</small><b>—</b></div>
+      </div>
+      <div class="videos" style="margin-top:12px"><button class="video" data-yt="r2nJcMIoVh0"><b>Capacitación y liderazgo en la ganadería</b></button></div>
+    </div>
+  </section>
+
+  <section id="l-conf" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Cuando hay roces</p>
+      <h2 class="titulo-sec">Resolver conflictos en 5 pasos</h2>
+      <div class="card"><div class="pasos">
+        <div class="paso"><div><b>Calma primero.</b> No resuelva con rabia ni delante de todos. Si hace falta, espere a que se enfríen los ánimos.</div></div>
+        <div class="paso"><div><b>Escuche a cada parte por separado</b>, sin interrumpir. Pregunte: "¿qué pasó?, ¿qué necesita usted?".</div></div>
+        <div class="paso"><div><b>Hable de hechos, no de personas.</b> "El portillo quedó abierto y se salió el ganado", no "usted es un descuidado".</div></div>
+        <div class="paso"><div><b>Busquen juntos la solución.</b> Que cada uno proponga; el acuerdo que la gente ayuda a construir se cumple más.</div></div>
+        <div class="paso"><div><b>Deje el acuerdo claro</b>, por escrito si es serio, y revise en unos días si se cumplió.</div></div>
+      </div></div>
+      <div class="peligro" style="margin-top:12px"><b>Nunca:</b> armas, alcohol en el trabajo, amenazas ni humillaciones. Si hay violencia o acoso, eso ya no lo resuelve el mayordomo: se informa al dueño y a la autoridad.</div>
+    </div>
+  </section>
+
+  <section id="l-hab" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Bienestar humano</p>
+      <h2 class="titulo-sec">Habilidades para la vida</h2>
+      <p class="mut" style="margin-bottom:10px">La Organización Mundial de la Salud propone 10 habilidades que ayudan a vivir y a trabajar mejor. Toque cada una:</p>
+      <div id="lid-hab"></div>
+      <div class="card" style="margin-top:12px"><h3>🧠 La salud mental también cuenta</h3><p class="mut">El trabajo en el campo es duro, solitario y a veces lejos de la familia. El cansancio, el trago y las deudas se juntan. Si un compañero cambia mucho, se aísla o habla de que no quiere vivir, no lo deje solo: hable con él y busque ayuda en el hospital o la línea de salud mental de su departamento.</p></div>
+    </div>
+  </section>
+
+  <section id="l-riesgos" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Cada tarea tiene su peligro</p>
+      <h2 class="titulo-sec">Riesgos de la finca y cómo evitarlos</h2>
+      <div class="grid g2">
+        <div class="card"><h3>💥 Físicos y mecánicos</h3><p class="mut">Patadas, cornadas, aplastamientos en la manga, caídas del caballo, cortes con machete, guadaña y motosierra, tractor y motocultor.</p></div>
+        <div class="card"><h3>🦠 Biológicos (zoonosis)</h3><p class="mut">Enfermedades que pasan del animal a la persona: brucelosis (partos, placentas, leche cruda), leptospirosis (orina y agua estancada), tuberculosis, rabia (murciélagos), tiña. También serpientes, abejas y avispas.</p></div>
+        <div class="card"><h3>☠️ Químicos</h3><p class="mut">Venenos, garrapaticidas, desparasitantes y desinfectantes: por la piel, la boca y la respiración.</p></div>
+        <div class="card"><h3>🏋️ Ergonómicos y clima</h3><p class="mut">Bultos de 40–50 kg, ordeño agachado, horas al sol, calor y rayos en las tormentas.</p></div>
+      </div>
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin-bottom:8px">🧮 Matriz de peligros por tarea</h3>
+        <div class="campo"><label for="lid-tarea">Escoja la tarea</label><select id="lid-tarea"></select></div>
+        <div id="lid-matriz"></div>
+      </div>
+      <div class="ojo" style="margin-top:12px"><b>Cómo se controla un peligro, de lo mejor a lo último:</b> 1) eliminarlo, 2) cambiarlo por algo menos peligroso, 3) arreglar la instalación (manga en buen estado, guardas en la máquina), 4) normas y capacitación, 5) elementos de protección personal. El EPP es la última barrera, no la primera.</div>
+      <div class="videos" style="margin-top:12px"><button class="video" data-yt="kH3ef50FDts"><b>Equipo de protección para usar agroquímicos</b></button><button class="video" data-yt="-OJzCCq_eLY"><b>Triple lavado de envases (Campo Limpio)</b></button></div>
+    </div>
+  </section>
+
+  <section id="l-serp" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">El accidente más grave del monte</p>
+      <h2 class="titulo-sec">Mordedura de serpiente</h2>
+      <div class="card"><p class="mut">En Antioquia se reportaron <b>744 mordeduras en 2023</b>, con 4 muertos. La <b>mapaná</b> (talla X o cuatro narices) causó el 70 %. El único tratamiento es el <b>suero antiofídico</b> en el hospital.</p></div>
+      <div class="grid g2" style="margin-top:12px">
+        <div class="card" style="border-left:4px solid var(--verde2)"><h3>✅ Qué hacer</h3><ul class="lista"><li>Alejarse de la culebra y mantener la calma.</li><li>Quitar anillos, reloj y botas apretadas: la pierna se hincha.</li><li>Inmovilizar la extremidad, más o menos a la altura del corazón.</li><li>Llevar a la persona <b>ya</b> al hospital, acompañada, en el transporte más rápido, sin hacerla caminar.</li><li>Si se puede, una foto de la culebra desde lejos.</li></ul></div>
+        <div class="card" style="border-left:4px solid var(--rojo)"><h3>❌ Qué NO hacer</h3><ul class="lista"><li>No hacer torniquete ni amarrar.</li><li>No cortar ni chupar la herida.</li><li>No poner hielo, emplastos, petróleo ni "contras".</li><li>No dar trago.</li><li>No perder tiempo con el curandero.</li></ul></div>
+      </div>
+      <div class="ojo" style="margin-top:12px"><b>Prevenir:</b> botas de caucho altas, mirar dónde pone la mano antes de recoger leña o pasto, linterna de noche, potreros y alrededores de la casa limpios, y no matar las culebras no venenosas, que controlan ratones.</div>
+      <div class="videos" style="margin-top:12px"><button class="video" data-yt="qnTyiaZ771U"><b>Accidente ofídico y picaduras en trabajadores agropecuarios</b></button><button class="video" data-yt="OX4GkeJruCU"><b>¿Qué hacer en caso de una mordedura de serpiente?</b></button></div>
+    </div>
+  </section>
+
+  <section id="l-sst" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Lo que pide la ley</p>
+      <h2 class="titulo-sec">SG-SST en la finca</h2>
+      <div class="card">
+        <p class="mut" style="margin-bottom:8px">El <b>Sistema de Gestión de Seguridad y Salud en el Trabajo</b> es obligatorio (Decreto 1072 de 2015). Para una <b>unidad de producción agropecuaria con 10 o menos trabajadores</b>, la Resolución 0312 de 2019 pide tres estándares mínimos. Marque los que ya cumple su finca:</p>
+        <div id="lid-sst"></div>
+        <div class="salida dest" id="lid-sst-res" style="margin-top:10px"><small>Avance</small><b>—</b></div>
+      </div>
+      <div class="card" style="margin-top:12px"><h3 style="margin-bottom:6px">🧰 Botiquín de las personas</h3><p class="mut">Aparte del botiquín veterinario (módulo 8): gasas, vendas, esparadrapo, guantes, antiséptico, solución salina, suero oral, termómetro, tijeras, y la lista de teléfonos de emergencia (hospital, ambulancia, ARL) pegada a la vista.</p></div>
+    </div>
+  </section>
+
+  <section id="l-ley" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Trabajo digno</p>
+      <h2 class="titulo-sec">Derechos del trabajador del campo (2026)</h2>
+      <div class="grid g2">
+        <div class="card"><h3>📝 Contrato y seguridad social</h3><p class="mut">Todo trabajador debe tener contrato y estar afiliado a salud, pensión y <b>ARL</b> desde el primer día; la ARL paga si hay accidente de trabajo. El salario mínimo de 2026 es de <b>$1.750.905</b> más <b>$249.095</b> de auxilio de transporte.</p></div>
+        <div class="card"><h3>⏰ Jornada y recargos</h3><p class="mut">Máximo <b>42 horas a la semana</b> desde el 15 de julio de 2026 y 8 al día. El trabajo nocturno va de <b>7 p. m. a 6 a. m.</b>, con 35 % de recargo. Domingo o festivo: <b>90 %</b> desde el 1 de julio de 2026 (100 % en julio de 2027).</p></div>
+        <div class="card"><h3>🌾 Contrato agropecuario</h3><p class="mut">La reforma laboral (Ley 2466 de 2025) ordenó crear un contrato y un jornal agropecuario especiales. El proyecto de ley se radicó en diciembre de 2025 y todavía no es ley. Mientras tanto rigen las reglas generales del Código Sustantivo del Trabajo.</p></div>
+        <div class="card"><h3>🎓 Aprendices SENA</h3><p class="mut">Desde junio de 2025 el aprendiz tiene contrato laboral especial: 75 % del mínimo en la etapa lectiva y 100 % en la práctica, con seguridad social completa en la práctica.</p></div>
+      </div>
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin-bottom:8px">🧮 Recargos de la quincena</h3>
+        <div class="grid g2">
+          <div class="campo"><label for="rc-sal">Salario mensual ($)</label><input type="number" id="rc-sal" value="1750905" step="1000" inputmode="numeric"></div>
+          <div class="campo"><label for="rc-dom">Horas en domingo o festivo</label><input type="number" id="rc-dom" value="8" inputmode="numeric"></div>
+          <div class="campo"><label for="rc-noc">Horas nocturnas (7 p. m.–6 a. m.)</label><input type="number" id="rc-noc" value="4" inputmode="numeric"></div>
+        </div>
+        <div class="salidas" id="rc-res"></div>
+        <p class="mut" style="font-size:.8rem;margin-top:8px">Valor de la hora con jornada de 42 horas: salario ÷ 210 horas al mes. Calcula solo el recargo (lo que se paga de más), suponiendo trabajo ocasional dentro de la jornada. Las horas extra son otra cuenta. No es asesoría legal: ante dudas, Ministerio del Trabajo o un contador.</p>
+      </div>
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin-bottom:6px">📘 Fuentes de este módulo</h3>
+        <ul class="lista mut" style="font-size:.85rem">
+          <li>Escuela de Mayordomía de Remedios (2026): clase de liderazgo rural, manejo de personal y resolución de conflictos (23 de octubre).</li>
+          <li>Ley 2466 de 2025 (reforma laboral) y Ley 2101 de 2021: jornada, recargos y aprendices (resumen de Asesorías Jurídicas, 2026). Proyecto de ley 504 de 2025 del contrato agropecuario (INCP, dic. 2025).</li>
+          <li>Decreto 1072 de 2015 y Resolución 0312 de 2019: estándares mínimos del SG-SST (SafetYA).</li>
+          <li>Salario mínimo 2026: Portafolio (jul. 2026) y RCN (abr. 2026).</li>
+          <li>Instituto Nacional de Salud vía El Colombiano: accidentes ofídicos en Antioquia.</li>
+          <li>OMS: habilidades para la vida. Videos de YouTube sobre SST agropecuaria, agroquímicos y accidente ofídico.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
 <!-- ============ QUIZ ============ -->
 <main id="v-quiz" class="vista">
   <section>
@@ -3523,6 +3678,7 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
   <button data-v="cer"><span class="ic">🐖</span>Cerdos</button>
   <button data-v="cul"><span class="ic">🌱</span>Cultivos</button>
   <button data-v="par"><span class="ic">🏡</span>Parcelas</button>
+  <button data-v="lid"><span class="ic">🦺</span>Personas</button>
   <button data-v="reg"><span class="ic">📒</span>Registro</button>
   <button data-v="quiz"><span class="ic">✅</span>Examen</button>
 </nav>
@@ -4810,6 +4966,52 @@ function parDis(){
 }
 ['pd-area','pd-u',...PD.map(p=>'pd-'+p[0])].forEach(i=>$(i).addEventListener('input',parDis));parDis();
 
+/* ---------- LIDERAZGO Y SALUD OCUPACIONAL ---------- */
+document.querySelectorAll('#subnav-lid button').forEach(b=>b.onclick=()=>{
+  const el=document.getElementById(b.dataset.a);
+  window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-60,behavior:'smooth'});
+});
+const lidN=v=>Math.round(v).toLocaleString('es-CO');
+function lidChecklist(id,items,key,cb){
+  let sel=[];try{sel=JSON.parse(localStorage.getItem(key)||'[]');}catch(e){}
+  $(id).innerHTML=items.map((t,i)=>`<label class="chk"><input type="checkbox" data-i="${i}"${sel.includes(i)?' checked':''}><span>${t}</span></label>`).join('');
+  $(id).querySelectorAll('input').forEach(c=>c.onchange=()=>{const i=+c.dataset.i;sel=c.checked?[...new Set([...sel,i])]:sel.filter(x=>x!==i);try{localStorage.setItem(key,JSON.stringify(sel));}catch(e){}cb(sel.length);});
+  cb(sel.length);
+}
+const LID_T=['Explico qué hay que hacer, cómo y para qué','Pregunto si la orden quedó clara','Escucho antes de regañar','Reconozco el buen trabajo delante de los demás','Corrijo en privado, sin humillar','Uso yo mismo los elementos de protección','Hago la charla de 5 minutos antes de la jornada','Enseño al nuevo en vez de dejarlo solo','Trato igual a todos, sin preferidos','Cumplo lo que prometo (pagos, permisos, horarios)'];
+lidChecklist('lid-test',LID_T,'lid-test',n=>{const b=$('lid-test-res');
+  b.innerHTML=`<small>Resultado: ${n} de 10</small><b>${n>=8?'Líder que inspira':n>=5?'Buen camino':'A trabajar en el liderazgo'}</b><small>${n>=8?'La cuadrilla lo sigue por respeto, no por miedo.':n>=5?'Escoja dos puntos que no marcó y practíquelos este mes.':'Empiece por las órdenes claras, escuchar y dar el ejemplo.'}</small>`;
+  b.style.background=n>=8?'var(--verde2)':n>=5?'#B7791F':'var(--rojo)';});
+const LID_H=[['🔍 Autoconocimiento','Saber qué hago bien, qué me cuesta y qué me hace perder la cabeza.'],['🤲 Empatía','Ponerme en los zapatos del otro: el compañero que llegó tarde quizás tiene un hijo enfermo.'],['🗣️ Comunicación asertiva','Decir lo que pienso con claridad y respeto, sin gritar ni quedarme callado.'],['🤝 Relaciones interpersonales','Construir confianza con la cuadrilla, el dueño, el veterinario y los vecinos.'],['✅ Toma de decisiones','Pensar las opciones y sus consecuencias antes de actuar, sobre todo en una emergencia.'],['🧩 Solución de problemas y conflictos','Buscar la salida en vez del culpable.'],['💡 Pensamiento creativo','Inventar soluciones con lo que hay en la finca.'],['🧐 Pensamiento crítico','No creer todo lo que dicen: preguntar, comparar y comprobar, también con los remedios y los vendedores.'],['❤️ Manejo de emociones','Reconocer la rabia o la tristeza y no dejar que manden.'],['😮‍💨 Manejo del estrés','Descansar, dormir, compartir con la familia y pedir ayuda a tiempo.']];
+$('lid-hab').innerHTML=LID_H.map((h,i)=>`<details${i===0?' open':''}><summary>${h[0]}</summary><div>${h[1]}</div></details>`).join('');
+const LID_M=[
+ ['Trabajo en corral y manga (vacunar, palpar, marcar)',['Patadas, cornadas y aplastamientos','Caídas en piso mojado','Brucelosis al palpar o atender partos'],['Botas antideslizantes, guantes y guante largo para palpar','Manga y corral en buen estado, sin puntillas ni tablas sueltas','Manejo calmado: sin gritos, palos ni perros; nunca solo con un toro','Siempre una salida de escape'],'Si hay golpe fuerte en cabeza, pecho o barriga: quieto y al hospital.'],
+ ['Ordeño',['Patadas','Dolor de espalda y rodillas','Mastitis y brucelosis por leche cruda','Resbalones'],['Manear con lazo','Banquito a buena altura y turnarse','Lavado de manos y guantes','No tomar leche cruda: hervida o pasteurizada'],'Patada en la cara o el pecho: valoración médica.'],
+ ['Guadaña y machete',['Cortes y amputaciones','Piedras que saltan a los ojos','Ruido y vibración'],['Careta o gafas, protector de oídos, botas, polainas y pantalón grueso','Revisar el estado de la cuchilla y del mango','Nadie a menos de 15 m mientras se guadaña'],'Herida que sangra mucho: presión fuerte con tela limpia y al hospital.'],
+ ['Motosierra (cercas, leña)',['Cortes graves y rebote de la sierra','Caída de árboles y ramas','Ruido'],['Casco con careta y protector de oídos, guantes, pantalón anticorte y botas','Solo quien sepa usarla; nunca subido en escalera ni por encima del hombro','Planear hacia dónde cae el árbol y despejar'],'Herida grave: presión, inmovilizar y traslado urgente.'],
+ ['Fumigar o aplicar venenos y garrapaticidas',['Intoxicación por piel, boca o respiración','Contaminación del agua'],['Leer la etiqueta y la banda de color (roja, la más peligrosa)','Overol, guantes de nitrilo, gafas y respirador; no fumigar con viento','No comer, beber ni fumar mientras se aplica; bañarse después','Triple lavado de envases y entregarlos a Campo Limpio'],'Intoxicación: retirar la ropa, lavar con agua, llevar la etiqueta al hospital.'],
+ ['Cargar bultos y postes',['Lesiones de espalda','Hernias'],['Doblar las rodillas, espalda recta y la carga pegada al cuerpo','Entre dos si pesa más de 25 kg','Carretilla, zorra o el caballo'],'Dolor fuerte en la espalda que baja a la pierna: descanso y médico.'],
+ ['Recorrer potreros a caballo o a pie',['Mordedura de serpiente, abejas y avispas','Caídas del caballo','Rayos en tormenta','Golpe de calor'],['Botas altas y mirar dónde se pisa','Caballo manso y aperos revisados','En tormenta: lejos de árboles solos, cercas de alambre y charcos','Agua, sombrero y descanso a la sombra'],'Serpiente: vea la sección de serpientes. Rayo o desmayo por calor: llamar ayuda ya.'],
+ ['Motocultor, tractor y guadañadora de motor',['Atrapamiento y vuelco','Ruido y quemaduras con el motor'],['Solo personal capacitado','Guardas puestas y nunca ropa suelta cerca de piezas que giran','No trabajar en pendientes fuertes ni llevar pasajeros','Apagar el motor para destapar o ajustar'],'Atrapamiento: apagar el motor antes de rescatar y pedir ayuda.']
+];
+$('lid-tarea').innerHTML=LID_M.map((t,i)=>`<option value="${i}">${t[0]}</option>`).join('');
+function lidMatriz(){const t=LID_M[+$('lid-tarea').value];
+  $('lid-matriz').innerHTML=`<div class="grid g2"><div><p style="margin:6px 0"><b>⚠️ Peligros</b></p><ul class="lista">${t[1].map(x=>`<li>${x}</li>`).join('')}</ul></div><div><p style="margin:6px 0"><b>🛡️ Controles y EPP</b></p><ul class="lista">${t[2].map(x=>`<li>${x}</li>`).join('')}</ul></div></div><div class="peligro" style="margin-top:8px"><b>Si pasa:</b> ${t[3]}</div>`;}
+$('lid-tarea').onchange=lidMatriz;lidMatriz();
+const LID_S=['Identifiqué los peligros de cada labor de la finca, los valoré y puse controles (la matriz de esta app sirve de inicio)','Hago actividades para prevenir accidentes y enfermedades: capacitación, charla diaria, elementos de protección, orden y aseo','Protejo la seguridad y salud de todas las personas que trabajan en la finca, también los jornaleros temporales','Todos los trabajadores están afiliados a salud, pensión y ARL','Hay botiquín, lista de teléfonos de emergencia y un plan de qué hacer en accidente, creciente o incendio'];
+lidChecklist('lid-sst',LID_S,'lid-sst',n=>{const b=$('lid-sst-res');
+  b.innerHTML=`<small>Avance: ${n} de ${LID_S.length}</small><b>${n===LID_S.length?'Finca al día':n>=3?'Va bien':'Hay que empezar'}</b><small>${n===LID_S.length?'Guarde por escrito lo que hace: es su evidencia ante una inspección.':'Los tres primeros son los estándares mínimos de la Resolución 0312 para fincas de 10 o menos trabajadores.'}</small>`;
+  b.style.background=n===LID_S.length?'var(--verde2)':n>=3?'#B7791F':'var(--rojo)';});
+function lidRec(){
+  const s=+$('rc-sal').value||0,d=+$('rc-dom').value||0,n=+$('rc-noc').value||0,h=s/210;
+  const rd=h*0.9*d,rn=h*0.35*n;
+  $('rc-res').innerHTML=`<div class="salida"><small>Valor de la hora ordinaria</small><b>$${lidN(h)}</b></div>
+   <div class="salida"><small>Recargo dominical o festivo (90 %)</small><b>$${lidN(rd)}</b></div>
+   <div class="salida"><small>Recargo nocturno (35 %)</small><b>$${lidN(rn)}</b></div>
+   <div class="salida dest"><small>Total de recargos</small><b>$${lidN(rd+rn)}</b></div>`;
+}
+['rc-sal','rc-dom','rc-noc'].forEach(i=>$(i).addEventListener('input',lidRec));lidRec();
+
 /* ---------- Quiz ---------- */
 const PREG_PASTOS=[
  {p:'¿Cuánta materia seca come al día una vaca, como porcentaje de su peso?',o:['1 %','2,5 %','5 %','10 %'],r:1,e:'Cerca del 2,5 %. Una vaca de 500 kg come unos 12,5 kg de materia seca.'},
@@ -5004,6 +5206,18 @@ const PREG_REPRO=[
  {p:'¿Por qué no se debe tumbar el monte de la orilla del caño o del río?',o:['Por la sombra nada más','Porque amarra el suelo y frena la erosión','Porque es bonito','Sí se debe tumbar'],r:1,e:'El río ya se ha comido 22 metros de orilla en la margen derecha.'},
  {p:'¿Qué ventaja tienen las parcelas por estar pegadas a Caucasia?',o:['Ninguna','Venta directa y menos gasto en transporte','Nunca se inundan','No necesitan agua'],r:1,e:'Cerca de tiendas, restaurantes y mercados del pueblo.'},
 ];
+ const PREG_LID=[
+ {p:'¿Qué es la charla de los 5 minutos?',o:['Un descanso para tomar tinto','Reunir a la cuadrilla antes de empezar: tareas, peligro del día y cómo está cada uno','Una reunión con el dueño','Una capacitación de un mes'],r:1,e:'Cinco minutos al empezar la jornada que evitan accidentes y malentendidos.'},
+ {p:'Al resolver un conflicto, lo correcto es…',o:['Regañar a los dos delante de todos','Escuchar a cada parte por separado y hablar de hechos, no de personas','Darle la razón al más antiguo','Ignorarlo'],r:1,e:'Calma, escuchar, hechos, solución entre todos y acuerdo claro.'},
+ {p:'En la jerarquía de controles, los elementos de protección personal (EPP) son…',o:['Lo primero','La última barrera, después de eliminar, sustituir, arreglar y capacitar','Opcionales','Solo para el dueño'],r:1,e:'Primero se elimina o reduce el peligro; el EPP protege de lo que queda.'},
+ {p:'Ante una mordedura de serpiente se debe…',o:['Hacer torniquete','Cortar y chupar','Inmovilizar, quitar anillos y llevar ya al hospital','Dar trago y esperar'],r:2,e:'El único tratamiento es el suero antiofídico en el hospital.'},
+ {p:'¿Qué serpiente causó el 70 % de las mordeduras en Antioquia en 2023?',o:['Boa','Mapaná (talla X)','Coral','Cazadora'],r:1,e:'También llamada cuatro narices.'},
+ {p:'¿Qué enfermedad puede pegarse al atender un parto o una placenta sin guantes?',o:['Gripa','Brucelosis','Diabetes','Varicela'],r:1,e:'También por leche cruda: guantes y leche hervida o pasteurizada.'},
+ {p:'¿Cuál es la jornada máxima semanal desde el 15 de julio de 2026?',o:['48 horas','46 horas','42 horas','36 horas'],r:2,e:'Ley 2101 de 2021, con máximo 8 horas al día.'},
+ {p:'¿Cuánto es el recargo por trabajar un domingo desde el 1 de julio de 2026?',o:['35 %','75 %','90 %','200 %'],r:2,e:'Sube al 100 % en julio de 2027 (Ley 2466 de 2025).'},
+ {p:'¿Cuántos estándares mínimos de SG-SST pide la Resolución 0312 a una finca de 10 o menos trabajadores?',o:['1','3','21','60'],r:1,e:'Identificar peligros y poner controles, prevenir accidentes y enfermedades, y proteger a todas las personas.'},
+ {p:'Durante una tormenta en el potrero, lo más seguro es…',o:['Refugiarse bajo un árbol solo','Recostarse en la cerca de alambre','Alejarse de árboles aislados, cercas y charcos y buscar refugio','Seguir trabajando'],r:2,e:'Los árboles solos y el alambre atraen y conducen el rayo.'},
+];
 let PREG=PREG_PASTOS;
 let qi=0, puntos=0, quizIniciado=false, quizNombre='Pastos y Forrajes';
 function iniciarQuiz(){
@@ -5024,11 +5238,12 @@ function iniciarQuiz(){
    <button class="opc" data-q="c">🐖 Porcicultura · ${PREG_CER.length} preguntas</button>
    <button class="opc" data-q="m">🌱 Cultivos menores · ${PREG_CUL.length} preguntas</button>
    <button class="opc" data-q="w">🏡 Parcelas de La Paraguay · ${PREG_PAR.length} preguntas</button>
-   <button class="opc" data-q="t">🎓 Examen completo · ${PREG_PASTOS.length+PREG_SALUD.length+PREG_REPRO.length+PREG_REG.length+PREG_ALI.length+PREG_ORD.length+PREG_BUF.length+PREG_BC.length+PREG_FUT.length+PREG_NUM.length+PREG_RAZ.length+PREG_CER.length+PREG_CUL.length+PREG_PAR.length} preguntas</button></div>`;
+   <button class="opc" data-q="l">🦺 Liderazgo y salud ocupacional · ${PREG_LID.length} preguntas</button>
+   <button class="opc" data-q="t">🎓 Examen completo · ${PREG_PASTOS.length+PREG_SALUD.length+PREG_REPRO.length+PREG_REG.length+PREG_ALI.length+PREG_ORD.length+PREG_BUF.length+PREG_BC.length+PREG_FUT.length+PREG_NUM.length+PREG_RAZ.length+PREG_CER.length+PREG_CUL.length+PREG_PAR.length+PREG_LID.length} preguntas</button></div>`;
   $('q-caja').querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{
     const q=b.dataset.q;
-    PREG=q==='p'?PREG_PASTOS:q==='s'?PREG_SALUD:q==='r'?PREG_REPRO:q==='g'?PREG_REG:q==='a'?PREG_ALI:q==='o'?PREG_ORD:q==='b'?PREG_BUF:q==='z'?PREG_BC:q==='f'?PREG_FUT:q==='n'?PREG_NUM:q==='k'?PREG_RAZ:q==='c'?PREG_CER:q==='m'?PREG_CUL:q==='w'?PREG_PAR:PREG_PASTOS.concat(PREG_SALUD,PREG_REPRO,PREG_REG,PREG_ALI,PREG_ORD,PREG_BUF,PREG_BC,PREG_FUT,PREG_NUM,PREG_RAZ,PREG_CER,PREG_CUL,PREG_PAR);
-    quizNombre=q==='p'?'Pastos y Forrajes':q==='s'?'Salud Animal':q==='r'?'Reproducción':q==='g'?'Registros':q==='a'?'Alimentación':q==='o'?'Ordeño':q==='b'?'Búfalos':q==='z'?'Nuestra región':q==='f'?'Hacia dónde va la ganadería':q==='n'?'Los números del ganado':q==='k'?'Razas bovinas':q==='c'?'Porcicultura':q==='m'?'Cultivos menores':q==='w'?'Parcelas de La Paraguay':'Examen completo';
+    PREG=q==='p'?PREG_PASTOS:q==='s'?PREG_SALUD:q==='r'?PREG_REPRO:q==='g'?PREG_REG:q==='a'?PREG_ALI:q==='o'?PREG_ORD:q==='b'?PREG_BUF:q==='z'?PREG_BC:q==='f'?PREG_FUT:q==='n'?PREG_NUM:q==='k'?PREG_RAZ:q==='c'?PREG_CER:q==='m'?PREG_CUL:q==='w'?PREG_PAR:q==='l'?PREG_LID:PREG_PASTOS.concat(PREG_SALUD,PREG_REPRO,PREG_REG,PREG_ALI,PREG_ORD,PREG_BUF,PREG_BC,PREG_FUT,PREG_NUM,PREG_RAZ,PREG_CER,PREG_CUL,PREG_PAR,PREG_LID);
+    quizNombre=q==='p'?'Pastos y Forrajes':q==='s'?'Salud Animal':q==='r'?'Reproducción':q==='g'?'Registros':q==='a'?'Alimentación':q==='o'?'Ordeño':q==='b'?'Búfalos':q==='z'?'Nuestra región':q==='f'?'Hacia dónde va la ganadería':q==='n'?'Los números del ganado':q==='k'?'Razas bovinas':q==='c'?'Porcicultura':q==='m'?'Cultivos menores':q==='w'?'Parcelas de La Paraguay':q==='l'?'Liderazgo y salud ocupacional':'Examen completo';
     qi=0;puntos=0;pintarPregunta();
   });
 }
