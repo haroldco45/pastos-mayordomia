@@ -1,4 +1,4 @@
-const CACHE = 'mayordomia-pastos-v18';
+const CACHE = 'mayordomia-pastos-v19';
 const ARCHIVOS = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
