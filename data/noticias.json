@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-14T14:21:10.612Z",
+  "actualizado": "2026-11-14T19:21:21.094Z",
   "total": 90,
   "noticias": [
     {
@@ -14,13 +14,21 @@
     },
     {
       "titulo": "Auditorías sí, pero…",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU3BKRU4wVmUwc2ZaUDJJbFRhVXN4ZlZ0Q0oxNVJ4STI0endFSUdYYkVqZzNWVkFlc1dHajhtbUcwTHlYSVdxWWV4LWNTWXZXbXFaeWhxLVpHTHotUlVlOEI5djh6S1k3N185UHhhX1ROOUREREY5R21tR2pvM3p6WlBkQjFzMm5FUjc3eWlnYXMzZWZK?oc=5",
-      "medio": "La Patria",
-      "fecha": "2026-11-14T05:00:00.000Z",
-      "imagen": "",
-      "tema": "Vacunación",
-      "sinFoto": true
+      "resumen": "¿Qué justifica una nueva auditoría externa al Fondo Nacional del Ganado cuando la Contraloría General de la República ya ha examinado los recursos ...",
+      "link": "https://www.elnuevodia.com.co/opinion/columnistas/jose-felix-lafaurie-rivera/auditorias-si-pero-541363",
+      "medio": "El Nuevo Día",
+      "fecha": "2026-11-14T06:12:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.jFs0vukL_gC-IUuSPXLbWw&pid=News",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "IDEAM prevé lluvias en varias regiones y calor en zonas del país",
+      "resumen": "El IDEAM prevé lluvias moderadas o ligeras este sábado en sectores de las regiones Caribe, Andina, Pacífica, Orinoquía y Amazonía. Su boletín menciona, entre otros puntos, áreas de La Guajira, ...",
+      "link": "https://www.diariodelsur.com.co/noticias/ideam-preve-lluvias-en-varias-regiones-y-calor-en-zonas-del-pais",
+      "medio": "Diario del Sur",
+      "fecha": "2026-11-14T05:14:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.Wnucrki5RyEVeODR7GSS1w&pid=News",
+      "tema": "Clima"
     },
     {
       "titulo": "“Creemos en el diálogo con el Estado, pero también en el derecho a discrepar con independencia”: ganaderos de Trinidad",
@@ -47,7 +55,7 @@
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSkdzVUVyVzY5N1VPNjY4TXcxaFI4dGdTZmVKbUpEVE1WX0ZyRGJZVE41M0NVMmlsUjIxbm5YYWJHU1M4VjBYVzJhdzU5bVNEbkNyNlcyQXlnVUZwR3pVR0p3QUtzX01lblJWcGZlaUhaa0x3MVBnanA5Z3pKQlFMSXQ1R0pCZV9QNWxRR3ZtMk9qNzB4?oc=5",
       "medio": "Radio Nacional de Colombia",
-      "fecha": "2026-11-13T23:57:20.000Z",
+      "fecha": "2026-11-14T00:48:27.000Z",
       "imagen": "",
       "tema": "Ganadería",
       "sinFoto": true
@@ -259,7 +267,8 @@
       "medio": "CONtexto Ganadero",
       "fecha": "2026-11-13T15:52:09.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "Ideam anticipa lluvias en varias regiones durante la tarde de este viernes",
@@ -307,12 +316,21 @@
       "tema": "Clima"
     },
     {
+      "titulo": "Chimborazo: un proyecto reduce los gases dañinos",
+      "resumen": "Los pastos y forrajes que se siembran para alimentar al ganado vacuno en 23 comunidades indígenas de Chimborazo ahora se seleccionan con un nuevo propósito: disminuir la emisión de gases de efecto ...",
+      "link": "https://www.elcomercio.com/sociedad/chimborazo-proyecto-gasesdaninos-pasto/",
+      "medio": "El Comercio",
+      "fecha": "2026-11-13T09:53:00.000Z",
+      "imagen": "",
+      "tema": "Pastos"
+    },
+    {
       "titulo": "Atlántico se prepara para enfrentar los efectos de El Niño hasta 2027",
       "resumen": "El Ideam estima en un 61 % la probabilidad de que el fenómeno se prolongue hasta mayo de 2027. La Gobernación adelanta obras en acueductos, construye 36 reservorios y prepara los distritos de riego pa ...",
       "link": "https://www.elheraldo.co/atlantico/barranquilla/2026/11/13/atlantico-se-prepara-para-enfrentar-los-efectos-de-el-nino-hasta-2027/",
       "medio": "El Heraldo",
       "fecha": "2026-11-13T07:55:00.000Z",
-      "imagen": "",
+      "imagen": "http://www.bing.com/th?id=ONUT.X0k3Ndgu4bOY2jk1pttRqg&pid=News",
       "tema": "Clima"
     },
     {
@@ -370,15 +388,6 @@
       "tema": "Ganadería"
     },
     {
-      "titulo": "En la Hoya del Río Suárez, los alcaldes arman equipo con Fedegán",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ3QzSkt3RklWMWFNNTZvMFFZLWwwTjVXNkdKVXYyYXhTbHQxMzRBWnJmamtOcUozVlhrSWNnNmNYT0NEU1VsRG5oSE0tNWhXR1hOUVZBQ0pKQVROTUstNHB6aTR4WlN2dV84R3lYdzNmZkcwczJoUURrWjZOZXFNQnRVb1lHcWU2NkZ0Yk1nT25rRDZhSFdqOWNRd0tESlFFQ1I4RmNwQnB3R1pmS1pJUQ?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-12T15:57:11.000Z",
-      "imagen": "",
-      "tema": "Fedegán"
-    },
-    {
       "titulo": "Ganado bovino le pisó el freno a la inflación del campo en octubre",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMFFsVDBxTkJXVHhZSHkyRldZTEtYRkNEQW5naWpvenRPemhpTjhob2F6MjI1TjllYV90TThfTDg1NmJ1WmtwSTNIVmJRVXpYNzJyc0lMMGNJcTVleGhXTFNiRGJmMHZ4YUw4cDNCQUI4bzNVX3FRWGpaWTJlb0h2TjRJYUhlYWV3OWtQa3Rrcm5jenJEa0p4Zjd4NnhnYW1pbzlFTnBpQUZscllWbkRBaEp6Yl8?oc=5",
@@ -404,6 +413,15 @@
       "fecha": "2026-11-12T14:55:00.000Z",
       "imagen": "",
       "tema": "Leche"
+    },
+    {
+      "titulo": "En la Hoya del Río Suárez, los alcaldes arman equipo con Fedegán",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMzFOdFcwUUFCQkVmUzBkdzlXWVhCdGxsR0pMZEQzOWRtMG1hMHpFcEVwNVhVazJ6MU11c0ZzTmRVNVdFNlZKT1IyMVYzZmJjM3ZQYXVIdkxqV2dVbFRYb0Y2ci1CT1N6OHQyVlZIZDYzSVktWGk0YUpwS1laaTk0dzBMRkZHR0JzMjdwU3RIMnpZZE5DSjF6cXBQU3JvX05ic3FyMkR2STU?oc=5",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-12T14:49:31.000Z",
+      "imagen": "",
+      "tema": "Fedegán"
     },
     {
       "titulo": "Lluvias favorecen al campo: ganado tendría pasto disponible hasta mayo de 2027",
@@ -473,9 +491,18 @@
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVkd3UGJQMmpEUHdjU2pGbkN3bDQ3cHUySERJcEMwRXhsMFN5aGdHZXNMcjRuOGRhRVJDWnYzYjZveG1zUGZDU01zbTdWWnBJa0l6eHAydWJQenR3ZTJwcXJjeW9haDJEQ3BaanpXNmhneFp1c1pud2Q1YmVkRWsxd18xV3JLYjlDWU9IdWJTSnVlUEpsaHE0VmhJb1hWNlZ0bHNqU281SmVtVE5HRHRtNXNkRDZzTmw3bGdnVGwwUzNfOFR2ejFJSnJ5OA?oc=5",
       "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-11T23:20:07.000Z",
+      "fecha": "2026-11-11T23:55:22.000Z",
       "imagen": "",
       "tema": "Pastos"
+    },
+    {
+      "titulo": "El Ideam se le adelanta al río: esta alerta es clave para ganaderos aislados en Bolívar y Magdalena",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZUtWR1Z1X2pRTDNhdWNxRVRnNVNYUXVIbDR0QjQxTHM3dDVYUTNxbXQ4eHZ6UzJUdGVEZ1dPU051OTNBUmVsS1c0MnZ2SjY4WjJjUk42YWdvZXluQS1WV1AxbG51SVIteXM4QjlxLUFITFRBVTN1WHIteWxfWkJyMmx2Mmx4OUZWXzFweUtMOFY2MW50MDhndWNaWTQ3SGtjd3VnNW9aRHpXWGxJYjFjdXNwR29LR1pucHJKZFRVTWJqT21xSWxaUVdrbFd4ekhKa1FMQkl4VQ?oc=5",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-11T23:55:19.000Z",
+      "imagen": "",
+      "tema": "Ganadería"
     },
     {
       "titulo": "Ganaderos de Sucre respaldan a Ministro por Fondo Nacional Ganado",
@@ -483,15 +510,6 @@
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOclFMai1GRG14Y1AtOTRaNWhVNHZvVXdZal9LZjkwQkNCeFBYMWNhSXZ5V0hKWWxkWlBTMUp1VmY1UDdKY1BGblc0Ymp0eHd0eXRNUWpJVVJ3TUtIZjRSTkRKUUFOM1Izd2I3cHNRSzhiLVVlemI5Vmp6aFJGeWM5WkprNWsyVDA?oc=5",
       "medio": "Estrella Digital Colombia",
       "fecha": "2026-11-11T22:26:30.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "El Ideam se le adelanta al río: esta alerta es clave para ganaderos aislados en Bolívar y Magdalena",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZUtWR1Z1X2pRTDNhdWNxRVRnNVNYUXVIbDR0QjQxTHM3dDVYUTNxbXQ4eHZ6UzJUdGVEZ1dPU051OTNBUmVsS1c0MnZ2SjY4WjJjUk42YWdvZXluQS1WV1AxbG51SVIteXM4QjlxLUFITFRBVTN1WHIteWxfWkJyMmx2Mmx4OUZWXzFweUtMOFY2MW50MDhndWNaWTQ3SGtjd3VnNW9aRHpXWGxJYjFjdXNwR29LR1pucHJKZFRVTWJqT21xSWxaUVdrbFd4ekhKa1FMQkl4VQ?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-11T22:22:12.000Z",
       "imagen": "",
       "tema": "Ganadería"
     },
@@ -681,7 +699,7 @@
       "link": "https://www.msn.com/es-co/noticias/nacional/las-temperaturas-caen-en-boyac%C3%A1-estos-son-los-50-municipios-que-deben-prepararse-ante-posibles-heladas/ar-AA2ha6F6",
       "medio": "Semana on MSN",
       "fecha": "2026-11-10T09:50:30.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.H9HkFZxyB-TGxSzLyvDP-w&pid=News",
+      "imagen": "http://www.bing.com/th?id=ONUT.v-CVWuZqXCDrjWgLZy1ICQ&pid=News",
       "tema": "Clima"
     },
     {
@@ -816,24 +834,6 @@
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPV1F1cUVLTzhnbVVxTHloWGRLbWNXYmtmMzIzRlJ5bHlnNTJXdVNYa3JxeUZrU2phOVpWcTd5U1JrMFg4OGlaa092Tlktd1FwdkpEai13QjFaRU1PUnVobEcwQW14eUNTWHdaUUZwaU41ZFU3Z0dJekt4M19rSUE1bWlseFRka0RhME5nSFNrcElWVkp1YWFsM2MzNW5ndmdvOGNGbjktVUVNcHFqUXdaUmZhczdFWU01aFM1Um1mekRJcTl1b2xycjVrdUhLQTlrLTdOd016TDY4VGh4Y0pKYlpmbEFFemZmNTh2RTZKWdIB9AFBVV95cUxPaUQzcktQdDBfUmoxYmJSMUFrNy1GWlhfcGliNGN1RzlYMm5Ec1hIaWxsYUF3Tlg0N1gzM1YwVDFhdk1YT3VMMkdlZ0dTaGZJWnBITDNNUEx5YWJqemNaUHJlUjZXZlREbU5Zci1EeTFmOThfUzNDbG1kZzhBWDlUWUVpaHJpZk9TTWZDQUVLOTFfTjlyc0o5RVd2ajFHT1d6VnlIUGUtMTdjbjZLZDFiSUNfQlNNbTk5UWFYdXpVLXdFcmNZcmNBOHB4UFFsNHd5c1dId1lYWl9rMDluMjBETWoyVlpJSWNYaTNCRUZNWGpfLXNC?oc=5",
       "medio": "Portafolio.co",
       "fecha": "2026-11-09T13:06:10.000Z",
-      "imagen": "",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Las fábricas de alimentos cobran 1,77 % más que hace un año, según el DANE: a sus compradores la leche les",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mQmVOM1oyQkp3SGFoa1l1dXZiaFdneDhReE5obWJuR3lQdHNzQWRpSU5yVXpXNVIzYzZPek5HWkZJM0xubk55YzFTS2R6SHVpNlh0dmxNY1EzOU9BTWVOR2h6WDR0Xzl1d1HSAWpBVV95cUxOZkJlTjNaMkJKd0hhaGtZdXV2YmhXZ3g4UXhOaG1ibkd5UHRzc0FkaUlOclV6VzVSM2M2T3pOR1pGSTNMbm5OeWMxU0tkekh1aTZYdHZsTWNRMzlPQU1lTkdoelg0dF85dXdR?oc=5",
-      "medio": "Más Colombia",
-      "fecha": "2026-11-09T08:54:08.000Z",
-      "imagen": "",
-      "tema": "Leche"
-    },
-    {
-      "titulo": "Arjona pone la cara por Fedegán: ganaderos valoran la vacunación y la asistencia técnica que llegan al potrero",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQS1oxWWcwYzRnTWQ5MUptWnIzazVnM1NBbjR3WUZrcTVxQmRXenJiTzcybU5DWWE3S0RNMFFJRmFyZW9nQzhTYjFVRW40ZndSYk1KRTZvdkh3dUl3Snp5TFZGVDVKX1VZZVYwLWl5ajAxaXNVRExBczB4UE5KckdqWU9MVnl2MWhMangzSjJOQjJ3clJjbXpFYnBVdXNJaTRlVHozRUpSVGl1WHNOMUwxMEpJXy1QRWJKdm5FWlhUZ3JGY0ZwUDh0LWc0bW1oaDF0bXFOUnBUbVpGZDJhTFpRc1F2MFVpampzWUZjcEZsMndMZw?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-09T08:00:00.000Z",
       "imagen": "",
       "tema": "Fedegán"
     }
