@@ -340,7 +340,50 @@ details.emerg summary{font-size:1.02rem}
 details.emerg[open]{border-color:var(--rojo)}
 .q-sel{display:grid;gap:8px}
 footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center}
+
+/* ---------- Hoy en el campo (robot de noticias) ---------- */
+#hoy-campo{padding:26px 0 8px}
+.hc-top{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.hc-vivo{display:inline-flex;align-items:center;gap:7px;font-weight:700;font-size:.8rem;color:var(--rojo);text-transform:uppercase;letter-spacing:.06em}
+.hc-vivo i{width:9px;height:9px;border-radius:50%;background:var(--rojo);animation:hcLate 1.4s infinite}
+@keyframes hcLate{0%{box-shadow:0 0 0 0 rgba(192,57,43,.55)}70%{box-shadow:0 0 0 10px rgba(192,57,43,0)}100%{box-shadow:0 0 0 0 rgba(192,57,43,0)}}
+.hc-btn{border:0;background:var(--verde);color:#fff;font:700 .92rem Figtree,sans-serif;padding:10px 16px;border-radius:99px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;box-shadow:var(--sombra)}
+.hc-btn .rueda{width:14px;height:14px;border:2.5px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%}
+.hc-btn.girando .rueda{animation:hcGira .8s linear infinite}
+@keyframes hcGira{to{transform:rotate(360deg)}}
+.hc-cifras{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+.hc-cifras div{background:var(--card);border:1px solid var(--borde);border-radius:14px;padding:10px 12px;box-shadow:var(--sombra)}
+.hc-cifras b{display:block;font-family:"Bricolage Grotesque";font-size:1.6rem;color:var(--verde2);line-height:1.1}
+.hc-cifras span{font-size:.78rem;color:var(--muted)}
+.hc-cinta{overflow:hidden;background:var(--verde);color:#fff;border-radius:12px;margin:4px 0 14px;white-space:nowrap;font-weight:600;font-size:.88rem}
+.hc-cinta div{display:inline-block;padding:9px 0;animation:hcCorre 70s linear infinite}
+.hc-cinta span{margin:0 26px}.hc-cinta span::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--oro);margin-right:10px;vertical-align:middle}
+@keyframes hcCorre{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.hc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.hc-nota{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--borde);border-radius:16px;overflow:hidden;text-decoration:none;color:var(--txt);box-shadow:var(--sombra);opacity:0;animation:hcSube .45s ease forwards;transition:transform .2s}
+.hc-nota:active{transform:scale(.98)}
+@keyframes hcSube{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.hc-img{aspect-ratio:16/9;background:#2B4A35 center/cover no-repeat;position:relative}
+.hc-img .hc-tema{position:absolute;left:10px;top:10px;background:var(--oro);color:#1C2420;font-weight:700;font-size:.7rem;padding:3px 9px;border-radius:99px;text-transform:uppercase;letter-spacing:.04em}
+.hc-img .hc-nuevo{position:absolute;right:10px;top:10px;background:var(--rojo);color:#fff;font-weight:700;font-size:.68rem;padding:3px 8px;border-radius:99px;text-transform:uppercase}
+.hc-cu{padding:12px 14px 14px}
+.hc-cu h3{font-size:1rem;line-height:1.3;margin-bottom:6px}
+.hc-meta{font-size:.78rem;color:var(--muted)}
+.hc-busca{display:flex;gap:8px;margin:6px 0 10px}
+.hc-busca input{flex:1;min-width:0;border:1px solid var(--borde);background:var(--card);color:var(--txt);border-radius:12px;padding:11px 14px;font:500 1rem Figtree,sans-serif}
+.hc-chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;margin-bottom:10px;scrollbar-width:none}
+.hc-chip{flex:none;border:1px solid var(--borde);background:var(--card);color:var(--txt);border-radius:99px;padding:6px 13px;font:600 .85rem Figtree,sans-serif;cursor:pointer}
+.hc-chip.on{background:var(--verde);border-color:var(--verde);color:#fff}
+.hc-vacio{grid-column:1/-1;background:var(--verde-claro);border-radius:14px;padding:16px;color:var(--muted);text-align:center}
+.hc-mas{display:block;margin:14px auto 0;border:1px solid var(--borde);background:var(--card);color:var(--verde2);font:700 .92rem Figtree,sans-serif;padding:10px 18px;border-radius:99px;cursor:pointer}
+.hc-pie{font-size:.75rem;color:var(--muted);margin-top:10px;text-align:center}
 </style>
+<script id="vibras-datos-github">/* Las noticias se leen directo de GitHub para no gastar créditos de Netlify */
+(function(){var R='pastos-mayordomia',B='https://raw.githubusercontent.com/haroldco45/'+R+'/main/',f=window.fetch.bind(window);
+window.fetch=function(i,o){try{var u=new URL(typeof i==='string'?i:(i&&i.url)||String(i),location.href),m=(o&&o.method)||(i&&i.method)||'GET';
+if(u.origin===location.origin&&m.toUpperCase()==='GET'&&/\/data\/[^/]+\.json$/i.test(u.pathname)){
+var p=u.pathname.replace(/^\/+/,'');if(/github\.io$/.test(location.hostname))p=p.replace(new RegExp('^'+R+'/'),'');
+return f(B+p+u.search,{cache:'no-store',signal:o&&o.signal}).then(function(r){if(!r.ok)throw 0;return r}).catch(function(){return f(i,o)})}}catch(e){}return f(i,o)}})();</script>
 </head>
 <body>
 
@@ -358,6 +401,33 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
       </div>
     </div>
   </header>
+
+  <!-- ============ HOY EN EL CAMPO (robot de noticias cada 30 min) ============ -->
+  <section id="hoy-campo">
+    <div class="wrap">
+      <div class="hc-top">
+        <div>
+          <span class="hc-vivo"><i></i>Hoy en el campo</span>
+          <h2 class="titulo-sec" style="margin-top:4px">Lo que pasa en la ganadería colombiana</h2>
+          <p style="color:var(--muted);font-size:.92rem">Noticias reales de vacunación, precios, leche, clima y la región. El robot las trae cada 30 minutos.</p>
+        </div>
+        <button class="hc-btn" id="hcActualizar" type="button"><span class="rueda"></span>Actualizar</button>
+      </div>
+      <div class="hc-cifras">
+        <div><b id="hcN24">0</b><span>noticias de hoy</span></div>
+        <div><b id="hcNTot">0</b><span>noticias guardadas</span></div>
+        <div><b id="hcHora">--:--</b><span>última vuelta del robot</span></div>
+      </div>
+      <div class="hc-cinta"><div id="hcCinta"><span>Cargando las noticias del campo</span></div></div>
+      <div class="hc-grid" id="hcHoy"></div>
+      <h3 style="margin:24px 0 8px;font-size:1.2rem">Buscar en vivo</h3>
+      <form class="hc-busca" id="hcForm"><input id="hcQ" type="search" placeholder="Ej.: aftosa, precio del novillo, Caucasia" autocomplete="off"><button class="hc-btn" type="submit">Buscar</button></form>
+      <div class="hc-chips" id="hcChips"></div>
+      <div class="hc-grid" id="hcTodas"></div>
+      <button class="hc-mas" id="hcMas" type="button" hidden>Ver más noticias</button>
+      <p class="hc-pie" id="hcPie">Hora de Colombia (America/Bogota)</p>
+    </div>
+  </section>
 
   <section>
     <div class="wrap">
@@ -6683,6 +6753,76 @@ window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();evInst=e;
 $('b-inst').onclick=async()=>{ if(evInst){evInst.prompt(); await evInst.userChoice; evInst=null;} $('instalar').classList.remove('ver'); };
 $('b-no').onclick=()=>{ $('instalar').classList.remove('ver'); try{localStorage.setItem('noInstalar','1')}catch(_){} };
 if('serviceWorker' in navigator){ window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+</script>
+<script id="hoy-en-el-campo">
+/* ---------- Hoy en el campo: robot de noticias + búsqueda en vivo ---------- */
+(function(){
+  const g=id=>document.getElementById(id);
+  const FOTOS=Array.from({length:10},(_,i)=>'fotos/campo-'+(i+1)+'.jpg');
+  let NOTI=[],VIVO=[],filtro='',cuantas=12;
+  const esc=t=>String(t||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const dec=t=>{const x=document.createElement('textarea');x.innerHTML=t||'';return x.value};
+  const hBog=f=>{try{const d=new Date(f),min=(Date.now()-d)/6e4;
+    if(min<60)return 'hace '+Math.max(1,Math.round(min))+' min';
+    if(min<1440)return 'hace '+Math.round(min/60)+' h';
+    return d.toLocaleDateString('es-CO',{timeZone:'America/Bogota',day:'numeric',month:'short'})}catch(e){return ''}};
+  const fotoDe=(n,i)=>n.imagen||FOTOS[(Math.abs([...(n.titulo||'')].reduce((a,c)=>a+c.charCodeAt(0),0))+i)%FOTOS.length];
+  function tarjeta(n,i){
+    const nuevo=(Date.now()-new Date(n.fecha))<864e5;
+    return `<a class="hc-nota" style="animation-delay:${(i%12)*55}ms" href="${esc(n.link)}" target="_blank" rel="noopener">
+      <div class="hc-img" style="background-image:url('${esc(fotoDe(n,i))}')"><span class="hc-tema">${esc(n.tema||'Campo')}</span>${nuevo?'<span class="hc-nuevo">Hoy</span>':''}</div>
+      <div class="hc-cu"><h3>${esc(dec(n.titulo))}</h3><div class="hc-meta">${esc(dec(n.medio))} · ${hBog(n.fecha)}</div></div></a>`;
+  }
+  function contar(el,n){const ini=+el.textContent||0,t0=performance.now();
+    (function paso(t){const p=Math.min(1,(t-t0)/700);el.textContent=Math.round(ini+(n-ini)*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(paso)})(t0)}
+  function unir(){return [...VIVO,...NOTI].filter((n,i,a)=>a.findIndex(x=>dec(x.titulo).toLowerCase()===dec(n.titulo).toLowerCase())===i)
+    .sort((a,b)=>String(b.fecha).localeCompare(String(a.fecha)))}
+  function pintarHoy(){
+    const todas=unir(),ayer=Date.now()-864e5,hoy=todas.filter(n=>new Date(n.fecha)>ayer);
+    const lista=hoy.length?hoy.slice(0,6):todas.slice(0,6);
+    g('hcHoy').innerHTML=lista.length?lista.map(tarjeta).join(''):'<div class="hc-vacio">El robot está trayendo las primeras noticias. Toque Actualizar en un momento.</div>';
+    contar(g('hcN24'),hoy.length);contar(g('hcNTot'),todas.length);
+    const tit=todas.slice(0,14).map(n=>`<span>${esc(dec(n.titulo))} — ${esc(dec(n.medio))}</span>`).join('');
+    if(tit)g('hcCinta').innerHTML=tit+tit;
+  }
+  function pintarTodas(){
+    const todas=unir(),temas=[...new Set(todas.map(n=>n.tema).filter(Boolean))].slice(0,10);
+    g('hcChips').innerHTML=[`<button class="hc-chip ${!filtro?'on':''}" data-f="">Todas</button>`,...temas.map(t=>`<button class="hc-chip ${filtro===t?'on':''}" data-f="${esc(t)}">${esc(t)}</button>`)].join('');
+    g('hcChips').querySelectorAll('button').forEach(b=>b.onclick=()=>{filtro=b.dataset.f;cuantas=12;pintarTodas()});
+    const q=g('hcQ').value.toLowerCase().trim();
+    const r=todas.filter(n=>(!filtro||n.tema===filtro)&&(!q||dec(n.titulo+' '+(n.resumen||'')+' '+n.medio+' '+n.tema).toLowerCase().includes(q)));
+    g('hcTodas').innerHTML=r.length?r.slice(0,cuantas).map(tarjeta).join(''):'<div class="hc-vacio">No hay noticias con esa búsqueda todavía.</div>';
+    g('hcMas').hidden=r.length<=cuantas;
+  }
+  async function cargar(){
+    const b=g('hcActualizar');b.classList.add('girando');
+    try{const d=await (await fetch('data/noticias.json?'+Date.now())).json();
+      NOTI=d.noticias||[];
+      g('hcHora').textContent=new Date(d.actualizado).toLocaleTimeString('es-CO',{timeZone:'America/Bogota',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
+      g('hcPie').textContent='Robot: '+new Date(d.actualizado).toLocaleString('es-CO',{timeZone:'America/Bogota',dateStyle:'medium',timeStyle:'short'})+' · hora de Colombia';
+    }catch(e){}
+    pintarHoy();pintarTodas();
+    setTimeout(()=>b.classList.remove('girando'),400);
+  }
+  async function buscarRed(q,tema){
+    const rss='https://news.google.com/rss/search?q='+encodeURIComponent(q+' when:7d')+'&hl=es-419&gl=CO&ceid=CO:es-419';
+    try{const d=await (await fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(rss))).json();
+      if(d.items){const nuevas=d.items.map(i=>{const p=i.title.split(' - '),medio=p.length>1?p.pop():'Google News';
+        return {titulo:p.join(' - '),resumen:'',link:i.link,medio,fecha:new Date(String(i.pubDate).replace(' ','T')+'Z').toISOString(),imagen:i.thumbnail||'',tema:tema||'En vivo'}});
+        VIVO=nuevas.concat(VIVO)}
+    }catch(e){}
+    pintarHoy();pintarTodas();
+  }
+  g('hcActualizar').onclick=()=>{cargar();buscarRed('ganadería Colombia','Ganadería')};
+  g('hcForm').onsubmit=e=>{e.preventDefault();const q=g('hcQ').value.trim();filtro='';pintarTodas();if(q)buscarRed(q,'En vivo')};
+  g('hcQ').oninput=()=>pintarTodas();
+  g('hcMas').onclick=()=>{cuantas+=12;pintarTodas()};
+  // Se actualiza cada vez que se entra: al abrir, al volver a la app y al volver a Inicio
+  cargar();buscarRed('ganadería Colombia','Ganadería');
+  document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')cargar()});
+  if(typeof ir==='function'){const irViejo=ir;window.ir=ir=function(v,a){irViejo(v,a);if(v==='inicio')cargar()}}
+  setInterval(cargar,5*60*1000);
+})();
 </script>
 </body>
 </html>

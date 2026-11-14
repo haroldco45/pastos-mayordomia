@@ -1,0 +1,7 @@
+[build]
+  ignore = "git log -1 --pretty='%an %ae' | grep -qiE 'robot|github-actions'"  # no publicar commits del robot (ahorra créditos)
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "no-cache"
