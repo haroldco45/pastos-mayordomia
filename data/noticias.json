@@ -1,7 +1,17 @@
 {
-  "actualizado": "2026-11-14T23:13:56.055Z",
+  "actualizado": "2026-11-15T02:55:22.437Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "El Niño se fortalece hasta mayo 2027: zonas de sequía y lluvias",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQakFCVEw0OS1hUnFwM2swNVFHYkxqSlpCUTJTSWs5cjlISndReU45U05IaXNPTHZlRTNmTUE0akxlQ2ViaXNCWmV4aEJpOFFlZElxYUdrVDFVclpjNVlaZXo2RkxvNzZIa3hYSmx1TzZTRDl5ZVBUeGlkYjB3NUxQRXZtSEVtRm9ORklKdW1R?oc=5",
+      "medio": "Emisora Nueva Época",
+      "fecha": "2026-11-15T02:04:18.000Z",
+      "imagen": "",
+      "tema": "Clima",
+      "sinFoto": true
+    },
     {
       "titulo": "Fenómeno de El Niño podría extenderse hasta mayo de 2027: Atlántico refuerza medidas para proteger el agua",
       "resumen": "",
@@ -286,8 +296,7 @@
       "medio": "CONtexto Ganadero",
       "fecha": "2026-11-13T15:52:09.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Ideam anticipa lluvias en varias regiones durante la tarde de este viernes",
@@ -488,6 +497,15 @@
       "tema": "Fedegán"
     },
     {
+      "titulo": "FORRAJE Y CAPACITACIÓN TÉCNICA ENTREGÓ INDAP TARAPACÁ EN COLCHANE PARA ASEGURAR LA ACTIVIDAD GANADERA",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYVhMcjdVakhkWVNhcnhmbUZ1SlZyaEdLUWdSV2tXaTEtWkRGeFVxTXI4RzJfQ3FWRDgyV1YyRE9keVhCTmtiVE5xa3B5ZjlHa1N3R3pjbnZQY05oQ3pZN1I2TS03TzJ2TTNxZ2pNWTlxdTcyQ2ZscFl6eFpyUTR0TFo2TDBwVHV6ZDV4RndYT09LbnlvbTRjQlB2M19nTS1UTTY4cWFId2VJeHZTQVhzTWdFYU1ZZ0kweUNJNTVCbmxON3F5YWczZm11OXFJQXc?oc=5",
+      "medio": "Diario El America",
+      "fecha": "2026-11-12T01:52:23.000Z",
+      "imagen": "",
+      "tema": "Pastos"
+    },
+    {
       "titulo": "Guayabal de Síquima abre sus corrales al negocio ganadero: cuarta gran feria será el 20 de noviembre",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZDBuWXRKNUdza09ic3RhVzlwTDA2NnQ2V08yc0hfUThDRm5xbk9XZmFUdTA4QTEyWldWanZPVUVxYXZhelBvcnBXa05JRHZMVFh4cWZ2Q2ZZRURqZFRWZWYzOHpGYUFBV0Foa1BMbWg4b0ZUZVd2ODc4aFRLcEtvS29UdGxQSnR2OFpKZVdWQWlETFByckFpWU84S3FsUmFJQ0dVSENyd25iRkpiWTRwVkFfbWNfY2M3eEtFTFRKbjJ5ZWhkUFN4aFExVUN5REdhQWo2NlZCQ0RNakdrN1V2djNSOWFkUQ?oc=5",
@@ -553,8 +571,8 @@
     {
       "titulo": "Forraje hidropónico, una alternativa para alimentar ganado en la etapa crítica de El Niño",
       "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQlZHYUJ0bFVtdEhuYW1iZDBtTlB3OWs5QzdKSVRJV2ZZXzBWbEt3WnI5Y1VOSlY3TXJYT0lHcjg0SkxDQm9xeGNRUlpmVG02blBpQm1pb1ZidnJfTjU3eG5XMzlheFBBTDhDV1h4blNFX19GaHBDUE5xTk5tVFg4R3kzbEFoaVBkUlhWRE00X1pJd2xCeVR0YlNHOEJDSWNyUWt5SDlXRC1jQlI2TXBPekF0NnVrNG9DcFVJX2xTUDZKTzBmVzZka2JPUWxXQ1ZG0gHSAUFVX3lxTE15Ry1CeHYxYlpUODg4NFN5WF9TaXczaWxkYnIyN2R3SXBqOFBLSFBTSllOcWdJcEZJS3hjYjhiUFpBNzRxaE5NX1Zwdy16LWE5QVF5dTZ5YW9tYnZxT3BOZDJRQlRyTkw3a2xUMjhCOXd4Um5SQmh4blY0Zl9kVGl2QlRwbWl0NVR4em5ySmpKWGlHS0Y3VnZtN29sUlRUWXFwTzhWbjFMaUxwLW9HazZ5MUhJekFPcWl2Um5EcEdaTVFuQ09TV3NlbGxuMEpGaEJUUQ?oc=5",
-      "medio": "LaRepublica.co",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeUctQnh2MWJaVDg4ODRTeVhfU2l3M2lsZGJyMjdkd0lwajhQS0hQU0pZTnFnSXBGSUt4Y2I4YlBaQTc0cWhOTV9WcHctei1hOUFReXU2eWFvbWJ2cU9wTmQyUUJUck5MN2tsVDI4Qjl3eFJuUkJoeG5WNGZfZFRpdkJUcG1pdDVUeHpuckpqSlhpR0tGN1Z2bTdvbFJUVFlxcE84Vm4xTGlMcC1vR2s2eTFISXpBT3FpdlJuRHBHWk1RbkNPU1dzZWxsbjBKRmhCVFHSAdIBQVVfeXFMTXlHLUJ4djFiWlQ4ODg0U3lYX1NpdzNpbGRicjI3ZHdJcGo4UEtIUFNKWU5xZ0lwRklLeGNiOGJQWkE3NHFoTk1fVnB3LXotYTlBUXl1Nnlhb21idnFPcE5kMlFCVHJOTDdrbFQyOEI5d3hSblJCaHhuVjRmX2RUaXZCVHBtaXQ1VHh6bnJKakpYaUdLRjdWdm03b2xSVFRZcXBPOFZuMUxpTHAtb0drNnkxSEl6QU9xaXZSbkRwR1pNUW5DT1NXc2VsbG4wSkZoQlRR?oc=5",
+      "medio": "Agronegocios",
       "fecha": "2026-11-11T20:58:09.000Z",
       "imagen": "",
       "tema": "Pastos"
@@ -818,24 +836,6 @@
       "medio": "El Espectador on MSN",
       "fecha": "2026-11-09T16:20:18.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.5zOCxx1LgfRJaGzjZTbXeQ&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Colombia: bonificaciones voluntarias explican el 75% del aumento interanual del precio de la leche",
-      "resumen": "Las bonificaciones voluntarias representaron el 75% del aumento interanual del precio pagado por la leche acopiada formalmente en Colombia en agosto de 2026. El pago total aumentó un 7,5%, mientras ...",
-      "link": "https://dairynews.today/es/news/voluntary_bonuses_account_for_75_of_colombia_s_annual_milk_price_increase_1665205.html",
-      "medio": "DairyNews",
-      "fecha": "2026-11-09T16:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.4qDdp51y88ab2GwWpXQu-g&pid=News",
-      "tema": "Leche"
-    },
-    {
-      "titulo": "Fedegán acepta auditoría forense del MinAgricultura al Fondo Nacional del Ganado y exige rigor en la investigación",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTmNHZGhTai1wcm1RdUgwbkljU0JTaWVMWkgtakYtN2FEM2pnVWQ2UV9uYTFkWU5EWF9mbFFzQVBINkF4RUF2cHpjUmdqWnFuT21QRmxfblJsanZGX0NzTW5yZkZNc0JXc3VmeWdkdm45VzV4S1MxRmxRbkNreVFnWDFFekpoUFBRWnJ3dFBxc2NSTWdNRmhFRmtIb1M0ZmpBZEV0NVNIMHd6cnhHdEVqVlZ4aVJueXpmUktEYy0tV1VpSTZVanFWUVBvRGROeUNBYU1QYk0tMHV2VTRUVU9xOTFrbVhTal9ET25IT2JrTW50Rmhzai00?oc=5",
-      "medio": "Forbes Colombia",
-      "fecha": "2026-11-09T15:55:40.000Z",
-      "imagen": "",
       "tema": "Fedegán"
     }
   ]
