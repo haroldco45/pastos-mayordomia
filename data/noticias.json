@@ -1,7 +1,26 @@
 {
-  "actualizado": "2026-11-15T17:19:55.437Z",
+  "actualizado": "2026-11-15T21:57:14.087Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Atentado a bala contra reconocido ganadero y su esposa durante una celebración",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbjRxd25od3ZjdC0yUUZHWGFha05wMjFjc2lDbEl2ZVZyeDV1OGNldFVYYXVkY2FSdUxoUkI1NXpZSHo3Z2pxRE82US04UmstdmNlell1OVZ3YVFOdHRTUWxnV1E4SlQwTnNmcGFXY1ZWTlFhN3FjLWZvR2RRRFYtRWRtMmJTMUMzal83WHNMYjlURWVBX29nb0tHbnc4UVNvaER1NWlJMHprQlpFSzlNXzZQQjhES0VNbS0yMjlTbHZNaTJD?oc=5",
+      "medio": "Vanguardia",
+      "fecha": "2026-11-15T13:51:00.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Cundinamarca: historia, naturaleza y tradición en el corazón de la región andina colombian",
+      "resumen": "Cundinamarca reúne pueblos coloniales, montañas, cascadas y tradiciones campesinas que reflejan la riqueza cultural y natural del territorio colombiano.",
+      "link": "https://www.diariodelsur.com.co/noticias/cundinamarca-historia-naturaleza-y-tradicion-en-el-corazon-de-la-region-andina-colombian",
+      "medio": "Diario del Sur",
+      "fecha": "2026-11-15T13:07:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.69RBTFxu7RLx_3XHW0dS2g&pid=News",
+      "tema": "Ganadería"
+    },
     {
       "titulo": "El PSOE de Soria defiende una ganadería sostenible y rentable para el futuro de Soria",
       "resumen": "Luis Rey y la candidatura socialista visitan en Noviercas Moncayo Ecológico, una explotación de ganadería regenerativa que apuesta por la producción ...",
@@ -9,6 +28,15 @@
       "medio": "desdeSoria",
       "fecha": "2026-11-15T08:43:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.NAi4xPT6QfBj8PeucIU8sQ&pid=News",
+      "tema": "Pastos"
+    },
+    {
+      "titulo": "El PSOE defiende ganadería sostenible y rentable para futuro de Soria",
+      "resumen": "Luis Rey y la candidatura socialista al Parlamento español han visitado hoy en Noviercas Moncayo Ecológico, una explotación de ganadería regenerativa que apuesta por la producción ecológica, el aprove ...",
+      "link": "https://elmirondesoria.es/provincia/comarca-del-moncayo/el-psoe-defiende-ganaderia-sostenible-y-rentable-para-futuro-de-soria",
+      "medio": "El Mirón de Soria",
+      "fecha": "2026-11-15T07:38:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.Xb1rdgijrraCSURLW27WyQ&pid=News",
       "tema": "Pastos"
     },
     {
@@ -333,8 +361,7 @@
       "medio": "EL INFORMADOR",
       "fecha": "2026-11-13T16:00:00.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Ganaderos del centro del Huila también están con Lafaurie: auditoría sí, juicios anticipados no",
@@ -398,6 +425,15 @@
       "fecha": "2026-11-13T09:53:00.000Z",
       "imagen": "",
       "tema": "Pastos"
+    },
+    {
+      "titulo": "Precios del cerdo en pie en México",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAyVE9VUG4zYU9iOUFaaFYzVjJPMVFncTJJSTFTck1ILUhyRGlwTURfeU1iY3F6VFg1WE1zODFBOG1IQzQ2XzNtZnE3b3lfb01yeFhBUGltVk5tdXVpUk1iN2ZNNmJrN0oyUWRjUGZYbS04N1otZUl4dlJaNmw?oc=5",
+      "medio": "Porcicultura.com",
+      "fecha": "2026-11-13T08:00:00.000Z",
+      "imagen": "",
+      "tema": "Precios"
     },
     {
       "titulo": "Atlántico se prepara para enfrentar los efectos de El Niño hasta 2027",
@@ -526,6 +562,15 @@
       "tema": "Leche"
     },
     {
+      "titulo": "Los tambos empiezan a vender vacas para hacer caja: La caída de rentabilidad acelera los descartes y en un año se perdieron más de 55.000 animales",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxON29wdHlkbXp3Z2JJMk1iM3Vtakk3M0lHUmRKU2ZDUGctX3A3aGhtajQ2ZjM2RnNSZUlEeExoQWF0RUZaRWh5WDVmb01sbi1qMVh2amVFc3RzNS1GUC1jNXVjMDlfczhOLWI2MDRnSjVUU0l4MVJ3aUQzeHRhbEd2UF9pY2VrUTVOMWRYVmtDMk0zLUcwV2RpMjdUV000UjFaSUZZeEU3MTM2Y0dkOGlsVkVUd29QR2VwWjc1RXVKaHBSblRuVzRQVzRQem44NGpRaWg0TjJoaEdJeFVabU1TcDI3UjRXeFlrY1o0U2RneVpEdjlJRXNuM3JrOUVlTjN6dmc?oc=5",
+      "medio": "Bichos de Campo",
+      "fecha": "2026-11-12T14:00:34.000Z",
+      "imagen": "",
+      "tema": "Leche"
+    },
+    {
       "titulo": "Lluvias favorecen al campo: ganado tendría pasto disponible hasta mayo de 2027",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNmJHVEh2bkFkN0IwN1IyWkFpcnJBbThxSGpmWTBLZElZalU0eFBKYWJ4SXYzdXdrSm5acjJQSkNLTGxfQ2JibWFGV2hONjV0cHpPZTlNd3VEUG5DeDlOc0JNWnlpQUlUdjJrVGNoMXVzSUlpM2Z4ZXEyMm5yY3BQNEt4bm5FbUZZUzM1d2M4MVIxYVdCdjJyVWlHTnRWMk9seDgzdTBGNlV5eEFZSFJrTzd0ZEg4T3UwMkFpel9ud0JFTHI3OFlfYg?oc=5",
@@ -589,15 +634,6 @@
       "tema": "Sanidad"
     },
     {
-      "titulo": "Por qué los altos precios de la carne de res llegaron para quedarse",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQWFoY01QS0pFcEd0cE92YlEtdzlQYXdpbWFwVlBnTXRCSkpleVExNlZOWjQ5NzhtaUw2WmUtY2tiMTdWcmh5aVk2WXZYcDdma0lkSWFIWktLWjI0NWZ0bFozWURDYmxodjN5ZTVkMGk4elBDV0VkWkE5QWhMbXJtb3pnRDB1YkpxMHBIbkFmR0F2d0duX3B2VjNIWDVreEVuN3cweXFwUkp2QVlkak83clpKOFJjWUpkR2VkRw?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-11T23:56:25.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
       "titulo": "Hoy no se pierda una clase magistral: Colombia y Argentina muestran qué están haciendo en ganadería sostenible",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPU01YdmVBT2w3NG5hb0JPYmpvVGtFeG5saXdQbFA4ZzFHWWcyeGVucUtsMmFERk1FLVRGZVVwZ2FpOWx4SEVfaVE1c3VhNXhyc1VmUlR1OWw5ZTdXSmluWjhoN0xLQXJvVWg3bDZUYzR3QXUxdjljSTFTN1BPT1YtZlJScGJCZFh5WFFpa3QyZHUwdC1lbjIxU0JreU1tcUNQOFIxOEdNVVcwSjUtSmxmSV9mdl9PSTBfbUFqeTJwbGVzNXU0NExlZjNlemdCLWVQZDlwemJVNzhOX1hxVGp0ZVlHT2xrTlEwTVl6VnpibFQtWFlUcVRpVEltZnBaZw?oc=5",
@@ -623,6 +659,15 @@
       "fecha": "2026-11-11T23:55:19.000Z",
       "imagen": "",
       "tema": "Ganadería"
+    },
+    {
+      "titulo": "Por qué los altos precios de la carne de res llegaron para quedarse",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVU3NmdLQ3E0Z0tSbEt6VVRZR3JTSVpZanJYSEd5Q092RXJIWVRpS0RyVG14Vzl5ZW1YckgwTWJFUk1JMFhkN0o3cUJzUXVjT0gxYmRqNG4yWnBMeG95a25WaktkaERKVWVmM3VtT3I2anBsY3NVT3JrTUdXbkJYZ1ZuODNpYWNpNWVCUDBEQ19HS0Fod18wRU12SGkzTWlZdnJjckpqYXVfSUZxeDlLVWttd18?oc=5",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-11T23:55:19.000Z",
+      "imagen": "",
+      "tema": "Precios"
     },
     {
       "titulo": "Ganaderos de Sucre respaldan a Ministro por Fondo Nacional Ganado",
@@ -724,15 +769,6 @@
       "tema": "Ganadería"
     },
     {
-      "titulo": "Precios del cerdo en pie en México",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAyVE9VUG4zYU9iOUFaaFYzVjJPMVFncTJJSTFTck1ILUhyRGlwTURfeU1iY3F6VFg1WE1zODFBOG1IQzQ2XzNtZnE3b3lfb01yeFhBUGltVk5tdXVpUk1iN2ZNNmJrN0oyUWRjUGZYbS04N1otZUl4dlJaNmw?oc=5",
-      "medio": "Porcicultura.com",
-      "fecha": "2026-11-11T08:00:00.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
       "titulo": "Cambio climático y ganadería: la sostenibilidad y el bienestar animal también se reflejan en la rentabilidad de las fincas",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQSXhiX1NUMUFtYlJSRkNDWDFtTmo2RllXeEZvU0NsYlVCSS1ZOEhMQ2VnUFd4bnBUN1lodkt3NkJWRTNORXZOVDl1el9YRGRlc2laRS1wVU4xZ2dnYUxLaG1yb1Z6SFhEbGhHSDV0NmpBTUR6M1VNc2JUWlgxa0N2LVNBM2lINzlUXzRIdmFtN0N2VVVuX3gzNmZUTGxYb2xzZjhCN3NUSzFVcW5VYm1oTlVTUHNibnlmTW5YVWczNFlvVXVQbG9LMEJ4S0daaVNUZlloOWhKTjVCeDNnUU1PNUNERU84VTR0dVdLRVVmZm94R1M4YmQxNHIxRGFQY1Zxc3hrTUl3?oc=5",
@@ -802,42 +838,6 @@
       "medio": "Revista Semana",
       "fecha": "2026-11-10T17:53:12.000Z",
       "imagen": "",
-      "tema": "Clima"
-    },
-    {
-      "titulo": "Dangond vs Lafaurie, ¿quién termina trabajando para la ganadería?",
-      "resumen": "El reclamo del Ministerio a Fedegán muestra una lección clara. La modernización del sector no depende de la cantidad de recursos parafiscales acumulados ...",
-      "link": "https://www.larepublica.co/analisis/camilo-manrique-dwyer-4397540/dangond-vs-lafaurie-quien-termina-trabajando-para-la-ganaderia-4522060",
-      "medio": "La República",
-      "fecha": "2026-11-10T16:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.2ltzrNOZah-4OulSb8qRsQ&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Seis décadas de gremialismo: el Comité de Ganaderos del Tolima celebra 60 años de gestión por la ganadería regional",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdWFGZmVBY1lZeTBxNHBfYWNFTEF5WlFiUHg5QjVwUkV2T3Z1UTFrYmRrWWEwdllFbkdZZGY4NldrdVJNLVVZbHYtMlRTN0J5Z3pxUEI3eURrcVpzOXVhR3ZvMTFaX1RCbmNCdU9oTkVqeTZxVDU4UkZTNGtuUlFPS2NPU3RoTWhHTWRsRXV4QTNnSmpzMEhlakpQdkZyQWlhcVNJc0I2dTlRZGJONGE3S2s3bmtZWUlkbTNOSGh5Y2I2ZzRNQWVOVWlMVENyU0ZRQ1JhdzZNd1V0TFYwY3JlT2YtaDdSSm5yUHhz?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-10T15:43:59.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "En 13 días, plan de Fedegán e ICA logra que 5,4 millones de bovinos tengan escudo contra la aftosa",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQT3gxa2lYdFREaXJyUkV6ekFsRXZoMTFYcjFzVHJZSkh4Q2FnZU5BT0h4clRuc0dZeDM3ZmZHVUh6OVFZenlWN3dyeXNBem8ybjZuanJsclBWSmN4eFZhZWFORW93UWwwMFE3bG1Sc25fMDdHTlVxYWE0RU93NEtmM2Z1U2ZnQUtBbGNudDlNV0pvX0MxVjlJckF6LUFzejJvVzhhSnlwRU5DSXNMY0hXdEpCd09mcWtoUkNqdEswRzJFNU5ZV1JKQnk2TlBkazJuU29JWTlMa2k1MUYzY3FTbHJSWmJlZw?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-10T15:18:59.000Z",
-      "imagen": "",
-      "tema": "Vacunación"
-    },
-    {
-      "titulo": "Las temperaturas caen en Boyacá: estos son los 50 municipios que deben prepararse ante posibles heladas",
-      "resumen": "El frío comienza a preocupar al campo boyacense. El Ideam emitió una alerta por descensos de temperatura en 50 municipios del departamento, mientras Tunja y Belén han registrado mínimas de 3 °C. El fr ...",
-      "link": "https://www.msn.com/es-co/noticias/nacional/las-temperaturas-caen-en-boyac%C3%A1-estos-son-los-50-municipios-que-deben-prepararse-ante-posibles-heladas/ar-AA2ha6F6",
-      "medio": "Semana on MSN",
-      "fecha": "2026-11-10T09:50:30.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.v-CVWuZqXCDrjWgLZy1ICQ&pid=News",
       "tema": "Clima"
     }
   ]
