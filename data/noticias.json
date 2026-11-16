@@ -1,13 +1,43 @@
 {
-  "actualizado": "2026-11-16T01:35:13.144Z",
+  "actualizado": "2026-11-16T08:53:15.389Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Crisis Ganadera en EE. UU.: Rancheros de Texas Migran su Producción a México por Altos Costos",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR1BhX3V6QlJNcGVJcFdIeEdPSWY1QkpwTGhRemdOeVpvMF9vS2ZIMWVjWEpkbG1laDRuSDcxRU1mbmlQY1M3MVRCNVpGbUt1bEtDclMxVERJRE8tRE1KYzBYR2s2ZTFvdnJRc29TQVFhaDFsd2U0OXZVbjRqYTdpcWJ1WktKM09tQkZBNkRZcDRvYUxkTkxQaG9HRjRXOUt2alEzczA0TnBqQVh0YlZ5VGpHa3ZROFlm?oc=5",
+      "medio": "Diario CAMBIO22",
+      "fecha": "2026-11-16T04:46:43.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Ganadero Logra Detener a un Bovino Desbocado en Colombia",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTTNXWUFYMWVFdGhNbnQ5dlFQNTFIbDEtb05ZZmRCQlhYcGtjX2NPM1BEbENvcDluLV96LU9sMHlkOHNuNE5ld3NnNXRzaVhoRk91bE5wUDN6V09QbDVRY3kwTjg5XzJMQWpfdTJ1X1Z1Z2pZQWRlamJKeTlMUHdoTVFFN0lxS3IxZFNDT2dIbF9HYmVDTmppbWNseGZoSTRyaHJnLQ?oc=5",
+      "medio": "N+",
+      "fecha": "2026-11-16T01:16:30.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
     {
       "titulo": "Auditoría al Fondo Nacional del Ganado: Lafaurie dice sí, pero con reglas claras",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNN185eDdhb3RTRG5RQ2stUFB5RGYtb1BCRXF0MFJBOC12UmdCN19YRHYyTjY4TnRWVkxPcXVldlpydERGY3hINzdtMlNMOXN6YnJrQmNaRVdxV20zeTFMaTBLUktqcTJNY29STkp0eUMtY08tWF91LWJNMGZ3SzN4UFY2Nmlwa05SUHFyX29Dakp2eWs3UmtnMWl0WnlTQjgtTm44ZF9WYmlHLUxrS2g2aHExNDBWYU5TREdZWTd4VjhCSVFVZWJFYw?oc=5",
       "medio": "CONtexto Ganadero",
       "fecha": "2026-11-15T23:48:49.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "La Policía investiga sobre móviles y autores del atentado contra el ganadero Jaime Troncoso Bonilla",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTVBoSVd0UU1ycExGM0U5cW5nUk4wOHJwU3RVZ1VTWWVvS0llaUJCbmtYX0ZhQ0dZRGJySlBxcFpveXlGT0xuc2JkZm5GTkE3YzFPeVlKb3NORFBGR0xraXVnNWdPOUcwRG9adlNtNUViS1pYc3BBQVRKekJLdng0ZXVvOGVpckhJUWVKZHhRNks5bmltb0JIX3dGd1Z3a0dST3RocnY0SjV4bHkxS1NYTWpoaUljVXlGRlY2VGpaR0ZvR3JrSTFKZTloUXp1ZGJPVVRiaTB1VDFlRm9UM0E?oc=5",
+      "medio": "ELHERALDO.CO",
+      "fecha": "2026-11-15T17:16:16.000Z",
       "imagen": "",
       "tema": "Ganadería",
       "sinFoto": true
@@ -87,6 +117,15 @@
       "fecha": "2026-11-14T16:00:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.iHwiQUWycc8Rr9zGgLu-rg&pid=News",
       "tema": "Sanidad"
+    },
+    {
+      "titulo": "Crónica de un atropello: Lafaurie reconstruye con documentos cómo el gobierno Santos le quitó a Fedegán el Fondo Nacional del Ganado",
+      "resumen": "Por: El Expediente Hay libros que se escriben para contar y otros que se escriben para ser leídos por un juez. Crónica de un atropello: la persecución del gobierno Santos contra Fedegán, de José Félix ...",
+      "link": "https://elexpediente.co/cronica-de-un-atropello-lafaurie-reconstruye-con-documentos-como-el-gobierno-santos-le-quito-a-fedegan-el-fondo-nacional-del-ganado/",
+      "medio": "El Expediente",
+      "fecha": "2026-11-14T16:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.HAo80YufUpXC8C1HYHdcfw&pid=News",
+      "tema": "Fedegán"
     },
     {
       "titulo": "Ganaderos de Santander cierran filas en torno a Fedegán, piden bajar tensiones con Min Agricultura",
@@ -186,16 +225,6 @@
       "sinFoto": true
     },
     {
-      "titulo": "Maicao no olvida la aftosa: por eso los ganaderos guajiros cierran filas con Fedegán y defienden lo ganado",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMzJMR0I2dnhGbml1SUZFVWR6M0JXS0syQ29XUlA4VTFLeWFJeXpfVnlBM2tNSjhoRmgwTXBSV2c0NkxqY1FoeE94T3NRS3RLak8ySldobGY4T0RIUEtoYWh3RGhublNYcUVtT05NTFpjeUE5Q0hIRGVoMlpQbnZ6VC1uaGlFamdGRlhndkc4NC0zTEFmVVdvendWdVVfWWd6Q0JodnNiZWt2Xzd2SHA0M0RwZVktRGFvZHhfb0w0a1V3R2VIUWFHdHJfeU9mbWF6WjUwcGdWOHdQVllRb1dvb1ZCN2FRRVA0aDFHSA?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-13T23:53:43.000Z",
-      "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
-    },
-    {
       "titulo": "“Expresamos nuestro respaldo a la gestión de José Félix Lafaurie Rivera”: ganaderos de Bolívar",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQ3NHQlpndEY2bjdRTGdZR0hITHEzeE9HVnl0QklZdC1kZzN3ejhDcGl4Qm16X3pNenZRWERUUWlJVl8yMTkyd2VpSl9TSXUxUGVfNVNRUlZXdmlObmtXWTVoc3Y5RXhVWkhmQU9zUjlSVGVQUkdhVzJaYWhlMUJtcHM2V205ZTZsWjlkblVLeVhzRUs2SkdoamU3SXM2ZXN4YzlWQWxBWWFTbTlxOGJrREk1U1FZUUNlVThqODYtRmFMaDU1M3lOaDAtTlJRelhadXE1bE5qblpyQQ?oc=5",
@@ -246,6 +275,16 @@
       "sinFoto": true
     },
     {
+      "titulo": "Maicao no olvida la aftosa: por eso los ganaderos guajiros cierran filas con Fedegán y defienden lo ganado",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZHZrMEpBckN1akJpakVxcndPY1I3a3RBQW1OTUt0cjB2ckkwRGp2NXdoYUQzcjhrbUhmR01yVFozeW13c25qeEUySmx5Q1RWYWVmOW5ROW5QNHYtb1lGRnVNcDhISkhoYi0yamlIeUlScUNsLUpJNkJUdnJuNXFuWTJleTQ2Uy05VkhIWkpqeEpxeTNtMnZQb1V5MFZmdTdwcmlJN2Y5YkhBY2RZNm9NMm5ONE45elA1Sm5aQVh0cXV0LXVvbkFGUWItZWt3T3g2UWJkMWYtSXpUV2U0Tmc3Ui1GZi0?oc=5",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-13T23:48:45.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
       "titulo": "Carne brasileña cuesta menos que la mexicana; ganaderos advierten sobre la competencia",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaUY1VHBOSGZEb3dYUTVHZXFwOWhXTlBXLUJyVUdZbFBKRzdmZVItVGlkZHVwSm9fQktPa1dMNlJkSXN2RVhjX1ZHT3I5cE84SFM3MmpJQVpFdmVUcmJ2QVZNZmZ4OFVYaFJMT1hsM0ZxdGRtY3JXaTk0di0yb3ZvdDI5ZDJBTWcxRjVtZ1VTRUhCMTFNbTl4NXFJTC1CX2NvaXRzN2VxZEpQNzN6VjZPZ2RGNkttaEZoT3Yyam54WmFQZ0VKNTdMZ3JXMmNsanBmQUHSAdcBQVVfeXFMTXBhZV9IUlBQWmkwUk9nSjlKdWs1SGRPamJwVmVyZGhqUzh0LUEtREhoV19ydW56ejlrcWYwY2dpT3RKS0tHYWVya19MckhBQURIXzJWXzhPcjFISHRIa3FKMmV5U3JnR0pHVWxRZDRNQXBxR0VQMkE4Vmk4Z2taX3M3c1AySVdfdkFRR0YyNDRBZktiQW53cmVnU3I1VExIektRc3FwbWRnRUtrVkhuLTZLWjVHSE93c0hVdHJtX19RaEI2ZENzQW1KMnpWZE5fWk1zLWhiSDQ?oc=5",
@@ -263,16 +302,6 @@
       "fecha": "2026-11-13T18:28:12.000Z",
       "imagen": "",
       "tema": "Ganadería",
-      "sinFoto": true
-    },
-    {
-      "titulo": "Del dólar por kilo a mercados externos: el sur del Cesar respalda a Fedegán",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTzd0V2dzRHRMNVltbEd3NWJZRGtBSl8tZENKSmtQVkFOVVdlMkNuZk5OTVQyZllvdkRfMllveHNXWHBwRk16XzczOEc2SHI2b2lIaWQyRllxTFdpQV9iV014MjBFZ1JncGNBUWxOOUlpQXpxV1pyeTZROUQxejVJX3JjXzFjOE4tQ0t3Vmo3SFRqVXFlazRZQ1VzOFl4V29WVDZ3X3lCdkNZMUdQQ3BXUmU1eFhzUE9FWndDV1FLaFFZQnc?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-13T18:28:12.000Z",
-      "imagen": "",
-      "tema": "Precios",
       "sinFoto": true
     },
     {
@@ -322,8 +351,16 @@
       "medio": "Machala Móvil",
       "fecha": "2026-11-13T18:01:30.000Z",
       "imagen": "",
-      "tema": "Pastos",
-      "sinFoto": true
+      "tema": "Pastos"
+    },
+    {
+      "titulo": "Del dólar por kilo a mercados externos: el sur del Cesar respalda a Fedegán",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYW0xVXgtMEVnNTBjU2VuZWN3WHpWVkxrYnZOTFZ3ZTRkLTRGQ2ZnWW9nTlg0V25YTlNNS3lyWG5ab1Z4UXN0a2RSVVJSYTZtRG5uNmFyR1RpWFRKUWJPMG4xckhGSmdSdmREN1plR0F6SXNHclNRYnhwTk1FSVk3M0l0UnhJcV8zV2NfTlBCbTU2dE80a25CelAwUFFIUFp4X0lWZXNSekRoSUNXOXpsemxOYVltSmZ5LUpF?oc=5",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-13T17:52:17.000Z",
+      "imagen": "",
+      "tema": "Precios"
     },
     {
       "titulo": "Colombia fortalecerá la trazabilidad agropecuaria con apoyo tecnológico de Corea del Sur",
@@ -342,8 +379,7 @@
       "medio": "Agronegocios",
       "fecha": "2026-11-13T17:13:32.000Z",
       "imagen": "",
-      "tema": "Fedegán",
-      "sinFoto": true
+      "tema": "Fedegán"
     },
     {
       "titulo": "Falta de lluvias en Tungurahua golpea a los ganaderos: producir leche cuesta más de lo que reciben",
@@ -491,15 +527,6 @@
       "tema": "Ganadería"
     },
     {
-      "titulo": "Adiós a Julio Carrizosa, el ingeniero que le sembró parques a Colombia",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXViRFZLNVg2b2IwZ1Z5V1JyWDl3d2RQMHhqbFlEMVNPV25qb1V6ZXRkRGpQOWZJU1JrcjlzVzZRTGtIR3JiYTUtY0EwU2Qtemg2aW56OEdTUnFsMVlrNWtucWkzQm8yakZBU1p3NTVPN3NTVFZSb3NTNkEtX0ZwOFd3amNnQ0VCSENHRjZZbFM4MlNuVkcyZ2tkbkR2NjZ2Tnd6SkExRTRDanNTWTBj?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-12T23:55:22.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
       "titulo": "\"Fedegán, una sola bandera\": gremios de diez departamentos cierran filas con Lafaurie y piden garantías ante auditoría al FNG",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNYjU4UGt0b0JFRndkRkRhQWhXSlpMZ2ttdFB5Z3RZeE10cXBqRkhyZGZXc1FRN19yYW4tUDNDd1RrbENjUFEtRWNQVGNSLWhDUElONDR5ZGFxNEdUejVRblhLbFh5dnp3cHIzYll4WEJxb0dRdm9tN1puVlk4YzNzd29EbWJfS2ZVaXNLV0hYaVZCLXQ2RDNvVnhVMXpXRW5wVWJVMGZUbV9HenpvTHl4bnJ1UEhPQU9jbndNV3F5bDRFbWVzeFFKTGl4T3U0T1NMZnZWeklDNm90S0VYa0RVTGN5Z1ZVRnBfREZuZFQ3NnhJeHUzRl9WQzkxVQ?oc=5",
@@ -507,6 +534,15 @@
       "fecha": "2026-11-12T23:55:22.000Z",
       "imagen": "",
       "tema": "Fedegán"
+    },
+    {
+      "titulo": "Adiós a Julio Carrizosa, el ingeniero que le sembró parques a Colombia",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXViRFZLNVg2b2IwZ1Z5V1JyWDl3d2RQMHhqbFlEMVNPV25qb1V6ZXRkRGpQOWZJU1JrcjlzVzZRTGtIR3JiYTUtY0EwU2Qtemg2aW56OEdTUnFsMVlrNWtucWkzQm8yakZBU1p3NTVPN3NTVFZSb3NTNkEtX0ZwOFd3amNnQ0VCSENHRjZZbFM4MlNuVkcyZ2tkbkR2NjZ2Tnd6SkExRTRDanNTWTBj?oc=5",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-12T23:55:22.000Z",
+      "imagen": "",
+      "tema": "Ganadería"
     },
     {
       "titulo": "Productores de Cajibío avanzan hacia la certificación en Buenas Prácticas Ganaderas con el acompañamiento del ICA y la FAO",
@@ -536,6 +572,15 @@
       "tema": "Ganadería"
     },
     {
+      "titulo": "En la Hoya del Río Suárez, los alcaldes arman equipo con Fedegán",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMzFOdFcwUUFCQkVmUzBkdzlXWVhCdGxsR0pMZEQzOWRtMG1hMHpFcEVwNVhVazJ6MU11c0ZzTmRVNVdFNlZKT1IyMVYzZmJjM3ZQYXVIdkxqV2dVbFRYb0Y2ci1CT1N6OHQyVlZIZDYzSVktWGk0YUpwS1laaTk0dzBMRkZHR0JzMjdwU3RIMnpZZE5DSjF6cXBQU3JvX05ic3FyMkR2STU?oc=5",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-12T15:55:56.000Z",
+      "imagen": "",
+      "tema": "Fedegán"
+    },
+    {
       "titulo": "Los programas que recuperó la ganadería colombiana con el regreso del FNG a Fedegán",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcldCV1BIM3h6bGZmS2FDUG1GMkx3Q1Ruck5Sd0tCTXJJQnZtX0xWT2p1bzhMTHdzWmxEWUtUSjFHZHRhOVp4aXdZMjhIcDdCR2NBRlFmNktfenlrOThFQ1pVYzlQRkpWbFNrb0xnQ3N5ZFVVVU9kOHRNUmtKb3BXcW5SYmFqb1BhSmQ5Ni1zcVJUZ0NWbDdqbnJOdFlpR2pQN1VsVnR4aVN6SHNNRFlpMmt0b0hzLVlQTC1DWENYQ2tZbjdW?oc=5",
@@ -552,15 +597,6 @@
       "fecha": "2026-11-12T15:55:56.000Z",
       "imagen": "",
       "tema": "Ganadería"
-    },
-    {
-      "titulo": "En la Hoya del Río Suárez, los alcaldes arman equipo con Fedegán",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMzFOdFcwUUFCQkVmUzBkdzlXWVhCdGxsR0pMZEQzOWRtMG1hMHpFcEVwNVhVazJ6MU11c0ZzTmRVNVdFNlZKT1IyMVYzZmJjM3ZQYXVIdkxqV2dVbFRYb0Y2ci1CT1N6OHQyVlZIZDYzSVktWGk0YUpwS1laaTk0dzBMRkZHR0JzMjdwU3RIMnpZZE5DSjF6cXBQU3JvX05ic3FyMkR2STU?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-12T15:55:56.000Z",
-      "imagen": "",
-      "tema": "Fedegán"
     },
     {
       "titulo": "Prevén mayor estabilidad estabilidad en la producción lechera mundial en 2027",
@@ -804,42 +840,6 @@
       "fecha": "2026-11-11T06:09:48.000Z",
       "imagen": "",
       "tema": "Vacunación"
-    },
-    {
-      "titulo": "Dos vacas paridas y mucho futuro: Ceagrodex y ‘Una Vaca por la Paz’ impulsan a dos familias de Neiva",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNa1lGMzhBTFBaZHJuSTk1czhpUUxlNW53ZnBTLVlFYnhTZGx6MWhyOGlkTGFYTVZUejFEbXBoT2hkMWVZM1RzR2VZVmRDZUxVME1CZ3ZvYjg0VWZyNjhRcFppSUcxbmR2eU1NT0Y2ZnFwenl4aERmZ1lCVGFyNXE4OTQ2UlBVaUxGdUg3ZUlydGw2cHE5V1NGcmNhLVdzNzRhRFJoZ1E5dW8tcXc3bG1EZ3NpWmI4V0dWeTk2MVhKVk1vc2VwajhmTWdfWVN6cW1pVXpLTVVCYVRLNDVlUVAxeGx3?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-10T23:57:01.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "Dengue en Colombia: casi 98 mil casos y no basta fumigar para frenarlo",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc29DcnEyZWNtbld2TkNPaExMSHJEYksyRlN2U0RwdW9OQThmUThNQXZ1dWVwZnBUODF1WmhDc1FrclVLa3JXWlY3ejM3QnFra3pNakVGc1dtRHZQUFpkLVdsVE5xMHdEOEpSWmttRWRmZGlLRUNXNGswd09WTTlpQlZwSUF5b3MwY0Z5WTI2di1HTmI5NlByTmNyQTVnQXhEcENaLXZ4Z0JSbDFnUDFiMw?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-10T23:55:46.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Precio del bistec de res en México: cuesta hasta 260 pesos el kilo pese a caída del ganado - El Heraldo de Chihuahua",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbEVWLWVKanQzWkZnclpZaDd0RXF5Y3ZJdXZRT1F0T0FzeElGbzdPeHNGUU15Yldvdi0wRm1McmNUa0x6YTloci0yVDl1RDc0M2RfUm9WRFNVWTJ4MVFHdGE1Nks0LXlPSlVVekt2dEJHWS1zdkR6ZUYxVzRhanQ2d2F1eFRzUjJrQTQydXlmTzVTZVVOd1VIRkYyWER3THl5LU13YWRmRVZYUmc4MFlTQ0pCS2N3M01ucXU3U3piaG1IaW4yZHVhak5UYkRsblhDVFc4Q1pmWWQ0NDJV?oc=5",
-      "medio": "El Sol de México",
-      "fecha": "2026-11-10T23:16:05.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "Inactivo el comercio de ganado en Nebraska el lunes; volumen en parrilla de 70 cabezas - Noticias y Estadísticas",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUHVFQ0pFRVJmV1EzcnBYcTlPRTVNNmFoRktWS1JpZElMMzIzd0hHeFB2RkxrcExweTNfN0N0WUFKNkFMUWNRSFNDeDNoZ1JpM0daZE9GaGRGOWNhQ1pDcEUzN2JwSzZxRWtMMTBBZk1JNjJBTW1QOU1mRGt6Vy1DTFF3R3ZrT2Y3ZzljSF9yUGp6RnNsVnh0RzhsTnZrT0E1c0E?oc=5",
-      "medio": "IndexBox",
-      "fecha": "2026-11-10T18:10:28.000Z",
-      "imagen": "",
-      "tema": "Precios"
     }
   ]
 }
