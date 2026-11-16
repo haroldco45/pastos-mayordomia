@@ -1,7 +1,17 @@
 {
-  "actualizado": "2026-11-15T21:57:14.087Z",
+  "actualizado": "2026-11-16T01:35:13.144Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Auditoría al Fondo Nacional del Ganado: Lafaurie dice sí, pero con reglas claras",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNN185eDdhb3RTRG5RQ2stUFB5RGYtb1BCRXF0MFJBOC12UmdCN19YRHYyTjY4TnRWVkxPcXVldlpydERGY3hINzdtMlNMOXN6YnJrQmNaRVdxV20zeTFMaTBLUktqcTJNY29STkp0eUMtY08tWF91LWJNMGZ3SzN4UFY2Nmlwa05SUHFyX29Dakp2eWs3UmtnMWl0WnlTQjgtTm44ZF9WYmlHLUxrS2g2aHExNDBWYU5TREdZWTd4VjhCSVFVZWJFYw?oc=5",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-15T23:48:49.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
     {
       "titulo": "Atentado a bala contra reconocido ganadero y su esposa durante una celebración",
       "resumen": "",
@@ -830,15 +840,6 @@
       "fecha": "2026-11-10T18:10:28.000Z",
       "imagen": "",
       "tema": "Precios"
-    },
-    {
-      "titulo": "Alerta por heladas en Boyacá: 50 municipios y temperaturas de 3 °C",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQM1RzMUxUMEJxZVdOY0d6YlN1b3BTckduSWNvTW12X2J2YkNzX045NFAzOGk5aDZEYmczNHA0N0VKcUZ2VzRCQ1B6ejk4bjFCeUNFN1BKN3lmb2lqMVF4aG5ReEQ5eUplaE4wMVZkZnYtRDlNYjJYWnh0dHZzUUJuS01RZWEwOHdvWGFnRlBSaWFZXzFBZmtkR0M4Y0UzYl8yNktiMW5JWFJYaVFvRnZ6dmJsUjVTTnpBRHI5Zzkycml6RDlYSldMN2RIdnpqbFFvX21KRzdxSC1rRXFRUVpuT19yOA?oc=5",
-      "medio": "Revista Semana",
-      "fecha": "2026-11-10T17:53:12.000Z",
-      "imagen": "",
-      "tema": "Clima"
     }
   ]
 }
