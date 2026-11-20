@@ -1,7 +1,47 @@
 {
-  "actualizado": "2026-11-19T17:53:37.034Z",
+  "actualizado": "2026-11-20T00:07:40.526Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Fertilizantes, maquinaria y alimentos: Colombia descarta aumentarles el IVA",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcElYQndTdHZXMUxjUEJBMWMxYWN4ZnVhTy0wVHZreW5pYWpoYmN3bndjUVBBa2JkWnRhczlUTlE3QzBuTjN3c201X0RFN0JIblFOOGpqbWYxdUE4WUM1TDVuek81bTYta0xPVk93VDhzVXpUV3BFdm8yNFRiT3BLR3E1YXc5ZEQ4dDV6MDByaVpTcFdwZzI0T2NKQ3QxRUY2VkVTUDNXZWd3QTNNa25QdkFLUk1DekpfVWdoS0Ntdm5OcGxDQVhFYVJ3?oc=5",
+      "medio": "AgroLatam",
+      "fecha": "2026-11-19T21:03:36.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "¿Avanza la historia?",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nVDBBUXVnd1gyNVZkbmRYOEsyQ1hqSzBlZVhETV9OQzFRWGZJbl9vd1lkLTF3QnhGd0d1czNGWnFwQ29iamVnQ1E5dUhGNTlLbTYtR3Q0NXBCRXBWdWhZVQ?oc=5",
+      "medio": "Proclama del Pacifico",
+      "fecha": "2026-11-19T18:24:55.000Z",
+      "imagen": "",
+      "tema": "Leche",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Ganadería colombiana: visión y acción desde las regiones",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNk1UZ1d6R0FkTmROWU05V2tQYklTVDNHZW8zRWIwSUZsdVkxdzRFYzlyU3E5UHhtOTE4QUZ5Q2hIOEQzQVBKM2pwMTBfX09BSWlPcW5QdFpRMlJ4a0NoZ2R3cFQ4R1MzQVYwdFk1ZmZUQVhBWVQxNzlvT285dkNpR2RaWXdybWF2cGhZMnR6ZGpZanhLRHBySThYdzhvZnFlVlQ1dG5NV2l5OElaRWJ3MWtnOHU2eXlWOC1V?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-19T17:58:16.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Comprar el toro antes de que crezca: 'Baby Beef' subasta genética angus y brangus",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM1h0S1NFWEF0Uy1HSnhESHJXb2hEQl82M0VWMnRCUkZLZTg1U0JhOTlZaVhuUjRXWVhtRlREQy1lbzQxTlhwTVBhLVBSY0dPcHJxZFlpSjltUlpPb2c5V21uREFLeWlNMFZxdVRpcVNWYWJrX0I2anpDb3htSDVLTEFsVlFHRE8zWlRCajBIWV9NbnZ2MEkyUVhQdURrSmhGQ3pTeElDMW0waWxnQ0F0a3c3MzZPQWdqODBXWQ?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-19T15:02:01.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
     {
       "titulo": "Remate Baby Beef: genética angus y brangus joven",
       "resumen": "",
@@ -31,6 +71,15 @@
       "imagen": "",
       "tema": "Ganadería",
       "sinFoto": true
+    },
+    {
+      "titulo": "Pelea entre MinAgricultura y Fedegán llegó a los tribunales: juez ordenó entregar cuentas del Fondo del Ganado",
+      "resumen": "El Ministerio de Agricultura interpuso una acción de tutela contra la Federación Colombiana de Ganaderos (Fedegán) al considerar que el gremio no respondió dos solicitudes de información sobre la admi ...",
+      "link": "https://www.msn.com/es-co/dinero/econom%C3%ADa/pelea-entre-minagricultura-y-fedeg%C3%A1n-lleg%C3%B3-a-los-tribunales-juez-orden%C3%B3-entregar-cuentas-del-fondo-del-ganado/ar-AA2hOdec",
+      "medio": "El Colombiano on MSN",
+      "fecha": "2026-11-19T11:56:06.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.SXAM4OIFEAHsnsmaGKTDlA&pid=News",
+      "tema": "Fedegán"
     },
     {
       "titulo": "Productores de Fusagasugá tendrán capacitación gratis sobre ganadería y porcicultura",
@@ -353,8 +402,7 @@
       "medio": "AgroLatam",
       "fecha": "2026-11-18T13:19:29.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Demanda récord y escasez mundial impulsan un nuevo ciclo de valorización ganadera",
@@ -474,6 +522,15 @@
       "fecha": "2026-11-17T23:05:06.000Z",
       "imagen": "",
       "tema": "Pastos"
+    },
+    {
+      "titulo": "Auditoría al Fondo Nacional del Ganado quedó bajo observación de Fedegán, que pidió intervención preventiva de la Contraloría por contrato de $658 millones",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNLWJONGFORkVxTEQ0VDRkQzFiMDlZMmE2RnZsZ0ZQQnZJSzNEM2FLNUFLR3ZlYkI2MlNBZTdiVnA2cGhQRi1DQzJlODlZZ3h5TG50aEFsV2FtZVkyczBiTFlCaUxmNVh1N1pMcEVmX1E3c09BN0wxQ1Rqa0NBRHc3LTQ5SmRrZjlTRUQzZkdOUkFhalhGZmM1bGZCUlczR2F1ZWtkRXBqbFd2RUd0TE1CRjVfb3BMdWpYRk4xOGFEbDJ3cWsxUThlR0NJTEZWQkdZdTFGMmZuYlc4ZGpsbFE0SFFTVWVsa1dPeG1qSjlIU0JXNlpMVUhlRXp5b3I0dkR6bk5TU0hydG9OckJfOEtYeG1FUXJzYWZ3YlBuRjNvTGlPUnlY0gG_AkFVX3lxTE50bjlXakpQU3Y1czJzcWpiSlJ4Mlo1dGd3QVZFYWZGNVBaVmQxZzJHWEtSUXVOZXZ6bE1YQjU5dHZNZVJZN3ROVXJ4RThyUlBVNkRHUzlHZElMWk5odF9CVUFlTDNscGJMQUN3clpVZzc5UEwyMjAwSXRQekNNeDMtREg1cFB1RFBmdGUyeE9tZUhqMUJjTVA1N1RwdXBFbFNPenBzaUdxV0t1UTJJLWlXYnhuUTNfT0JWRmdBV0FLZGtqMXJza2lCM1pXTU8ydmVXTFlaNUY5b3FIZlFXdVVBUll1YUNvc1JkVWZDaURMeTBCSVFwREF6bHFpUkw1Ym1MaG03WUZZbFR0VE1nZ1dnaU1UUnpPVkIzUWVjWnNxNUhxUmEtc0R2dnZ5MkU5bURsbGNDY0tTMjlpYWZENWM?oc=5",
+      "medio": "Infobae",
+      "fecha": "2026-11-17T22:54:00.000Z",
+      "imagen": "",
+      "tema": "Ganadería"
     },
     {
       "titulo": "Becerril y Fedegán, una sola voz y confianza en el presente y futuro de la ganadería",
@@ -714,11 +771,11 @@
     {
       "titulo": "¿Quiénes son los ganaderos que respaldan a José Félix Lafaurie y qué reclaman al Gobierno?",
       "resumen": "Las cartas salieron de lugares tan distantes como Puerto Asís, en el Putumayo, y Fonseca, en La Guajira. Entre el 6 y el 12 de noviembre, comités municipales, cooperativas y asociaciones departamental ...",
-      "link": "https://es-us.noticias.yahoo.com/qui%C3%A9nes-ganaderos-respaldan-jos%C3%A9-f%C3%A9lix-174914041.html",
-      "medio": "Yahoo Noticias en Español",
-      "fecha": "2026-11-17T09:49:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.BI50qd4GBZuI92Sbrfa8wg&pid=News",
-      "tema": "Fedegán"
+      "link": "https://www.msn.com/es-co/dinero/general/qui%C3%A9nes-son-los-ganaderos-que-respaldan-a-jos%C3%A9-f%C3%A9lix-lafaurie-y-qu%C3%A9-reclaman-al-gobierno/ar-AA2hDpWa",
+      "medio": "El Colombiano on MSN",
+      "fecha": "2026-11-17T09:49:14.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.deaGAgdXwbnjkal9IgMEmw&pid=News",
+      "tema": "Región"
     },
     {
       "titulo": "FEDEGÁN pide vigilancia de Procuraduría y Contraloría a auditoría del Fondo Nacional del Ganado",
@@ -791,60 +848,6 @@
       "medio": "CONtexto Ganadero",
       "fecha": "2026-11-17T07:54:01.000Z",
       "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "El Niño ya golpea a Colombia con fuertes contrastes climáticos en puente festivo",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVkJhRThhcmU5RWRTS1Z4WTFGaHAzbFlWR2pvWnNqRWtwa3pwVVpUcjN6QW5GUzFjY1oxTjZSVHBiYVEyYkhGdjkwV3JlNVZXa240eUprOWxjdTNWbFlXV2xZRld0Zmt6cXVYRHNzNlB6RnpiUk5iSDFJdExBZkJaeVJFVllOLXJ5UU9vRU5uSUVtUGtQVjJ4SVlJUE9VZWx5MzRwU3hVVERsX2pIVXNNMUNyV3JuUGFqaW8ydW5PMy0tbzllT0hSMmM0UUVVa1ZR?oc=5",
-      "medio": "https://www.ecospoliticos.com/",
-      "fecha": "2026-11-17T07:28:52.000Z",
-      "imagen": "",
-      "tema": "Clima"
-    },
-    {
-      "titulo": "‘Crónica de un atropello’: José Félix Lafaurie cuenta en su libro “la persecución” del gobierno Santos contra Fedegán",
-      "resumen": "El clímax del rompimiento con el Gobierno y del inicio oficial de una persecución contra Fedegán, que ya venía caminando desde hacía meses, se produjo con la negativa de asistir al Foro Agropecuario ...",
-      "link": "https://www.semana.com/politica/articulo/cronica-de-un-atropello-jose-felix-lafaurie-cuenta-en-su-libro-la-persecucion-del-gobierno-santos-contra-fedegan/202613/",
-      "medio": "Semana",
-      "fecha": "2026-11-17T05:57:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.Q_FMGoFEGbGfTRTb0AtmDw&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Precio del ganado cayó por segunda semana; algunas subastas superaron los $13.000 por kilo",
-      "resumen": "Mientras el indicador nacional pierde terreno, las cotizaciones máximas registradas por Fedegan en las subastas muestran que algunos segmentos del mercado conservan precios por encima de los $10.000 p ...",
-      "link": "https://www.msn.com/es-co/noticias/otras/precio-del-ganado-cay%C3%B3-por-segunda-semana-algunas-subastas-superaron-los-13000-por-kilo/ar-AA2hD3HL",
-      "medio": "Agronegocios.co on MSN",
-      "fecha": "2026-11-17T05:46:07.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.Vyed7847aH2yKEKZpUP-Sg&pid=News",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "Lafaurie pide vigilancia de Procuraduría y Contraloría al proceso de contratación de auditoría al Fondo Nacional del Ganado",
-      "resumen": "Una auditoría de $658,8 millones para revisar dos años de administración del Fondo Nacional del Ganado (FNG) encendió las alertas de la Federación Colombiana ...",
-      "link": "https://diariolalibertad.com/2026/11/17/lafaurie-pide-vigilancia-de-procuraduria-y-contraloria-al-proceso-de-contratacion-de-auditoria-al-fondo-nacional-del-ganado/",
-      "medio": "Diario La Libertad",
-      "fecha": "2026-11-17T05:16:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.1EnrjCq_gJ3OsVFOyMC64w&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Atender masa vacuna en San Luis, reto para consolidar resultados productivos",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYlNYLUFodnBnRDVyNml4aDhqRnI5Vm52TEdRT0dhV2MybTR2LXgxMVhlWmI0VkFuSXNKeW1oN0xHZE9IY1V3UVVTQ0o0Z0NlTUxKMjFlRW5NYnAyNklFeUVrMXVLTm5TdkJTMF9CMmpXNnhyeFhKeVpMdk9Lekd6cjNSYno4eUdPMlh5MHdyZnRDazRMbElzOWVydnpFTjlDZTBadDN1WWNuTHZZZjFEZ1FZRGNKczQtM1RscUxvOHY2WVlKbXp2WjZ1aWM4eHBXb08xbi1CQ3JlQQ?oc=5",
-      "medio": "Periódico Sierra Maestra",
-      "fecha": "2026-11-17T05:12:11.000Z",
-      "imagen": "",
-      "tema": "Pastos"
-    },
-    {
-      "titulo": "Milagro Week: últimas noticias, novedades y anuncios sobre la inversión del Gobierno de Abelardo De La Espriella en Nueva York",
-      "resumen": "Siga el minuto a minuto sobre la estrategia de inversión extranjera promovida por el Gobierno nacional en Estados Unidos.",
-      "link": "https://www.msn.com/es-co/noticias/otras/milagro-week-%C3%BAltimas-noticias-novedades-y-anuncios-sobre-la-inversi%C3%B3n-del-gobierno-de-abelardo-de-la-espriella-en-nueva-york/ar-AA2hCIOd",
-      "medio": "El Tiempo on MSN",
-      "fecha": "2026-11-17T04:40:34.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.CMauYn9_GHColrqwj202aw&pid=News",
       "tema": "Ganadería"
     }
   ]
