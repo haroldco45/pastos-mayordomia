@@ -1,12 +1,72 @@
 {
-  "actualizado": "2026-11-20T16:34:54.675Z",
+  "actualizado": "2026-11-20T22:54:37.086Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Ferias y remates ganaderos en Antioquia a fin de 2026",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOazFqcVhkdGpmQ0hDLXE0Y0JiUVVPRUxBOEFlNGY5S3pwcHRxajZQQ1hhcWpxc0RLY0dLSjFUa0d4OF9NaGJ3b2FGSFA0UmVKTENvQXE1YzY2R01nMlpQUWtsM2FjYTlVSFVnWVZMVjBkcjk0ZFNNSTNDZ1d0blUtMWx5c0RVYXljS3FrNGgtdzhnaDZkRDZNN0VRRDFQaDgwUEhNNjZRTVdpTzZnTTQ5N1pQdTNWTkM3UUFLM0hNNms5R0JqOVJJanpB?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-20T22:43:49.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Mujeres que transforman el campo con Buenas Prácticas Ganaderas en el Valle de Sibundoy",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vTFJzRnZYZ2l0LURQM3J3MlZFYWtNVk1oNXlGaG82SHJ6a2xlZnV4YWF5ZXRQRTIzNjdwY25Rc0QxVTBYM0lLSDAwS3VSalRITUJKUElkTGQwbnZiYmRianhxNUMyWFF0SFRLcXRXcm9PQQ?oc=5",
+      "medio": "Instituto Colombiano Agropecuario - ICA",
+      "fecha": "2026-11-20T21:08:28.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Adela Bonilla y su paso a la ganadería sostenible",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZTEyRWZPaW5JLVQ0RnlOOTNhTzZkbG5aRXk1UzN6czN4VzlORXdOWFdNRHA0UC1IVnB4ZjBaSHBoVWJXOVVWNm4xVGJmNWdyNkgtbVkzMGZybWlpNEpicGt3d00xMHNzQnpOcU00RVJUSHhHR2RFQVA1S240WHZtWUV6YVZWTmRjWjhQLThNS0htZmJ2U3JRLVdoRVQ0TGFfN2NGZzFyaC11dURkSW5SS0k3ckN2TW03Z3lnaXFSSGp3X0pfd0g4?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-20T18:46:07.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Carne de Paraguay hunde a 28 pesos el kilo de cerdo potosino",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5NUpyNlJheUNKSlNMVHd5bElkWFhWQzNyZGtvSjBJOFA1amVrUFlpTFdKZ1JTYVg3QTBmVjBMMDdVbER0SG1ta3VONWZZejI3U09KZS05bWNubU9fWV8tRldxd1dfaUZfV2c?oc=5",
+      "medio": "La Orquesta",
+      "fecha": "2026-11-20T18:13:48.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "[VIDEO] Sufren productores potosinos pérdidas económicas por carne importada",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSzdOMkZ3TUV2ajZzR004bzg2TXNHWUNVNjVlLTBIOFh2UnE1VG9sM1lrMk5ha1RHRHI3d1pjVUxEckNQLVJlN1ZfemlqOVYzR1pXQm1FQWg5WV9ncmxOOGlHaEJrVkoyWHU2enFkeEtUd0E4c2pfX2oyZkVrZkZrMUg5OEg0dnlkbXQ1cVJZQmg0ZlN6cWYyVkZsc3VGQnBWVEpv?oc=5",
+      "medio": "Código San Luis",
+      "fecha": "2026-11-20T17:35:15.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Gremios de Casanare llaman al diálogo y piden al Gobierno transparencia y respeto con Fedegán",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYV9lNWRySUhKZnpRbFJ1RWh2UGtiTzBnemY5bVhqcFJwVXg4YzdscUk0UEhTNnFKaVZKdUlhcFRPeDVRazZ0SUUwa3RxWGl5WEdVMFMwd0hfbl9GV3BHdlZDaEJ1eUEzUEJqc3lpMXdSQVRLZ000bkRyMlNRbzFQMER4WFQ5cmRTUjFUX29VTllWR1FVeDZ3eTFuenYtZ1o4M0RPV3hiazZVV2ZOeW43WUVNclg4cDRpRk9zWUxjTzBUd0NxZS1ydDNTRDl5ajlEQURmcQ?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-20T16:05:00.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
     {
       "titulo": "Criadero F&F: Vacas Simmental de hasta 36 litros en Cogua",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZVlWTWtwd0J2VmtyckdRbi1KWUlyMXdPckhEaFZTa0tVQkpCNF9tcGxMMy1iVXBFSTd5cGI4amNETmZza2l4cjhndFhuYmRPZmYxYmdzMTFyUTRMamJCYW1uWW42c01sWE1XYVphc3puMlJPNWxCV1lCaXNnc05ReXQxVzlBNGlNb2N0OThiU2U4alhBUWplaWQyVHAxR0tlTDF4Rkl1LXZINldKdFVQRHE0eGVjUVllNXVDcGItV3NyZFI5cmYyRnZoNDhZQQ?oc=5",
-      "medio": "www.contextoganadero.com",
+      "medio": "CONtexto ganadero",
       "fecha": "2026-11-20T15:09:46.000Z",
       "imagen": "",
       "tema": "Ganadería",
@@ -33,24 +93,41 @@
       "sinFoto": true
     },
     {
+      "titulo": "¿Cómo hacer heno para alimentar al ganado? Estos son los pasos para conservar el pasto",
+      "resumen": "La henificación permite almacenar forraje para las épocas de escasez de alimento. Agrosavia explica cómo seleccionar el pasto, secarlo, controlar su humedad y empacarlo ...",
+      "link": "https://www.msn.com/es-co/noticias/otras/c%C3%B3mo-hacer-heno-para-alimentar-al-ganado-estos-son-los-pasos-para-conservar-el-pasto/ar-AA2hSVfX",
+      "medio": "Agronegocios on MSN",
+      "fecha": "2026-11-20T14:19:44.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.fUBGhtNpFupY-3o3S0piOg&pid=News",
+      "tema": "Pastos"
+    },
+    {
       "titulo": "Colombia: autoridad y firmeza por la seguridad nacional",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa3NiSHk1dVNLelNGR3pKX25RZ3g2Nnd5djlQY2lNSVc5YkFJeDB2R21MS21rc2ZCVm55U3JMcEdSOU1XcnZzUXFfUXJuRjd2WUJ0amJEOHJobUx2UGt0WFRmT3Backw3WlNBM3o0LVA2RzRDUHl2ZXIyVzg3bHF1Ulg1V0hnRTlxWXhCS2tHVlRveFgyVmZuUkx3emRwaVEyV1RHbXhQeGgzeGdQaWlWM2R0SlZvTGRDUVRqaVdlTURuQQ?oc=5",
-      "medio": "www.contextoganadero.com",
+      "medio": "CONtexto ganadero",
       "fecha": "2026-11-20T13:30:43.000Z",
       "imagen": "",
       "tema": "Ganadería",
       "sinFoto": true
     },
     {
-      "titulo": "Gremios de Casanare llaman al diálogo y piden al Gobierno transparencia y respeto con Fedegán",
-      "resumen": "Siete comités de Casanare apoyan la gestión de Fedegán en el FNG y piden al Gobierno nacional mantener el diálogo, el respeto y la transparencia gremial.",
-      "link": "https://www.contextoganadero.com/articulo/siete-gremios-de-casanare-llaman-al-gobierno-al-dialogo-transparencia-y-respeto-institucional-co",
+      "titulo": "¿Cómo afectan los precios de la canasta básica a los hogares colombianos?",
+      "resumen": "Conoce cómo afectan los precios de la canasta básica a las familias colombianas y qué medidas ayudan a cuidar el presupuesto del hogar.",
+      "link": "https://www.diariodelsur.com.co/noticias/como-afectan-los-precios-de-la-canasta-basica-a-los-hogares-colombianos",
+      "medio": "Diario del Sur",
+      "fecha": "2026-11-20T12:05:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.a3dlH85PGQ-A9WgB0CTX_w&pid=News",
+      "tema": "Leche"
+    },
+    {
+      "titulo": "FEDEGÁN 5.0: La visión de un gremio",
+      "resumen": "Columna del presidente ejecutivo de Fedegán, José Félix Lafaurie, del 20 de noviembre de 2026.",
+      "link": "https://www.contextoganadero.com/columna/fedegan-5-0-la-vision-de-un-gremio-mwp9bxru",
       "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-20T08:05:00.000Z",
-      "imagen": "",
-      "tema": "Fedegán",
-      "sinFoto": true
+      "fecha": "2026-11-20T09:36:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.UqwmNAfjEplxJQPAu5pHTQ&pid=News",
+      "tema": "Fedegán"
     },
     {
       "titulo": "Respaldo masivo de gremios ganaderos a Fedegán frente a auditoría del Ministerio de Agricultura",
@@ -73,7 +150,7 @@
     {
       "titulo": "Fedegán solicita vigilancia de la Procuraduría al proceso de contratación de auditoría forense al Fondo Nacional del Ganado",
       "resumen": "La Federación Colombiana de Ganaderos (Fedegán) solicitó a la Procuraduría General de la Nación ejercer acompañamiento preventivo al proceso de selección que adelanta el Ministerio de Agricultura y De ...",
-      "link": "https://www.msn.com/es-co/noticias/otras/fedeg%C3%A1n-solicita-vigilancia-de-la-procuradur%C3%ADa-al-proceso-de-contrataci%C3%B3n-de-auditor%C3%ADa-forense-al-fondo-nacional-del-ganado/ar-AA2hRidg",
+      "link": "https://www.msn.com/es-co/noticias/other/fedeg%C3%A1n-solicita-vigilancia-de-la-procuradur%C3%ADa-al-proceso-de-contrataci%C3%B3n-de-auditor%C3%ADa-forense-al-fondo-nacional-del-ganado/ar-AA2hRidg",
       "medio": "Semana on MSN",
       "fecha": "2026-11-20T05:54:28.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.JrUfIvNuemIyNscIenP8kg&pid=News",
@@ -198,7 +275,16 @@
       "tema": "Fedegán"
     },
     {
-      "titulo": "Productores de Fusagasugá tendrán capacitación gratis sobre ganadería y porcicultura",
+      "titulo": "La ganadería colombiana necesita pensar en grande y actuar desde el territorio",
+      "resumen": "Conozca los retos de la ganadería colombiana para mejorar la productividad en las fincas, adoptar tecnología y fortalecer el desarrollo territorial.",
+      "link": "https://www.contextoganadero.com/columna/la-ganaderia-colombiana-necesita-pensar-en-grande-y-actuar-desde-el-territorio",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-19T09:58:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.lrDvI_3s4KREycHSkIISiw&pid=News",
+      "tema": "Ganadería"
+    },
+    {
+      "titulo": "Capacitación gratuita ganadera y porcícola en Fusagasugá",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVG1YbTlKeThvdEI3TEpNc2tiS1VINDFNWTRoR0VMdTNtbjhLbDB4NVp6SkhWR3gxVXlST3U1REpFZFFncXBkQTdvN0JkbG1pdGFwWFpTTFBXaThYUU5vNnpuaWJibnBEc3FfVTdCZG9meUk0SUhXaXluZkI5eDFocXIwMlg0djNDd0RrTnh2MkxZVTByYW1SNU1SclB2bTNE?oc=5",
       "medio": "CONtexto ganadero",
@@ -208,7 +294,7 @@
       "sinFoto": true
     },
     {
-      "titulo": "Capacitación gratuita ganadera y porcícola en Fusagasugá",
+      "titulo": "Productores de Fusagasugá tendrán capacitación gratis sobre ganadería y porcicultura",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVG1YbTlKeThvdEI3TEpNc2tiS1VINDFNWTRoR0VMdTNtbjhLbDB4NVp6SkhWR3gxVXlST3U1REpFZFFncXBkQTdvN0JkbG1pdGFwWFpTTFBXaThYUU5vNnpuaWJibnBEc3FfVTdCZG9meUk0SUhXaXluZkI5eDFocXIwMlg0djNDd0RrTnh2MkxZVTByYW1SNU1SclB2bTNE?oc=5",
       "medio": "CONtexto ganadero",
@@ -342,8 +428,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T17:41:58.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Ganaderos del Cesar respaldan a Fedegán y el estatus sanitario",
@@ -352,8 +437,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T17:33:56.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "El precio al productor continúa sin repuntar al mes de septiembre pese al avance de la producción nacional",
@@ -517,8 +601,7 @@
       "medio": "La Mañana",
       "fecha": "2026-11-18T12:32:08.000Z",
       "imagen": "",
-      "tema": "Precios",
-      "sinFoto": true
+      "tema": "Precios"
     },
     {
       "titulo": "La Hacienda El Guadual fue certificada en buenas prácticas ganaderas para producción de carne",
@@ -627,7 +710,7 @@
       "medio": "CONtexto Ganadero",
       "fecha": "2026-11-17T23:57:05.000Z",
       "imagen": "",
-      "tema": "Vacunación"
+      "tema": "Ganadería"
     },
     {
       "titulo": "UNTRM desarrollará tecnología con inteligencia artificial para optimizar la alimentación del ganado",
@@ -675,6 +758,15 @@
       "tema": "Ganadería"
     },
     {
+      "titulo": "Fedagro saca la cara por Fedegán: Desde el Magdalena Medio llega un espaldarazo a la autonomía ganadera",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRlg5VTB3ZWEzSjZfbUo0blFUQmJsbFRuV083U2hTUTVxdGFfVmRtcVNOUVhWN01oY1B0Q2xDTVYzbW1CYWJpbi11dk5SMHhQNFZ5aHdaUGtwWjhHWU9adU1USHFBOVdzODFBZ2RCeTdzZ2dfLXRYWTNIR0xIMzJKQ1FtY3lNM3RrVVc3QnF2UkZNS3RiMk1kSnpiLW9qUEQ3SlNYaWl1cE04dU1mSy1yc1BrbmpWM3h3dzJCQTZNUGYwZjFreXJnbmdoTFgxWVNiUTVxcWtVb0hBYkxrWTlkdg?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-17T20:55:19.000Z",
+      "imagen": "",
+      "tema": "Ganadería"
+    },
+    {
       "titulo": "Desde el Caquetá, su gremialidad ganadera en pleno respalda a Fedegán",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPa3c5OFpFNWw5SEptaDhZYTFPRkNRNXhEaDlXd1hUSXIxQjl5VVFabEctX2tBTzNNWERzVVRMRkFjUUhsZ19vdlZ1M2w1YmlNOHQzQjREWEV1cHJmcG9wWXJCRDUtRWJyTFNsT1F4LWt4QXU4VFAwRkVEblJjcG9BSDJHc21IQ05LMllQRHRoMDEyZGhyb2lQZkZBWThXSW1icld5alVEc05pdFV1aVotWUlXZ2pWak5sQjNOU3VleGVlRDljMVY1aW9VcnZKdHY5RThXM1pHbS0tNzhHRjY2SGQ2ajdUNGYtOFZrSWpn?oc=5",
@@ -700,6 +792,15 @@
       "fecha": "2026-11-17T19:59:53.000Z",
       "imagen": "",
       "tema": "Ganadería"
+    },
+    {
+      "titulo": "El comercio de ganado en la región Sur Central está mayormente inactivo, según el informe del USDA",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOXdpM0d5elh6MW1tQk9td2VyNEdiRHZOMGs3UktRaVA3ejc4QmNXM2NYbjZqSW8wZTBKM2pUbHZzUzd1SGd5bDNXZnNST0tBbVJlMk5TbldZSjZOVjQyN0xGZGpqcG1RYjlyUFgwSnVLdy1MN0xVc0VSQlFRMU1zWHNsMXBMRlVfR25GTklJeXMzdXRxSy1Rbw?oc=5",
+      "medio": "IndexBox",
+      "fecha": "2026-11-17T18:10:19.000Z",
+      "imagen": "",
+      "tema": "Precios"
     },
     {
       "titulo": "Informe de ganado del USDA: comercio negociado ligero el 17 de noviembre de 2026 - Noticias y Estadísticas",
@@ -746,106 +847,6 @@
       "fecha": "2026-11-17T16:00:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.s1EHC_f10dySHzNd9TZISA&pid=News",
       "tema": "Sanidad"
-    },
-    {
-      "titulo": "Forraje hidropónico: el as bajo la manga del ganadero para capear la sequía",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPX19xQm1hWVVMMVZlRVh1eFdCQVItbnpndi03ZTVWNDREMlVvNFk3cmdTVno5dlRzdmREa25RTzIxUkgtUmQ0WlBURjROZ0dLbWM5M1AyTmlxOWxiUVpibFFKZmt0QVJMXzdobzFvMXAyMlV4alRHcnJ4LTlGOFhuVUlzel9SUUdPRUgyMlNOQzFtd3Y2aWpSSFNrSUpRdWZTTHhQaE1OV2ROdDh1TWh5V2t4NEw0YUFEZzJNTEJvc2VyRDREVVF3ZFRWOVVOZm8?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-17T15:53:29.000Z",
-      "imagen": "",
-      "tema": "Pastos"
-    },
-    {
-      "titulo": "Ganaderos que estudian, fincas que rinden: la receta que dejó el foro de Areandina y Fedegán",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOR3FIbkd2bWRKdE13RjR6WE9IOWYzeFl6UE4xQ3pqYlpSaUVnTlVIeHdpMm9DU2hCZWpQNEJ5WHZNYWNKRHlJMmZwRVZZLWNoY2I5cWxocHRnc21XZkVzelRWbWI4ZWRtTDFXc0ltT2VPT1VsekdsbVNFWWZEUS1EN1BrUTRfcHZTTF9HSWNrMGlLWmxubjNRWHRBQmk5TU8ydjItbTgtYzViVGNaRW9zUVdIV0lVVTdoV1pjMlE4ZHBoS2lONVg2VGJIMGhzUHl2aHhmLVlic0J3MUI2enBQVUNKaW0?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-17T15:53:24.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "La venta de dos bueyes mestizos de Arzúa pulveriza el récord de precio anterior en el mercado de ganado de Silleda",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaU8yckR1SFkycHVUckxIOGg0T2ZwVGZXQTlPUTNLLVNMM0g1VXFnTTZvd0w5bzN6cXdyR3NWdFdmMzlJWjFURm1neXRnQmxZSmk3VlRkX2ZkNzVjTkkyN2xwWjJNdjR4T1NUekcwVUUtdmVtV1AtMHIyRkUwd1FBZkJSeXJJWWtVYkE3bVRYcE9WZC0zMWpNUmhvRXJDMkUxVzVHMWdtV2dPOHl0NjNv0gG0AUFVX3lxTE1SWUdrXzZ0LTBGZGRmaGlHMy0tOFRGVXBkZi0wTDRxRVVrSDcxUTk4NjlpNEc3NWxNV0lRalVLVEFsVlVKdi1lUGNmMlhFalNFRk9icXZfSzdkUmZOeEVIbVlhYTJmS29CbmxkYnhHOUo1dm1CdWZGeFNPWE9ubHJDVEN0dVdFb0p1N3R0c1dma1d0bHJuOEJ0YzRlRmxEcHhsaW85Tk5BOWxZckxMam9tQjdkSA?oc=5",
-      "medio": "Faro de Vigo",
-      "fecha": "2026-11-17T15:18:01.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "¡La papa pone a sufrir el bolsillo! Su precio subió un 98 % en Colombia",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWTJIT1RjZ2N4dmVqM1R0NmpYZlM4YmNQMGU0Z2ZGMTQ1X0VCWG9rRGtMTlJGOUQ4b0kxM2dQS1BHUndsZkVBYjJjWFhULU1salkxZGd1UTZpSktmX1pqWTN4ZTE5V3ZmRkQ5cnQzdFJQMm9aRzNCLS1zQmI5WnB0QnU1YUVhcTFRN0tmMmhuSEFySGpmQVZ4X05WNNIBmwFBVV95cUxPWTJIT1RjZ2N4dmVqM1R0NmpYZlM4YmNQMGU0Z2ZGMTQ1X0VCWG9rRGtMTlJGOUQ4b0kxM2dQS1BHUndsZkVBYjJjWFhULU1salkxZGd1UTZpSktmX1pqWTN4ZTE5V3ZmRkQ5cnQzdFJQMm9aRzNCLS1zQmI5WnB0QnU1YUVhcTFRN0tmMmhuSEFySGpmQVZ4X05WNA?oc=5",
-      "medio": "río noticias",
-      "fecha": "2026-11-17T15:09:36.000Z",
-      "imagen": "",
-      "tema": "Clima"
-    },
-    {
-      "titulo": "Pronóstico del clima del 17 al 20 de noviembre en Colombia: Ideam advierte lluvias intensas en estas zonas",
-      "resumen": "Para el inicio de la semana laboral, el Ideam pronostica lluvias fuertes en Córdoba, Chocó, el norte y centro del océano Pacífico nacional, y en zonas puntuales del sur de Bolívar, nororiente y ...",
-      "link": "https://www.semana.com/nacion/articulo/pronostico-del-clima-del-17-al-20-de-noviembre-en-colombia-ideam-advierte-lluvias-intensas-en-estas-zonas/202643/",
-      "medio": "Semana",
-      "fecha": "2026-11-17T15:05:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.sHm8m_HFLMXOz3fMyYbC-Q&pid=News",
-      "tema": "Clima"
-    },
-    {
-      "titulo": "El presidente de Fedegán acumula respaldos en los comités departamentales de ganaderos en contra del minagricultura",
-      "resumen": "Se han ido sumando otras asociaciones para cerrar filas con Lafaurie y la independencia del gremio que tendrá su Congreso el próximo 25 de noviembre en Valledupar ...",
-      "link": "https://www.las2orillas.co/el-presidente-de-fedegan-acumula-respaldos-en-los-comites-departamentales-de-ganaderos-en-contra-del-minagricultura/",
-      "medio": "Las2orillas",
-      "fecha": "2026-11-17T14:55:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.jbWgGL9M49Pr3pJJL4YKbg&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Lafaurie cuestiona auditoría de $658.865 millones al FNG y pide vigilancia a la Procuraduría",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLW9PTTYwYlc3cGFwQ19NZXZ1YjM4T1k4RFdJLVJMZzl4UTRmXzB3TXA1T1dRQjhqYXRMaU9fbTJnSTl3VE9RNzFVT3pkTVRaSnhoeG5fVFFOR0ZWQXQ4ZXJ4ay1ORUlFdVNSMlY4Y0pTaFFDVmlKVGVRaUJkZ3pHVWlqWVBuejBzbmJwVVROMEFJUHAzT19TOVU0anBTRHBPbXB1bXdPQXN4a05GWnZJR0NscmxGMjJfZXlNYzZaX3Qwd0VzeXkybHRaSjhwUmEyZ3lWWEpn0gHWAUFVX3lxTFBfNmJPbVAtYUJGYWVtQkJ0VmRrd3ZPNjl5T3pJblpLUXF0cFVjQ2owWTJTYVAzODVqQUxScHFBWjN5c19EUi1lRGVfY0hSekRrb1RMeFIwc012ZVlRUDNLcWdRVWhjbVEtQTAwa05hcHVpZWJDREc4RDJEQnhHd2tjdE1RdHExWU9KVFRubHJNdkhPVE8tNXI1U1ZoZ19iQVMxV3pkbVdDLWVFWWxzd1dSZThIUkRwQldKdTJ5RHhKeDBJdnpJdE1Lb2RvRE1QVWxFVjhJbnc?oc=5",
-      "medio": "Agronegocios",
-      "fecha": "2026-11-17T14:48:35.000Z",
-      "imagen": "",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Pronóstico del IDEAM: semana de lluvias fuertes en varias regiones y temperaturas altas",
-      "resumen": "De acuerdo con el pronóstico del tiempo del IDEAM, en Bogotá predominarán las condiciones de tiempo seco durante gran parte de la semana.",
-      "link": "https://www.elespectador.com/ambiente/pronostico-del-ideam-semana-de-lluvias-fuertes-en-varias-regiones-y-temperaturas-altas/",
-      "medio": "El Espectador",
-      "fecha": "2026-11-17T14:33:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.nm4M7FvGeEhqSTGtq_ZOJQ&pid=News",
-      "tema": "Clima"
-    },
-    {
-      "titulo": "Restrepo aclara que no habrá IVA a la canasta familiar.",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdGhQQVpJMkctclRKQzNuWXpYV2JmZ2lCVjdKcUE4VEk5X1RrZktueGg2NmR3WlUxN3JsSGN1b29QTzlGRVY5U2RSUjBXZWxrQkRMUmtmSXNRc25WN1gycTJTYlg5eG81Q0FGTWFNT0sxT1luYUZhVzBuUGRtMTgzeXdNakMtUTJFNURmRHkxQ2RrQ0dhQUVv?oc=5",
-      "medio": "Diario del Cauca",
-      "fecha": "2026-11-17T14:07:47.000Z",
-      "imagen": "",
-      "tema": "Clima",
-      "sinFoto": true
-    },
-    {
-      "titulo": "Precio del ganado cayó por segunda semana consecutiva, pero algunas subastas superaron los $13.000 por kilo",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSXc4a01ReTZ6VWZQcFRTbFY3QjlQcnM5OXBkZ1FJR2YxOS1ubFpaMlVNc0F2M28zX3RvX2lEaU8zUDQ3Rml0dmlMYXpDSTVuSkMzREhlc1N5bHlLbEJPbVpqLVNvcTBqY2s2cUJYSmRFZVJ3NFRCbTA1eWlkb3BlS1BlWWFPVXFIVGd0RjBCTzVYYTZYejQzTlRPb2FSemgzd2pQZFdqdzB5eEtfeTJfMVJZUEhTVWtyX3FxelYwelFPV2l6alYxZ3BqT3BzUdIBzgFBVV95cUxOVU5yeldrelZBanpsSnd4RC1TcUVic2h1Ti00WTFMNDNkQ0puQktQb1RBeklMbmRGZl9QM0xiS3JIV0hpUU10MS0wNWtORl8zczVzaEhGTnVnbTE5clRzQUJ0WmQ0NzE2dVBBdUZLdWNFN0xjWXphMkNjblpzQVpfNDk1RWF3Tk5SeVR4Szd3dVphdDlJeXRQQmZDOFJvSTByenR6Nmo0YWhSWUFMWVhLZ2QwT0p1MTNpUTJJVk9hMjJIUUFkbWR0MEF2TUh4UQ?oc=5",
-      "medio": "Agronegocios",
-      "fecha": "2026-11-17T13:46:07.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Lafaurie pide vigilancia de Procuraduría y Contraloría al proceso de contratación de auditoría al Fondo Nacional del Ganado",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRjBHTkJpVXVLaWFRWldZRGl1SkFjenFRX3RJeDJnd3l0ZEZBZFF4SUxZNjFCX2xBb2s1QzJKT1pPV2pKRDE5TmJoR1RaRWxhSmpLeWtWcEFuTm9NWlk3YmZMOS1qWnFBUEJNSDRvZ0hCOHR6QlNiVk9HR0J2bmhVcXR3c1hxN0piVEt6a3J6UlNudlVjXzVIbHNaUUoyY0lseHZYRTdSakdjNFBfeHJhUTMtc19jb0JvbUdFaWE0a2JMNTc4Y0NVSkZmdjJBRzB2UUpfaEYxeGdtNkY0TE5XWkxEMGNNdkdBSm54V2FmdWFhMG1MaGdn?oc=5",
-      "medio": "Diario La Libertad",
-      "fecha": "2026-11-17T13:15:59.000Z",
-      "imagen": "",
-      "tema": "Fedegán"
     }
   ]
 }
