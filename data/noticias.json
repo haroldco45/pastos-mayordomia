@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-21T18:45:38.404Z",
+  "actualizado": "2026-11-21T23:40:12.263Z",
   "total": 90,
   "noticias": [
     {
@@ -33,6 +33,15 @@
       "sinFoto": true
     },
     {
+      "titulo": "Ideam alerta por lluvias fuertes este fin de semana en Colombia: estas son las regiones con mayor probabilidad",
+      "resumen": "El pronóstico para el 21 y 22 de noviembre incluye tormentas eléctricas en sectores del Caribe, Andes y Pacífico.",
+      "link": "https://www.portafolio.co/economia/regiones/ideam-alerta-por-lluvias-fuertes-este-fin-de-semana-en-colombia-estas-son-las-regiones-con-mayor-probabilidad-506815",
+      "medio": "Portafolio",
+      "fecha": "2026-11-21T03:07:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.YdLtpeD_vB776x2taf_HJg&pid=News",
+      "tema": "Clima"
+    },
+    {
       "titulo": "Aviso por lluvias en Colombia durante fin de semana: Ideam puso a Bogotá bajo lupa por lo que viene",
       "resumen": "Conozca el pronóstico del Ideam para este fin de semana del 21 y 22 de noviembre: habrá lluvias fuertes, tormentas y temperaturas hasta de 39°C en Colombia ...",
       "link": "https://www.pulzo.com/nacion/donde-hay-lluvias-colombia-21-22-noviembre-que-dijo-ideam-bogota-PP5361109",
@@ -50,15 +59,6 @@
       "imagen": "",
       "tema": "Precios",
       "sinFoto": true
-    },
-    {
-      "titulo": "Ideam alerta por lluvias fuertes este fin de semana en Colombia: estas son las regiones con mayor probabilidad",
-      "resumen": "El pronóstico para el 21 y 22 de noviembre incluye tormentas eléctricas en sectores del Caribe, Andes y Pacífico.",
-      "link": "https://www.portafolio.co/economia/regiones/ideam-alerta-por-lluvias-fuertes-este-fin-de-semana-en-colombia-estas-son-las-regiones-con-mayor-probabilidad-506815",
-      "medio": "Portafolio",
-      "fecha": "2026-11-20T23:56:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.YdLtpeD_vB776x2taf_HJg&pid=News",
-      "tema": "Clima"
     },
     {
       "titulo": "Carne de Paraguay hunde a 28 pesos el kilo de cerdo potosino",
@@ -277,7 +277,7 @@
       "link": "https://www.semana.com/economia/empresas/articulo/fedegan-solicita-vigilancia-de-la-procuraduria-al-proceso-de-contratacion-de-auditoria-forense-al-fondo-nacional-del-ganado/202628/",
       "medio": "Semana",
       "fecha": "2026-11-20T05:54:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.uVChsOlsPZ_Wk-B063dTEw&pid=News",
+      "imagen": "http://www.bing.com/th?id=ONUT.Rb3_pAyrxPaIO2lHK8eW5Q&pid=News",
       "tema": "Fedegán"
     },
     {
@@ -395,7 +395,7 @@
       "link": "https://www.elcolombiano.com/negocios/minagricultura-tutela-fedegan-fondo-nacional-del-ganado-GP43803746",
       "medio": "El Colombiano",
       "fecha": "2026-11-19T11:56:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.35VCRapXj--Tv_u4y8OQ9g&pid=News",
+      "imagen": "http://www.bing.com/th?id=ONUT.3HE-dxubllznEl4r_mHo0g&pid=News",
       "tema": "Fedegán"
     },
     {
@@ -493,6 +493,15 @@
       "fecha": "2026-11-19T00:08:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.rzLYAz5ywyiemz1wlxa1OA&pid=News",
       "tema": "Pastos"
+    },
+    {
+      "titulo": "Anthropic finalizó su salida a bolsa con un precio de 83 dólares por acción, recaudando una cantidad récord de capital.",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTlNaUzNIcnRRbDZpMEFnbDZmbHR4OEFSdkNtRWJGOEU4UmtzX2I2eDJpTzB5UWxGLThab0RWckYwdVNvTW93ZEMtMVpKbmhZemdjd0p2cHE5ZlRwbkd4RFdBZFBKRHUxME1QMUw1UWZlTzFMOGtadm1Ic00xNjc0Wm9iWkJfU2RTdDBEX19oVTNldVFx?oc=5",
+      "medio": "Vietnam.vn",
+      "fecha": "2026-11-19T00:01:19.000Z",
+      "imagen": "",
+      "tema": "Precios"
     },
     {
       "titulo": "En vivo: Hoy 18 de noviembre no te pierdas la transmisión del programa Tu Vitrina Ganadera",
@@ -819,7 +828,7 @@
       "link": "https://www.noticiasrcn.com/colombia/ministerio-de-agricultura-demanda-a-fedegan-para-exigir-informacion-sobre-el-manejo-del-fondo-nacional-del-ganado-1083261",
       "medio": "Noticias RCN",
       "fecha": "2026-11-18T01:16:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.botxlRHe_IBvbT-XtoSEfA&pid=News",
+      "imagen": "http://www.bing.com/th?id=ONUT.lylM2EB54aM8EkDDae3MLw&pid=News",
       "tema": "Fedegán"
     },
     {
@@ -839,16 +848,6 @@
       "fecha": "2026-11-18T00:19:00.000Z",
       "imagen": "",
       "tema": "Leche"
-    },
-    {
-      "titulo": "Desde el Caquetá, su gremialidad ganadera en pleno respalda a Fedegán y piden auditorías sin “condenas anticipadas”",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZm5lbEhBcjMzR2xBM290cFpDbDV4LTNaalBXVXk3ZE9rNEJtZnVXWWRBaHFyd0g4U1VDQ3FSX1pjLW5STTk4d3JLN3V5YWFWOXY2S1RoLUVFOGluRUxNckU3WUd2YlJCdS10Z3lfQkF4Sjk0TWhVLUlfWkx2Mk9ESDBZOGluaG8zVnNJUjNOcWxueVZCWnNDR0JkVGdSaFNOLUJaY242b1VOY201d1JiYjNHSTdHQkZmS1ZYeklYMncyNEVKWW4yM3pQQUI1ZUVLdVRvVVNHaklPenZZQzZuRHZMbmFRY25IdUc2N2NzdU0yNXJpU0E?oc=5",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-17T23:57:06.000Z",
-      "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
     }
   ]
 }
