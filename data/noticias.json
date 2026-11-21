@@ -1,7 +1,27 @@
 {
-  "actualizado": "2026-11-20T22:54:37.086Z",
+  "actualizado": "2026-11-21T03:41:40.118Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Carne de Paraguay hunde a 28 pesos el kilo de cerdo potosino",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5NUpyNlJheUNKSlNMVHd5bElkWFhWQzNyZGtvSjBJOFA1amVrUFlpTFdKZ1JTYVg3QTBmVjBMMDdVbER0SG1ta3VONWZZejI3U09KZS05bWNubU9fWV8tRldxd1dfaUZfV2c?oc=5",
+      "medio": "La Orquesta",
+      "fecha": "2026-11-20T23:47:57.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Cae precio del cerdo en pie de 40 a 28 pesos por kilo en SLP",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcFpuR3QySDNtc0JyVDRTTFhWZmZNOU1LSENRUEZLZmdWb1BlZnNuc1NGc3dIMjlxR3BTcmsyTTJSanNrcC1ueVhNRjZRS2k4TG9sQzM1eGRxanA2YU9NNjRQX1QybGZrbElYdlc2Z0RkbE5lYlU2ZkNadXBRR1B0Um9VdkJENUtZdFg2R2pxYUd0cEFXWUZseExXUnplOUE?oc=5",
+      "medio": "Plano Informativo",
+      "fecha": "2026-11-20T22:49:00.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
     {
       "titulo": "Ferias y remates ganaderos en Antioquia a fin de 2026",
       "resumen": "",
@@ -23,6 +43,16 @@
       "sinFoto": true
     },
     {
+      "titulo": "Adela Bonilla, la joven que regresó al campo y se formó para tener ganadería sostenible",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZTEyRWZPaW5JLVQ0RnlOOTNhTzZkbG5aRXk1UzN6czN4VzlORXdOWFdNRHA0UC1IVnB4ZjBaSHBoVWJXOVVWNm4xVGJmNWdyNkgtbVkzMGZybWlpNEpicGt3d00xMHNzQnpOcU00RVJUSHhHR2RFQVA1S240WHZtWUV6YVZWTmRjWjhQLThNS0htZmJ2U3JRLVdoRVQ0TGFfN2NGZzFyaC11dURkSW5SS0k3ckN2TW03Z3lnaXFSSGp3X0pfd0g4?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-20T18:46:07.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
       "titulo": "Adela Bonilla y su paso a la ganadería sostenible",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZTEyRWZPaW5JLVQ0RnlOOTNhTzZkbG5aRXk1UzN6czN4VzlORXdOWFdNRHA0UC1IVnB4ZjBaSHBoVWJXOVVWNm4xVGJmNWdyNkgtbVkzMGZybWlpNEpicGt3d00xMHNzQnpOcU00RVJUSHhHR2RFQVA1S240WHZtWUV6YVZWTmRjWjhQLThNS0htZmJ2U3JRLVdoRVQ0TGFfN2NGZzFyaC11dURkSW5SS0k3ckN2TW03Z3lnaXFSSGp3X0pfd0g4?oc=5",
@@ -33,21 +63,20 @@
       "sinFoto": true
     },
     {
-      "titulo": "Carne de Paraguay hunde a 28 pesos el kilo de cerdo potosino",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5NUpyNlJheUNKSlNMVHd5bElkWFhWQzNyZGtvSjBJOFA1amVrUFlpTFdKZ1JTYVg3QTBmVjBMMDdVbER0SG1ta3VONWZZejI3U09KZS05bWNubU9fWV8tRldxd1dfaUZfV2c?oc=5",
-      "medio": "La Orquesta",
-      "fecha": "2026-11-20T18:13:48.000Z",
-      "imagen": "",
-      "tema": "Precios",
-      "sinFoto": true
+      "titulo": "Chile reabre sus puertas a la carne bovina colombiana: se proyectan exportaciones por US$27 millones en 2027",
+      "resumen": "El ministro de Agricultura, Indalecio Dangond, anunció este viernes 20 de noviembre la oficialización de la reapertura del mercado chileno para la carne bovina colombiana. Con esta reapertura, el Gobi ...",
+      "link": "https://www.msn.com/es-co/dinero/general/chile-reabre-sus-puertas-a-la-carne-bovina-colombiana-se-proyectan-exportaciones-por-us-27-millones-en-2027/ar-AA2hTqPs",
+      "medio": "Semana on MSN",
+      "fecha": "2026-11-20T18:26:33.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.I1Sk7CyhQSTDVyjAdSaKKA&pid=News",
+      "tema": "Ganadería"
     },
     {
       "titulo": "[VIDEO] Sufren productores potosinos pérdidas económicas por carne importada",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSzdOMkZ3TUV2ajZzR004bzg2TXNHWUNVNjVlLTBIOFh2UnE1VG9sM1lrMk5ha1RHRHI3d1pjVUxEckNQLVJlN1ZfemlqOVYzR1pXQm1FQWg5WV9ncmxOOGlHaEJrVkoyWHU2enFkeEtUd0E4c2pfX2oyZkVrZkZrMUg5OEg0dnlkbXQ1cVJZQmg0ZlN6cWYyVkZsc3VGQnBWVEpv?oc=5",
       "medio": "Código San Luis",
-      "fecha": "2026-11-20T17:35:15.000Z",
+      "fecha": "2026-11-20T17:35:03.000Z",
       "imagen": "",
       "tema": "Precios",
       "sinFoto": true
@@ -61,6 +90,15 @@
       "imagen": "",
       "tema": "Ganadería",
       "sinFoto": true
+    },
+    {
+      "titulo": "Pronóstico del clima del 20 al 22 de noviembre en Colombia: Ideam advierte lluvias intensas en estas zonas",
+      "resumen": "En Bogotá habrá abundante nubosidad con lluvias moderadas en las tardes y ligeras en las noches en el norte, suroriente y occidente (entre 9 °C y 22 °C), mientras que en San Andrés y Providencia ...",
+      "link": "https://www.semana.com/nacion/articulo/pronostico-del-clima-del-20-al-22-de-noviembre-en-colombia-ideam-advierte-lluvias-intensas-en-estas-zonas/202609/",
+      "medio": "Semana",
+      "fecha": "2026-11-20T15:15:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.sHm8m_HFLMXOz3fMyYbC-Q&pid=News",
+      "tema": "Clima"
     },
     {
       "titulo": "Criadero F&F: Vacas Simmental de hasta 36 litros en Cogua",
@@ -81,6 +119,15 @@
       "imagen": "",
       "tema": "Ganadería",
       "sinFoto": true
+    },
+    {
+      "titulo": "Pronóstico del tiempo del Ideam: ¿en qué zonas de Colombia lloverá este fin de semana?",
+      "resumen": "Según el Ideam, durante este fin de semana se esperan lluvias de moderadas a fuertes, algunas acompañadas de tormentas eléctricas, especialmente en ...",
+      "link": "https://www.elespectador.com/ambiente/pronostico-del-tiempo-del-ideam-en-que-zonas-de-colombia-llovera-este-fin-de-semana/",
+      "medio": "El Espectador",
+      "fecha": "2026-11-20T14:51:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.8CYH7TZaWc6Y2FITtzJQuw&pid=News",
+      "tema": "Clima"
     },
     {
       "titulo": "Asoganaderos respalda a Fedegán en la gestión del FNG",
@@ -110,6 +157,15 @@
       "imagen": "",
       "tema": "Ganadería",
       "sinFoto": true
+    },
+    {
+      "titulo": "Último reporte del IDEAM: ¿Lloverá o hará sol? Clima y alertas fin de semana 21 y 22 de noviembre",
+      "resumen": "IDEAM advierte déficit de lluvias en noviembre por El Niño, pese a precipitaciones pronosticadas para el fin de semana ...",
+      "link": "https://caracol.com.co/2026/11/21/ultimo-reporte-del-ideam-llovera-o-hara-sol-clima-y-alertas-fin-de-semana-21-y-22-de-noviembre/",
+      "medio": "Caracol Radio",
+      "fecha": "2026-11-20T12:22:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.c6sRW_73t1Ssk05uYKmI6Q&pid=News",
+      "tema": "Clima"
     },
     {
       "titulo": "¿Cómo afectan los precios de la canasta básica a los hogares colombianos?",
@@ -149,11 +205,11 @@
     },
     {
       "titulo": "Fedegán solicita vigilancia de la Procuraduría al proceso de contratación de auditoría forense al Fondo Nacional del Ganado",
-      "resumen": "La Federación Colombiana de Ganaderos (Fedegán) solicitó a la Procuraduría General de la Nación ejercer acompañamiento preventivo al proceso de selección que adelanta el Ministerio de Agricultura y De ...",
-      "link": "https://www.msn.com/es-co/noticias/other/fedeg%C3%A1n-solicita-vigilancia-de-la-procuradur%C3%ADa-al-proceso-de-contrataci%C3%B3n-de-auditor%C3%ADa-forense-al-fondo-nacional-del-ganado/ar-AA2hRidg",
-      "medio": "Semana on MSN",
-      "fecha": "2026-11-20T05:54:28.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.JrUfIvNuemIyNscIenP8kg&pid=News",
+      "resumen": "La Federación Colombiana de Ganaderos (Fedegán) solicitó a la Procuraduría General de la Nación ejercer acompañamiento preventivo al proceso de selección que adelanta el Ministerio de Agricultura y ...",
+      "link": "https://www.semana.com/economia/empresas/articulo/fedegan-solicita-vigilancia-de-la-procuraduria-al-proceso-de-contratacion-de-auditoria-forense-al-fondo-nacional-del-ganado/202628/",
+      "medio": "Semana",
+      "fecha": "2026-11-20T05:54:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.Rb3_pAyrxPaIO2lHK8eW5Q&pid=News",
       "tema": "Fedegán"
     },
     {
@@ -428,7 +484,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T17:41:58.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "Ganaderos del Cesar respaldan a Fedegán y el estatus sanitario",
@@ -792,61 +849,6 @@
       "fecha": "2026-11-17T19:59:53.000Z",
       "imagen": "",
       "tema": "Ganadería"
-    },
-    {
-      "titulo": "El comercio de ganado en la región Sur Central está mayormente inactivo, según el informe del USDA",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOXdpM0d5elh6MW1tQk9td2VyNEdiRHZOMGs3UktRaVA3ejc4QmNXM2NYbjZqSW8wZTBKM2pUbHZzUzd1SGd5bDNXZnNST0tBbVJlMk5TbldZSjZOVjQyN0xGZGpqcG1RYjlyUFgwSnVLdy1MN0xVc0VSQlFRMU1zWHNsMXBMRlVfR25GTklJeXMzdXRxSy1Rbw?oc=5",
-      "medio": "IndexBox",
-      "fecha": "2026-11-17T18:10:19.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "Informe de ganado del USDA: comercio negociado ligero el 17 de noviembre de 2026 - Noticias y Estadísticas",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYTFGWGJXSE11Q1VTTE9MZUpicElYN1ZER1N6S0hiTEdnMHVDY0NTald2a0h1WFRwbk5nQjVEOGNKUVZfMXBaUDNnY0poMnhSTDk1ZWlFUzRIUmdsanRNVXFhTUZnTmdYNmo2aUNYcmhsUUxwdHZfWlZOeDdxNmt3OXJ4WHlWZlM2VjJnenVRb0xNVkNzbDFwSmktWTc?oc=5",
-      "medio": "IndexBox",
-      "fecha": "2026-11-17T18:00:25.000Z",
-      "imagen": "",
-      "tema": "Precios",
-      "sinFoto": true
-    },
-    {
-      "titulo": "El comercio negociado de ganado vacuno en Nebraska, en su mayoría inactivo",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObndlSnlEakltRzF0WnE2UVlrZWxlWmxfV1ROSjA4VWVxVGtYNkxHV1NjR3hBbUktem5teGdYdE5LWHdhX09aM1VoRTZqQ3VyaHRNQkNJSFFRNktwWXFHQllmYXpsRXZscEp4YmNMaVhpckhGSFY0LTFHMmM4bWpSSHR4bnVsQ3Vi?oc=5",
-      "medio": "IndexBox",
-      "fecha": "2026-11-17T18:00:24.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "USDA informa de las compras diarias directas de ganado de sacrificio para 17 de noviembre de 2026",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSktRVnRkdS1pUWhwSkxHdXR3RTk0NVdUSnZLVV9mLV9rb1pLWXZFUy16UFRPNlRCUGFmbXRUR2NibHlBd3l6TmQySzJmVXNzYUZLNy0ybkdpb19wY1dKOGpOTnBIRnBZVUd1VDQ0b0h4Mk5wX0M0ejEzZWRrdHZNNnp3eU5iUlRyWjN5Vl9SXzlFcVlEYTRGMEVlOS1hTkJQb2JnVA?oc=5",
-      "medio": "IndexBox",
-      "fecha": "2026-11-17T17:50:31.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "Informe matutino del USDA: entregas y compromisos de ganado para 17 de noviembre de 2026",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWlUU0lUNVl6RExsaU5VNWZleW1sc1VlRE9uYVBDeGhrVVlGTUFlVnRqTXNRbTRwOWpXT21WTDQtNDhCU3p0UUltMV9OOEotVlR1dTQtbFZhQ0JERE1OSldaUHJlcDNLOGVvRmxHaHlFNlpUckMzZ0h0ZEg4M1M1NEI5eGY5a1c0UF9OWF9CRDVBRnZtUlktRjNaeGxxYm9mUUowUHhQNVMyUEk?oc=5",
-      "medio": "IndexBox",
-      "fecha": "2026-11-17T17:50:23.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "Putumayo tendrá su primer predio certificado en Buenas Prácticas Ganaderas para producción bovina de carne",
-      "resumen": "Putumayo, 18 de noviembre de 2026. El compromiso con una ganadería responsable suma un nuevo avance en el Putumayo. La Hacienda El Guadual recibió concepto técnico CERTIFICABLE durante la auditoría re ...",
-      "link": "https://www.ica.gov.co/noticias/putumayo-primer-predio-certificado-bpg",
-      "medio": "Instituto Colombiano Agropecuario - ICA",
-      "fecha": "2026-11-17T16:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.s1EHC_f10dySHzNd9TZISA&pid=News",
-      "tema": "Sanidad"
     }
   ]
 }
