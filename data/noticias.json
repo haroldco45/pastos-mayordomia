@@ -1,7 +1,27 @@
 {
-  "actualizado": "2026-11-21T03:41:40.118Z",
+  "actualizado": "2026-11-21T11:57:41.146Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Importaciones de carne afectan a productores",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdDBMSHZPMWRCZkJMdmJtT2JmdHlCY2ZvbmZEeW5UMXYzRXpXd2FaZ1RfcUpKTFo2Q0Y0WTlDdmlYbHlmbzI3dlg1dk9UZENUWGtQSENlYlJCMWt1OEplTlVhdE1aeDdXUnRtc1A2cHF4UjZtdy1tSzVoZFVaNzk1b3lhbFU4MjTSAYwBQVVfeXFMTmpValdDNldVeVBsXzIyT0NINHh1ZVZRdTNJM1h6TlA3cFYxeGhVRXVxV29FTmFKVEk4SzFIdWtrc1cxdXdIcG1LUEVoYWMzdnNBbE5WMEptc3F4M3l4TXl3LTFjNEVWX084MGU3OHhoZ0Fra29mOFcxd2o1cUx6NmlmeWRtaWVLbDFWMHk?oc=5",
+      "medio": "Pulso Diario San Luis",
+      "fecha": "2026-11-21T08:00:00.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Importaciones de carne ponen en riesgo a pequeñas granjas porcinas, advierte dirigente campesino",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOT1RJQTFaaXhwSjNUOXFPSFlBRjRoWDY1V0NieV9ZbzgwSzQ3YndpR3RwbWtrWEUwM29OZGxUM3M1MjEyZFlrbmk4XzRNQW1OSkdZSlF3UE10bGRKYTJINndEcU1mdXlEeUo0UXhEaTZnTDV5YU4wTW1NTEdOVHRhd1ZlNW5uMW1XYmRHTlNuMXVoWFdDT0Rnc3AtWUVORXdQZ2tuZGNEZEpJc0pDYW5kUUhHVnJydUFkeUpIZFdwY2FsSGIzbW5qNmlRSXV1ckxPVWZDRlJEMU43MUJFWGdZMElDYzFrSFk?oc=5",
+      "medio": "Al Calor Político",
+      "fecha": "2026-11-21T00:03:40.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
     {
       "titulo": "Carne de Paraguay hunde a 28 pesos el kilo de cerdo potosino",
       "resumen": "",
@@ -20,6 +40,16 @@
       "fecha": "2026-11-20T22:49:00.000Z",
       "imagen": "",
       "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Las ferias y remates que ganaderos de Antioquia no se pueden perder en este fin de año",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOazFqcVhkdGpmQ0hDLXE0Y0JiUVVPRUxBOEFlNGY5S3pwcHRxajZQQ1hhcWpxc0RLY0dLSjFUa0d4OF9NaGJ3b2FGSFA0UmVKTENvQXE1YzY2R01nMlpQUWtsM2FjYTlVSFVnWVZMVjBkcjk0ZFNNSTNDZ1d0blUtMWx5c0RVYXljS3FrNGgtdzhnaDZkRDZNN0VRRDFQaDgwUEhNNjZRTVdpTzZnTTQ5N1pQdTNWTkM3UUFLM0hNNms5R0JqOVJJanpB?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-20T22:43:49.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
       "sinFoto": true
     },
     {
@@ -464,8 +494,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T19:36:49.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Lacouture renuncia a AmCham y asumirá dirección en CAF",
@@ -484,8 +513,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T17:41:58.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Ganaderos del Cesar respaldan a Fedegán y el estatus sanitario",
@@ -751,6 +779,15 @@
       "tema": "Fedegán"
     },
     {
+      "titulo": "Precio del dólar en Colombia: bajó de precio ante expectativas por las tasas de interés de los bancos, pero sigue caro y así cerró el 17 de noviembre",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPSW0wandyUmtMSTFrSk9tMkt1d1JtbmxwQVFQV19kTk1DMThoeEhXQ0wxdW5pOU1kTjAtTThwYVlnTHlyZHRpWkFJNV9uSnNhdmxLQndmT09ra0t4TkRFb0xnc1d2M3pFd1hjdU40U21oaDZDYms3a2kzQWpTTVN2WTBnNXI1LXpnVFppbV8yNnlrbVJzM19ta0NVQjhLSXZ2UlVycFhQeTdkYkRFaTRBY19zaGlUVkNtT01BRUFLNnlpYzJoTk5FLWtGbGx5QWJUaUxBM29NQ3JjOHYyUk9KT0xDZVUwb2dGVldieGVBRjZ3emJMZnhtdkt2VjVFdEJqRU9jUnU0ZGRHY2Nfb1ZVNjlJZDJnd0liV0xpatIBtwJBVV95cUxPSUF2cldmMzF3VzhpM2lBQ0xIakJXSEQ5dTBnUUdBbl8ycEpxTlVSalJnZzl0WnpWOS00S3JZWkpXWlNfSlBuei1Dcm5BZUEwUU5iVXBHd09hbEgyVEdFVFlRMURYQ1VCQmNtTUY4TENGUk54bDkwQWxOVjFxS3JHNkR6UkVRZTVNOVhVSTV6dXhtc2loVThXdWcyQXJwQXNqeGF5cU1YellaVFhuamUxLTdXZE41TnNRUEY0MEpKZDR0YlpLZGFHT1RGb0xxcnNVQkl6YlpONmFDTm1aU19WRTRYNFlsQi1QN2tUekRtM2lfZzU1NzRzdHBndFpiNXFCaThzVnNRZXJlSXBjQXNWMDlqRnZfcHZBbHRJTE1TM2FmMkxVMWQ3WXRTdHVVMFhHeC1UY2d2RQ?oc=5",
+      "medio": "Infobae",
+      "fecha": "2026-11-18T00:19:00.000Z",
+      "imagen": "",
+      "tema": "Leche"
+    },
+    {
       "titulo": "Desde el Caquetá, su gremialidad ganadera en pleno respalda a Fedegán y piden auditorías sin “condenas anticipadas”",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZm5lbEhBcjMzR2xBM290cFpDbDV4LTNaalBXVXk3ZE9rNEJtZnVXWWRBaHFyd0g4U1VDQ3FSX1pjLW5STTk4d3JLN3V5YWFWOXY2S1RoLUVFOGluRUxNckU3WUd2YlJCdS10Z3lfQkF4Sjk0TWhVLUlfWkx2Mk9ESDBZOGluaG8zVnNJUjNOcWxueVZCWnNDR0JkVGdSaFNOLUJaY242b1VOY201d1JiYjNHSTdHQkZmS1ZYeklYMncyNEVKWW4yM3pQQUI1ZUVLdVRvVVNHaklPenZZQzZuRHZMbmFRY25IdUc2N2NzdU0yNXJpU0E?oc=5",
@@ -767,7 +804,7 @@
       "medio": "CONtexto Ganadero",
       "fecha": "2026-11-17T23:57:05.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Vacunación"
     },
     {
       "titulo": "UNTRM desarrollará tecnología con inteligencia artificial para optimizar la alimentación del ganado",
@@ -811,42 +848,6 @@
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORkwtSUVsLW1xYVp2cEFsOWxnLUZxdkl3SzlZRG91d2gyQ3JsNjJsUVJLQnlBOWhxTi1wWVFLOTluVEdBclhmMDJZbFJCM0RMcVJDallIYlZzMDlUYjFVODhYWE9RdE1iT2x3WXlWSm9qTnk2NTNNenhkak1oWmktTmNETUdfTHljWktZVjJPOURkS1NMOFd6dVYwTUFVRl80N2NWZlY0Z0lnWUt1aG5RdWl2eGNYaWQzbXl4SGJXZzhCRFVxWmwwT2ZROVVtWWNtQy1JcGFLNE92aTFHWkpKaGNHRktQTUVnVVB3MGQ4WUpZS1U?oc=5",
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-17T21:05:46.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Fedagro saca la cara por Fedegán: Desde el Magdalena Medio llega un espaldarazo a la autonomía ganadera",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRlg5VTB3ZWEzSjZfbUo0blFUQmJsbFRuV083U2hTUTVxdGFfVmRtcVNOUVhWN01oY1B0Q2xDTVYzbW1CYWJpbi11dk5SMHhQNFZ5aHdaUGtwWjhHWU9adU1USHFBOVdzODFBZ2RCeTdzZ2dfLXRYWTNIR0xIMzJKQ1FtY3lNM3RrVVc3QnF2UkZNS3RiMk1kSnpiLW9qUEQ3SlNYaWl1cE04dU1mSy1yc1BrbmpWM3h3dzJCQTZNUGYwZjFreXJnbmdoTFgxWVNiUTVxcWtVb0hBYkxrWTlkdg?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-17T20:55:19.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Desde el Caquetá, su gremialidad ganadera en pleno respalda a Fedegán",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPa3c5OFpFNWw5SEptaDhZYTFPRkNRNXhEaDlXd1hUSXIxQjl5VVFabEctX2tBTzNNWERzVVRMRkFjUUhsZ19vdlZ1M2w1YmlNOHQzQjREWEV1cHJmcG9wWXJCRDUtRWJyTFNsT1F4LWt4QXU4VFAwRkVEblJjcG9BSDJHc21IQ05LMllQRHRoMDEyZGhyb2lQZkZBWThXSW1icld5alVEc05pdFV1aVotWUlXZ2pWak5sQjNOU3VleGVlRDljMVY1aW9VcnZKdHY5RThXM1pHbS0tNzhHRjY2SGQ2ajdUNGYtOFZrSWpn?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-17T20:29:30.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Arauca no olvida la aftosa: sus ganaderos se ponen la camiseta de Fedegán y cuidan todo lo conseguido",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc0ZyVDJwcXh3bkhOeUQyb3h2LW5BYnF6SDVsYWI1SXdwbHlrdE5mNEpZbGViMU9NMFRXekU5S3BMWWoxRnpIM3RUWFlKcElxWXJnOEhWQ19NYTZiTjNkNlh1VVBXZFRaQmJSdTdpYTV5N0FlNTExeGlKNjFpRXRXSHJPQmcxamRKd1pPd2NFQUFGTVRhVE9iMWVUWHFVMVRjYktOU25TNTZQZDRSUUhwckVkLXA0dU9BbEd1d1YzUUlLQTVHUnNzeERHbUZCYWxsSkVVbGpxRkg3U3VZTHc?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-17T20:20:16.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Explosivos y drones golpean a Colombia: Gobierno anuncia medidas de choque",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaTVRdHR5UEt2Z3U2Mkg4bG1TNXJMVlpRRm9PTmJ3WFJnN19kOVRTV2ZLU29uVUNzcXFSXzB5bTdaeE5Jd1VKbUx0RlZldmRueVlGc0wyUlI1c2l4T2dNZ0MtekttMFNUR2hNTGtDdWZVRlRQZmJFSG5ES21WZzhWa3RTaFB0Rm9NOUh3bHFjMl94ZmJaV1d0dlBUUk1fdFhqYVNxazN2azVXTTlfWGdhajBZeExFbzF2Vm5CSlpsb2p6cDFueXUzYTExN2Q?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-17T19:59:53.000Z",
       "imagen": "",
       "tema": "Ganadería"
     }
