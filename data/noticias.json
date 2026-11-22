@@ -1,7 +1,34 @@
 {
-  "actualizado": "2026-11-21T23:40:12.263Z",
+  "actualizado": "2026-11-22T04:30:33.383Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Fedegán 5.0: mejores decisiones y menores costos de producción",
+      "resumen": "Cuando el pequeño productor acceda a esta herramienta romperá la distancia y adquirirá conocimiento técnico para ser más competitivo.",
+      "link": "https://www.contextoganadero.com/articulo/fedegan-5-0-permitira-mejores-decisiones-y-menores-costos-de-produccion",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-21T15:59:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.pumpiV1uv8crMrFpyQI9Qw&pid=News",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "Ganaderos de Guanentá: sí a la auditoría, pero con debido proceso",
+      "resumen": "Corgasur respalda a Fedegán y destaca la erradicación de la aftosa y el control de la brucelosis en el sur de Santander.",
+      "link": "https://www.contextoganadero.com/articulo/ganaderos-de-guanenta-si-a-la-auditoria-pero-con-debido-proceso",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-21T15:59:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.nGCoHSOLBGjxGagCWjQang&pid=News",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "Último reporte del IDEAM: ¿Lloverá o hará sol? Clima y alertas fin de semana 21 y 22",
+      "resumen": "IDEAM advierte déficit de lluvias en noviembre por El Niño, pese a precipitaciones pronosticadas para el fin de semana ...",
+      "link": "https://www.diariodelsur.com.co/noticias/ultimo-reporte-del-ideam-llovera-o-hara-sol-clima-y-alertas-fin-de-semana-21-y-22",
+      "medio": "Diario del Sur",
+      "fecha": "2026-11-21T15:59:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.j7Ytv_AK1-GdKz7rJWygig&pid=News",
+      "tema": "Clima"
+    },
     {
       "titulo": "Chile reabre su mercado a la carne bovina colombiana: Gobierno proyecta ventas de 27 millones de dólares en el 2027",
       "resumen": "",
@@ -23,6 +50,15 @@
       "sinFoto": true
     },
     {
+      "titulo": "Ideam alerta por lluvias fuertes este fin de semana en Colombia: estas son las regiones con mayor probabilidad",
+      "resumen": "El pronóstico para el 21 y 22 de noviembre incluye tormentas eléctricas en sectores del Caribe, Andes y Pacífico.",
+      "link": "https://www.portafolio.co/economia/regiones/ideam-alerta-por-lluvias-fuertes-este-fin-de-semana-en-colombia-estas-son-las-regiones-con-mayor-probabilidad-506815",
+      "medio": "Portafolio",
+      "fecha": "2026-11-21T08:09:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.YdLtpeD_vB776x2taf_HJg&pid=News",
+      "tema": "Clima"
+    },
+    {
       "titulo": "Importaciones de carne afectan a productores",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdDBMSHZPMWRCZkJMdmJtT2JmdHlCY2ZvbmZEeW5UMXYzRXpXd2FaZ1RfcUpKTFo2Q0Y0WTlDdmlYbHlmbzI3dlg1dk9UZENUWGtQSENlYlJCMWt1OEplTlVhdE1aeDdXUnRtc1A2cHF4UjZtdy1tSzVoZFVaNzk1b3lhbFU4MjTSAYwBQVVfeXFMTmpValdDNldVeVBsXzIyT0NINHh1ZVZRdTNJM1h6TlA3cFYxeGhVRXVxV29FTmFKVEk4SzFIdWtrc1cxdXdIcG1LUEVoYWMzdnNBbE5WMEptc3F4M3l4TXl3LTFjNEVWX084MGU3OHhoZ0Fra29mOFcxd2o1cUx6NmlmeWRtaWVLbDFWMHk?oc=5",
@@ -31,15 +67,6 @@
       "imagen": "",
       "tema": "Precios",
       "sinFoto": true
-    },
-    {
-      "titulo": "Ideam alerta por lluvias fuertes este fin de semana en Colombia: estas son las regiones con mayor probabilidad",
-      "resumen": "El pronóstico para el 21 y 22 de noviembre incluye tormentas eléctricas en sectores del Caribe, Andes y Pacífico.",
-      "link": "https://www.portafolio.co/economia/regiones/ideam-alerta-por-lluvias-fuertes-este-fin-de-semana-en-colombia-estas-son-las-regiones-con-mayor-probabilidad-506815",
-      "medio": "Portafolio",
-      "fecha": "2026-11-21T03:07:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.YdLtpeD_vB776x2taf_HJg&pid=News",
-      "tema": "Clima"
     },
     {
       "titulo": "Aviso por lluvias en Colombia durante fin de semana: Ideam puso a Bogotá bajo lupa por lo que viene",
@@ -234,15 +261,6 @@
       "imagen": "",
       "tema": "Ganadería",
       "sinFoto": true
-    },
-    {
-      "titulo": "Último reporte del IDEAM: ¿Lloverá o hará sol? Clima y alertas fin de semana 21 y 22 de noviembre",
-      "resumen": "IDEAM advierte déficit de lluvias en noviembre por El Niño, pese a precipitaciones pronosticadas para el fin de semana ...",
-      "link": "https://caracol.com.co/2026/11/21/ultimo-reporte-del-ideam-llovera-o-hara-sol-clima-y-alertas-fin-de-semana-21-y-22-de-noviembre/",
-      "medio": "Caracol Radio",
-      "fecha": "2026-11-20T12:22:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.c6sRW_73t1Ssk05uYKmI6Q&pid=News",
-      "tema": "Clima"
     },
     {
       "titulo": "¿Cómo afectan los precios de la canasta básica a los hogares colombianos?",
@@ -483,7 +501,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-19T00:19:40.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "De la veterinaria internacional a la ganadería de montaña: tres amigos impulsan en Teruel La Albarda, una explotación de carne de pasto",
@@ -830,24 +849,6 @@
       "fecha": "2026-11-18T01:16:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.lylM2EB54aM8EkDDae3MLw&pid=News",
       "tema": "Fedegán"
-    },
-    {
-      "titulo": "Fedegán solicita a la Contraloría examinar preventivamente auditoría al Fondo Nacional del Ganado",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT1djZ3dKNlNvdldTeEt5Rk5HX19oSWFMRUNsR1ctLVZvSnBMYndKMjNwN2p6QWZmXzJuN19MNjZVbEQxUkcyaUpQbXZRQ1NtcmllLUdyNEhHd2lna1lTRkpsMnRIeTZDWENHcG9ZMG13eVdmZXJlSGVjM2xiR2xuMnJlaGdBTlJaNV9nZ0FlaXQxbTRkM0ZUcUladmNJZmh6ZU45S0F2em9sLWJ1a19fNzFsLWhrQUcxQ2NvNi01OU13Mmx1V3Vod1Bn?oc=5",
-      "medio": "CRprensa.com",
-      "fecha": "2026-11-18T00:49:09.000Z",
-      "imagen": "",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Precio del dólar en Colombia: bajó de precio ante expectativas por las tasas de interés de los bancos, pero sigue caro y así cerró el 17 de noviembre",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPSW0wandyUmtMSTFrSk9tMkt1d1JtbmxwQVFQV19kTk1DMThoeEhXQ0wxdW5pOU1kTjAtTThwYVlnTHlyZHRpWkFJNV9uSnNhdmxLQndmT09ra0t4TkRFb0xnc1d2M3pFd1hjdU40U21oaDZDYms3a2kzQWpTTVN2WTBnNXI1LXpnVFppbV8yNnlrbVJzM19ta0NVQjhLSXZ2UlVycFhQeTdkYkRFaTRBY19zaGlUVkNtT01BRUFLNnlpYzJoTk5FLWtGbGx5QWJUaUxBM29NQ3JjOHYyUk9KT0xDZVUwb2dGVldieGVBRjZ3emJMZnhtdkt2VjVFdEJqRU9jUnU0ZGRHY2Nfb1ZVNjlJZDJnd0liV0xpatIBtwJBVV95cUxPSUF2cldmMzF3VzhpM2lBQ0xIakJXSEQ5dTBnUUdBbl8ycEpxTlVSalJnZzl0WnpWOS00S3JZWkpXWlNfSlBuei1Dcm5BZUEwUU5iVXBHd09hbEgyVEdFVFlRMURYQ1VCQmNtTUY4TENGUk54bDkwQWxOVjFxS3JHNkR6UkVRZTVNOVhVSTV6dXhtc2loVThXdWcyQXJwQXNqeGF5cU1YellaVFhuamUxLTdXZE41TnNRUEY0MEpKZDR0YlpLZGFHT1RGb0xxcnNVQkl6YlpONmFDTm1aU19WRTRYNFlsQi1QN2tUekRtM2lfZzU1NzRzdHBndFpiNXFCaThzVnNRZXJlSXBjQXNWMDlqRnZfcHZBbHRJTE1TM2FmMkxVMWQ3WXRTdHVVMFhHeC1UY2d2RQ?oc=5",
-      "medio": "Infobae",
-      "fecha": "2026-11-18T00:19:00.000Z",
-      "imagen": "",
-      "tema": "Leche"
     }
   ]
 }
