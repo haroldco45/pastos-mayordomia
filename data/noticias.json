@@ -1,7 +1,16 @@
 {
-  "actualizado": "2026-11-22T04:30:33.383Z",
+  "actualizado": "2026-11-22T12:59:46.778Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "FEDEGÁN 5.0: La visión de un gremio",
+      "resumen": "El 25 de noviembre, en el Congreso Nacional de Ganaderos, en Valledupar, presentaremos FEDEGÁN 5.0. En una misma plataforma, los productores podrán informarse, capacitarse, compartir experiencias, rec ...",
+      "link": "https://prensamercosur.org/2026/11/22/fedegan-5-0-la-vision-de-un-gremio/",
+      "medio": "prensamercosur",
+      "fecha": "2026-11-22T03:29:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.dfG7OuwQnv2dgzfKHRMStw&pid=News",
+      "tema": "Fedegán"
+    },
     {
       "titulo": "Fedegán 5.0: mejores decisiones y menores costos de producción",
       "resumen": "Cuando el pequeño productor acceda a esta herramienta romperá la distancia y adquirirá conocimiento técnico para ser más competitivo.",
@@ -54,7 +63,7 @@
       "resumen": "El pronóstico para el 21 y 22 de noviembre incluye tormentas eléctricas en sectores del Caribe, Andes y Pacífico.",
       "link": "https://www.portafolio.co/economia/regiones/ideam-alerta-por-lluvias-fuertes-este-fin-de-semana-en-colombia-estas-son-las-regiones-con-mayor-probabilidad-506815",
       "medio": "Portafolio",
-      "fecha": "2026-11-21T08:09:00.000Z",
+      "fecha": "2026-11-21T11:52:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.YdLtpeD_vB776x2taf_HJg&pid=News",
       "tema": "Clima"
     },
@@ -83,16 +92,6 @@
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOT1RJQTFaaXhwSjNUOXFPSFlBRjRoWDY1V0NieV9ZbzgwSzQ3YndpR3RwbWtrWEUwM29OZGxUM3M1MjEyZFlrbmk4XzRNQW1OSkdZSlF3UE10bGRKYTJINndEcU1mdXlEeUo0UXhEaTZnTDV5YU4wTW1NTEdOVHRhd1ZlNW5uMW1XYmRHTlNuMXVoWFdDT0Rnc3AtWUVORXdQZ2tuZGNEZEpJc0pDYW5kUUhHVnJydUFkeUpIZFdwY2FsSGIzbW5qNmlRSXV1ckxPVWZDRlJEMU43MUJFWGdZMElDYzFrSFk?oc=5",
       "medio": "Al Calor Político",
       "fecha": "2026-11-21T00:03:40.000Z",
-      "imagen": "",
-      "tema": "Precios",
-      "sinFoto": true
-    },
-    {
-      "titulo": "Carne de Paraguay hunde a 28 pesos el kilo de cerdo potosino",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5NUpyNlJheUNKSlNMVHd5bElkWFhWQzNyZGtvSjBJOFA1amVrUFlpTFdKZ1JTYVg3QTBmVjBMMDdVbER0SG1ta3VONWZZejI3U09KZS05bWNubU9fWV8tRldxd1dfaUZfV2c?oc=5",
-      "medio": "La Orquesta",
-      "fecha": "2026-11-20T23:47:57.000Z",
       "imagen": "",
       "tema": "Precios",
       "sinFoto": true
@@ -138,7 +137,7 @@
       "sinFoto": true
     },
     {
-      "titulo": "Adela Bonilla, la joven que regresó al campo y se formó para tener ganadería sostenible",
+      "titulo": "Adela Bonilla y su paso a la ganadería sostenible",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZTEyRWZPaW5JLVQ0RnlOOTNhTzZkbG5aRXk1UzN6czN4VzlORXdOWFdNRHA0UC1IVnB4ZjBaSHBoVWJXOVVWNm4xVGJmNWdyNkgtbVkzMGZybWlpNEpicGt3d00xMHNzQnpOcU00RVJUSHhHR2RFQVA1S240WHZtWUV6YVZWTmRjWjhQLThNS0htZmJ2U3JRLVdoRVQ0TGFfN2NGZzFyaC11dURkSW5SS0k3ckN2TW03Z3lnaXFSSGp3X0pfd0g4?oc=5",
       "medio": "CONtexto ganadero",
@@ -148,7 +147,7 @@
       "sinFoto": true
     },
     {
-      "titulo": "Adela Bonilla y su paso a la ganadería sostenible",
+      "titulo": "Adela Bonilla, la joven que regresó al campo y se formó para tener ganadería sostenible",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZTEyRWZPaW5JLVQ0RnlOOTNhTzZkbG5aRXk1UzN6czN4VzlORXdOWFdNRHA0UC1IVnB4ZjBaSHBoVWJXOVVWNm4xVGJmNWdyNkgtbVkzMGZybWlpNEpicGt3d00xMHNzQnpOcU00RVJUSHhHR2RFQVA1S240WHZtWUV6YVZWTmRjWjhQLThNS0htZmJ2U3JRLVdoRVQ0TGFfN2NGZzFyaC11dURkSW5SS0k3ckN2TW03Z3lnaXFSSGp3X0pfd0g4?oc=5",
       "medio": "CONtexto ganadero",
@@ -165,6 +164,16 @@
       "fecha": "2026-11-20T18:26:33.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.I1Sk7CyhQSTDVyjAdSaKKA&pid=News",
       "tema": "Ganadería"
+    },
+    {
+      "titulo": "Carne de Paraguay hunde a 28 pesos el kilo de cerdo potosino",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5NUpyNlJheUNKSlNMVHd5bElkWFhWQzNyZGtvSjBJOFA1amVrUFlpTFdKZ1JTYVg3QTBmVjBMMDdVbER0SG1ta3VONWZZejI3U09KZS05bWNubU9fWV8tRldxd1dfaUZfV2c?oc=5",
+      "medio": "La Orquesta",
+      "fecha": "2026-11-20T18:14:04.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
     },
     {
       "titulo": "[VIDEO] Sufren productores potosinos pérdidas económicas por carne importada",
@@ -185,15 +194,6 @@
       "imagen": "",
       "tema": "Ganadería",
       "sinFoto": true
-    },
-    {
-      "titulo": "Fedegán 5.0: La visión de un gremio",
-      "resumen": "El 25 de noviembre presentaremos Fedegán 5.0 en el Congreso Nacional de Ganaderos, en Valledupar. Será una plataforma para informarse, capacitarse, compartir experie ...",
-      "link": "https://www.lapatria.com/opinion/columnistas/jose-felix-lafaurie-rivera/fedegan-50-la-vision-de-un-gremio",
-      "medio": "La Patria",
-      "fecha": "2026-11-20T16:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.R5FDtGw8Ojoz9qMEe9WjRw&pid=News",
-      "tema": "Fedegán"
     },
     {
       "titulo": "Pronóstico del clima del 20 al 22 de noviembre en Colombia: Ideam advierte lluvias intensas en estas zonas",
@@ -433,16 +433,6 @@
       "fecha": "2026-11-19T08:00:00.000Z",
       "imagen": "",
       "tema": "Ganadería",
-      "sinFoto": true
-    },
-    {
-      "titulo": "Precios de subproductos de cerdo en México (Pesos/kg)",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdWF1cnBaUmtGOGtHRFRDLUE0cVh1bE9xaGxERzNVX0p3dUFfd3dtZkw3ZWFvQllvRGt1bVNvZEpseTFXak9JeEVaeXNZMnNEdzQ4T2ZpRnpwYkFGQWE4dDZMeXJyM0EtMUhGUFJtYWlSZE9qSU9qWk9IRUtubmNjR0s3b1c0ODUxbzlNYUhOTElDTjg?oc=5",
-      "medio": "Porcicultura.com",
-      "fecha": "2026-11-19T08:00:00.000Z",
-      "imagen": "",
-      "tema": "Precios",
       "sinFoto": true
     },
     {
@@ -848,6 +838,15 @@
       "medio": "Noticias RCN",
       "fecha": "2026-11-18T01:16:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.lylM2EB54aM8EkDDae3MLw&pid=News",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "Fedegán solicita a la Contraloría examinar preventivamente auditoría al Fondo Nacional del Ganado",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT1djZ3dKNlNvdldTeEt5Rk5HX19oSWFMRUNsR1ctLVZvSnBMYndKMjNwN2p6QWZmXzJuN19MNjZVbEQxUkcyaUpQbXZRQ1NtcmllLUdyNEhHd2lna1lTRkpsMnRIeTZDWENHcG9ZMG13eVdmZXJlSGVjM2xiR2xuMnJlaGdBTlJaNV9nZ0FlaXQxbTRkM0ZUcUladmNJZmh6ZU45S0F2em9sLWJ1a19fNzFsLWhrQUcxQ2NvNi01OU13Mmx1V3Vod1Bn?oc=5",
+      "medio": "CRprensa.com",
+      "fecha": "2026-11-18T00:49:09.000Z",
+      "imagen": "",
       "tema": "Fedegán"
     }
   ]
