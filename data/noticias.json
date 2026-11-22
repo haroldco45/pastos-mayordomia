@@ -1,14 +1,43 @@
 {
-  "actualizado": "2026-11-22T12:59:46.778Z",
+  "actualizado": "2026-11-22T20:14:15.131Z",
   "total": 90,
   "noticias": [
     {
-      "titulo": "FEDEGÁN 5.0: La visión de un gremio",
-      "resumen": "El 25 de noviembre, en el Congreso Nacional de Ganaderos, en Valledupar, presentaremos FEDEGÁN 5.0. En una misma plataforma, los productores podrán informarse, capacitarse, compartir experiencias, rec ...",
-      "link": "https://prensamercosur.org/2026/11/22/fedegan-5-0-la-vision-de-un-gremio/",
-      "medio": "prensamercosur",
-      "fecha": "2026-11-22T03:29:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.dfG7OuwQnv2dgzfKHRMStw&pid=News",
+      "titulo": "Tres avances tecnológicos para la floricultura en Colombia",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOXNJVGI4RUZOZjdWVEQ4ZWlQeWthX084LVdSRmxSQXFXQ0p2SC04YUdRZFNaTndibk00SDNnU283U1o4YlNZZTlQblE1cG1wRXlGeHNHTjVQVzk2RnNZaWtLYmpEN25vdUtuR0N4QWg0bUJXY2tURDRyVm5YV1hPV0F0dFJ0cExDZWZHVVJFYmhEelF4NGZnUjB6S3RFVTllS2pqQW1uYzhNMEJNMm9FT01BME1SbDNYRzNjUXQ2ZHBmeU9CRngtSmtSYjBldFk?oc=5",
+      "medio": "www.contextoganadero.com",
+      "fecha": "2026-11-22T18:48:59.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Carne barata importada desplaza al producto ganadero regional en Guamúchil",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQN2NGeXpRYlJ5YmlfWGlTT3ZYSi1Db0xtQ3JRRXI2dUxmS3RkRU1ma1QtX1d0RzZhSjZvMFZ1OHYxWGJoSi1DbE02cHExNlo0N3RMWGlFMTQzT3hUdm1KRWR6NUVzVFBFTHlSUlRBOVA3OTRpaXNmc2N4WUExVEJHSDloVFlKNG5WaHFQZ05rUExCVnhEelFYYW5DUGwxWVJXOEpaUnJESF8xR29LRWJGNTB3STBUQjNCSDlzdEdOWFFCVDhSOGRIWlJRUGVfSERpVEZ3?oc=5",
+      "medio": "Debate",
+      "fecha": "2026-11-22T18:02:49.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "La expansión de los búfalos en Colombia abre un conflicto por el agua y los humedales",
+      "resumen": "La población de búfalos en Colombia creció 63,3 % entre 2019 y 2025 y ya supera los 687.000 animales. Su expansión, que ha transformado la ganadería ...",
+      "link": "https://www.elespectador.com/ambiente/blog-el-rio/la-expansion-de-los-bufalos-en-colombia-abre-un-conflicto-por-el-agua-y-los-humedales/",
+      "medio": "El Espectador",
+      "fecha": "2026-11-22T05:34:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.Tv7oz1FoYnkWzVCODEduQQ&pid=News",
+      "tema": "Ganadería"
+    },
+    {
+      "titulo": "Fedegán 5.0: la visión de un gremio",
+      "resumen": "“El 25 de noviembre presentaremos Fdegán 5.0 en el Congreso Nacional de Ganaderos, en Valledupar. Será una plataforma para informarse, capacitarse…”.",
+      "link": "https://www.eluniversal.com.co/opinion/columna/2026/11/22/fedegan-50-la-vision-de-un-gremio/",
+      "medio": "El Universal",
+      "fecha": "2026-11-21T15:59:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.bihPbB3K5BNFJWbkGhFKDA&pid=News",
       "tema": "Fedegán"
     },
     {
@@ -205,6 +234,16 @@
       "tema": "Clima"
     },
     {
+      "titulo": "Vacas Simmental de 36 litros: Criadero F&F cree que el futuro está en la ganadería",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZVlWTWtwd0J2VmtyckdRbi1KWUlyMXdPckhEaFZTa0tVQkpCNF9tcGxMMy1iVXBFSTd5cGI4amNETmZza2l4cjhndFhuYmRPZmYxYmdzMTFyUTRMamJCYW1uWW42c01sWE1XYVphc3puMlJPNWxCV1lCaXNnc05ReXQxVzlBNGlNb2N0OThiU2U4alhBUWplaWQyVHAxR0tlTDF4Rkl1LXZINldKdFVQRHE0eGVjUVllNXVDcGItV3NyZFI5cmYyRnZoNDhZQQ?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-20T15:09:46.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
       "titulo": "Criadero F&F: Vacas Simmental de hasta 36 litros en Cogua",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZVlWTWtwd0J2VmtyckdRbi1KWUlyMXdPckhEaFZTa0tVQkpCNF9tcGxMMy1iVXBFSTd5cGI4amNETmZza2l4cjhndFhuYmRPZmYxYmdzMTFyUTRMamJCYW1uWW42c01sWE1XYVphc3puMlJPNWxCV1lCaXNnc05ReXQxVzlBNGlNb2N0OThiU2U4alhBUWplaWQyVHAxR0tlTDF4Rkl1LXZINldKdFVQRHE0eGVjUVllNXVDcGItV3NyZFI5cmYyRnZoNDhZQQ?oc=5",
@@ -244,6 +283,16 @@
       "sinFoto": true
     },
     {
+      "titulo": "1.900 hectáreas donde la ciencia trabaja por el futuro del campo | El Colombiano",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMnh3M29YYkt5Y0hIUlduNHBvZ1F1T1ZtQWlVQTh4WUtIVkFac3A1NTBQcFoxOXA3VXZtS1NaMEpsTmxwbnJsUDk1Y1NpTFNFcGdueW9ZekEwdmg3UzFoZVRPcGk2QnpPd04zNS01UXl2T1dqOXQ4aW5KS1BCSll5VkU5anV3QTVMY3BTSmptVjVHQ0tKd19xamdxSk9LN01ycktiQjhQc2xRVUV0VWlUMXhmVXZTbWppaXFyRXNOb2hxU3Q1WS16M1piU0tLc0E5bU0yY09JZE5GZWgtSlJUeWdVZ9IB6AFBVV95cUxQSlpTWEdDcmZjdlA5OEVhVHZuYmRfbmliWjNMT0dGbnJmYUtGa01tNlEtRkhhT0N5aTJjLWZOU2N5SzVWSEdtaTBNRXFjY3Bvc1FqUHpkY1hnQ3FZMk9QSTR4N0pXbjNpNHRnS29kbHJ3NnpwYzdoZ1hBOG9JTWZRVzBQZ29BRF9IMXRyb1JzVkhKN3dmN3hidy1hdGtGRUlhOUlSa20tTlZDQUlIMjNRWEtaNHdnMlBrM2dHQzhvSGVQSTkyZkJocFZpdmh5M2RockV3SHgwWUdQblJJVlE0bnZCRGVVZDhn?oc=5",
+      "medio": "El Colombiano",
+      "fecha": "2026-11-20T14:34:33.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
       "titulo": "¿Cómo hacer heno para alimentar al ganado? Estos son los pasos para conservar el pasto",
       "resumen": "La henificación permite almacenar forraje para las épocas de escasez de alimento. Agrosavia explica cómo seleccionar el pasto, secarlo, controlar su humedad y empacarlo ...",
       "link": "https://www.msn.com/es-co/noticias/otras/c%C3%B3mo-hacer-heno-para-alimentar-al-ganado-estos-son-los-pasos-para-conservar-el-pasto/ar-AA2hSVfX",
@@ -270,6 +319,26 @@
       "fecha": "2026-11-20T12:05:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.a3dlH85PGQ-A9WgB0CTX_w&pid=News",
       "tema": "Leche"
+    },
+    {
+      "titulo": "Precios del ganado en pie en México",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrR2lfWnJJajRQbGVacFl2SWJCWmxfcmwxY2lPR0Q3V2J1Y3V0dDdERlVWZzdDazdLU2YtRmVoS3d2OHd2QU8xdWpwcnBwc3NaWUV2VXNtWlJkUWxHaFJTNldIb2haN2VuVWdobkloaw?oc=5",
+      "medio": "Ganaderia.com",
+      "fecha": "2026-11-20T08:00:00.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Precios de subproductos de cerdo en México (Pesos/kg)",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdWF1cnBaUmtGOGtHRFRDLUE0cVh1bE9xaGxERzNVX0p3dUFfd3dtZkw3ZWFvQllvRGt1bVNvZEpseTFXak9JeEVaeXNZMnNEdzQ4T2ZpRnpwYkFGQWE4dDZMeXJyM0EtMUhGUFJtYWlSZE9qSU9qWk9IRUtubmNjR0s3b1c0ODUxbzlNYUhOTElDTjg?oc=5",
+      "medio": "Porcicultura.com",
+      "fecha": "2026-11-20T08:00:00.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
     },
     {
       "titulo": "Respaldo masivo de gremios ganaderos a Fedegán frente a auditoría del Ministerio de Agricultura",
@@ -452,8 +521,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-19T07:00:00.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "¿Lloverá hoy en su región? Ideam revela en qué lugares de Colombia se esperan precipitaciones hoy 19 de noviembre",
@@ -471,8 +539,7 @@
       "medio": "El Telégrafo",
       "fecha": "2026-11-19T03:01:00.000Z",
       "imagen": "",
-      "tema": "Precios",
-      "sinFoto": true
+      "tema": "Precios"
     },
     {
       "titulo": "HISTORIA / Las haciendas que marcaron la historia del toro bravo en Colombia",
@@ -491,8 +558,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-19T00:19:40.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "De la veterinaria internacional a la ganadería de montaña: tres amigos impulsan en Teruel La Albarda, una explotación de carne de pasto",
@@ -784,69 +850,6 @@
       "medio": "CONtexto Ganadero",
       "fecha": "2026-11-18T08:04:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.Arvv4mlIWurMtV0Rt0OM8g&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "CONtexto Ganadero estrena su nuevo portal informativo",
-      "resumen": "CONtexto Ganadero renueva su portal con mayor velocidad de carga, asistente con inteligencia artificial, lectura sin conexión y contenidos multimedia.",
-      "link": "https://www.contextoganadero.com/articulo/contexto-ganadero-estrena-su-nuevo-portal-informativo",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-18T07:35:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.12NERPVewZ75aZn3kcRqNQ&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Colombia busca US$500 millones con el BID para impulsar un megaproyecto de palma de aceite y transformar el agro",
-      "resumen": "La agenda contempla alternativas de crédito para desarrollar iniciativas agropecuarias en varias regiones del país.",
-      "link": "https://www.msn.com/es-co/dinero/econom%C3%ADa/colombia-busca-us-500-millones-con-el-bid-para-impulsar-un-megaproyecto-de-palma-de-aceite-y-transformar-el-agro/ar-AA2hHRcj",
-      "medio": "Portafolio on MSN",
-      "fecha": "2026-11-18T06:54:58.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT._1zUxqzs11MAiWt0xHmSCw&pid=News",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Se viene un miércoles de lluvias en varias regiones y calor intenso; el pronóstico del Ideam que marcará el clima de hoy",
-      "resumen": "El Ideam anticipó precipitaciones en varias regiones del país y alertó sobre temperaturas superiores a los promedios habituales en amplias zonas del territorio nacional.",
-      "link": "https://www.semana.com/nacion/articulo/se-viene-un-miercoles-de-lluvias-en-varias-regiones-y-calor-intenso-el-pronostico-del-ideam-que-marcara-el-clima-de-hoy/202657/",
-      "medio": "Semana",
-      "fecha": "2026-11-18T03:41:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.EL8eHbFL3WkY9edJwmmk7w&pid=News",
-      "tema": "Clima"
-    },
-    {
-      "titulo": "Corrección a la baja en el precio del ganado gordo",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUzh6aU8zeWM3V3Rha0ttR3lkYmxIU2EteXdQV2E3dllfOHF4WTNKdGNuUHVuQTB6MjgtLUxFX09yRTN1X19QVlVWNllZbVNJb0ZyRHRXcERTQ0s3YkxJNnNPc0lXMnJUYm15MGs1Q0I4R1BBRnA5V2JZeUx2UEhqY1RKU21UaGEzNXhBRFJzZGE?oc=5",
-      "medio": "El Telégrafo",
-      "fecha": "2026-11-18T03:03:00.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "El Mundial Brahman impulsa la ganadería yucateca y abre oportunidades de exportación",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRlNpdFVHWkktenliYkZYbUhSaGUyYU12MS1QN0pDY3RiWFZBTjd4ZUlvdFBJU240WkowZjN2N3RudW9Zd0JOcjk0X0Z1aHRUTFBYaGN4c3VjdVZYdTNCdDBPQ25hQ0hySVJMVjdGdTFLTTRGaTVJVXozX1RxNkxaa3kwZFJ1Um9zaDdVVzZPY0h2Q0pPNW9hUHdWSmtjT1R0WWFkLTAwQkVXMWQ0SEFfQzlBNWc2Rkpja1pr?oc=5",
-      "medio": "Mi Punto de Vista",
-      "fecha": "2026-11-18T01:44:15.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "Ministerio de Agricultura demandó a Fedegán por información sobre el Fondo Nacional del Ganado",
-      "resumen": "Según la cartera de Agricultura, aún existen vacíos en la información suministrada por el gremio y por ello seguirán las actuaciones judiciales.",
-      "link": "https://www.noticiasrcn.com/colombia/ministerio-de-agricultura-demanda-a-fedegan-para-exigir-informacion-sobre-el-manejo-del-fondo-nacional-del-ganado-1083261",
-      "medio": "Noticias RCN",
-      "fecha": "2026-11-18T01:16:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.lylM2EB54aM8EkDDae3MLw&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Fedegán solicita a la Contraloría examinar preventivamente auditoría al Fondo Nacional del Ganado",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT1djZ3dKNlNvdldTeEt5Rk5HX19oSWFMRUNsR1ctLVZvSnBMYndKMjNwN2p6QWZmXzJuN19MNjZVbEQxUkcyaUpQbXZRQ1NtcmllLUdyNEhHd2lna1lTRkpsMnRIeTZDWENHcG9ZMG13eVdmZXJlSGVjM2xiR2xuMnJlaGdBTlJaNV9nZ0FlaXQxbTRkM0ZUcUladmNJZmh6ZU45S0F2em9sLWJ1a19fNzFsLWhrQUcxQ2NvNi01OU13Mmx1V3Vod1Bn?oc=5",
-      "medio": "CRprensa.com",
-      "fecha": "2026-11-18T00:49:09.000Z",
-      "imagen": "",
       "tema": "Fedegán"
     }
   ]
