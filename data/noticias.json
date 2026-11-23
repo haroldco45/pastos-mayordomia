@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-22T20:14:15.131Z",
+  "actualizado": "2026-11-23T01:01:10.645Z",
   "total": 90,
   "noticias": [
     {
@@ -32,12 +32,12 @@
       "tema": "Ganadería"
     },
     {
-      "titulo": "Fedegán 5.0: la visión de un gremio",
-      "resumen": "“El 25 de noviembre presentaremos Fdegán 5.0 en el Congreso Nacional de Ganaderos, en Valledupar. Será una plataforma para informarse, capacitarse…”.",
-      "link": "https://www.eluniversal.com.co/opinion/columna/2026/11/22/fedegan-50-la-vision-de-un-gremio/",
-      "medio": "El Universal",
-      "fecha": "2026-11-21T15:59:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.bihPbB3K5BNFJWbkGhFKDA&pid=News",
+      "titulo": "FEDEGÁN 5.0: La visión de un gremio",
+      "resumen": "El 25 de noviembre, en el Congreso Nacional de Ganaderos, en Valledupar, presentaremos FEDEGÁN 5.0. En una misma plataforma, los productores podrán informarse, capacitarse, compartir experiencias, rec ...",
+      "link": "https://prensamercosur.org/2026/11/22/fedegan-5-0-la-vision-de-un-gremio/",
+      "medio": "prensamercosur",
+      "fecha": "2026-11-22T03:29:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.dfG7OuwQnv2dgzfKHRMStw&pid=News",
       "tema": "Fedegán"
     },
     {
@@ -88,15 +88,6 @@
       "sinFoto": true
     },
     {
-      "titulo": "Ideam alerta por lluvias fuertes este fin de semana en Colombia: estas son las regiones con mayor probabilidad",
-      "resumen": "El pronóstico para el 21 y 22 de noviembre incluye tormentas eléctricas en sectores del Caribe, Andes y Pacífico.",
-      "link": "https://www.portafolio.co/economia/regiones/ideam-alerta-por-lluvias-fuertes-este-fin-de-semana-en-colombia-estas-son-las-regiones-con-mayor-probabilidad-506815",
-      "medio": "Portafolio",
-      "fecha": "2026-11-21T11:52:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.YdLtpeD_vB776x2taf_HJg&pid=News",
-      "tema": "Clima"
-    },
-    {
       "titulo": "Importaciones de carne afectan a productores",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdDBMSHZPMWRCZkJMdmJtT2JmdHlCY2ZvbmZEeW5UMXYzRXpXd2FaZ1RfcUpKTFo2Q0Y0WTlDdmlYbHlmbzI3dlg1dk9UZENUWGtQSENlYlJCMWt1OEplTlVhdE1aeDdXUnRtc1A2cHF4UjZtdy1tSzVoZFVaNzk1b3lhbFU4MjTSAYwBQVVfeXFMTmpValdDNldVeVBsXzIyT0NINHh1ZVZRdTNJM1h6TlA3cFYxeGhVRXVxV29FTmFKVEk4SzFIdWtrc1cxdXdIcG1LUEVoYWMzdnNBbE5WMEptc3F4M3l4TXl3LTFjNEVWX084MGU3OHhoZ0Fra29mOFcxd2o1cUx6NmlmeWRtaWVLbDFWMHk?oc=5",
@@ -113,6 +104,15 @@
       "medio": "Pulzo",
       "fecha": "2026-11-21T02:44:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.VMsQjqGFv_ps0ncvwUxMlg&pid=News",
+      "tema": "Clima"
+    },
+    {
+      "titulo": "Ideam alerta por lluvias fuertes este fin de semana en Colombia: estas son las regiones con mayor probabilidad",
+      "resumen": "El pronóstico para el 21 y 22 de noviembre incluye tormentas eléctricas en sectores del Caribe, Andes y Pacífico.",
+      "link": "https://www.portafolio.co/economia/regiones/ideam-alerta-por-lluvias-fuertes-este-fin-de-semana-en-colombia-estas-son-las-regiones-con-mayor-probabilidad-506815",
+      "medio": "Portafolio",
+      "fecha": "2026-11-21T01:20:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.YdLtpeD_vB776x2taf_HJg&pid=News",
       "tema": "Clima"
     },
     {
@@ -521,7 +521,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-19T07:00:00.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "¿Lloverá hoy en su región? Ideam revela en qué lugares de Colombia se esperan precipitaciones hoy 19 de noviembre",
@@ -539,7 +540,8 @@
       "medio": "El Telégrafo",
       "fecha": "2026-11-19T03:01:00.000Z",
       "imagen": "",
-      "tema": "Precios"
+      "tema": "Precios",
+      "sinFoto": true
     },
     {
       "titulo": "HISTORIA / Las haciendas que marcaron la historia del toro bravo en Colombia",
@@ -558,7 +560,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-19T00:19:40.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "De la veterinaria internacional a la ganadería de montaña: tres amigos impulsan en Teruel La Albarda, una explotación de carne de pasto",
@@ -576,7 +579,8 @@
       "medio": "Vietnam.vn",
       "fecha": "2026-11-19T00:01:19.000Z",
       "imagen": "",
-      "tema": "Precios"
+      "tema": "Precios",
+      "sinFoto": true
     },
     {
       "titulo": "En vivo: Hoy 18 de noviembre no te pierdas la transmisión del programa Tu Vitrina Ganadera",
@@ -595,7 +599,8 @@
       "medio": "Vietnam.vn",
       "fecha": "2026-11-18T23:00:54.000Z",
       "imagen": "",
-      "tema": "Precios"
+      "tema": "Precios",
+      "sinFoto": true
     },
     {
       "titulo": "Récord en reales y ajuste en dólares para el novillo en Brasil",
@@ -604,7 +609,8 @@
       "medio": "Blasina y Asociados",
       "fecha": "2026-11-18T22:31:05.000Z",
       "imagen": "",
-      "tema": "Precios"
+      "tema": "Precios",
+      "sinFoto": true
     },
     {
       "titulo": "Fedegán ha vacunado 9,4 millones de reses contra aftosa",
@@ -623,7 +629,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T19:49:12.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "María Claudia Lacouture renuncia a AmCham Colombia y asumirá un alto cargo internacional en la CAF",
@@ -632,7 +639,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T19:36:49.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "Lacouture renuncia a AmCham y asumirá dirección en CAF",
@@ -651,7 +659,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T17:41:58.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "Ganaderos del Cesar respaldan a Fedegán y el estatus sanitario",
@@ -660,7 +669,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T17:33:56.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "El precio al productor continúa sin repuntar al mes de septiembre pese al avance de la producción nacional",
@@ -669,7 +679,8 @@
       "medio": "Diario Lechero",
       "fecha": "2026-11-18T17:26:00.000Z",
       "imagen": "",
-      "tema": "Leche"
+      "tema": "Leche",
+      "sinFoto": true
     },
     {
       "titulo": "Genética para reducir emisiones de metano en bovinos",
@@ -678,7 +689,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T17:21:30.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "En la Hoya del Río Suárez, ganaderos defienden cuota que blinda contra aftosa y piden diálogo con MinAgricultura",
@@ -687,7 +699,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T16:53:49.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "Ganaderos de Hoya del Río Suárez defienden cuota ganadera",
@@ -715,7 +728,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T16:30:49.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "El Doncello respalda a Fedegán y pide garantías para el FNG",
@@ -724,7 +738,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T16:05:54.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "El ICA fortalece la sanidad porcina con el cierre del Programa de Extensión Zoosanitaria en Belén de Umbría",
@@ -742,7 +757,8 @@
       "medio": "Debate",
       "fecha": "2026-11-18T15:10:00.000Z",
       "imagen": "",
-      "tema": "Precios"
+      "tema": "Precios",
+      "sinFoto": true
     },
     {
       "titulo": "Agrologística: clave para frenar pérdidas en el agro",
@@ -751,7 +767,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T15:07:52.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "Cartagena del Chairá triplicó su hato y defiende lo construido",
@@ -760,7 +777,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T14:55:09.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "Cuando el campo frena, Colombia lo siente",
@@ -769,7 +787,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T14:42:43.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "Fedegán solicita intervención de organismos de control por irregularidades en auditoría al Fondo Nacional del Ganado",
@@ -796,7 +815,8 @@
       "medio": "Agronegocios",
       "fecha": "2026-11-18T13:23:40.000Z",
       "imagen": "",
-      "tema": "Clima"
+      "tema": "Clima",
+      "sinFoto": true
     },
     {
       "titulo": "Ante auditoría a FNG, ganaderos de Santa Ana también apoyan a Fedegán",
@@ -805,7 +825,8 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-18T13:21:46.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "El Niño amenaza al campo colombiano: alertan por riesgos para cultivos y ganado",
@@ -814,7 +835,8 @@
       "medio": "AgroLatam",
       "fecha": "2026-11-18T13:19:29.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Ganadería",
+      "sinFoto": true
     },
     {
       "titulo": "Demanda récord y escasez mundial impulsan un nuevo ciclo de valorización ganadera",
@@ -823,7 +845,8 @@
       "medio": "La Mañana",
       "fecha": "2026-11-18T12:32:08.000Z",
       "imagen": "",
-      "tema": "Precios"
+      "tema": "Precios",
+      "sinFoto": true
     },
     {
       "titulo": "La Hacienda El Guadual fue certificada en buenas prácticas ganaderas para producción de carne",
