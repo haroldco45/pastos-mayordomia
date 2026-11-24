@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>El Mayordomo · Escuela de Mayordomía</title>
-<meta name="description" content="El Mayordomo: material de estudio de la Escuela de Mayordomía. Pastos y forrajes, salud animal, vacunas, reproducción y ciclo corto, registros, alimentación, ordeño, búfalos, la ganadería del Bajo Cauca, hacia dónde va la ganadería, los números del ganado las razas bovinas de Colombia la porcicultura y los cultivos menores. Con calculadoras, fotos, videos y evaluación.">
+<meta name="description" content="El Mayordomo: material de estudio de la Escuela de Mayordomía. Pastos y forrajes, salud animal, vacunas, reproducción y ciclo corto, registros, alimentación, ordeño, búfalos, la ganadería del Bajo Cauca, hacia dónde va la ganadería, los números del ganado las razas bovinas de Colombia la porcicultura y los cultivos menores, y las herramientas de campo como el medidor de pH y CE. Con calculadoras, fotos, videos y evaluación.">
 <meta name="theme-color" content="#1F5E3B">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta property="og:title" content="El Mayordomo · Escuela de Mayordomía">
-<meta property="og:description" content="Todo lo que un mayordomo debe saber de la finca ganadera colombiana: pastos, salud, reproducción, leche, razas, búfalos, cerdos, cultivos menores, las Parcelas de La Paraguay, liderazgo y salud ocupacional, la finca como empresa, la cosecha de agua lluvia y los números del ganado. 24 módulos con calculadoras y evaluación.">
+<meta property="og:description" content="Todo lo que un mayordomo debe saber de la finca ganadera colombiana: pastos, salud, reproducción, leche, razas, búfalos, cerdos, cultivos menores, las Parcelas de La Paraguay, liderazgo y salud ocupacional, la finca como empresa, la cosecha de agua lluvia, las herramientas de campo y los números del ganado. 25 módulos con calculadoras y evaluación.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://pastos-mayordomia.netlify.app/">
 <meta property="og:site_name" content="Escuela de Mayordomía">
@@ -377,6 +377,16 @@ footer{padding:26px 0 10px;color:var(--muted);font-size:.85rem;text-align:center
 .hc-vacio{grid-column:1/-1;background:var(--verde-claro);border-radius:14px;padding:16px;color:var(--muted);text-align:center}
 .hc-mas{display:block;margin:14px auto 0;border:1px solid var(--borde);background:var(--card);color:var(--verde2);font:700 .92rem Figtree,sans-serif;padding:10px 18px;border-radius:99px;cursor:pointer}
 .hc-pie{font-size:.75rem;color:var(--muted);margin-top:10px;text-align:center}
+/* Módulo 25: herramientas de campo */
+.h-in,#h-p-herr{width:100%;padding:10px;border-radius:10px;border:1px solid var(--borde);background:var(--card);color:var(--txt);font:inherit}
+.h-herr{display:flex;flex-direction:column;animation:hEntra .45s ease both}
+.h-herr img{height:170px;transition:transform .6s ease}
+.h-herr:hover img{transform:scale(1.04)}
+.h-herr img[alt^="Medidor FieldScout"]{object-fit:contain;background:#fff}
+.h-herr .h-ir{margin-top:auto;align-self:flex-start;margin-top:10px;padding:8px 12px;font-size:.88rem}
+@keyframes hEntra{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+#h-foto-sonda{height:auto;max-height:280px;object-fit:contain;background:#fff}
+#h-p-tabla td,#h-p-tabla th{white-space:nowrap}
 </style>
 <script id="vibras-datos-github">/* Las noticias se leen directo de GitHub para no gastar créditos de Netlify */
 (function(){var R='pastos-mayordomia',B='https://raw.githubusercontent.com/haroldco45/'+R+'/main/',f=window.fetch.bind(window);
@@ -395,8 +405,8 @@ return f(B+p+u.search,{cache:'no-store',signal:o&&o.signal}).then(function(r){if
       <h1>El Mayordomo</h1>
       <p>Todo lo que un mayordomo debe saber de la finca ganadera colombiana: pasto y comida, salud y reproducción, leche, razas, búfalos, nuestra región y los números del ganado.</p>
       <div class="cifra-hero">
-        <div><b>24</b><span>módulos de estudio en 6 estantes</span></div>
-        <div><b>18</b><span>exámenes por tema y uno completo</span></div>
+        <div><b>25</b><span>módulos de estudio en 6 estantes</span></div>
+        <div><b>19</b><span>exámenes por tema y uno completo</span></div>
         <div><b>Sin señal</b><span>funciona en el campo después de abrirla una vez</span></div>
       </div>
     </div>
@@ -432,7 +442,7 @@ return f(B+p+u.search,{cache:'no-store',signal:o&&o.signal}).then(function(r){if
   <section>
     <div class="wrap">
       <p class="etq">Ruta de estudio</p>
-      <h2 class="titulo-sec">24 módulos en 6 estantes</h2>
+      <h2 class="titulo-sec">25 módulos en 6 estantes</h2>
       <p class="sub">Escoge un estante y empieza por donde más te sirva. Al final, presenta la evaluación.</p>
       <h3 class="estante"><span>🌿</span> Pasto y comida</h3>
       <div class="grid">
@@ -475,7 +485,8 @@ return f(B+p+u.search,{cache:'no-store',signal:o&&o.signal}).then(function(r){if
         <button class="card modulo" onclick="ir('num')"><div class="num" style="background:#5D6B63">16</div><div><h3>Los números del ganado</h3><p>Signos vitales, celo y gestación, edad por los dientes, peso con cinta, UGG y carga, ceba, canal y leche, con una calculadora para cada uno.</p></div></button>
         <button class="card modulo" onclick="ir('lid')"><div class="num" style="background:#7B3FA0">21</div><div><h3>Liderazgo y salud ocupacional</h3><p>Dirigir la cuadrilla, resolver conflictos, habilidades para la vida, riesgos por tarea, mordedura de serpiente, SG-SST y derechos laborales 2026.</p></div></button>
         <button class="card modulo" onclick="ir('emp')"><div class="num" style="background:#1F6F8B">22</div><div><h3>La finca como empresa</h3><p>Costos por kilo y por litro, depreciación, flujo de caja, punto de equilibrio, indicadores, costo real del trabajador, crédito y precios 2026.</p></div></button>
-        <button class="card modulo" onclick="ir('quiz')"><div class="num" style="background:var(--oro);color:#1C2420">✓</div><div><h3>Evaluación</h3><p>Pastos, salud, reproducción, registros, alimentación, ordeño, búfalos, nuestra región, el futuro, los números, las razas, los cerdos, los cultivos, las parcelas, liderazgo y salud ocupacional, la finca como empresa, el agua o todo junto.</p></div></button>
+        <button class="card modulo" onclick="ir('herr')"><div class="num" style="background:#2E6B3A">25</div><div><h3>Herramientas de campo</h3><p>El medidor de pH y CE FieldScout paso a paso, muestra de suelo, penetrómetro, aforo, pluviómetro, termómetro, cinta de peso, CMT, refractómetro y GPS. Con calculadoras y planilla en el celular.</p></div></button>
+        <button class="card modulo" onclick="ir('quiz')"><div class="num" style="background:var(--oro);color:#1C2420">✓</div><div><h3>Evaluación</h3><p>Pastos, salud, reproducción, registros, alimentación, ordeño, búfalos, nuestra región, el futuro, los números, las razas, los cerdos, los cultivos, las parcelas, liderazgo y salud ocupacional, la finca como empresa, el agua, las herramientas de campo o todo junto.</p></div></button>
       </div>
     </div>
   </section>
@@ -4777,6 +4788,294 @@ return f(B+p+u.search,{cache:'no-store',signal:o&&o.signal}).then(function(r){if
   </section>
 </main>
 
+<!-- ============ MÓDULO 25: HERRAMIENTAS DE CAMPO ============ -->
+<main id="v-herr" class="vista">
+  <header class="hero hero-foto" id="h-hero" style="background-position:center 40%">
+    <div class="wrap">
+      <span class="sello">Módulo 25 · Herramientas de campo</span>
+      <h1>El estuche del mayordomo: medir para no adivinar</h1>
+      <p>El que mide, decide. Aquí están los aparatos que sirven en el lote, el corral y el ordeño: para qué es cada uno, cómo se usa bien y qué número buscar. Empieza con la guía completa del medidor de pH y CE FieldScout, en español.</p>
+      <div class="cifra-hero">
+        <div><b>12</b><span>herramientas para el suelo, el pasto, el animal, el agua y el celular</span></div>
+        <div><b>1 guía</b><span>paso a paso del medidor FieldScout de pH y CE</span></div>
+        <div><b>Planilla</b><span>para anotar las mediciones en el celular, aun sin señal</span></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="subnav" id="subnav-herr">
+    <button data-a="h-estuche">El estuche</button>
+    <button data-a="h-sonda">Medidor pH y CE</button>
+    <button data-a="h-salir">Antes de salir</button>
+    <button data-a="h-calc">Calculadoras</button>
+    <button data-a="h-planilla">Planilla</button>
+  </div>
+
+  <section id="h-estuche">
+    <div class="wrap">
+      <p class="etq">Para el suelo, el pasto, el animal y el agua</p>
+      <h2 class="titulo-sec">Las herramientas de campo</h2>
+      <p class="sub">Escoja un tema. Cada tarjeta dice para qué sirve, cómo se usa y el dato que hay que recordar.</p>
+      <div class="chips" id="h-chips"></div>
+      <div class="grid g2" id="h-lista"></div>
+      <div class="ojo"><b>La regla de oro.</b> Un aparato sin anotar no sirve. Cada medida va con fecha, hora, lote o animal y quién la tomó. Así se ve si la finca va mejorando o empeorando.</div>
+    </div>
+  </section>
+
+  <section id="h-sonda" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Guía de campo</p>
+      <h2 class="titulo-sec">Medidor inalámbrico de pH y CE FieldScout</h2>
+      <p class="sub">Sonda de punta fina FieldScout Wireless ISFET, referencia 2128WE, de Spectrum Technologies. Cómo cargarla, conectarla, calibrarla, medir, limpiarla y guardarla.</p>
+      <div class="grid g2">
+        <div class="card bpg">
+          <img id="h-foto-sonda" src="data:image/jpeg;base64,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" alt="Medidor FieldScout de pH y CE con su sonda de punta fina" loading="lazy">
+          <p class="mut" style="font-size:.8rem">La sonda en forma de lápiz: transmisor negro con botón y luz arriba, sonda de acero abajo.</p>
+        </div>
+        <div class="card">
+          <h3 style="margin-bottom:6px">¿Qué mide?</h3>
+          <ul class="lista">
+            <li><b>pH:</b> qué tan ácido o alcalino está el suelo o el agua, de 0 a 14.</li>
+            <li><b>CE (conductividad eléctrica):</b> cuántas sales o abonos hay disueltos. Sirve para vigilar el abono y el fertirriego.</li>
+            <li><b>Temperatura</b> y ORP (potencial redox, para usos técnicos).</li>
+          </ul>
+          <p class="mut" style="margin-top:8px">La lectura no sale en la sonda: aparece en el celular por Bluetooth, en la app <b>FieldScout pH/EC/ORP</b>. El sensor no tiene vidrio, por eso aguanta el trabajo de campo.</p>
+          <div class="ojo"><b>Ejemplo: arándano.</b> Necesita suelo ácido, entre pH 4,5 y 5,5. Si la sonda marca más alto, avise al agrónomo antes de aplicar cualquier corrector. Los valores de CE del cultivo los fija el asesor técnico.</div>
+        </div>
+      </div>
+
+      <h3 style="margin:18px 0 8px">Usos en la finca</h3>
+      <div class="grid g2">
+        <div class="card"><p class="mut">Revisar el pH del suelo del lote antes y después de encalar.</p></div>
+        <div class="card"><p class="mut">Medir en materas, bolsas, bandejas de germinación y sustratos como fibra de coco o turba.</p></div>
+        <div class="card"><p class="mut">Revisar el pH y la CE del agua de riego, del bebedero o de la solución nutritiva.</p></div>
+        <div class="card"><p class="mut">Llevar registro con fecha, hora y punto GPS de cada medición.</p></div>
+      </div>
+
+      <h3 style="margin:18px 0 8px">Paso a paso</h3>
+      <details><summary>1. Qué trae la caja</summary><div><div class="tabla-scroll"><table>
+        <tr><th>Elemento</th><th>Para qué sirve</th></tr>
+        <tr><td>Transmisor (cabeza negra con botón y luz)</td><td>Tiene la batería y la luz de estado, y guarda los datos.</td></tr>
+        <tr><td>Sonda de punta fina</td><td>Tiene los sensores de pH, CE y temperatura. Es la parte que entra al suelo. Se puede cambiar.</td></tr>
+        <tr><td>Anillo de rosca</td><td>Une la sonda con el transmisor.</td></tr>
+        <tr><td>Capuchón</td><td>Cubre la punta cuando no se usa.</td></tr>
+        <tr><td>Varilla</td><td>Abre el hueco guía en suelo duro para no dañar la punta.</td></tr>
+        <tr><td>Cepillo</td><td>Para limpiar la punta.</td></tr>
+        <tr><td>Base de carga y cable USB</td><td>Para cargar la batería.</td></tr>
+        <tr><td>Soluciones pH 4 y pH 7</td><td>Para calibrar el pH.</td></tr>
+        <tr><td>Solución estándar de conductividad</td><td>Para calibrar la CE, solo cuando haga falta.</td></tr>
+        <tr><td>Estuche rígido</td><td>Para cargar y guardar todo.</td></tr>
+      </table></div>
+      <p style="margin-top:8px">En la punta hay dos partes clave: el <b>sensor</b> (lo metálico) y el <b>diafragma de referencia</b> (un punto blanco). Las dos deben tocar la muestra al medir y al calibrar. Si una queda al aire, la lectura sale mal.</p></div></details>
+
+      <details><summary>2. Armar y cargar</summary><div>
+        <div class="pasos">
+          <div class="paso"><div>Pase el anillo por la sonda, alinéela con el transmisor y empújela hasta que entren los dos empaques de caucho. Gire el anillo para apretar.</div></div>
+          <div class="paso"><div>No desarme la sonda en medio del trabajo, ni durante la calibración.</div></div>
+          <div class="paso"><div>Para cargar: base a un cargador USB, transmisor encima con el logo hacia arriba. En unos 3 segundos prende la luz; la base se pone azul mientras carga.</div></div>
+          <div class="paso"><div>La carga completa tarda unas <b>2 horas</b> y dura de <b>2 a 3 semanas</b> de uso.</div></div>
+        </div>
+        <div class="ojo">Cárguela la noche antes de una jornada. Si la luz parpadea rojo 5 veces en cada lectura, la batería está baja.</div>
+      </div></details>
+
+      <details><summary>3. Qué quiere decir la luz</summary><div><div class="tabla-scroll"><table>
+        <tr><th>Luz</th><th>Significado</th></tr>
+        <tr><td>Apagada</td><td>En reposo o esperando la siguiente medición automática.</td></tr>
+        <tr><td>Rojo que sube y baja</td><td>Cargando, batería por debajo del 80 %.</td></tr>
+        <tr><td>Verde que sube y baja</td><td>Cargando, entre 80 % y 100 %.</td></tr>
+        <tr><td>Rojo, un destello cada 10 segundos</td><td>Batería por debajo del 10 %. Cárguela ya.</td></tr>
+        <tr><td>Azul rápido</td><td>Buscando la app, no está conectada.</td></tr>
+        <tr><td>Azul lento</td><td>Buscando la app, con conexión.</td></tr>
+        <tr><td>Verde fijo</td><td>Conectada a la app. Lista para medir.</td></tr>
+        <tr><td>Verde que parpadea</td><td>Tomando una medición.</td></tr>
+        <tr><td>Un destello verde</td><td>Medición automática por intervalo.</td></tr>
+        <tr><td>Morado rápido</td><td>Volviendo a fábrica (reset).</td></tr>
+        <tr><td>Blanco</td><td>Reiniciando (restart).</td></tr>
+        <tr><td>Naranja que sube y baja</td><td>Algo anda mal, por ejemplo la sonda suelta. Revise el armado.</td></tr>
+      </table></div>
+      <p class="mut" style="font-size:.85rem;margin-top:6px">La tabla del manual original no es del todo clara en algunos colores. Si una luz no coincide, revise el manual del fabricante.</p></div></details>
+
+      <details><summary>4. Instalar la app y conectar</summary><div>
+        <p><b>Lo que necesita:</b> celular Android o iPhone con Bluetooth 5.0 o más; internet solo para bajar la app; ubicación activada para que cada medida quede en el mapa; la sonda a menos de unos 50 metros del celular.</p>
+        <p style="margin-top:8px"><b>La primera vez:</b></p>
+        <div class="pasos">
+          <div class="paso"><div>Baje de la tienda de apps <b>FieldScout pH/EC/ORP</b> y ábrala.</div></div>
+          <div class="paso"><div>Mantenga presionado el botón de la sonda. La luz se pone azul.</div></div>
+          <div class="paso"><div>En la app toque <b>+ Add Device</b> (agregar equipo) y <b>Search for Probes</b> (buscar sondas).</div></div>
+          <div class="paso"><div>Toque su sonda en la lista. La luz se pone verde.</div></div>
+          <div class="paso"><div>Calíbrela (paso 5) y toque <b>Save</b> (guardar).</div></div>
+        </div>
+        <p style="margin-top:8px"><b>Las siguientes veces</b> se conecta sola al prenderla con la app abierta. Si no aparece, búsquela en <b>Disconnected Devices</b> y toque <b>Reconnect</b>. Se pueden conectar hasta 6 sondas a la vez.</p>
+        <p style="margin-top:8px"><b>Si se bloquea:</b> primero el reinicio suave (mantener el botón hasta que la luz se ponga blanca); no se pierde la calibración. Si no, el reset (hasta que se ponga morada y se apague).</p>
+      </div></details>
+
+      <details><summary>5. Calibrar el pH (antes de cada jornada)</summary><div>
+        <p>Calibrar es enseñarle a la sonda cuánto es pH 4 y cuánto es pH 7. En el campo se usa la calibración de <b>2 puntos</b>.</p>
+        <div class="pasos" style="margin-top:8px">
+          <div class="paso"><div>Quite el capuchón, enjuague la punta con agua destilada y sacuda las gotas. <b>No la seque con trapo.</b></div></div>
+          <div class="paso"><div>En la app, toque la sonda, baje a <b>Calibration Information</b> y elija <b>New pH Calibration</b>.</div></div>
+          <div class="paso"><div>Meta la punta en la solución que pida la app (pH 7 o pH 4), con el sensor y el punto blanco sumergidos.</div></div>
+          <div class="paso"><div>Espere a que la app acepte el valor. Enjuague, sacuda y pase a la otra solución.</div></div>
+          <div class="paso"><div>Toque <b>Save</b>. Debe salir <b>Last Calibration</b> con fecha y hora.</div></div>
+        </div>
+        <div class="tabla-scroll" style="margin-top:10px"><table>
+          <tr><th>Tipo</th><th>Precisión</th><th>Cuándo</th></tr>
+          <tr><td>1 punto</td><td>1 decimal</td><td>Revisión rápida, cuando los valores varían poco.</td></tr>
+          <tr><td>2 puntos (pH 4 y 7)</td><td>2 decimales</td><td>La recomendada para el campo.</td></tr>
+        </table></div>
+        <div class="ojo"><b>Revise la pendiente (slope).</b> Lo normal es entre <b>95 % y 105 %</b>. Si sale por fuera, limpie y revitalice la sonda (paso 8). Si sigue igual, hay que cambiar la sonda. Pruébelo en la calculadora de abajo.</div>
+        <p style="margin-top:8px">Use soluciones frescas, bien tapadas y lejos del sol. Nunca devuelva al frasco la solución usada. A las 24 horas de calibrar, la app muestra un solo decimal para avisarle que toca calibrar otra vez. La temperatura se corrige sola.</p>
+        <p style="margin-top:8px"><b>La CE</b> viene calibrada de fábrica. Si el técnico lo pide: en <b>Settings</b> active <b>Advanced Mode</b>, luego <b>New EC Calibration</b> con la solución estándar (1 punto).</p>
+      </div></details>
+
+      <details><summary>6. Medir en el campo</summary><div>
+        <p><b>En el suelo del lote:</b></p>
+        <div class="pasos">
+          <div class="paso"><div>Si el suelo está duro, abra primero el hueco con la varilla. <b>Nunca fuerce la punta.</b></div></div>
+          <div class="paso"><div>Si está seco, llene el hueco con agua destilada. Para la CE lo mejor es medir con el suelo regado.</div></div>
+          <div class="paso"><div>Meta la sonda hasta que la punta quede bien en contacto con la tierra húmeda y tome la medición.</div></div>
+          <div class="paso"><div>Saque, enjuague con agua destilada y pase al siguiente punto.</div></div>
+        </div>
+        <p style="margin-top:8px"><b>En materas o sustrato:</b> métala a la profundidad deseada, gírela a lado y lado varias veces e inclínela un poco para que el sensor y el punto blanco toquen bien.</p>
+        <p style="margin-top:8px"><b>En agua:</b> quite el capuchón, enjuague, sacuda y sumerja. Enjuague siempre entre una muestra y otra.</p>
+        <div class="tabla-scroll" style="margin-top:10px"><table>
+          <tr><th>Modo</th><th>Cómo se hace</th></tr>
+          <tr><td>Sample (una muestra)</td><td>Toque <b>Sample</b>, elija la sonda y <b>Take Sample</b>. Con <b>+ Take Reading</b> agrega más lecturas al mismo grupo. Póngale nombre (por ejemplo "Lote 3, surco 5") y termine con <b>Save Sample Set</b>. Un grupo guardado ya no se puede cambiar.</td></tr>
+          <tr><td>Interval (automático)</td><td>Para dejar la sonda fija midiendo sola. <b>Interval</b>, elija la sonda, <b>Start Interval</b> y en <b>Log Every</b> diga cada cuánto mide. Para parar: <b>Interval Running</b> y <b>Stop Interval</b>.</td></tr>
+        </table></div>
+        <div class="ojo"><b>Sin señal no hay problema.</b> Si el celular se desconecta, la sonda guarda los datos y los entrega al volver a conectarse.</div>
+      </div></details>
+
+      <details><summary>7. Guardar y enviar los datos</summary><div>
+        <ul class="lista">
+          <li>Cada grupo muestra fecha, número de lecturas, valores y el punto GPS.</li>
+          <li>Se puede exportar como archivo CSV, que se abre en Excel, y mandarlo al agrónomo.</li>
+          <li>Mandar los datos a la nube sí necesita internet.</li>
+        </ul>
+      </div></details>
+
+      <details><summary>8. Limpieza, revitalización y guardado</summary><div>
+        <p><b>Limpieza (después de cada jornada):</b> 5 minutos con la punta en agua tibia de la llave (unos 60 °C, que se aguante) con un poco de jabón suave, moviéndola. Cepille suave y enjuague con agua destilada.</p>
+        <p style="margin-top:8px"><b>Revitalizar</b> (si responde lento o la pendiente salió mala): recién limpia y todavía tibia, déjela 20 minutos en solución pH 4 o pH 7 y calibre otra vez.</p>
+        <div class="tabla-scroll" style="margin-top:8px"><table>
+          <tr><th>Tiempo</th><th>Cómo guardarla</th></tr>
+          <tr><td>Pocos días</td><td>Enjuagada y sin secar, en un vaso limpio con solución pH 7 fresca.</td></tr>
+          <tr><td>Mucho tiempo</td><td>Enjuagada y sin secar, con una gota de pH 7 dentro del capuchón.</td></tr>
+          <tr><td>Ambiente</td><td>Entre 0 y 80 °C y humedad entre 30 % y 80 %. Nunca dentro del carro al sol.</td></tr>
+        </table></div>
+      </div></details>
+
+      <details><summary>9. Errores comunes</summary><div><div class="tabla-scroll"><table>
+        <tr><th>Problema</th><th>Qué hacer</th></tr>
+        <tr><td>Luz naranja que sube y baja</td><td>Sonda suelta o falla. Revise que esté encajada y el anillo apretado. Reinicio suave.</td></tr>
+        <tr><td>No se conecta</td><td>Bluetooth y ubicación activos, Reconnect; si no, reinicio suave o reset.</td></tr>
+        <tr><td>Lecturas raras o que saltan</td><td>Soluciones viejas, punta sucia o punto blanco sin tocar la muestra. Limpie, soluciones nuevas y calibre.</td></tr>
+        <tr><td>Sale con un solo decimal</td><td>Pasaron 24 horas desde la calibración. Calibre otra vez.</td></tr>
+        <tr><td>Lenta o pendiente fuera de 95–105 %</td><td>Limpie y revitalice. Si sigue igual, cambie la sonda (repuesto 2128RE).</td></tr>
+        <tr><td>Parpadeo rojo en cada lectura</td><td>Batería baja. Cárguela.</td></tr>
+        <tr><td>Suelo seco, no marca bien</td><td>Moje el hueco con agua destilada antes de medir.</td></tr>
+      </table></div></div></details>
+
+      <details><summary>10. Ficha técnica y garantía</summary><div><div class="tabla-scroll"><table>
+        <tr><th>Característica</th><th>Valor</th></tr>
+        <tr><td>pH: rango / precisión / resolución</td><td>0,00 a 14,00 / ±0,02 / 0,01</td></tr>
+        <tr><td>Calibración de pH</td><td>1 o 2 puntos (soluciones DIN, NIST o JIS)</td></tr>
+        <tr><td>CE: rango</td><td>50 a 111.800 µS/cm</td></tr>
+        <tr><td>CE: precisión</td><td>1 % entre 50 y 12.880 µS/cm; 10 % en todo el rango</td></tr>
+        <tr><td>Temperatura</td><td>0 a 80 °C, resolución 0,1 °C, corrección automática</td></tr>
+        <tr><td>ORP</td><td>−2.000 a +2.000 mV, ±0,2 mV</td></tr>
+        <tr><td>Conexión</td><td>Bluetooth de bajo consumo, unos 50 m, hasta 6 sondas</td></tr>
+        <tr><td>Batería</td><td>Recargable: 2 a 3 semanas de uso, 2 horas de carga</td></tr>
+        <tr><td>Medidas</td><td>224 × 24 × 20 mm; sonda de 128 mm</td></tr>
+        <tr><td>Material</td><td>ABS/PEEK; punta fina de acero inoxidable</td></tr>
+      </table></div>
+      <p style="margin-top:8px">El fabricante cubre defectos de fábrica 1 año en el transmisor y 6 meses en la sonda. No cubre golpes, rayos, descuidos ni modificaciones. Para devolver un equipo hay que pedir antes un número de autorización (RMA).</p></div></details>
+
+      <p class="mut" style="font-size:.8rem;margin-top:8px">Guía en español preparada por Vibras Positivas HM a partir del manual del fabricante (Spectrum Technologies). No reemplaza el manual oficial en inglés. Los botones de la app se dejan en inglés, como salen en la pantalla.</p>
+    </div>
+  </section>
+
+  <section id="h-salir" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Lista de chequeo</p>
+      <h2 class="titulo-sec">Antes de salir al lote</h2>
+      <p class="sub">Marque cada cosa. La app la recuerda hasta que la desmarque.</p>
+      <div class="card"><div id="h-chk"></div><div class="resultado-grande" id="h-chk-res"></div>
+        <button class="btn linea" style="margin-top:10px" id="h-chk-limpiar" type="button">Empezar otra jornada</button></div>
+    </div>
+  </section>
+
+  <section id="h-calc" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Calculadoras</p>
+      <h2 class="titulo-sec">Qué quiere decir el número</h2>
+      <div class="grid g2">
+        <div class="card">
+          <h3 style="margin-bottom:8px">¿Qué tan ácido está el suelo?</h3>
+          <div class="campo"><label>pH medido <span id="h-o-ph">5,5</span></label><input type="range" id="h-ph" min="3.5" max="9" step="0.1" value="5.5"></div>
+          <div class="salidas"><div class="salida dest"><small>El suelo está</small><b id="h-r-ph">Ácido</b></div></div>
+          <p class="mut" id="h-r-ph-txt" style="margin-top:8px"></p>
+        </div>
+        <div class="card">
+          <h3 style="margin-bottom:8px">¿La sonda quedó bien calibrada?</h3>
+          <div class="campo"><label>Pendiente (slope) que dio la app <span id="h-o-sl">99 %</span></label><input type="range" id="h-sl" min="85" max="115" step="0.5" value="99"></div>
+          <div class="salidas"><div class="salida dest"><small>Resultado</small><b id="h-r-sl">Bien</b></div></div>
+          <p class="mut" id="h-r-sl-txt" style="margin-top:8px"></p>
+        </div>
+        <div class="card">
+          <h3 style="margin-bottom:8px">¿Cuánta agua cayó?</h3>
+          <div class="campo"><label>Lluvia en el pluviómetro <span id="h-o-mm">20 mm</span></label><input type="range" id="h-mm" min="1" max="150" step="1" value="20"></div>
+          <div class="campo"><label>Área del lote <span id="h-o-ha">1 ha</span></label><input type="range" id="h-ha" min="0.5" max="50" step="0.5" value="1"></div>
+          <div class="salidas">
+            <div class="salida"><small>Litros por metro cuadrado</small><b id="h-r-l">20</b></div>
+            <div class="salida"><small>Metros cúbicos por hectárea</small><b id="h-r-m3">200</b></div>
+            <div class="salida dest"><small>Agua que cayó en el lote</small><b id="h-r-lote">200 m³</b></div>
+          </div>
+          <p class="mut" id="h-r-mm-txt" style="margin-top:8px"></p>
+        </div>
+        <div class="card">
+          <h3 style="margin-bottom:8px">¿El calostro es bueno?</h3>
+          <div class="campo"><label>Lectura del refractómetro <span id="h-o-bx">24 % Brix</span></label><input type="range" id="h-bx" min="10" max="35" step="1" value="24"></div>
+          <div class="salidas"><div class="salida dest"><small>El calostro es</small><b id="h-r-bx">Bueno</b></div></div>
+          <p class="mut" id="h-r-bx-txt" style="margin-top:8px"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="h-planilla" style="padding-top:0">
+    <div class="wrap">
+      <p class="etq">Planilla de registro en campo</p>
+      <h2 class="titulo-sec">Anote cada medición</h2>
+      <p class="sub">Queda guardada en este celular, aun sin señal. Es el respaldo de lo que guarda la app de la sonda. Hora de Colombia.</p>
+      <div class="card">
+        <div class="grid g2">
+          <div class="campo"><label>Finca</label><input type="text" id="h-p-finca" class="h-in" placeholder="Ej.: La Esperanza"></div>
+          <div class="campo"><label>Responsable</label><input type="text" id="h-p-resp" class="h-in" placeholder="Nombre de quien mide"></div>
+          <div class="campo"><label>Lote o punto</label><input type="text" id="h-p-lote" class="h-in" placeholder="Ej.: Lote 3, surco 5"></div>
+          <div class="campo"><label>Herramienta</label><select id="h-p-herr"><option>Medidor pH/CE</option><option>Pluviómetro</option><option>Penetrómetro</option><option>Regla de pasto</option><option>Cinta de peso</option><option>Termómetro</option><option>Refractómetro</option><option>Paleta CMT</option><option>Otra</option></select></div>
+          <div class="campo"><label>pH</label><input type="number" id="h-p-ph" step="0.01" min="0" max="14" inputmode="decimal"></div>
+          <div class="campo"><label>CE (µS/cm)</label><input type="number" id="h-p-ce" step="1" min="0" inputmode="numeric"></div>
+          <div class="campo"><label>Temperatura (°C)</label><input type="number" id="h-p-t" step="0.1" inputmode="decimal"></div>
+          <div class="campo"><label>Otro valor (mm, kg, cm, % Brix…)</label><input type="text" id="h-p-otro" class="h-in"></div>
+        </div>
+        <div class="campo"><label>Observaciones</label><input type="text" id="h-p-obs" class="h-in" placeholder="Ej.: suelo seco, se mojó el hueco"></div>
+        <button class="btn" id="h-p-guardar" type="button">Guardar medición</button>
+        <p class="mut" id="h-p-msg" style="margin-top:6px"></p>
+      </div>
+      <div class="card" style="margin-top:12px">
+        <h3 style="margin-bottom:6px">Mediciones guardadas <span class="mut" id="h-p-n"></span></h3>
+        <div class="tabla-scroll"><table id="h-p-tabla"></table></div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
+          <button class="btn" id="h-p-csv" type="button">Descargar para Excel (CSV)</button>
+          <button class="btn oro" id="h-p-wa" type="button">Enviar por WhatsApp</button>
+          <button class="btn linea" id="h-p-borrar" type="button">Borrar todo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
 <footer>
   <div class="wrap">
     <p><b>Escuela de Mayordomía</b> · Material de estudio</p>
@@ -4806,6 +5105,7 @@ return f(B+p+u.search,{cache:'no-store',signal:o&&o.signal}).then(function(r){if
   <button data-v="emp"><span class="ic">💼</span>Empresa</button>
   <button data-v="agua"><span class="ic">💧</span>Agua</button>
   <button data-v="euro"><span class="ic" style="font-size:.8rem;font-weight:800">24</span>Mundo</button>
+  <button data-v="herr"><span class="ic" style="font-size:.8rem;font-weight:800">25</span>Campo</button>
   <button data-v="reg"><span class="ic">📒</span>Registro</button>
   <button data-v="quiz"><span class="ic">✅</span>Examen</button>
 </nav>
@@ -6621,11 +6921,12 @@ function iniciarQuiz(){
    <button class="opc" data-q="e">💼 La finca como empresa · ${PREG_EMP.length} preguntas</button>
    <button class="opc" data-q="h">💧 Agua: Keyline y cosecha de lluvia · ${PREG_AGUA.length} preguntas</button>
    <button class="opc" data-q="x">EuroTier 2026: lo nuevo del mundo · ${PREG_EURO.length} preguntas</button>
-   <button class="opc" data-q="t">🎓 Examen completo · ${PREG_PASTOS.length+PREG_SALUD.length+PREG_REPRO.length+PREG_REG.length+PREG_ALI.length+PREG_ORD.length+PREG_BUF.length+PREG_BC.length+PREG_FUT.length+PREG_NUM.length+PREG_RAZ.length+PREG_CER.length+PREG_CUL.length+PREG_PAR.length+PREG_LID.length+PREG_EMP.length+PREG_AGUA.length+PREG_EURO.length} preguntas</button></div>`;
+   <button class="opc" data-q="j">Herramientas de campo · ${PREG_HERR.length} preguntas</button>
+   <button class="opc" data-q="t">🎓 Examen completo · ${PREG_PASTOS.length+PREG_SALUD.length+PREG_REPRO.length+PREG_REG.length+PREG_ALI.length+PREG_ORD.length+PREG_BUF.length+PREG_BC.length+PREG_FUT.length+PREG_NUM.length+PREG_RAZ.length+PREG_CER.length+PREG_CUL.length+PREG_PAR.length+PREG_LID.length+PREG_EMP.length+PREG_AGUA.length+PREG_EURO.length+PREG_HERR.length} preguntas</button></div>`;
   $('q-caja').querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{
     const q=b.dataset.q;
-    PREG=q==='p'?PREG_PASTOS:q==='s'?PREG_SALUD:q==='r'?PREG_REPRO:q==='g'?PREG_REG:q==='a'?PREG_ALI:q==='o'?PREG_ORD:q==='b'?PREG_BUF:q==='z'?PREG_BC:q==='f'?PREG_FUT:q==='n'?PREG_NUM:q==='k'?PREG_RAZ:q==='c'?PREG_CER:q==='m'?PREG_CUL:q==='w'?PREG_PAR:q==='l'?PREG_LID:q==='e'?PREG_EMP:q==='h'?PREG_AGUA:q==='x'?PREG_EURO:PREG_PASTOS.concat(PREG_SALUD,PREG_REPRO,PREG_REG,PREG_ALI,PREG_ORD,PREG_BUF,PREG_BC,PREG_FUT,PREG_NUM,PREG_RAZ,PREG_CER,PREG_CUL,PREG_PAR,PREG_LID,PREG_EMP,PREG_AGUA,PREG_EURO);
-    quizNombre=q==='p'?'Pastos y Forrajes':q==='s'?'Salud Animal':q==='r'?'Reproducción':q==='g'?'Registros':q==='a'?'Alimentación':q==='o'?'Ordeño':q==='b'?'Búfalos':q==='z'?'Nuestra región':q==='f'?'Hacia dónde va la ganadería':q==='n'?'Los números del ganado':q==='k'?'Razas bovinas':q==='c'?'Porcicultura':q==='m'?'Cultivos menores':q==='w'?'Parcelas de La Paraguay':q==='l'?'Liderazgo y salud ocupacional':q==='e'?'La finca como empresa':q==='h'?'Agua: Keyline y cosecha de lluvia':q==='x'?'EuroTier 2026':'Examen completo';
+    PREG=q==='p'?PREG_PASTOS:q==='s'?PREG_SALUD:q==='r'?PREG_REPRO:q==='g'?PREG_REG:q==='a'?PREG_ALI:q==='o'?PREG_ORD:q==='b'?PREG_BUF:q==='z'?PREG_BC:q==='f'?PREG_FUT:q==='n'?PREG_NUM:q==='k'?PREG_RAZ:q==='c'?PREG_CER:q==='m'?PREG_CUL:q==='w'?PREG_PAR:q==='l'?PREG_LID:q==='e'?PREG_EMP:q==='h'?PREG_AGUA:q==='x'?PREG_EURO:q==='j'?PREG_HERR:PREG_PASTOS.concat(PREG_SALUD,PREG_REPRO,PREG_REG,PREG_ALI,PREG_ORD,PREG_BUF,PREG_BC,PREG_FUT,PREG_NUM,PREG_RAZ,PREG_CER,PREG_CUL,PREG_PAR,PREG_LID,PREG_EMP,PREG_AGUA,PREG_EURO,PREG_HERR);
+    quizNombre=q==='p'?'Pastos y Forrajes':q==='s'?'Salud Animal':q==='r'?'Reproducción':q==='g'?'Registros':q==='a'?'Alimentación':q==='o'?'Ordeño':q==='b'?'Búfalos':q==='z'?'Nuestra región':q==='f'?'Hacia dónde va la ganadería':q==='n'?'Los números del ganado':q==='k'?'Razas bovinas':q==='c'?'Porcicultura':q==='m'?'Cultivos menores':q==='w'?'Parcelas de La Paraguay':q==='l'?'Liderazgo y salud ocupacional':q==='e'?'La finca como empresa':q==='h'?'Agua: Keyline y cosecha de lluvia':q==='x'?'EuroTier 2026':q==='j'?'Herramientas de campo':'Examen completo';
     qi=0;puntos=0;pintarPregunta();
   });
 }
@@ -6822,6 +7123,134 @@ if('serviceWorker' in navigator){ window.addEventListener('load',()=>navigator.s
   document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')cargar()});
   if(typeof ir==='function'){const irViejo=ir;window.ir=ir=function(v,a){irViejo(v,a);if(v==='inicio')cargar()}}
   setInterval(cargar,5*60*1000);
+})();
+
+/* ---------- MÓDULO 25: HERRAMIENTAS DE CAMPO ---------- */
+const PREG_HERR=[
+ {p:'Antes de cada jornada, ¿con qué soluciones se calibra el pH de la sonda FieldScout?',o:['Agua de la llave','pH 4 y pH 7','Leche y agua','Sal y azúcar'],r:1,e:'Calibración de 2 puntos con pH 4 y pH 7: es la recomendada para el campo y da 2 decimales.'},
+ {p:'Después de calibrar, la pendiente (slope) normal está entre…',o:['50 % y 70 %','95 % y 105 %','110 % y 130 %','0 % y 10 %'],r:1,e:'Entre 95 % y 105 %. Si sale por fuera, limpie y revitalice; si sigue igual, cambie la sonda.'},
+ {p:'El suelo del lote está duro. ¿Qué se hace antes de meter la sonda?',o:['Forzarla con fuerza','Abrir un hueco guía con la varilla y, si está seco, mojarlo con agua destilada','Golpearla con un martillo','Medir en el aire'],r:1,e:'Nunca se fuerza la punta: se raya y se daña. Hueco guía con la varilla y agua destilada si está seco.'},
+ {p:'¿Cómo se guarda la sonda por pocos días?',o:['Seca dentro del carro','Enjuagada, sin secar, en solución pH 7 fresca','En agua con jabón','Al sol para que se seque'],r:1,e:'Enjuagada con agua destilada, sin secar y en un vaso limpio con solución pH 7 fresca.'},
+ {p:'Para mandar al laboratorio una muestra de suelo de un lote parejo se toman…',o:['Una sola palada en la entrada','De 15 a 20 submuestras en zigzag, se mezclan y se manda cerca de 1 kg','Tierra de donde comen sal las vacas','Solo la capa de hojas'],r:1,e:'Muchas submuestras en zigzag dan una muestra que representa el lote. Se evitan comederos, saladeros, bostas y orillas.'},
+ {p:'Cayeron 20 mm en el pluviómetro. ¿Cuánta agua es por metro cuadrado?',o:['2 litros','20 litros','200 litros','0,2 litros'],r:1,e:'1 mm de lluvia es 1 litro por metro cuadrado, o 10 metros cúbicos por hectárea. 20 mm = 20 L/m² = 200 m³/ha.'},
+ {p:'Un calostro que marca 24 % Brix en el refractómetro es…',o:['Malo, hay que botarlo','Bueno: 22 % o más es calostro de buena calidad','Leche común','Agua'],r:1,e:'22 % Brix o más indica calostro bueno. Por debajo de 18 % es pobre: busque calostro de otra vaca o guardado.'},
+ {p:'En la paleta CMT, si la leche con el reactivo se pone espesa como gel, quiere decir…',o:['Leche de buena calidad','Mastitis que no se ve (subclínica) en ese cuarto','Que la vaca está en celo','Que falta sal'],r:1,e:'Entre más espesa, más células somáticas: mastitis subclínica. Ese cuarto se trata y la vaca se ordeña de última.'},
+ {p:'La temperatura normal de una res adulta, tomada por el recto, está entre…',o:['35 y 36 °C','38,0 y 39,2 °C','41 y 42 °C','30 y 32 °C'],r:1,e:'Entre 38,0 y 39,2 °C en el adulto. Más de eso es fiebre: avise al veterinario.'}
+];
+document.querySelectorAll('#subnav-herr button').forEach(b=>b.onclick=()=>{
+  const el=document.getElementById(b.dataset.a);
+  window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-60,behavior:'smooth'});
+});
+(function(){
+  const todas=[...document.querySelectorAll('img[src^="data:"]')];
+  const foto=a=>{const m=todas.find(x=>x.alt===a);return m?m.src:'';};
+  const h=foto('Vaqueros a caballo en un corral del Bajo Cauca')||foto('Vaca cebú en el corral');
+  if(h)$('h-hero').style.backgroundImage=`linear-gradient(180deg,rgba(28,36,32,.55),rgba(18,58,36,.94)),url(${h})`;
+  const HERR=[
+   {n:'Medidor de pH y CE',t:'suelo',f:'Medidor FieldScout de pH y CE con su sonda de punta fina',p:'Saber qué tan ácido está el suelo o el agua y cuántas sales o abono tiene.',c:'Calibrar con pH 4 y pH 7 cada jornada, abrir hueco guía, medir en tierra húmeda y enjuagar entre puntos.',d:'La mayoría de pastos tropicales andan bien entre pH 5,5 y 6,5.',a:'h-sonda',al:'Ver la guía completa'},
+   {n:'Barreno o pala para muestra de suelo',t:'suelo',f:'Búfalos descansando a la sombra de un árbol en el potrero',p:'Sacar la muestra que va al laboratorio para saber qué le falta al suelo antes de abonar o encalar.',c:'Por cada lote parejo, de 15 a 20 submuestras en zigzag a la profundidad que pida el laboratorio (en potrero, normalmente de 0 a 20 cm). Se mezclan en un balde limpio y se manda cerca de 1 kg en bolsa marcada.',d:'No tome tierra de saladeros, comederos, bostas, quemas ni orillas de cerca. Repita cada 2 o 3 años.',m:'corte',ma:'abono',ml:'Módulo 2: el abono'},
+   {n:'Penetrómetro o varilla',t:'suelo',f:'Ladera de potrero sobrepastoreada con agua lodosa corriendo entre la grama',p:'Encontrar el suelo apretado por el pisoteo, donde el agua no entra y la raíz no baja.',c:'Empujar con fuerza pareja en suelo húmedo, no seco, y anotar a qué profundidad se frena. Comparar el potrero con la orilla de la cerca, donde no pisa el ganado. Sin aparato: una varilla de hierro de 3/8 sirve.',d:'Con el penetrómetro, por encima de 2 MPa (unos 300 psi) la raíz casi no pasa.',m:'pastos',ml:'Módulo 3: pastos'},
+   {n:'Regla de pasto y marco de aforo',t:'pasto',f:'Banco mixto de forraje con botón de oro y pasto morado',p:'Saber cuánto pasto hay para decidir cuándo entrar y sacar el ganado del potrero.',c:'Medir la altura del pasto en 20 puntos al entrar y al salir. Para el aforo, tirar un marco de 1 m², cortar lo que quede adentro y pesarlo; repetir varias veces y sacar promedio.',d:'Kilos verdes por m² × 10.000 = kilos verdes por hectárea.',m:'ali',ml:'Módulo 11: aforo'},
+   {n:'Báscula o romana',t:'pasto',f:'Banco de forraje con caña y pasto de corte bajo los árboles',p:'Pesar el pasto picado, el concentrado, la leche o los terneros: lo que no se pesa se adivina.',c:'Colgarla firme y en sombra, pesar el balde vacío primero y restarlo. Revisarla de vez en cuando con un peso conocido, como un bulto de 40 kg cerrado.',d:'Una vaca de 500 kg come unos 50 kg de pasto picado al día.',m:'corte',ml:'Módulo 1: la cuenta del pasto'},
+   {n:'Pluviómetro',t:'agua',f:'Búfalos en un potrero inundado',p:'Saber cuánta agua cayó para planear siembras, abonadas, reservorios y el verano.',c:'Instalarlo en un lugar abierto, lejos de árboles y techos, a un metro del suelo. Leerlo todos los días a la misma hora, anotar y vaciarlo.',d:'1 mm de lluvia = 1 litro por m² = 10 m³ por hectárea.',m:'agua',ml:'Módulo 23: agua'},
+   {n:'Nivel en A',t:'agua',f:'Seto forrajero de botón de oro en hilera dentro del potrero',p:'Trazar curvas de nivel para zanjas, barreras vivas y siembras en ladera, sin aparatos caros.',c:'Se arma con tres palos, una cuerda y una piedra que cuelga. Se calibra marcando el centro y se va estacando cada paso donde la plomada cae en la marca.',d:'Es la herramienta base del diseño Keyline en finca.',m:'agua',ml:'Módulo 23: agua'},
+   {n:'Termómetro digital',t:'animal',f:'Bovino flaco y decaído en el corral',p:'Saber si un animal tiene fiebre antes de llamar al veterinario o de tratar.',c:'Por el recto, apoyado contra la pared, hasta que pite. Limpiarlo con alcohol antes y después.',d:'Res adulta: entre 38,0 y 39,2 °C. Más es fiebre.',m:'num',ml:'Módulo 16: los números'},
+   {n:'Cinta de peso (bovinométrica)',t:'animal',f:'Vaca cebú en el corral',p:'Calcular el peso sin báscula para dosificar remedios y purgas y ver si el animal está ganando.',c:'Pasarla alrededor del pecho, justo detrás de la paleta, con el animal parado derecho y la cinta ni floja ni apretada. Medir siempre a la misma hora.',d:'Es un cálculo aproximado: sirve para comparar al mismo animal en el tiempo.',m:'num',ml:'Módulo 16: los números'},
+   {n:'Paleta CMT',t:'animal',f:'Dibujo de un pezón inflamado por mastitis',p:'Encontrar la mastitis que no se ve en la leche (subclínica).',c:'Unos chorros de cada cuarto en su casilla, la misma cantidad de reactivo, girar la paleta unos segundos y mirar. Si se pone espesa como gel, hay mastitis.',d:'Hacerla cada 15 días a todas las vacas en ordeño.',m:'ord',ml:'Módulo 12: ordeño'},
+   {n:'Refractómetro de Brix',t:'animal',f:'Vaca con su ternero',p:'Saber si el calostro es bueno antes de dárselo al ternero.',c:'Una gota de calostro en el vidrio, tapar, mirar contra la luz y leer la línea. Limpiar con agua y secar con papel suave.',d:'22 % Brix o más es calostro bueno. Menos de 18 % es pobre. Pruébelo en la calculadora.',a:'h-calc',al:'Ir a la calculadora'},
+   {n:'GPS y celular',t:'cel',f:'Mapa satelital del Bajo Cauca, Córdoba y Sucre con fincas bufaleras marcadas',p:'Medir el área de los potreros, marcar los puntos de muestreo y dejar fotos con fecha como prueba.',c:'Recorrer el borde del potrero con una app de mapas que mida área, o marcarlo sobre el mapa satelital. Tomar foto de cada punto medido con la ubicación activada.',d:'El GPS del celular puede fallar unos metros: para potreros sirve, para linderos legales no.',m:'reg',ml:'Módulo 10: registros'}
+  ];
+  const TEMAS=[['todo','Todas'],['suelo','Suelo'],['pasto','Pasto'],['animal','Animal'],['agua','Agua y clima'],['cel','Celular']];
+  let tema='todo';
+  const pintar=()=>{
+    $('h-chips').innerHTML=TEMAS.map(([k,v])=>`<button class="chip${k===tema?' on':''}" data-t="${k}" type="button">${v}</button>`).join('');
+    $('h-chips').querySelectorAll('button').forEach(b=>b.onclick=()=>{tema=b.dataset.t;pintar();});
+    $('h-lista').innerHTML=HERR.filter(x=>tema==='todo'||x.t===tema).map(x=>{
+      const src=x.f?foto(x.f):'';
+      const ir2=x.a?`<button class="btn linea h-ir" type="button" data-a="${x.a}">${x.al}</button>`:x.m?`<button class="btn linea h-ir" type="button" data-m="${x.m}" data-ma="${x.ma||''}">${x.ml}</button>`:'';
+      return `<div class="card bpg h-herr">${src?`<img src="${src}" alt="${x.f}" loading="lazy">`:''}<h3>${x.n}</h3><p><b>Para qué:</b> ${x.p}</p><p style="margin-top:6px"><b>Cómo:</b> ${x.c}</p><div class="ojo" style="margin-top:8px">${x.d}</div>${ir2}</div>`;
+    }).join('');
+    $('h-lista').querySelectorAll('.h-ir').forEach(b=>b.onclick=()=>{
+      if(b.dataset.a){const el=document.getElementById(b.dataset.a);window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-60,behavior:'smooth'});}
+      else ir(b.dataset.m,b.dataset.ma||undefined);
+    });
+  };
+  pintar();
+})();
+
+/* Lista de chequeo antes de salir */
+const SALIR=['Sonda cargada (luz verde en la base)','App instalada y sonda conectada (luz verde fija)','Bluetooth y ubicación del celular activados','Calibrada hoy con pH 4 y pH 7; pendiente entre 95 % y 105 %','Agua destilada, varilla, cepillo y capuchón en el estuche','Nombres de los lotes y puntos de muestreo definidos','Celular cargado y planilla lista para anotar'];
+const pintarSalir=()=>checklist('h-chk',SALIR,'chkHerrSalir',s=>{
+  const n=s.length,t=SALIR.length;
+  $('h-chk-res').innerHTML=`<b>${n}/${t}</b>${n===t?'Todo listo. A medir.':'Falta '+(t-n)+(t-n===1?' cosa':' cosas')+' antes de salir.'}`;
+});
+pintarSalir();
+$('h-chk-limpiar').onclick=()=>{guardar('chkHerrSalir',[]);pintarSalir();};
+
+/* Calculadoras */
+function hCalc(){
+  const ph=+$('h-ph').value; $('h-o-ph').textContent=fmt(ph);
+  const P=ph<5?['Muy ácido','Es probable que haya aluminio que quema la raíz. Pocos pastos lo aguantan, como algunas Brachiarias. Mande muestra al laboratorio antes de encalar.']
+   :ph<5.5?['Ácido','Lo normal en muchos suelos de Colombia. El arándano lo pide así (4,5 a 5,5). Para pastos exigentes, el laboratorio dirá cuánta cal echar.']
+   :ph<=6.5?['Bien para pastos','Moderadamente ácido: la mayoría de pastos y cultivos aprovechan bien el abono en este rango.']
+   :ph<=7.3?['Neutro','Bueno para casi todo. No hace falta encalar.']
+   :['Alcalino','Puede faltar hierro, zinc o fósforo para la planta. Revise el agua de riego y consulte al agrónomo.'];
+  $('h-r-ph').textContent=P[0]; $('h-r-ph-txt').textContent=P[1];
+  const sl=+$('h-sl').value; $('h-o-sl').textContent=fmt(sl)+' %';
+  const ok=sl>=95&&sl<=105;
+  $('h-r-sl').textContent=ok?'Bien':'Revisar';
+  $('h-r-sl-txt').textContent=ok?'Puede salir a medir.':'Limpie la punta, revitalícela 20 minutos en pH 4 o pH 7 y calibre otra vez. Si sigue por fuera, cambie la sonda.';
+  const mm=+$('h-mm').value, ha=+$('h-ha').value;
+  $('h-o-mm').textContent=mm+' mm'; $('h-o-ha').textContent=fmt(ha)+' ha';
+  $('h-r-l').textContent=fmt(mm,0); $('h-r-m3').textContent=fmt(mm*10,0);
+  $('h-r-lote').textContent=fmt(mm*10*ha,0)+' m³';
+  $('h-r-mm-txt').textContent=`Son ${fmt(mm*10*ha*1000,0)} litros sobre el lote. Lo que no se infiltra se va: vea el módulo 23.`;
+  const bx=+$('h-bx').value; $('h-o-bx').textContent=bx+' % Brix';
+  const B=bx>=22?['Bueno','Déselo al ternero en las primeras horas de vida. El que sobre se puede congelar para otro ternero.']
+   :bx>=18?['Regular','Sirve, pero refuércelo con calostro bueno de otra vaca o guardado.']
+   :['Pobre','No alcanza a proteger al ternero. Busque calostro de otra vaca o congelado.'];
+  $('h-r-bx').textContent=B[0]; $('h-r-bx-txt').textContent=B[1];
+}
+['h-ph','h-sl','h-mm','h-ha','h-bx'].forEach(id=>$(id).addEventListener('input',hCalc));
+hCalc();
+
+/* Planilla */
+(function(){
+  const CLAVE='herrPlanilla';
+  const horaCo=()=>new Date().toLocaleString('es-CO',{timeZone:'America/Bogota',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:true});
+  const esc=t=>String(t??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  $('h-p-finca').value=leer('herrFinca','');$('h-p-resp').value=leer('herrResp','');
+  $('h-p-finca').onchange=()=>guardar('herrFinca',$('h-p-finca').value.trim());
+  $('h-p-resp').onchange=()=>guardar('herrResp',$('h-p-resp').value.trim());
+  const pintar=()=>{
+    const L=leer(CLAVE,[]);
+    $('h-p-n').textContent=L.length?`(${L.length})`:'';
+    $('h-p-tabla').innerHTML=L.length?'<tr><th>Fecha y hora</th><th>Lote</th><th>Herramienta</th><th>pH</th><th>CE</th><th>°C</th><th>Otro</th><th>Obs.</th></tr>'+L.slice().reverse().map(r=>`<tr><td>${esc(r.h)}</td><td>${esc(r.lote)}</td><td>${esc(r.herr)}</td><td>${esc(r.ph)}</td><td>${esc(r.ce)}</td><td>${esc(r.t)}</td><td>${esc(r.otro)}</td><td>${esc(r.obs)}</td></tr>`).join(''):'<tr><td class="mut">Todavía no hay mediciones.</td></tr>';
+  };
+  $('h-p-guardar').onclick=()=>{
+    const r={h:horaCo(),finca:$('h-p-finca').value.trim(),resp:$('h-p-resp').value.trim(),lote:$('h-p-lote').value.trim(),herr:$('h-p-herr').value,ph:$('h-p-ph').value,ce:$('h-p-ce').value,t:$('h-p-t').value,otro:$('h-p-otro').value.trim(),obs:$('h-p-obs').value.trim()};
+    if(!r.lote){$('h-p-msg').textContent='Escriba el lote o punto.';return;}
+    if(!r.ph&&!r.ce&&!r.t&&!r.otro){$('h-p-msg').textContent='Anote al menos un valor.';return;}
+    const L=leer(CLAVE,[]);L.push(r);guardar(CLAVE,L);guardar('herrFinca',r.finca);guardar('herrResp',r.resp);
+    ['h-p-ph','h-p-ce','h-p-t','h-p-otro','h-p-obs'].forEach(id=>$(id).value='');
+    $('h-p-msg').textContent='Guardada: '+r.lote+' · '+r.h;pintar();
+  };
+  $('h-p-csv').onclick=()=>{
+    const L=leer(CLAVE,[]);if(!L.length){$('h-p-msg').textContent='No hay mediciones para descargar.';return;}
+    const c=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
+    const filas=[['Fecha y hora (Colombia)','Finca','Responsable','Lote o punto','Herramienta','pH','CE (µS/cm)','Temperatura (°C)','Otro valor','Observaciones']]
+      .concat(L.map(r=>[r.h,r.finca,r.resp,r.lote,r.herr,String(r.ph).replace('.',','),r.ce,String(r.t).replace('.',','),r.otro,r.obs]));
+    const blob=new Blob(['﻿'+filas.map(f=>f.map(c).join(';')).join('\r\n')],{type:'text/csv;charset=utf-8'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='planilla-campo.csv';document.body.appendChild(a);a.click();a.remove();
+  };
+  $('h-p-wa').onclick=()=>{
+    const L=leer(CLAVE,[]);if(!L.length){$('h-p-msg').textContent='No hay mediciones para enviar.';return;}
+    const ult=L.slice(-15);
+    const t='Planilla de campo'+(ult[0].finca?' · '+ult[0].finca:'')+(ult[0].resp?' · '+ult[0].resp:'')+'\n'+ult.map(r=>`${r.h} | ${r.lote} | ${r.herr}`+(r.ph?` | pH ${r.ph}`:'')+(r.ce?` | CE ${r.ce} µS/cm`:'')+(r.t?` | ${r.t} °C`:'')+(r.otro?` | ${r.otro}`:'')+(r.obs?` | ${r.obs}`:'')).join('\n')+'\n\nEl Mayordomo · pastos-mayordomia.netlify.app';
+    window.open('https://wa.me/?text='+encodeURIComponent(t),'_blank','noopener');
+  };
+  $('h-p-borrar').onclick=()=>{if(confirm('¿Borrar todas las mediciones de este celular?')){guardar(CLAVE,[]);pintar();}};
+  pintar();
 })();
 </script>
 </body>
