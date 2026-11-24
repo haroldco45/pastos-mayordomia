@@ -1,7 +1,47 @@
 {
-  "actualizado": "2026-11-23T20:47:22.609Z",
+  "actualizado": "2026-11-24T05:06:01.350Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Acuerdan plan de cuatro acciones para enfrentar caída de 30% en precio del cerdo al productor",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS0ZabUhzdVFrRVVrWU1EU0JTSkJoUmY3TzlxbFZCaW5obGFKcTVkMzVqWXNrMnlFdVFJVHFBXzIzWlNmX2FYS2hFVEtCX1RDc2FzZHR4ZTdVeEdpeVBCX0V6ZWx1X04wbm5zTG9DamVsY0lPRG83MVZ2UmhqUGl5ZG1sSlZ4bG14OFdNemJJNEFWMG9RbzBxM2VqZURGeUV6cnBwcXR5ajB6U0RZVzBwMHRpT3o1YUZYekxYeV9HN2pxb2t0ZzNGbFVLbW5pdnFKYlF1NU5qRk9pU29sREJ3c1dKTm9RbF9zNWc?oc=5",
+      "medio": "El Sol de México",
+      "fecha": "2026-11-23T21:53:09.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "\"Lala\" Barone, la mujer de un importante productor que le tomó la leche del biberón a Flavio Azzaro",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lX1VCajVVWGQ1cDhaMHByYWlOV1VEWF9UWkV4a01WQ1BXeWcwQnJmcE1USnpWNXJWaU9OUXBlNEszWG9ibk11SG5rRTZRbWJhSDV5VmhZcmozeEd3dHZ4NEk3TEZTNFg2MElaTkNWendiWExSR25fUXhHQWZXUFU?oc=5",
+      "medio": "Agencia NOVA",
+      "fecha": "2026-11-23T21:50:23.000Z",
+      "imagen": "",
+      "tema": "Leche",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Fotos | Denuncian invasión de indígenas a fincas ganaderas en Nariño; coincidió con visita",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdm9jUUNlNXlZdW4zWGhoLW10UDQ0dFdLSmNPRnJDWFdOd2ktVkZHOVJzZFZseFpCRW13RGJkREM0MHZiY0FHUlBfNDRLalU3NWFiNVhpRENZYjZjRXBfckRUVE5sTFlwbEk1NEJ6cDBuR1VtamhJUWtwZHlvWjFGTHMxNkM5WnFZT1ZzdlhZN1kxdVFTdDRyNkNCTnZFazg5VHI2d1UtZ0ZobzVDUGVJU0ZNQTltVUpiN05aQQ?oc=5",
+      "medio": "HSB Noticias",
+      "fecha": "2026-11-23T21:39:21.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Fedegan 5.0: así busca Lafaurie transformar la educación y el conocimiento del sector ganadero",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcEpFdUpidWx0VWtNYUZyeHpTSWREd1pFanppdHpfNWV2dVlWYlIyY3hNdV8wYndKNGxMbDVRTkFQY2xGNlJTSDk4N3h5dUtxVzJpZk5OSjBWYm11RWVtTVE0S0JMcUk1RDJLQzFGS3ZLYTE4Q0VfaE1rOFo5am9LSWtFc09GcTVjb1FUcW95UzgzZ2htTFZVVERTNDQ3ZFpPaHhZektHY05ST2RqZjZhbElySWR2WHdKbGRmUUdSaHZJMU95YXpFT21sMUhMT0ZL0gHQAUFVX3lxTE1jR2NEaTNTUFpHUkljT1Z2eVNOQWZwTDBlaTdWYjR2T093QWNOeHRiWjZrVDNDV1pwV0FxUEp1c1Zjd0ptZHBUNHFwX0pZRkxYSmszZm1GSEUzZF9iMzhVa1U3akg2SWpURHRSemxfSzRxalQ4ZVczMXRGVlg2ZDNBNGRQeDM0Tm1Db2ZuX3VIUHdZY1VQQmktbFFaSmM5TTN4WFlmRjhmUEdDZTRwVGExOUVSd1BocEtfNWdSbVU1MWVfUllVajJaOC1hazJoLTk?oc=5",
+      "medio": "Agronegocios",
+      "fecha": "2026-11-23T20:48:50.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
     {
       "titulo": "Boyacá analiza futuro lechero ante importaciones",
       "resumen": "",
@@ -13,11 +53,41 @@
       "sinFoto": true
     },
     {
+      "titulo": "Los brasileros dueños de Minerva Foods, los grandes favorecidos con la liberación de exportación de carne a Chile",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTi1ERGY0c3VVelhkR0ZBaEx1ME5KbmVZVWRxTi1RSjdHenNRQ0VBWnVfVUtWckVJeG5CRHRhT21UbFoyWUxUVC11c1YzT0ZqZzhxLXpnSHhwT05oMmxMdVkzaW1XZl9MakgzLUtFbFlEa1RfVjB2ZmtnOHBsREFyNDFONHY4WDJyd0J2emVBZEtRZmpobnN1cG10aXBMTVlQajlXWGdDajZGcU1xVzNXNlA1dXY2OG8xTW9ZTEprMVo0OTBxaHpGS0QySkRHemZoeU1GTGlMRQ?oc=5",
+      "medio": "Las2orillas",
+      "fecha": "2026-11-23T19:37:43.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
       "titulo": "Aumentan las compras directas de ganado vacuno de sacrificio en Iowa-Minnesota respecto a la semana anterior",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX1V4VG1WZ3NOemZOTVdEcVBGaUJkNy1uOWNMTkJZVkU4alcteEptN1lNYVM5c25oZzVSeVBtcW8wZ0o1TnVMSDZsOTVqR0c3b1Q0VTVzOF9aLUhDdmtWbEpOQ2F3TnBJcE9qVHJXc1hwRmtQNFh2X1RCLVFGVS1zbG1uOGRFMERlTDAxWTd1azhyUFFsZER1TGdMOFVNSERUd0g4?oc=5",
       "medio": "IndexBox",
       "fecha": "2026-11-23T17:53:47.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Aumentan semanalmente las compras directas de ganado de sacrificio en Nebraska",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEJmRExadXg1ODYtQUphQ21ybzE0VGd5Y3B3S1RNQk9HYjZJNHVZbFIyeXVlLWN5MlJUNXlaQzU2VjZPalJQMzd2ek55TVRMSmJ2LTlaY19GY0hucXZyYXBnei0zQXkwSjBCX29uR1Vra3BCQzI3OVB6a3R0b2hjSFNMV0lfd3ltMXdrNXQwc0lIUG1MMzBTMHpEUQ?oc=5",
+      "medio": "IndexBox",
+      "fecha": "2026-11-23T17:50:48.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Compras de ganado de matadero directo del USDA: datos de fórmula y contrato a plazo para 22 de noviembre de 2026 - Noticias y Estadísticas",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVTRoeFppRXdaa25OTzI0Y2VpTXZVNDMtWS1Xbl9MWlZBcDJaNzR1MWUzTjQ0ZFFtS0Rsb3loejdzMllTRmpzRl9BdmRIb1JGdEg3YU5UbkZZX3A4OWFfamN4VHRLeXBkTmFMcDVjVUlLc3RfUHZyendyRkRqMzZReUJIYzVKU2ZLQ3RjVTFOWjlEOWFTdFhtbEpOeVZPdnR2ZHFtT1F6Mnh1MDZqNzdzeTctY0RwV1dlNFE?oc=5",
+      "medio": "IndexBox",
+      "fecha": "2026-11-23T17:50:28.000Z",
       "imagen": "",
       "tema": "Precios",
       "sinFoto": true
@@ -43,6 +113,15 @@
       "sinFoto": true
     },
     {
+      "titulo": "Pronóstico del Ideam: El Niño mantiene a Colombia con menos lluvias de las esperadas",
+      "resumen": "El Ideam advierte que las lluvias previstas para la última semana de noviembre no serán suficientes para compensar el déficit de precipitaciones que persiste en el país por El Niño.",
+      "link": "https://www.msn.com/es-co/el-tiempo/meteorolog%C3%ADa/pron%C3%B3stico-del-ideam-el-ni%C3%B1o-mantiene-a-colombia-con-menos-lluvias-de-las-esperadas/ar-AA2i4hgV",
+      "medio": "El Espectador on MSN",
+      "fecha": "2026-11-23T15:40:47.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.QJx52zqJAqaEd7__esBViw&pid=News",
+      "tema": "Clima"
+    },
+    {
       "titulo": "Cartagena del Chairá triplicó su hato ganadero y respalda al FNG",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdEJKRURGVVpGSzkzeXFtSEV3a29iQVplNGp4RmNXbUloaUcwMGZGYlBwT1YxZm5wdmo1cmI3ZlZzTmdqZXpRU1NpS0JxVWFKQlRvZ3Bsd09jRDlyLXhyX3lXOGE1VmhKYXdkT1FRTzJyZDFDY0Q3eFAxcGhtbTBxNE1SdGVISWo3T0FDbEozSlJoaHZsVlZUOHUzSHNOa1NzNEc2VWt1eFh4RmVCYWVic0tDLVJvLW1XbzdLNUlmeW95dmNkUzloQVQteUU3MFFKalE0?oc=5",
@@ -50,6 +129,16 @@
       "fecha": "2026-11-23T15:00:34.000Z",
       "imagen": "",
       "tema": "Fedegán",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Conferencia ambiental: Cómo la Ganadería Regenerativa hizo posible emprender en el campo con Andrés Gómez (Granja Zael) | Universidad de Burgos",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbGZ3Wi0ycGlpQ3FvQmFJd3FIeFJmTTBRUzZHZlBfcmNBR2NfZGNHeENicDB3c1ptMW0yX0g2cXVtZEo2RzlVY21pMkRMMDZhLWNUamNEMzhQeEhaaGdlOHJLWEpJVXNVeFQ4REFKcHBFUnlRb2ljMGZiYTR1S1JlMnFOa19GWl9oMlFHQWlPcW92NHpEZWFBLWJkSGtLMXd2aVJqWFN6YmNwTGlnWVVnYlo2UTFqZFctdEhRcjk2VFUyQVdUXzJkdXZmUEw4dmRPVU1QcmpPSDlLZw?oc=5",
+      "medio": "Universidad de Burgos",
+      "fecha": "2026-11-23T12:55:03.000Z",
+      "imagen": "",
+      "tema": "Pastos",
       "sinFoto": true
     },
     {
@@ -82,6 +171,33 @@
       "sinFoto": true
     },
     {
+      "titulo": "Analizan en Boyacá futuro de la lechería por avalancha de importaciones",
+      "resumen": "Ganaderos y entidades públicas evaluaron en San Miguel de Sema el impacto de las importaciones lácteas y el estancamiento del acopio formal.",
+      "link": "https://www.contextoganadero.com/articulo/en-boyaca-analizan-el-futuro-de-la-lecheria-ante-avalancha-de-importaciones",
+      "medio": "CONtexto Ganadero",
+      "fecha": "2026-11-23T11:38:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.JpplEE2XHCpue_X-WhwQTA&pid=News",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "Chile levanta restricciones a la carne colombiana y abre envíos por US$27 millones en 2027",
+      "resumen": "Chile levantó las restricciones a la carne colombiana este noviembre de 2026. El sector proyecta exportar 3.500 toneladas ...",
+      "link": "https://abceconomia.co/2026/11/23/exportacion-carne-colombiana-chile-2027/",
+      "medio": "ABC Economía",
+      "fecha": "2026-11-23T11:28:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.NKG-gn6YYRrrOwdaQrz3Cg&pid=News",
+      "tema": "Ganadería"
+    },
+    {
+      "titulo": "Ideam revela el pronóstico del clima para esta semana: ¿continuarán las lluvias en Colombia?",
+      "resumen": "Durante esta semana se prevén precipitaciones en sectores de la región Pacífica y el occidente de la región Andina.",
+      "link": "https://www.eltiempo.com/vida/medio-ambiente/ideam-revela-el-pronostico-del-clima-para-esta-semana-continuaran-las-lluvias-en-colombia-3603541",
+      "medio": "El Tiempo",
+      "fecha": "2026-11-23T08:44:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.L2aiYiNL8BixZg47eseixA&pid=News",
+      "tema": "Clima"
+    },
+    {
       "titulo": "Las medallas de oro y plata en la ganadería y el desafío de sostener el buen momento",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc0JjcEdoTXNsdVpLbUpXLU83M1IxdmNhblEyWk1RRW10UndVRGJKaGk3M2NleWotWDdyZjdaeTJCTzhXZ0NBUDRxcVNMNmU3WVI4d08zdlRlYS1vaW9hd2RSdkxrU1FKUTl3Zy1WUWYzcy05SEhTNE9FRzYzd0pVTzZsYVA0ZGRjRUpvSzVYaG5YX0hrTDYxbDhzdjlySWkzR3V3czhyaGJQMDc1ODlFTEttYU5OMGtNZm9uWGl3?oc=5",
@@ -94,10 +210,10 @@
     {
       "titulo": "Ganado bovino bajó de precio en el mercado nacional, pero Santander registró un alza de 12%",
       "resumen": "Santander registró uno de los mayores incrementos semanales, al pasar de $9.641 a $10.800 por kilo, un aumento de 12%. Le siguió Valle del Cauca, donde pasó de $10.077 a $10.512 ...",
-      "link": "https://www.msn.com/es-co/noticias/otras/ganado-bovino-baj%C3%B3-de-precio-en-el-mercado-nacional-pero-santander-registr%C3%B3-un-alza-de-12/ar-AA2i3v9F",
+      "link": "https://www.msn.com/es-co/dinero/inversi%C3%B3n/ganado-bovino-baj%C3%B3-de-precio-en-el-mercado-nacional-pero-santander-registr%C3%B3-un-alza-de-12/ar-AA2i3v9F",
       "medio": "Agronegocios.co on MSN",
       "fecha": "2026-11-23T07:59:16.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.nGQDP4_XQfMzHwakxbJnYQ&pid=News",
+      "imagen": "http://www.bing.com/th?id=ONUT.ySkYrkRhQB63BhOPdl3SLQ&pid=News",
       "tema": "Precios"
     },
     {
@@ -147,15 +263,6 @@
       "tema": "Clima"
     },
     {
-      "titulo": "Fedegán 5.0: La visión de un gremio",
-      "resumen": "Fedegán también aprenderá a escuchar mejor. Las consultas recurrentes de una región permitirán orientar la capacitación y la extensión ganadera; las soluciones compartidas por una familia ayudarán a ...",
-      "link": "https://diariolalibertad.com/2026/11/23/fedegan-5-0-la-vision-de-un-gremio/",
-      "medio": "Diario La Libertad",
-      "fecha": "2026-11-23T03:03:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.Bj_7fTjGRmskly_Pp7mHLw&pid=News",
-      "tema": "Fedegán"
-    },
-    {
       "titulo": "Chile reabre mercado a la carne bovina colombiana tras suspensión por fiebre aftosavv",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOb05rS0ZjVVU5bVpHdTdNcEQ2Q2FzV1NyME45YVlkSXFMZWE4Z3hfc2FRNmgtOW1xZHNScE56OWtWRGVUYlpaaXM5bFFjMklCWGhRNll2OG1ZN3R0TFVscHg1U0xtRWhyTFAydHVYdGg1d19kRWNTR1BaVkJXa19YN0NwQ3NWMUd6RTg0cmhRbUxvdmFTdU85cU1RMWhBSWU2bnJGWjEwR2xiLTgzOFpJZ0FqZW5qMm5vMzdRYUp2TTB0X25H?oc=5",
@@ -164,15 +271,6 @@
       "imagen": "",
       "tema": "Vacunación",
       "sinFoto": true
-    },
-    {
-      "titulo": "Chile levanta restricciones a la carne colombiana y abre envíos por US$27 millones en 2027",
-      "resumen": "Chile levantó las restricciones a la carne colombiana este noviembre de 2026. El sector proyecta exportar 3.500 toneladas ...",
-      "link": "https://abceconomia.co/2026/11/23/exportacion-carne-colombiana-chile-2027/",
-      "medio": "ABC Economía",
-      "fecha": "2026-11-22T22:30:00.000Z",
-      "imagen": "https://abceconomia.co/wp-content/uploads/2026/02/exportaciones-carne.png",
-      "tema": "Ganadería"
     },
     {
       "titulo": "Directora de Probarranquilla, la candidata del gobierno para la AmCham Colombia",
@@ -348,6 +446,16 @@
       "sinFoto": true
     },
     {
+      "titulo": "Bienestar y nutrición: claves en la crianza de terneras",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNmtmZXRUUE1kakFaQ0xBX1c3cVBFRXAwcmxYVXNLa01xQUFQRUozZm1JTEMwZzQ1aVUwRW00OVRHT1AwRFdEeGpVR0pDZFVNXzF3SFEtRWR6NHdrMEMxUEJBUEtobjdZb1JfU05fZHJJNk1HRjdwbFRLUXQxRHprOGRmcw?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-20T20:47:40.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
       "titulo": "Adela Bonilla y su paso a la ganadería sostenible",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZTEyRWZPaW5JLVQ0RnlOOTNhTzZkbG5aRXk1UzN6czN4VzlORXdOWFdNRHA0UC1IVnB4ZjBaSHBoVWJXOVVWNm4xVGJmNWdyNkgtbVkzMGZybWlpNEpicGt3d00xMHNzQnpOcU00RVJUSHhHR2RFQVA1S240WHZtWUV6YVZWTmRjWjhQLThNS0htZmJ2U3JRLVdoRVQ0TGFfN2NGZzFyaC11dURkSW5SS0k3ckN2TW03Z3lnaXFSSGp3X0pfd0g4?oc=5",
@@ -383,8 +491,7 @@
       "medio": "La Orquesta",
       "fecha": "2026-11-20T18:14:04.000Z",
       "imagen": "",
-      "tema": "Precios",
-      "sinFoto": true
+      "tema": "Precios"
     },
     {
       "titulo": "[VIDEO] Sufren productores potosinos pérdidas económicas por carne importada",
@@ -393,8 +500,7 @@
       "medio": "Código San Luis",
       "fecha": "2026-11-20T17:35:03.000Z",
       "imagen": "",
-      "tema": "Precios",
-      "sinFoto": true
+      "tema": "Precios"
     },
     {
       "titulo": "Gremios de Casanare llaman al diálogo y piden al Gobierno transparencia y respeto con Fedegán",
@@ -403,8 +509,16 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-20T16:05:00.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
+    },
+    {
+      "titulo": "Fedegán 5.0: la visión de un gremio",
+      "resumen": "Dentro de unos años, podremos mirar atrás y saber que este paso valió la pena, porque más familias ganaderas pudieron aprender, invertir y prosperar.",
+      "link": "https://www.elnuevosiglo.com.co/columnistas/fedegan-50-la-vision-de-un-gremio",
+      "medio": "El Nuevo Siglo",
+      "fecha": "2026-11-20T16:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.cI4h6GQQmsUSWzvxJwZ3_Q&pid=News",
+      "tema": "Fedegán"
     },
     {
       "titulo": "Pronóstico del clima del 20 al 22 de noviembre en Colombia: Ideam advierte lluvias intensas en estas zonas",
@@ -422,8 +536,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-20T15:09:46.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Vacas Simmental de 36 litros: Criadero F&F cree que el futuro está en la ganadería",
@@ -442,8 +555,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-20T15:01:19.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Pronóstico del tiempo del Ideam: ¿en qué zonas de Colombia lloverá este fin de semana?",
@@ -461,8 +573,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-20T14:35:54.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "1.900 hectáreas donde la ciencia trabaja por el futuro del campo | El Colombiano",
@@ -471,8 +582,7 @@
       "medio": "El Colombiano",
       "fecha": "2026-11-20T14:34:33.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "¿Cómo hacer heno para alimentar al ganado? Estos son los pasos para conservar el pasto",
@@ -517,8 +627,7 @@
       "medio": "Porcicultura.com",
       "fecha": "2026-11-20T08:00:00.000Z",
       "imagen": "",
-      "tema": "Precios",
-      "sinFoto": true
+      "tema": "Precios"
     },
     {
       "titulo": "Respaldo masivo de gremios ganaderos a Fedegán frente a auditoría del Ministerio de Agricultura",
@@ -738,119 +847,6 @@
       "fecha": "2026-11-19T03:01:00.000Z",
       "imagen": "",
       "tema": "Precios"
-    },
-    {
-      "titulo": "HISTORIA / Las haciendas que marcaron la historia del toro bravo en Colombia",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNGlLWHliMkQ5SXhFTS00Qy05eHJBUVBrbHgxbU1CQ3VMcTY2djlrVGJ3YTE2ZGduay1SSUVWOTdldFZyZ25RVkVLek41Z0kxT3RmTktOTHBKQ29YeHEwTTExLUl4Z20tMUtpcnBxYmxhSG85d3VlbTUwM2lwUFhyQ1BEX01peml0MXNldjMtSnMtN3E4OTIzOEREM0hiQjctbDZYS2VET0ttWFRGcFctNGFyVWY?oc=5",
-      "medio": "El Quindiano",
-      "fecha": "2026-11-19T02:10:09.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Menos alimento desperdiciado y menos metano en bovinos eficientes",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTZ4ZTRWc1pJLVBNSmNndjM1V29yX3ZOV2g3Y3lBeEtjQVBOZFAwS05FUUt0cUI5U21icmVPY0JWMzQ0a0htdHVOWkQyMVl2cVN0QkwyUmNZSXJHdnV5WUJHQ21LMDVUZHFja1VMQzNrZE9Ub2NBdHpfMEpkdXdpZ1pwMFpGRWtZb3FXZThDWTJjZnlycm1EckwwN25UZ1YyWHNNVk9ESEEtVHN4M0tlbzAwUDV3Mlhj?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-19T00:19:40.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "De la veterinaria internacional a la ganadería de montaña: tres amigos impulsan en Teruel La Albarda, una explotación de carne de pasto",
-      "resumen": "Marta Barba, veterinaria formada en distintos países, decidió regresar a España y establecerse en Alcalá de la Selva para poner en marcha La Albarda junto a otros dos compañeros de profesión ...",
-      "link": "https://www.elaltojalon.es/texto-diario/mostrar/6097596/veterinaria-internacional-ganaderia-montana-tres-amigos-impulsan-teruel-albarda-explotacion-carne-pasto",
-      "medio": "elaltojalon",
-      "fecha": "2026-11-19T00:08:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.rzLYAz5ywyiemz1wlxa1OA&pid=News",
-      "tema": "Pastos"
-    },
-    {
-      "titulo": "Anthropic finalizó su salida a bolsa con un precio de 83 dólares por acción, recaudando una cantidad récord de capital.",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTlNaUzNIcnRRbDZpMEFnbDZmbHR4OEFSdkNtRWJGOEU4UmtzX2I2eDJpTzB5UWxGLThab0RWckYwdVNvTW93ZEMtMVpKbmhZemdjd0p2cHE5ZlRwbkd4RFdBZFBKRHUxME1QMUw1UWZlTzFMOGtadm1Ic00xNjc0Wm9iWkJfU2RTdDBEX19oVTNldVFx?oc=5",
-      "medio": "Vietnam.vn",
-      "fecha": "2026-11-19T00:01:19.000Z",
-      "imagen": "",
-      "tema": "Precios",
-      "sinFoto": true
-    },
-    {
-      "titulo": "En vivo: Hoy 18 de noviembre no te pierdas la transmisión del programa Tu Vitrina Ganadera",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE42N3ZEM1RnY2lERGZrc2oxajBXUFhPZUZmakU0Q0N0Yi1zbDBoSHBmLThyQXVSNEI1NHNTMDJZbGE5MnN2ZHgzUWdXdU1CZWhWbXc?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-18T23:05:09.000Z",
-      "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
-    },
-    {
-      "titulo": "Abandonando su rebaño de ganado, invirtió 2.000 millones de VND en un alojamiento rural al pie de la montaña Ba Vi.",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRkY4ckk3Rm5pMWtTYmVuYlhYNXVlcmJFZm9UVy00Ri1fQ3NqcTdYNnUtcS1VQVkxeWdhbm5jcWY4MUgtc3hfMXZiLXp1QVFtWmpIMVQ0UklqVll1SnJ2RHdWd3dlS3BvekZLYmd6clFiMXc2NWZxdUQ3blZQX0NKWmMyTlV5U2FMSUFiRWRR?oc=5",
-      "medio": "Vietnam.vn",
-      "fecha": "2026-11-18T23:00:54.000Z",
-      "imagen": "",
-      "tema": "Precios",
-      "sinFoto": true
-    },
-    {
-      "titulo": "Récord en reales y ajuste en dólares para el novillo en Brasil",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSGhYYTRQY1pnZTk2ZXNyR0dFUm1UWVA5R1dtR053TWFhc0dNYW5tS3h0S2NSbkZib3p6NEhJNjdzOHFydkZ4Q21obkZuSDYwWHYtRXpjOVN1TU9lV3FIbUhCRWwyYkI0ZXNqTFRPTzB5RDdfVHhGYjU4eV9lckpNczVhWUJ2cGJZVi0yWVVUc09acm5VNWNuZw?oc=5",
-      "medio": "Blasina y Asociados",
-      "fecha": "2026-11-18T22:31:05.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "Fedegán solicita intervención de organismos de control por irregularidades en auditoría al Fondo Nacional del Ganado",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTU04VVpFQlhpNzd1RERPcGNBSm5ienFkTUFrWTN6Q1BHWTFUTmJlcWVXM1NPdy1iTnl4d1k2cGN0bE9tMGhPeHRmY01XOEZ2NU1XNW92T0FPcy1BNGNDanR1UUduWi1SUkZrdVNNVmhBNWt1aWNFMVZYc0RNLXlST2kxdjRDSi1YdzZTTXpkRWkwRG5qbm9IVUZZVUpZYzA3X2o0MVFoeFVIRTVkaFhFa19LV0xjM2x5Tmg5ZWlJMEJsSXFWNS1KN2hhZ3JvQl83NGM2QmZVUUFrZHc2X3QwQUpRSE8?oc=5",
-      "medio": "IFM Noticias",
-      "fecha": "2026-11-18T22:22:44.000Z",
-      "imagen": "",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Fedegán ha vacunado 9,4 millones de reses contra aftosa",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORnRwQ01jR2s5OWpmeUlqSl9YaXdXcDRHRDJVbG9yQ3IyZUR5RXlzbDdvODFDV21oQVBPR3ZjdnlYdXhqbmZHQlFFWWx5RzhFdkpxclBfTTg5YnN3UXd6NEs4b1dsYjBUQVYzT1I0Ym1aSzJodGlZUmtQdkE3S0FaY0NGWkoyekNuRTIyelR6TUVTN2h0SUV1TFZrdjBnYUFHTzBjaVlIZjZNV1lmMGFJMjh1cEw4SlRuempndzJDSUdFdW8?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-18T19:51:40.000Z",
-      "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
-    },
-    {
-      "titulo": "Urabá: ganaderos respaldan a Fedegán ante auditoría al FNG",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbWRYUnliakowWkpleWI0elpteEZ0NGZUT0JmUGEza1hMa1hRR0NSSGJPWDg4ZGx4UFZEOVV3djNHUzFnbGdDenQzMHUzNFh6Z0RnM2oxMV9UNWtUbU5idFRudkpLU3RPTUU0aVVPTDZ4TmN5M3NpTnltanlpNjZWd1NLUmp0WklWaWZxOVVGNWFoTV94Tm1YMy1ka2c3dWZ1d2p4eTd4VXZjRGoyN2NVTnJyYU8zYUxOaEtMWmhyclBFZw?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-18T19:49:12.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "María Claudia Lacouture renuncia a AmCham Colombia y asumirá un alto cargo internacional en la CAF",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb2dpWkdzN2tuR0xZd3NyQmttVHFCbGpvdUppTU1pSEEzTTlYR3JEV3pkbjZITTRGYTFaaHp1dk5QcHRNd2pvSDFqMktUTEoyMUMzeEpJRkd3NFFzUUZabUwzMEpNVlg5S2FJMWwtQ1ZzSHlYYjRFMnRObVUzaXNCQVVBcUsxeTBCbjV1cFI3aU1PbkNsWk1aTE1CSnRjRS1kUHFaeklOdnV3dkFWS3hwVmxmWWxNT0FmS0ZpYXNmX29SMHNxWDhpcGlGNjdKTTFqb1VneA?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-18T19:36:49.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Lacouture renuncia a AmCham y asumirá dirección en CAF",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb2dpWkdzN2tuR0xZd3NyQmttVHFCbGpvdUppTU1pSEEzTTlYR3JEV3pkbjZITTRGYTFaaHp1dk5QcHRNd2pvSDFqMktUTEoyMUMzeEpJRkd3NFFzUUZabUwzMEpNVlg5S2FJMWwtQ1ZzSHlYYjRFMnRObVUzaXNCQVVBcUsxeTBCbjV1cFI3aU1PbkNsWk1aTE1CSnRjRS1kUHFaeklOdnV3dkFWS3hwVmxmWWxNT0FmS0ZpYXNmX29SMHNxWDhpcGlGNjdKTTFqb1VneA?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-18T19:36:49.000Z",
-      "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
     }
   ]
 }
