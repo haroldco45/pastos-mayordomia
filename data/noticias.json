@@ -1,7 +1,47 @@
 {
-  "actualizado": "2026-11-26T02:35:38.092Z",
+  "actualizado": "2026-11-26T11:46:16.060Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Las Noticias del Día de Valor Carne",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MVkxyaUdiYURrM3NjaWRjbEt3ZGZfNzRBckNlcC0wWnBnY09RU2xTN0U5VEhhak11UUk2a0JTX1F6NG9ZUjJaZEFDT3M4eFphVzVER3hSZi1tZ2paaGI1OXBVbGtXLVgtRGxBS1dsRGU5V1hLRWJKT2dB?oc=5",
+      "medio": "Valor Carne",
+      "fecha": "2026-11-26T10:59:07.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "La sequía dispara la compra de forrajes y el gasto en agua y asfixia al campo menorquín",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeWp0QnVVV3VocU5TUlhXdV9zVmJHT1ZrbG5wZ2dBbzZ5ZGxjVGNpQVdIMGhIVmVmMk1QbGhEdVZubG1YZHBtSjJVanJmT2dZQUVfQ3FaTW5jbTI3RXRlZEtYamJmQzhyZHpXMVltQTI5S1VQNXViVGZRTGx0OVozd0ZPWHpLdFlpNXFWTFRVb09mVVczQllkRXh3N2tyMzNpcGR6ZWJvb29nOFh0X0h4UGtMbHNIZS1GMUdCRDhQMmZLRkJuREdn?oc=5",
+      "medio": "Menorca - Es diari",
+      "fecha": "2026-11-26T02:59:00.000Z",
+      "imagen": "",
+      "tema": "Pastos",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Homenaje a Miguel Santamaría Dávila en 41 Congreso Ganadero de Fedegán",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZTlkYkVVVHFWNnlWZEpDTkRuclg0TE12VW5KNXJhYnBTT1BzQW1tTDNSci1QUkVrNTVRNDU0S3ZkTUF0N01ZN3RuMEhVUXdkeHRMZ3dTbDNUYUdZTVN4MDdyNnpXSXhVMC05WlFxME41ekd3clM3N2tLRTN3ZHdpQ3NlS0VNbElWUW1ZUWZvTVdOQ1hRenNqbjNjNnJXam9ON0tJRlpDbmRHemtKU2ZZempWYktuZw?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-26T02:35:39.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Más allá de carne y leche: 9 instituciones reconocieron a Fundagán",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQkNoSWtxTVRuMGloc2dsbXQtYnN5WWo1ZkRDanBUcWVobnk1ZlgxU0RYQzd1NVpUdURsRFpWbG1YWnVGUWVkTFEyX0lQM1M2ek1ZcHdtN3FLcWhjZzgweUpGcm5EM3Jxckx5a2JDeG1JNFd5R3FtbzlTMUdNTHJrejl0Z0ZvSjZjVUpKazJxellzaEl3b0JEbGY0NE00bEp5U1JvbV9VX3FMRkd1QU9hM0ZFZGNFUzNC?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-26T02:35:39.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
     {
       "titulo": "Vías rurales y competitividad, el llamado del alcalde de Valledupar",
       "resumen": "",
@@ -13,6 +53,16 @@
       "sinFoto": true
     },
     {
+      "titulo": "El Axis y la disputa por forraje de monte con el ganado entrerriano",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNemozUHNsMnVGRVFWNlRUZE9BbmtmczhWNXdDYjM0SEJpS2ZtMmFpTl9CYVBVSTJ4TzBpM0ZyWDdBZ2tLOHh0aFJOM0tFczZPRGhGWHZlaGN5RFlRQnZSMjdRVXI5bERhQ1pFUE9WRHE2anNiWWNSTWNxMVdjRDZqVDRMYnU4WGlmSFpUZ1dKbF9UTFJtSWdJ?oc=5",
+      "medio": "ERA Verde",
+      "fecha": "2026-11-26T01:47:56.000Z",
+      "imagen": "",
+      "tema": "Pastos",
+      "sinFoto": true
+    },
+    {
       "titulo": "Bonificaciones: ¿cuánto más recibe el ganadero por la leche?",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaWM5NVlKZ3ZMX2dUZy0xb3h5QjlRZ3g1SV93ZXBWdGVQazMzNjZ1NVFUX3E1QUhhLWN5U1ZZN3ZXck5uTUlXcVNNNlloMjVZbkZxUHFmVC1uZnVjVjZLOEZCSDFZWlBrNE80UVBBYzRnOXV1OVFBdDRweDhENEx3SGxuZzRoQUw1VVpPOHQ3cWlFRlIyZGM0dkRzMEtESzlZTGJlZk9PRUNrM3RPcmVfVXpJclpYNGtqS0tN?oc=5",
@@ -20,16 +70,6 @@
       "fecha": "2026-11-26T01:45:39.000Z",
       "imagen": "",
       "tema": "Leche",
-      "sinFoto": true
-    },
-    {
-      "titulo": "Homenaje a Miguel Santamaría Dávila en 41 Congreso Ganadero de Fedegán",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZTlkYkVVVHFWNnlWZEpDTkRuclg0TE12VW5KNXJhYnBTT1BzQW1tTDNSci1QUkVrNTVRNDU0S3ZkTUF0N01ZN3RuMEhVUXdkeHRMZ3dTbDNUYUdZTVN4MDdyNnpXSXhVMC05WlFxME41ekd3clM3N2tLRTN3ZHdpQ3NlS0VNbElWUW1ZUWZvTVdOQ1hRenNqbjNjNnJXam9ON0tJRlpDbmRHemtKU2ZZempWYktuZw?oc=5",
-      "medio": "www.contextoganadero.com",
-      "fecha": "2026-11-26T01:36:36.000Z",
-      "imagen": "",
-      "tema": "Ganadería",
       "sinFoto": true
     },
     {
@@ -83,7 +123,7 @@
       "sinFoto": true
     },
     {
-      "titulo": "Alquería invirtió más de $700 millones en asistencia técnica para que los ganaderos del Cesar den más leche sin talar bosques",
+      "titulo": "Alquería invirtió más de $700 millones en asistencia técnica para que los ganaderos del Cesar produzcan más leche sin talar bosques",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQTmdfeGIyRmFlM1FySDFIdzdMSzg3RThPa1lkbmhKMEptSDFxdDJ2akhvX1ZINmNocU9yTFZ0amFCc1hySzNwanNaUU93WVlFY2duMnJpWlZXWm1sVHpzbks4aXAycVBTeXFTM3hBcUFxMUJ2YnRXYnExT0F6MF9vSUI3alVUa1g5eldiWTVrRmRvbURpTlZUaUVCanFHN0dhNHZIeXNSQkFKQU02T3hCcDJmWHZzLVpETm1LUjFwREtBZlBuME9HVlJDRE5yT0thclRYdjZRd1poNHkwZlI4MDE0SE5WRFdGaW1RVC0xOXBtNUJ4YzA2NVBR0gH_AUFVX3lxTE1QVnByZ2RLZ2hIRVFkSUxOZEZvOHI4Y1REZktMbGU3MXJyekYzWTV0dnlVLWF0NElWM2Y2SEJNbEJSeTA0RVhJMi0xWHRpTDVKRkVHSEF2NDZTbmhFa3h4cEp1SVFZaUc2TUtaYjNtYjVod3l4RGVwTi1kZXRZQ29IcmNvalk4YTExMExWSWZlSnlMSFRvWUU4NWlaZUU5S0U1cTBKbWNRY0kwOTBnSk0wRHFlU3B0NUNrMkhidlB1NFptMWhPU1R6MzRvYmJ2Y3pTX1NaeEFiYjhZV1VvcHhfRURLbUZJX2QtQUxfVF80dTlqRFhtYWRIT3JpUEFTSQ?oc=5",
       "medio": "El Tiempo",
@@ -108,6 +148,16 @@
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWW1BSmtzR3hfdUZEQk96VlYyVzJNTksyNUhhMVZsRXpGQmIwWV9pcGRvNkRxTWhLYzN1Y2dtV0VWOTQzUU5ZSUdwX1o0YjNSVlRrSlZPSlI5bzAxUklNZ1RoM0otRXNHWlpwY2JQWEJJUlV1ajJ4emlWZHBnUDducDBmREtWdDhOMmFqX2VqazhTLXpxWDFZdnNLakJ0dnRhd1F5NXVhTlhrOEVEa2FkakJMWEJrUF9waTJFN05kZnBna2ZsZnF2S1BoU1TSAc4BQVVfeXFMTTRFR0pWMlJoTlJuVjhPVDFLYmhLSVVQbE1abHJydTBEQzU5NXl3U0gzRFQ2cFlNd3FLZUNiUjRnY1RORTdzOU51OUlEVWJwd1dfaDc0VXR1UnVEZUNPN2tFOUJKLWtpMFNzNXRMMXppUmlFVUtvZmhET2ZCTkk1NW84ZURQZWtaZDdFS1lfU283c2xYN0N2SWJpdUJRejctWVQ2VU41VmV1NzI2OEtBWFdtdU5LLTFnS0lrX09XTzkyREFPSDZOcHVNQksyYkE?oc=5",
       "medio": "LaRepublica.co",
       "fecha": "2026-11-25T20:54:03.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
+      "titulo": "En dos meses bajó 5,8 puntos porcentuales la relación flaco gordo",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZmNjMGZFcHpFWURqZFBwOVliR2FBTnpjMUM5by1KeHBrNENrWG1pandteW1JSUduTVdmYmpBd24zc0g0RXJ6UlJxbmxteS0wU3RvaDRLTHJSeDZhM1l0czFldk92TGIyTjFiMUFoVEJBdERfTFRsYW51RVZXQ01LUmlVazYybXR1QkZ1a2JVaDJPakxOcVctVzRxcw?oc=5",
+      "medio": "Blasina y Asociados",
+      "fecha": "2026-11-25T20:46:48.000Z",
       "imagen": "",
       "tema": "Precios",
       "sinFoto": true
@@ -160,6 +210,16 @@
       "fecha": "2026-11-25T17:52:14.000Z",
       "imagen": "",
       "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Informe diario de ganado de sacrificio del USDA: entregas, compromisos y desglose regional - Noticias y Estadísticas",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZTlJWjRWOXo3Q3lLQ2lzc3A4ZjJmTmZfS1J3VkZGWWprQ1I5RUd5NWdHekFZWUJ5UUw3WTZtMW1laWRZa01OdE8xZHk5eVpvSG9nYmpiMTBKM1J1UFNEOWF6SXBhLUVqX0Ewb2g4czJ4dUhkX0FUZ1c4OUNRelBUOXBEb0l3UVRVbS1jaFJzUHNMbE9fUm1hUUxld0ZCX2c?oc=5",
+      "medio": "IndexBox",
+      "fecha": "2026-11-25T17:10:23.000Z",
+      "imagen": "",
+      "tema": "Precios",
       "sinFoto": true
     },
     {
@@ -221,6 +281,16 @@
       "sinFoto": true
     },
     {
+      "titulo": "¿Los ciervos les comen el pasto a las vacas? Una investigación realizada en Entre Ríos puso números a esa competencia y encontró que no siempre es un problema",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOMWFnMHEwa0xzSVE5X3BVMWZVWEVqN3FDVW1Hc2lEcWd0a29ULXJZMk5pSlhkQVQ5d1hpTTV5OGItNmNTa0VzT2Zhd2VianVBYWVUb2FSRFdpRXp4NG9vYUhaLVlKWFV2aGdlWGxyZ2pVTlVHVHlkLUdNT0VBRlZfYUZmWnp6SEkzbWkta2h0eGc3enJXVGFDbHlrdUcwaE1fZnFUdHBpVVNfUGY5N3prWU1kNl9HcWNlY2JVYXlSemRTQkh4dWdFQ0xHNDBOdDM0SVp5RzNneFNQOXAzcXVLRjNzMXRONGVDNmxVdlY3UmJ4UjVLVWEwZkRaYjl5N0lQQWVSeTl1NnpzQ0k5QnlJdg?oc=5",
+      "medio": "Bichos de Campo",
+      "fecha": "2026-11-25T13:13:57.000Z",
+      "imagen": "",
+      "tema": "Pastos",
+      "sinFoto": true
+    },
+    {
       "titulo": "El Niño reduciría las lluvias y elevaría temperaturas en el occidente de Cundinamarca",
       "resumen": "La exdirectora del IDEAM señaló que la tendencia de los embalses es a la baja y anticipa un panorama complejo en diciembre de 2026 y el primer trimestre de 2027.",
       "link": "https://eldoradoradio.cundinamarca.gov.co/noticias/cundinamarca/el-nino-reduciria-las-lluvias-y-elevaria-temperaturas-en-el-occidente-de-cundinamarca/",
@@ -228,6 +298,16 @@
       "fecha": "2026-11-25T12:48:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.XknIr2f8GslvHkoHD-sRaQ&pid=News",
       "tema": "Clima"
+    },
+    {
+      "titulo": "Tienen 24 y 26 años, son cuñados y crearon un medidor de pasto con el celular que cuesta casi un tercio del tradicional: ya vendieron 180",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPN1gtR3JpVWJ6Rml0LTA5cmprcFY5OTV3S1hmelRFYU5nRmV1RzJCT24tb2FCZEMxNzBsZjFodF9fdzNoRGgzMVFuS0FqdmZ5bFZscDQzN0dXOVBhb2ZNcElXUGU2T3Q0N2hUSnc2ZjRpSnNGQWNHbEtjNWR0Z1F5UEJGY3A3S2ZuamcySjV4RjlPMjFJWHBNOF9MNlI0U3ZTalZvVzNFb0pSRzB4Tl9PQV9ETU8tb2duazJjdmx2dUM5XzhRV2w0dDJDaFFlSXUwTWVpNFBMMEdOUQ?oc=5",
+      "medio": "Agrofy News",
+      "fecha": "2026-11-25T09:30:00.000Z",
+      "imagen": "",
+      "tema": "Pastos",
+      "sinFoto": true
     },
     {
       "titulo": "El agro completa un año en números rojos y registra su peor caída en 20 años en Colombia",
@@ -245,8 +325,7 @@
       "medio": "Vietnam.vn",
       "fecha": "2026-11-25T06:27:44.000Z",
       "imagen": "",
-      "tema": "Pastos",
-      "sinFoto": true
+      "tema": "Pastos"
     },
     {
       "titulo": "Conocimiento al potrero: ciencia y extensión en Fedegán 5.0",
@@ -255,8 +334,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-25T06:15:00.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Pronóstico del Ideam: las zonas del país donde se esperan las mayores lluvias este miércoles",
@@ -274,8 +352,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-25T00:26:46.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Potreros sin pasto en Algarrobo: ganaderos temen un diciembre seco",
@@ -284,8 +361,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-24T22:42:46.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Senar de Brasil realiza con Fedegán-FNG gira ganadera en el Meta",
@@ -294,8 +370,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-24T22:40:24.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Carnearon cuatro vacas recién paridas en Ariguaní, Magdalena",
@@ -314,8 +389,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-24T21:43:49.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "IV Encuentro de Ganadería Sostenible del Cauca Medio",
@@ -485,6 +559,15 @@
       "sinFoto": true
     },
     {
+      "titulo": "POTREROS: la tecnología satelital llega al manejo ganadero",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb21QNkNtUVVFalZjc0pQTkg3NUdyT3R6ak1pcXZUQWdGR3hURktZVFpUNjRvVVJYek1KMmRMLUVyRlBGTTZJX3puN2h5bkpMWkMtN1psNGtSb25ibnVFQjAzbmVUX2VuZ2pyWmdPMzZUWVJMUnl4RUFmVUdBU2E0cXg3amI4Unl5NmQxb09BaXU1UFhxM0tRTNIBmAFBVV95cUxNb21QNkNtUVVFalZjc0pQTkg3NUdyT3R6ak1pcXZUQWdGR3hURktZVFpUNjRvVVJYek1KMmRMLUVyRlBGTTZJX3puN2h5bkpMWkMtN1psNGtSb25ibnVFQjAzbmVUX2VuZ2pyWmdPMzZUWVJMUnl4RUFmVUdBU2E0cXg3amI4Unl5NmQxb09BaXU1UFhxM0tRTA?oc=5",
+      "medio": "Agritotal",
+      "fecha": "2026-11-24T13:30:00.000Z",
+      "imagen": "",
+      "tema": "Pastos"
+    },
+    {
       "titulo": "Paipa prepara su tradicional mercado ganadero el 8 de diciembre",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT0o4dzhQT2ozbjJINWg4SjNxdlhrcjJobzAyazE1VzVIUDhyRU9zV1U1MFdQbV94dzlnVFNYWkVTLTMxOUlKelVBenJoNFZubnhGck5RU1NaRmVzOXBrZ19rajFiNUxWMUdRYXJXWGlSVTZ1dy1ad2YtVzF5a3c2NlVKSWdnSG9OY2pQeWpPQ2pYNG9rT1hQSmtTZ2hmTzNTMHJOYw?oc=5",
@@ -520,6 +603,15 @@
       "fecha": "2026-11-24T12:33:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.FilfMglRGaYEepRPkT030Q&pid=News",
       "tema": "Vacunación"
+    },
+    {
+      "titulo": "Del pasto al celular: detalles de una herramienta para mejorar el manejo del rodeo",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWTFOOVVEYWg0dnZfa1draFFXckRQY2ZNemIzLWdkWndRTlhBbFRYaUIyc1E3d3RtLTBINWRQNHZFUklwWWh0WjJESFlnTHlFOG1SbHB6X3dEeDdIcnp1NVNENFdMS21sMEV4RURQT2FCZlYwT2k1dFpfSmt1QjM1WVpXU0dzUHNlNm5jcV9XY1JWYnAtNVd2RTZRMkxydXlkdlladzVZT2gzaWYzanI0Ykd3TVJ2UUdPak9MTVJ5VHVibS1zRE40QTQ0TEwzcG81bXJlRQ?oc=5",
+      "medio": "Rosario3",
+      "fecha": "2026-11-24T11:09:00.000Z",
+      "imagen": "",
+      "tema": "Pastos"
     },
     {
       "titulo": "Ganado siete colores: potencial productivo en el Caribe",
@@ -598,10 +690,10 @@
       "titulo": "Fedegan 5.0: así busca Lafaurie transformar la educación y el conocimiento del sector ganadero",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcEpFdUpidWx0VWtNYUZyeHpTSWREd1pFanppdHpfNWV2dVlWYlIyY3hNdV8wYndKNGxMbDVRTkFQY2xGNlJTSDk4N3h5dUtxVzJpZk5OSjBWYm11RWVtTVE0S0JMcUk1RDJLQzFGS3ZLYTE4Q0VfaE1rOFo5am9LSWtFc09GcTVjb1FUcW95UzgzZ2htTFZVVERTNDQ3ZFpPaHhZektHY05ST2RqZjZhbElySWR2WHdKbGRmUUdSaHZJMU95YXpFT21sMUhMT0ZL0gHQAUFVX3lxTE1jR2NEaTNTUFpHUkljT1Z2eVNOQWZwTDBlaTdWYjR2T093QWNOeHRiWjZrVDNDV1pwV0FxUEp1c1Zjd0ptZHBUNHFwX0pZRkxYSmszZm1GSEUzZF9iMzhVa1U3akg2SWpURHRSemxfSzRxalQ4ZVczMXRGVlg2ZDNBNGRQeDM0Tm1Db2ZuX3VIUHdZY1VQQmktbFFaSmM5TTN4WFlmRjhmUEdDZTRwVGExOUVSd1BocEtfNWdSbVU1MWVfUllVajJaOC1hazJoLTk?oc=5",
-      "medio": "agronegocios",
+      "medio": "Agronegocios",
       "fecha": "2026-11-23T20:48:50.000Z",
       "imagen": "",
-      "tema": "Ganadería"
+      "tema": "Fedegán"
     },
     {
       "titulo": "Boyacá analiza futuro lechero ante importaciones",
@@ -671,7 +763,7 @@
       "titulo": "Así afecta el parvovirus porcino la reproducción y rentabilidad de las granjas",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWFJZYmozRTBzelFSRHFuajRkMUttLWQwZHBhQXBLT3o5Ml8zakQ5cEhTZnAyTFRIWndOZFpINm5iUlN3NXdRUUFCTnZjN2ZiVnRjR3NaRmVJR2lfazJ5d0tpY3FwcjVEazFhZV9CVWwwM1VHajhTcHJYTnM0WF9RTWljYU0xem1IU01zdmgtSUJ1SlphUUpwWjhTVnJWN3BIQjJ1RGo0RDBoT29fWnJzbkEycFNrVTBETV9LcGlLU1FvRF8zaHZKZjdqWHdKUdIBzgFBVV95cUxPa0Jta1psSlg3M1ZZbjBWdzJXU1VWUjN6ZmhiWnE0VURBX1VrODlOdDJUcFFrYnhFOVhucHhubHBpWjYtQTFxNmhDV3ByTGJVNzNiY202Y0pybmlxMGRHX1pPQmVUWWlhYUxCMWNkR3VSLTlPLUZLU3czZG1OOGVfVHYtaGhfNWdfWWxKMnNVc2J3VWI3Z2hlNDJzblVJMmhqQ2x3NG5EeTN1MDBJN3JnQ1FYT2pRTWtDNm1uSWJPU19wQXpTekVRRkFFTHNRdw?oc=5",
-      "medio": "agronegocios",
+      "medio": "Agronegocios",
       "fecha": "2026-11-23T16:25:19.000Z",
       "imagen": "",
       "tema": "Vacunación"
@@ -757,96 +849,6 @@
       "imagen": "",
       "tema": "Precios",
       "sinFoto": true
-    },
-    {
-      "titulo": "Analizan en Boyacá futuro de la lechería por avalancha de importaciones",
-      "resumen": "Ganaderos y entidades públicas evaluaron en San Miguel de Sema el impacto de las importaciones lácteas y el estancamiento del acopio formal.",
-      "link": "https://www.contextoganadero.com/articulo/en-boyaca-analizan-el-futuro-de-la-lecheria-ante-avalancha-de-importaciones",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-23T11:38:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.JpplEE2XHCpue_X-WhwQTA&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Chile levanta restricciones a la carne colombiana y abre envíos por US$27 millones en 2027",
-      "resumen": "Chile levantó las restricciones a la carne colombiana este noviembre de 2026. El sector proyecta exportar 3.500 toneladas ...",
-      "link": "https://abceconomia.co/2026/11/23/exportacion-carne-colombiana-chile-2027/",
-      "medio": "ABC Economía",
-      "fecha": "2026-11-23T11:28:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.NKG-gn6YYRrrOwdaQrz3Cg&pid=News",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Precios del cerdo en pie en México",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAyVE9VUG4zYU9iOUFaaFYzVjJPMVFncTJJSTFTck1ILUhyRGlwTURfeU1iY3F6VFg1WE1zODFBOG1IQzQ2XzNtZnE3b3lfb01yeFhBUGltVk5tdXVpUk1iN2ZNNmJrN0oyUWRjUGZYbS04N1otZUl4dlJaNmw?oc=5",
-      "medio": "Porcicultura.com",
-      "fecha": "2026-11-23T08:00:00.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "Las medallas de oro y plata en la ganadería y el desafío de sostener el buen momento",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc0JjcEdoTXNsdVpLbUpXLU83M1IxdmNhblEyWk1RRW10UndVRGJKaGk3M2NleWotWDdyZjdaeTJCTzhXZ0NBUDRxcVNMNmU3WVI4d08zdlRlYS1vaW9hd2RSdkxrU1FKUTl3Zy1WUWYzcy05SEhTNE9FRzYzd0pVTzZsYVA0ZGRjRUpvSzVYaG5YX0hrTDYxbDhzdjlySWkzR3V3czhyaGJQMDc1ODlFTEttYU5OMGtNZm9uWGl3?oc=5",
-      "medio": "El Observador",
-      "fecha": "2026-11-23T08:00:00.000Z",
-      "imagen": "",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "Ganado bovino bajó de precio en el mercado nacional, pero Santander registró un alza de 12%",
-      "resumen": "Santander registró uno de los mayores incrementos semanales, al pasar de $9.641 a $10.800 por kilo, un aumento de 12%. Le siguió Valle del Cauca, donde pasó de $10.077 a $10.512 ...",
-      "link": "https://www.msn.com/es-co/dinero/econom%C3%ADa/ganado-bovino-baj%C3%B3-de-precio-en-el-mercado-nacional-pero-santander-registr%C3%B3-un-alza-de-12/ar-AA2i3v9F",
-      "medio": "Agronegocios.co on MSN",
-      "fecha": "2026-11-23T07:59:16.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.ySkYrkRhQB63BhOPdl3SLQ&pid=News",
-      "tema": "Precios"
-    },
-    {
-      "titulo": "SAG impulsa una ganadería más productiva y resiliente mediante en comunidades rurales",
-      "resumen": "-Los resultados de más de 1,700 productores beneficiados en Olancho, El Paraíso y Colón forman parte de las experiencias que Honduras presenta durante el III Congreso Mundial de Ganadería Sostenible e ...",
-      "link": "https://www.elinformativo.hn/archivos/136263",
-      "medio": "El Informativo",
-      "fecha": "2026-11-23T07:58:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.TPLSTidP2EomcymJi8Dtww&pid=News",
-      "tema": "Pastos"
-    },
-    {
-      "titulo": "Precios del ganado repuntan en las subastas del país",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RbE9CWllJeVotTEdxbEVyNUVwbW1kMEdFMU16UThoUEctVEEwMy0yNmhuSFFpeE1FakFWWllfT2Y1MDFjU1lfWmdDem1rZ2pPLXVXV0Q2bVl0VkcxQ29ZamViUVRIN0I1RjlCVVVpREowSWZCYlEydG1yTDM?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-23T07:00:00.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Ideam prevé lluvias fuertes este lunes en departamentos como Chocó, Cauca y Nariño",
-      "resumen": "Lee nuestro artículo sobre En la Amazonia también se prevén lluvias moderadas a fuertes, con posible actividad eléctrica en el departamento de Amazonas y ...",
-      "link": "https://www.agronegocios.co/clima/ideam-preve-lluvias-fuertes-este-lunes-en-departamentos-como-choco-cauca-y-narino-4530781",
-      "medio": "Agronegocios.co",
-      "fecha": "2026-11-23T06:44:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.ZPExI8SCSw4aQhyWJTL8bA&pid=News",
-      "tema": "Clima"
-    },
-    {
-      "titulo": "Lloverá hoy en varias regiones del país. Este es el pronóstico del Ideam",
-      "resumen": "Para este lunes 23 de noviembre, el Ideam prevé lluvias sobre el centro, occidente y sur del país. Estos son los detalles del pronóstico.",
-      "link": "https://www.msn.com/es-co/noticias/nacional/llover%C3%A1-hoy-en-varias-regiones-del-pa%C3%ADs-este-es-el-pron%C3%B3stico-del-ideam/ar-AA2i36As",
-      "medio": "El Espectador on MSN",
-      "fecha": "2026-11-23T04:09:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.4vFSQgJRg05kqfIdomlcYA&pid=News",
-      "tema": "Clima"
-    },
-    {
-      "titulo": "Lunes de lluvias en Colombia: Ideam advierte por tormentas eléctricas en estos departamentos",
-      "resumen": "Las lluvias más fuertes se esperan en las regiones Pacífica y Andina, aunque otras zonas también tendrán precipitaciones.",
-      "link": "https://www.semana.com/nacion/articulo/lunes-de-lluvias-en-colombia-ideam-advierte-por-tormentas-electricas-en-estos-departamentos/202632/",
-      "medio": "Semana",
-      "fecha": "2026-11-23T03:34:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.QmNnOqJ6RCO_HkaxU0kxZA&pid=News",
-      "tema": "Clima"
     }
   ]
 }
