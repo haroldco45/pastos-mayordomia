@@ -1,7 +1,27 @@
 {
-  "actualizado": "2026-11-27T20:57:16.514Z",
+  "actualizado": "2026-11-27T21:46:18.072Z",
   "total": 90,
   "noticias": [
+    {
+      "titulo": "Fedegán 5.0: tres herramientas digitales para desafíos productivos",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONDZOVUdpSWpUU3pzWDJ1MTFoSU1KckRGMG4tbWpQNWpxVmxaNFBHOWMwVjVpUmEzc2JDeHhXczE2YU9rLXFKQVNtMDhEajYxcWFqUTQ5aWdWNHVuX1lhSUpmWXhLUmIySDN6NWVKSGhpU19qZ2RMZy1XdmRLTVhpLU5Qak9HYUloVW52Zkc2amkxMUROUUc0UHYtaGN0eGtOeEI2b2liODBOTms?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-27T21:36:27.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Mercado nacional de ganado ha mejorado con las reaperturas de frontera en Sonora y Chihuahua",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbEJZZWUzNmstZHlDMkE1cFo5YlQwY2xFdFQ3MXpHbXdwQTdkRUJQdV9GWGJaa0VkT0RDdi1yZGpGNmRLQmRMenRWOUYtMDlKVzdQMEZ2aTBHRUxsYUZST19fS3ozZ0ZaQ3ZGR3FsZFpYNm16LVVoZk5Hb1Z6bTVOX05tdm0wSC1jNTZGUUdmelRPOFhBaE5vbVZDR21PVk1JcXZXblZBSEZPRER3YVVqbE5zd0Y2MmdjUnVTSG1kM3c0Zy1nMzBITTJ1a28yQ19wVFB1b296SDVCczdUTTlJ?oc=5",
+      "medio": "El Siglo de Durango",
+      "fecha": "2026-11-27T20:05:37.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
     {
       "titulo": "Razas de Ganado en Tabasco Alcanzan Precios de Hasta 2 Millones de Pesos",
       "resumen": "",
@@ -79,7 +99,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-27T17:09:19.000Z",
       "imagen": "",
-      "tema": "Ganadería",
+      "tema": "Fedegán",
       "sinFoto": true
     },
     {
@@ -143,6 +163,16 @@
       "sinFoto": true
     },
     {
+      "titulo": "Lafaurie defiende presencia de Cepeda en Congreso Ganadero",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45dmRCbVlqRzdLMFpEa1JsRTFURzJ6SlVIejFLeEpoVjhMby1vcDBoOHRsVUFCM1ozOGpDQTZZVHUzVDZjOHBoQmEzV0Z2dmJLQ3NDcUF3NTJMQVNQYTRlLXBWTzF6S0RUR2RSMUctTVVjMjA1cFA5ZmVhekN3WjQ?oc=5",
+      "medio": "Estrella Digital Colombia",
+      "fecha": "2026-11-27T14:25:28.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
       "titulo": "De La Espriella deja de contar con Lafaurie como intermediario para la política ganadera",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcm9Hand5UmU2U0YwclZoOUE4ak9jMkFjNVU3djNOVVA2VnFhUUNLYWc3dnBIZjEybEtaeVNDYlRwUnZVdjIwRDRfMUY3cWczemRmcXNaN2ZkcE1kaFVFZDV4ZHJpS3FQODFGVC11RG1jNnhmeExJSjJRWE5ZVTdyZ05VS19BWGlubWdnTmctcm8tb1ZXWEVqZkNsNF9qTzZWYkZsUFdB?oc=5",
@@ -169,7 +199,7 @@
       "medio": "CAMBIO Colombia",
       "fecha": "2026-11-27T13:45:36.000Z",
       "imagen": "",
-      "tema": "Ganadería",
+      "tema": "Fedegán",
       "sinFoto": true
     },
     {
@@ -180,6 +210,16 @@
       "fecha": "2026-11-27T13:45:06.000Z",
       "imagen": "",
       "tema": "Fedegán",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Nueva era para los ganaderos en Colombia: Presidente De La Espriella les avisa cambio radical tras romper relaciones con Fedegán",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNOVJVV0Z1YzAxYmEwVmRXNjRvUkZjaWZncnBPWWZ6T0xsQnZFQkdBcjBnY292VGN5WHhnMEROaXM0dEl2bmhyVXJ2c2N0UnJ6S1VTcDJ6a1RXNHlNSFF3bkQ5eDhQQ3NtT2JfeDFHSi1tNm1KWTJ2emNqbXRHb2JCZEY0dXRlN1FUSUxEUXJfRjRtdWhDT0c0aHRxNGtlR0U3ZWszd0VSQXZjWEs1Y05JS1Z0cEpYa0cwdWNPQjE0WW8xZWlHb3IzMUxwUWcyZFF3dlFETmNOaTlfc19vbGF2dm1aTktNTHM4YmxPeldnUFpfTGdHc3g3bks1OG5DUDRzYktUUEc3LXk?oc=5",
+      "medio": "RED+ Noticias",
+      "fecha": "2026-11-27T13:39:11.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
       "sinFoto": true
     },
     {
@@ -229,18 +269,16 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-27T12:52:47.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "De la Espriella arremete contra el líder del gremio ganadero José Félix Lafaurie",
       "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaTFtUTYyeDNMeGlPOGlJMXVVaUpjUkJDSmVNYXBBdjZKWXBsT21UeEZoMlc3QUhPVjA1UEN0TDJHc3ZSbVR1aDQ4VEVmZzV4ODNmM3RmOEtFVUxiMFlHT0VTWF9Oc0RsU2FaeExHbzk4Um1PZ3lZbU0xYWVPdWcwcllUMm1ZLWdUTllGSGx0YlloLUdQbUZCdjhYTXBfd1laSzUzdnFXS3pGeGhhUmRwbWhxSmQ3WDQ2a3pqM3JXNVFESEN3b0I1aE5RUldwcEtzbkpxS1ZjdjFnbE82YXR5WNIB4AFBVV95cUxOaTFtUTYyeDNMeGlPOGlJMXVVaUpjUkJDSmVNYXBBdjZKWXBsT21UeEZoMlc3QUhPVjA1UEN0TDJHc3ZSbVR1aDQ4VEVmZzV4ODNmM3RmOEtFVUxiMFlHT0VTWF9Oc0RsU2FaeExHbzk4Um1PZ3lZbU0xYWVPdWcwcllUMm1ZLWdUTllGSGx0YlloLUdQbUZCdjhYTXBfd1laSzUzdnFXS3pGeGhhUmRwbWhxSmQ3WDQ2a3pqM3JXNVFESEN3b0I1aE5RUldwcEtzbkpxS1ZjdjFnbE82YXR5WA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOEFFa1lYU2V3NkpEeHZWLW5Kc2Y2V1lNRFRPQkpfemI0LXBzc2xXSDBiNHpoQ1ZmcFh2TnVYOVNTQlNaNHN4LUpMNXAtd0hqbmFPb0o2N2JreFAzSVdlM3JOWG1jTUVFR0x2U3MwWjk5MkRoNkpRcGV2cTBueV9YcUp4ZUZSZ1lVQzBmNkZwYVVRb3I5V0tLMHNtaTROZHo4ellqbkYyQ28xWGtKY1FZLXRKOTQ4eWFhb3FaTW5wdlFOQU8zOVNaYWNmSC3SAeABQVVfeXFMTmkxbVE2MngzTHhpTzhpSTF1VWlKY1JCQ0plTWFwQXY2SllwbE9tVHhGaDJXN0FIT1YwNVBDdEwyR3N2Um1UdWg0OFRFZmc1eDgzZjN0ZjhLRVVMYjBZR09FU1hfTnNEbFNhWnhMR285OFJtT2d5WW1NMWFlT3VnMHJZVDJtWS1nVE5ZRkhsdGJZaC1HUG1GQnY4WE1wX3dZWks1M3ZxV0t6RnhoYVJkcG1ocUpkN1g0Nmt6ajNyVzVRREhDd29CNWhOUVJXcHBLc25KcUtWY3YxZ2xPNmF0eVg?oc=5",
       "medio": "EL PAÍS",
       "fecha": "2026-11-27T12:52:38.000Z",
       "imagen": "",
-      "tema": "Ganadería",
-      "sinFoto": true
+      "tema": "Ganadería"
     },
     {
       "titulo": "Polémica en Fedegán por presencia de Iván Cepeda en reunión con ganaderos",
@@ -249,8 +287,7 @@
       "medio": "El Irreverente",
       "fecha": "2026-11-27T12:50:13.000Z",
       "imagen": "",
-      "tema": "Fedegán",
-      "sinFoto": true
+      "tema": "Fedegán"
     },
     {
       "titulo": "ANALAC cumple 70 años y centra su agenda 2027 en la leche colombiana",
@@ -259,8 +296,7 @@
       "medio": "Ecos del Combeima",
       "fecha": "2026-11-27T12:24:59.000Z",
       "imagen": "",
-      "tema": "Leche",
-      "sinFoto": true
+      "tema": "Leche"
     },
     {
       "titulo": "Presidente Abelardo de la Espriella dice que el Gobierno desconocerá a José Félix Lafaurie como presidente de Fedegán",
@@ -349,7 +385,7 @@
       "resumen": "El mandatario cortó su relación con el presidente de Fedegán y aseguró que su Gobierno “no necesita intermediarios”. Este viernes 27 de noviembre, el presidente Abelardo de la Espriella arremetió con ...",
       "link": "https://impactonews.co/no-representa-a-los-ganaderos-de-la-espriella-arremete-contra-lafaurie-por-recibir-a-cepeda/",
       "medio": "impactonews",
-      "fecha": "2026-11-27T07:02:00.000Z",
+      "fecha": "2026-11-27T07:20:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.r7Y7iqc37FPy6LTav4VDqg&pid=News",
       "tema": "Fedegán"
     },
@@ -484,7 +520,7 @@
       "resumen": "El presidente Abelardo De La Espriella anunció que desconocerá a Lafaurie como interlocutor de los ganaderos. El dirigente gremial se defendió.",
       "link": "https://www.eltiempo.com/politica/gobierno/la-historia-de-la-foto-entre-jose-felix-lafaurie-e-ivan-cepeda-que-desato-la-ruptura-entre-el-gobierno-de-la-espriella-y-el-lider-de-fedegan-3604839",
       "medio": "El Tiempo",
-      "fecha": "2026-11-27T03:18:00.000Z",
+      "fecha": "2026-11-27T03:37:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.yW0fuhu1667q0foaMMK5Sw&pid=News",
       "tema": "Fedegán"
     },
@@ -517,6 +553,15 @@
       "tema": "Clima"
     },
     {
+      "titulo": "Estaría exportando Chihuahua carne empacada al mundo tras cierre de frontera al ganado",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yWlp1SGhXc2EtZGphcmhtbndYWUtVNnZqTFdzbjdOUmFnM1AySnNEVmFMb1l4anMwWG5lOE5UZHBCOE5Famw1c0NXbTBsTmY0elg1OE8yUWRxUXNwQWNFcWJ3UnZiQ3ZIYlNTWkZja00?oc=5",
+      "medio": "Omnia",
+      "fecha": "2026-11-27T00:10:18.000Z",
+      "imagen": "",
+      "tema": "Precios"
+    },
+    {
       "titulo": "Lafaurie responde a De La Espriella tras anunciar que desconocerá su interlocución: “¿Cómo se convirtió ese saludo en una alianza?”",
       "resumen": "El presidente de Fedegán defendió su encuentro con Iván Cepeda y reiteró su disposición a dialogar con el Gobierno nacional.",
       "link": "https://www.lafm.com.co/economia/lafaurie-responde-a-de-la-espriella-y-defiende-encuentro-con-ivan-cepeda-418500",
@@ -532,8 +577,7 @@
       "medio": "El Pilón",
       "fecha": "2026-11-26T23:49:44.000Z",
       "imagen": "",
-      "tema": "Fedegán",
-      "sinFoto": true
+      "tema": "Fedegán"
     },
     {
       "titulo": "Créditos ganaderos deben adaptarse a cada ciclo productivo",
@@ -588,6 +632,15 @@
       "fecha": "2026-11-26T21:47:09.000Z",
       "imagen": "",
       "tema": "Pastos"
+    },
+    {
+      "titulo": "Fedegán responde al Ministerio de Agricultura y asegura que sí entregó información del Fondo Nacional del Ganado",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPMFBfRjRzUVhvZWJFRFNEWl9VRjhsY3VrTjY5TzRzQ0NYemRIdVVwbHdVdHNiQnRjNWdQY0U3SmpVV2dyUHdxOEhPREs4WlR3b0ZnSkthdG9LQ2F5eWl6b1lyeTNSLXFxcHhBaUNGQWh3OTdtdmxXMEREY2ljdXBLNVFKc2gxVWVodXpaZUU4b2hSbW1wMXRsV1NVUEkwN2FzaTBqTXhjSEE5VEtJcldSRldUaGI3UHZ4WWVzb3BhbHJsX0ZUdGh5WXRhWUFJRTdwOEUyQUhCU0tJN1ZEaGFzbWF0WjBKZjBjTld5WVpkNk9ValczQ0RVYV9tVdIB-wFBVV95cUxPMFBfRjRzUVhvZWJFRFNEWl9VRjhsY3VrTjY5TzRzQ0NYemRIdVVwbHdVdHNiQnRjNWdQY0U3SmpVV2dyUHdxOEhPREs4WlR3b0ZnSkthdG9LQ2F5eWl6b1lyeTNSLXFxcHhBaUNGQWh3OTdtdmxXMEREY2ljdXBLNVFKc2gxVWVodXpaZUU4b2hSbW1wMXRsV1NVUEkwN2FzaTBqTXhjSEE5VEtJcldSRldUaGI3UHZ4WWVzb3BhbHJsX0ZUdGh5WXRhWUFJRTdwOEUyQUhCU0tJN1ZEaGFzbWF0WjBKZjBjTld5WVpkNk9ValczQ0RVYV9tVQ?oc=5",
+      "medio": "Portafolio.co",
+      "fecha": "2026-11-26T21:44:48.000Z",
+      "imagen": "",
+      "tema": "Fedegán"
     },
     {
       "titulo": "Extensión rural en Colombia: ciencia que no llega a las fincas",
@@ -664,6 +717,15 @@
       "sinFoto": true
     },
     {
+      "titulo": "Fedegán acepta la auditoría al Fondo Nacional del Ganado y exige independencia, rigor técnico y garantías",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMXFnNHBCd2swc1prRmJiSFNhWUk1VzRaanpxWkk2bWVnRnpROW1Ub3lkZmg5UVdRU0J3MmRjaF96ZlFubWJiVW91bkcyZ1VXU0lnOWQ5V1JiQl8xcjd1ZlBjZzdsRTJEbjAtVzgwWW0yYXVfTW5YVWRIbmRSQVVLY2w4R3ZhRXlWSjlOSEk0RUd5ZlM3TTNfUERJRE4xeFYzQUwyUFNYb3ltVTg3ZWduTnA0ZFJWOHRFSVhpaHYwWEJpdWtFY0FmMmF5THZRRGpneVFtTkVkVnVCallwOGh5Ykh4UGlQZ9IB6wFBVV95cUxQUVJPcVNWLWxmdEJ6ajdKOTlHV0V2MkRtQUVpVTdIbFI4LVNkdUFtb1dGdDlZNVQ3S1FKdUp6YkVXMkg0aWYzalhmbVFXMmk0UzBKUFdyRDE3Ny1WRThXM01jVXJIQW1zU1Y2TTlUQU1IWElTU1paVG9qTFYzZE51Nmt3NDVmdm5PSXZDZkV2WnVOSUFSdVdMWDRkVGhFQ0szTEdFa2NhU2psLWJWUWVUOUpNdmh1NjJieVFUNnJVaDhHTU4tS19uTXFTTFVhSl9yTTR5YzQzeWMwMFllUlBIdUhLbVp2ckNSRGJF?oc=5",
+      "medio": "Portafolio.co",
+      "fecha": "2026-11-26T19:37:47.000Z",
+      "imagen": "",
+      "tema": "Fedegán"
+    },
+    {
       "titulo": "El mercaón decepciona en Aller: «Pocas vacas y precios muy bajos»",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ1AxUDByU0ZNa2M1VzVxclJsQXM0dENLQzd1V08yYkpaNk1xRmtiRnM3Sk00UDVUM2VtdUdsSnBXV192UTZuV0RVLVpadGdDcTh3NFpNeEpBLTIyUExnYVdiY0UtcTRDMHp4X2NvYjhwTTNyb0RRT3RSQk9rSnBNYmdOX0ZybnJHS1Nka0U0N21HcjdaRHZsWXFfWlpXRzRKRUJQb0hZVUdHd2JVLXNqUW1lYlBITUlXcXRCU3ZKTkVJRDZHWjN2Z1p2WGZqcE5Q0gHWAUFVX3lxTFB5bXJuNkMwX2FLNTdmWHNxWWFKckxxZmZDdy1EOXNTTGJ2MWNZSDZFcl93bmUySGxfakUtS293SGt6blBhNnFKaDk3cjhzX3hnb3R0RVcyaHJrWFFEMUJtR0hlbFlIU21xcklQOEdSNlJmVVFOTHRnYTFLSDRHVWJmWms4Y3RDTm02dU96MG5veVBURjhMWDhoSV9lYXNXUEpLOXVXbllDM1NNMlZZVVkyZkVzbXhPWERramJFc0UtV3dTWWxOQklIbG1qU2IyWU5LTGt1X3c?oc=5",
@@ -692,6 +754,24 @@
       "tema": "Ganadería"
     },
     {
+      "titulo": "Crece la tensión: el Ministerio de Agricultura le pide información a Fedegán con tutela",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa19xQ3VZMm5RUi14SlgxSXA4cWJhekVkU0g3R3FJRUp3ZHZjcEpaNVdUSmZFNm5QU29wdzZzMFdlbmdOZHhRekxEcEJNLUNaSXVHbzB5djN2UURLV0lvVUpEZWFpVHRLcXVBWEt2MDlUNXZZLUpuTzJsYlR4MDc0bTlVbDN0Q3lBNmVoVVVwczZPNmg3Y2ZIREZYMGc3T08zLWh4a3BBUVd4Q0tvR2M2NTFZWFNXS0tjWHI5Y0tTd3pfeGPSAdcBQVVfeXFMT0M4TTVYbFpra3dYNFpfblctUllUeUxQbEx6Vkw0X3RZRFdoQ21xVnBBUjFHc0w1Z0RzeUN6X2FVcTZJSVNvTm1vMHZJVlZhVi1lWC1sam1xcTdROGVaZDJtVElNY0owTXlwb2JvdWJjZzl4eWlOMC1LWGlVNEFyVVpld1dNNFJ6RjZGTjFnQUdKLWhIczhTSWFOSmlXSkFVSzlaZTBBZDQ1U1N5MVcxczFmMEtoZG96cmN3dHJZMUw4WWo0UmRfcUlKdVhPQUthQUctM1hHcG8?oc=5",
+      "medio": "El Espectador",
+      "fecha": "2026-11-26T19:06:45.000Z",
+      "imagen": "",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "Juez ordenó a Fedegán responder en 48 horas los 61 requerimientos del Ministerio de Agricultura sobre el Fondo Nacional del Ganado",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbTVzUV9wWEl6b1ZKQW5VSUoyUUFRVDZHc2xidnNRV1RoLTdWNzB6WlpjY21lRWRYY2ZvcTRXLWZ6RDUxOFh5cjdsSFUyWlExMXNrRzQtSlFOVndhazlET0t5b0k5TXJfTGllM1o3dlhlbzhqelBiclJ4M2pCZDBLNHJCMW9FWm50dVlNZlp3WDY3T3ptVnRkdjlheWE2Ym9TV3daSENqQkE3OW9xbzFhVE1NTEk?oc=5",
+      "medio": "IFM Noticias",
+      "fecha": "2026-11-26T18:50:43.000Z",
+      "imagen": "",
+      "tema": "Fedegán"
+    },
+    {
       "titulo": "Los precios de las canales de vacuno de la UE bajan en la semana 47 de 2026",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZDdaRUdaWWlLQ0d4TlhlOHpQOGRJeDZ6R2VpWmxFMWJibkU2ZktSalJYbnNrOXR4SkY3ZzE3Z1Bzd0s2S0lUT0NvTmVzVHFXdWdSbFJLb0I3UXREOVNweGNUV21KQVZCUlBOdGRPVnRuNUF1YlBXdDZ6X1BxNFlNYzVaUG1hZw?oc=5",
@@ -707,6 +787,15 @@
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYk5MWnBVUUtCYkdZdm9Jb3Mza3dxQng4MFRiTVZxOWl2eWdxSHZsWjZPd3NWaDV0N0JQRG9td25NZTl4N1BOcTVxM2ZDNlc0QVRtZlBqRWV3ZmhrcUpYd3JkZHFNcV9OcThTZmJLTnRDUXZCcmh4NGt0VlByVHhXYUZ5WjJvVnQtZ1N1MHMxUmFXYVZXcXFTQUpMQ2hjZ2xPakVheGt0WDNBZmE2UGN0VVB5RW4tNUxtNnhqNlU0bUdKZEwwenfSAcYBQVVfeXFMTk9PUlU1dnBFeERLRDFNS21rTVBZTHJ5SDg4VVpaNG1kU04wXzNfYVdoYVI0SmZuNVYtV3Y3eW5xaTl3NjZycVBGeXE5OEQ0V2pyVWVwYmM0UGNXR19qTGktLUtncU1IT1haSkU3Vm1YangtRFZpVndHc25JMzNlUG9vTnU5M0dyVWFadVZXUFdyQ3R6MEFJUlpMUEVscm03dFZ1ME5BZWJnNGk0T0FkbHdidGd3a0dJMjNveDMxNWxWa1FObGN3?oc=5",
       "medio": "La FM",
       "fecha": "2026-11-26T18:15:57.000Z",
+      "imagen": "",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "MinAgricultura vuelve a cuestionar a Fedegán por fondos parafiscales: \"se incomodan porque exijo transparencia\"",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQVpYRzRzeUpwbGJlb3FaMktyREFFRzRkYzFVQTJ1VXptbklfZ2h0enpQOEFIYUp1N2tFak02S216RTBhcGcxWlJVajF0RjlLOWxmN0Z4VWQ4Znc4eTVVckdob2NlQmJYMFR2ZmVXZ3Z6T2RBUS05VnA2ZkI1WVNpQUFaX3owMG1EVWpfYlRxX2pka1NZY0NpdVdUd0tVWjJlYjBMTEtNMWhqc1RBWWN4ZUNWdDkzUXgyZDlWMHZQVWnSAcABQVVfeXFMT2g0UHV5SGo5bmMtOE5lUEc1bzZma2ZXMEZDVnBXclY1QUNUODl2UkROQ3lvaVpub2NfV3drNVRMZEdrbHJGNVBVYTZiSmZJZktQWlc0ZWpaX0Y1X3ZLT1RVVzZQdW5RN2RyRG8wMExpb1QyeTFLWTNlOGJpMkxXSmRBVkZ5YUo3ZjRYS2Y2OS1WdEEwQ1hIWWZsTTAxNWhMWlUwRDdaWVBGU0EzeTVObGxXZWdRMzBGSTJROG5NR3dY?oc=5",
+      "medio": "La FM",
+      "fecha": "2026-11-26T18:05:42.000Z",
       "imagen": "",
       "tema": "Fedegán"
     },
@@ -729,6 +818,24 @@
       "tema": "Leche"
     },
     {
+      "titulo": "Fedegán tendrá 48 horas para entregar información del Fondo Nacional del Ganado tras fallo de tutela",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYkhNcXdQVk1Sc1pxMk9mNktPMmN0NzV3QnpZeTlmdnBNVC1BQS05d3pGNkdCYW93U2xVWVFvdWotMGU0cnBzcl9RenYxdU9uUnF1LUJaUzcxSksxZTljWE9oVHUwRG9hVllub2Z4RVJzNURhYWhpcEVweERYWDBUMmRYY0RpU1ducy14TkZsSWhYNzFndnNhOWdXOXJaYm93WmFCVVhFbDNQODZYVjBqaFVDdmZDTFFRbm5NdlNNTU5ZdndKSDZtUFplTWFQWEE4ZHpRbTFiRlIyOVU?oc=5",
+      "medio": "Seguimiento.co",
+      "fecha": "2026-11-26T17:20:00.000Z",
+      "imagen": "",
+      "tema": "Ganadería"
+    },
+    {
+      "titulo": "Gobierno de Abelardo de la Espriella ganó tutela en su enfrentamiento con Fedegán: el gremio tendrá que responderle al Ministerio de Agricultura",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPd25GQUtWQjZQT3AybVlfSHp2ZlJXUGprOFFuX3hIdlBDQ0hZTGRjd0k3aWV1ZEhxb2VEZXJqcnhmSHJMZDZUWEw2UWFYTFJ3dEZWd2JlU3dPZUItMF9XdVE1Y2lqNjN4VlBROEV6WXhvYTFiWENXb2xYQU1JR2FjV3NSeVRBUm1ZcFJaUDljeTFmZGkwS0xiRVUzY3JzSjdtendUVGxUQ3o4enpfRTFXU1VQSHJMbmJtRWpQVE93U1BXOUFnM1k2ZU9tcGNOU011LTJ3SUxBREFnSTZVZ0V0VEJGb3N2NmNYcEltUGxWQjJPU3o3ejVPMTJfcjlvZmkwN2FiMjdOeWc3OW91ZEtUSkMwNEZQbGvSAbICQVVfeXFMTmhXSXRST1E5YjVzUkJoUGsyRjdMZlZNWHREbDZQLTBoQkdFRksyR20yWklHWW8wUWhlVllZSXptVGp2LXhMcVdHQnRfYVIzbkRRQ0FqMUNEX2JUbFctbHVmVU5qNE9uTDQteHVkd2pkVFpEWGVtaHM3YVBuaXNxeG5adHNrbl8yY0FYWk14YlBIaWx0dzdXUWNKZVl1eWg3eWwxUTgyVkhKR2J2VzQzMnVMa01GaUtiQkR3SkRxdkNPbW54dU9oYy1MdWhGXzZBLVRkU0lqcml0cUVyM3VySGJiWDcwRVlvVlFaaUdXUWVfZ0lkQzM1M0hScjNPWHJnMDFBNE52bzA4N3VoMW1uN2Q2S3hYMDR5dWZnX0Vja1dwNVZXVWNfdVg0bnVqekxxTUtn?oc=5",
+      "medio": "Infobae",
+      "fecha": "2026-11-26T16:36:00.000Z",
+      "imagen": "",
+      "tema": "Fedegán"
+    },
+    {
       "titulo": "Subida de precios de Ternera Gallega Suprema y estabilidad del ganado en Amio",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOem1DZU96cTdiNUFzUTEyaHJoVXhPQWdFZkplbDAzX0ZYanpmQklOVnhZU2lJRFpvY2ZGckRNeG55MFFsekNlMUlnRy1XM3F0Y0VpUXpRUzl4YzgyY3lBNXZMajJsN0tWU09WS3R4TzMxSy1sbms3dGtXeGlzTTk4YWdCaUI3VS1ud0xKcDV0OEEwc3o0Z0tQLWdMV0RaS3FGaUV1X3NYWWg?oc=5",
@@ -736,114 +843,6 @@
       "fecha": "2026-11-26T16:35:29.000Z",
       "imagen": "",
       "tema": "Precios"
-    },
-    {
-      "titulo": "Sube la pelea entre MinAgricultura y Fedegán: ganaderos dicen que entregaron 190 GB de información tras tutela",
-      "resumen": "La disputa entre el Ministerio de Agricultura y la Federación Colombiana de Ganaderos (Fedegán) por el manejo de los recursos parafiscales del Fondo Nacional del Ganado (FNG) sumó un nuevo capítulo. A ...",
-      "link": "https://www.msn.com/es-co/noticias/otras/sube-la-pelea-entre-minagricultura-y-fedeg%C3%A1n-ganaderos-dicen-que-entregaron-190-gb-de-informaci%C3%B3n-tras-tutela/ar-AA2ikoqE",
-      "medio": "El Colombiano on MSN",
-      "fecha": "2026-11-26T16:27:07.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.OLfcwzJqVcEAI6zSLK2GbQ&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "\"Unirnos en apertura de la carne a EE. UU.\": le dijo Lafaurie al Gobierno",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQV1JyMGJNNkZhYWxnT3ZsZUMyRUxtS3VHQWt2WHFoRUYxY2kyd0hVZm1nU1BJYldlclJ0WEFBejUtTkhkMW5GZkJfc2tFSHdnQ1BMN0VrQ3ZXR1FyUkNfNVJCSVljUkx6TDg0RjNBWi1zeW1FdE5nSl82dGJaZ09uTHJ5aHNhWHQ1aGpUa0hBTlVsOVJhZkxDcTRPajNwMll6RUtDUm11ZlhPemlLbjhXZEFDV3FGQncwOTF6eGFVZ0Fqb3JTSzQ0emcyNE4?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-26T16:14:37.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Fedegán recibe respaldo de sus bases para defender su autonomía",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTkFXRUp2TDZUeDI1M3VYTGJBemJfY3NHeFE0dFQyWTJ5RXFDUDYtQW4wTGYzYjlhYkM3eXExMWkzemdBRGNaMG1TT0h3SlVMVWtyX1RqcEdFcllyVnVReGszRG5QamFKZ1QzVEpJRnpRNFAwUWVwQkEtNFhuRjdISWFvMXNyYjlITUZSR2lTbS04UWR5TnVkRVJmWUQyYkotSnpwY0hfbEY?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-26T16:05:46.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Fedegán asegura que entregó más de 190 GB de información al Ministerio de Agricultura y rechaza narrativa de ocultamiento por parte del titular de ese ministerio.",
-      "resumen": "La Federación Colombiana de Ganaderos (Fedegán) respondió públicamente al pronunciamiento emitido por el Ministerio de Agricultura y Desarrollo Rural, en el cual la cartera agropecuaria anunció una ...",
-      "link": "https://casanareonline.co/fedegan-asegura-que-entrego-mas-de-190-gb-de-informacion-al-ministerio-de-agricultura-y-rechaza-narrativa-de-ocultamiento-por-parte-del-titular-de-ese-ministerio/",
-      "medio": "CasanareOnline.co",
-      "fecha": "2026-11-26T16:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.mwJo_VLIkYc6NeNXu6yZGQ&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Ganadería 5.0: Conectividad y uso de datos, retos en el campo",
-      "resumen": "En el Congreso Nacional de Ganaderos analizaron las brechas digitales y la necesidad de llevar tecnología, conocimiento y asistencia técnica a las fincas.",
-      "link": "https://www.contextoganadero.com/articulo/ganaderia-5-0-conectividad-y-uso-de-datos-retos-en-el-campo",
-      "medio": "CONtexto Ganadero",
-      "fecha": "2026-11-26T16:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.4NAyelwYKTNMc3zt-ik-XQ&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Pequeños ganaderos tendrán botiquín veterinario desde 2027",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNW10UkRqQ3dha3l3UnIzODRvUjlQTkJ2SDlXQ3dzb2lIT3JaNGEwSkU1VUdSMkhkQ1Zya1dwOUZBajhTanEtSzBqanJmcjB3TFdIR3lOM1RFTWlNYms5MWpxbWZDOHVSNEdJTFpKeUNpdmUzclE2WDNkVWFidFB6MzRvTGJOQmk4UjhkNjRPeTQ0Zm8?oc=5",
-      "medio": "Opanoticias",
-      "fecha": "2026-11-26T15:43:53.000Z",
-      "imagen": "",
-      "tema": "Vacunación"
-    },
-    {
-      "titulo": "De suelo degradado a refugio de aves: una apuesta por construir un hogar en pequeñas fincas de Colombia",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQS1FFRVN0WEpDeTh1UU1RTlRoSzFjZ0FvSWRFdzdjME5fc3JLaTVtbTd5VDhOX1hTZU84Nkt1b2JWLWJfQkEwWjNTWnY5dnFQczEycTFMMmVxQW00VjJyRDFsbFRtQU5fUUw2bzlTTElrYkp5S3NMYjRKUjdsZWhmNWlla1FkaFEtb04tVnBqVzRIc09mY0pDbnZaUUFPSDludnpPSzZHdGU0ZUJFVTZJ?oc=5",
-      "medio": "Mongabay Latam",
-      "fecha": "2026-11-26T15:25:35.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "Tensión entre Lafaurie y MinAgricultura: Fedegan niega pérdida de dineros en Fondo del Ganado",
-      "resumen": "La Federación afirmó que entregó más de 190 GB de información sobre la administración de los recursos parafiscales y aseguró que cuenta con el radicado y el sello de recibido del ministerio.",
-      "link": "https://www.bluradio.com/nacion/tension-entre-lafaurie-y-minagricultura-fedegan-niega-perdida-de-dineros-en-fondo-del-ganado-rg10",
-      "medio": "Blu Radio",
-      "fecha": "2026-11-26T15:20:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.I4ojla-i02mFvlj6_Cc4nw&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Sí le entregamos los documentos al Minagricultura: Fedegán sobre información del fondo",
-      "resumen": "Luego de que se diera a conocer la acción de tutela, la Federación Colombiana de Ganaderos afirma haber entregado los documentos a tiempo.",
-      "link": "https://www.msn.com/es-co/dinero/noticias/s%C3%AD-le-entregamos-los-documentos-al-minagricultura-fedeg%C3%A1n-sobre-informaci%C3%B3n-del-fondo/ar-AA2ijsj0",
-      "medio": "El Espectador on MSN",
-      "fecha": "2026-11-26T15:03:26.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.aXyS-rjyysSIWVF1ptlf7A&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Ministerio de Agricultura le gana tutela a Fedegán y le da 48 horas para entregar información del Fondo Nacional del Ganado",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWDFTWnQybjhyd3RiZDN0QV9QSTcyUTVHTmVmRGFmWDM0cEJyNWFGNnpjeTI4RU5FUXBaMkU5V1EyMkVkakZFaWN2R2I1SzJkcXhqSTVYQ3hqdWNjSndFWE5qN2FHd3owbzJYOXhWNWlhYW83THc3aUdnN3ZXVGdZNUFIdXBkdkxYNVQxUTFrWC1WVUhiajdZaFlocnVINWVMcGFTRFVLMUMtaTlxMWJfbEM0TF9NWmtVelF1bTVXSkRlcVd1b0h4bUJ1eHJuZENFRVpUNTdPNzZCSmNzYVRST2FObVY5Y0JlSVFlSzZjNzR5NmV1NWJEbm8yQ01kQQ?oc=5",
-      "medio": "ELHERALDO.CO",
-      "fecha": "2026-11-26T14:42:33.000Z",
-      "imagen": "",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Fedegán dice que entregó la información solicitada por Minagricultura: “el propio Ministerio tiene constancia de su recepción”",
-      "resumen": "Esto tras la noticia de que el Ministerio de Agricultura le ganó tutela a Fedegán y le da 48 horas para entregar información del Fondo Nacional del Ganado.",
-      "link": "https://www.elheraldo.co/economia/2026/11/26/fedegan-dice-que-entrego-la-informacion-solicitada-por-minagricultura-el-propio-ministerio-tiene-constancia-de-su-recepcion/",
-      "medio": "El Heraldo",
-      "fecha": "2026-11-26T14:25:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT._qeeLSImb5JKw-AeUmpeuQ&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "El ICA prohíbe a veterinarios y ganaderos usar 35 grupos y sustancias antimicrobianas: las fluoroquinolonas cambian de rótulo",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Fa1BXaDhNaEo3VWRnLUpCN182NDd2T3Btd0ZFT3R1N2ZtMTBoWGhVdjB5UlUzT0hQNm9IbmxjS0VqaEVGRXJYNWlLWVViemkzd0xMNkpla0dZRy11TmYwdkFqUkJ3UnRpTEh0U3d5YVlXTGs?oc=5",
-      "medio": "Mas Colombia",
-      "fecha": "2026-11-26T14:02:02.000Z",
-      "imagen": "",
-      "tema": "Sanidad"
     }
   ]
 }
