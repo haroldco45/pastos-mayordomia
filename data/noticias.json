@@ -1,15 +1,44 @@
 {
-  "actualizado": "2026-11-28T03:40:30.528Z",
+  "actualizado": "2026-11-28T12:37:40.555Z",
   "total": 90,
   "noticias": [
     {
-      "titulo": "Nueva era para los ganaderos en Colombia: Presidente De La Espriella les avisa cambio radical tras romper relaciones con Fedegán",
+      "titulo": "Lafaurie rechaza que invitación a Iván Cepeda implique alianza política con Fedegán",
       "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNOVJVV0Z1YzAxYmEwVmRXNjRvUkZjaWZncnBPWWZ6T0xsQnZFQkdBcjBnY292VGN5WHhnMEROaXM0dEl2bmhyVXJ2c2N0UnJ6S1VTcDJ6a1RXNHlNSFF3bkQ5eDhQQ3NtT2JfeDFHSi1tNm1KWTJ2emNqbXRHb2JCZEY0dXRlN1FUSUxEUXJfRjRtdWhDT0c0aHRxNGtlR0U3ZWszd0VSQXZjWEs1Y05JS1Z0cEpYa0cwdWNPQjE0WW8xZWlHb3IzMUxwUWcyZFF3dlFETmNOaTlfc19vbGF2dm1aTktNTHM4YmxPeldnUFpfTGdHc3g3bks1OG5DUDRzYktUUEc3LXk?oc=5",
-      "medio": "RED+ Noticias",
-      "fecha": "2026-11-28T01:28:29.000Z",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUXpaV0hvRTdDMjJYX2JuQ19xQWxrdm9hMk9DajM4VHhwdjRYSmRKY0lHQXZSMk93YWRPU1dXSjk2RzhIdWdBUlJ3cWdCS2NPSDlxTUx3eXlGU0NzT0duOXNHX3NYanZYMkh1MU9pUnpNOHVOUU5GcVBfN3FtZmRpWjViTjY3bzZWVnZDZnV0SmxKN1lqQnlGWDBlWVJxbEJuX2V1MHRtSktWQ0UyMW53REdHSWhYWExqUDdjQ21TSC04SG9pM2VF0gHiAUFVX3lxTE5NTjR1TGN5Yl9VVTBWZTBrZnFPcFVwQ0VkcjRNTHpmM2RwNkdHQTdKU2psRWt0T3JFXy14SU5uT0dUYjI4Y1hVRG5wOGdxbkY5Q2RXZW1XTnlBNHZDSm5jRnZQU1BCbDlVSjZmSk1TNl94LWtlcXlqeTEzUjVTMDNWSTNJMXVCTVVFcEtESzM0Zy1uTVZWSHBGdHR6Wk5oMWJwckdxMVRxdHVYR3Rmd0xxcGNkd0V2TVgyalJ4clNiZjlndFFEU1BZVjFXVUdKc1Q5blpWNjA5SFVEbG9fM044aUE?oc=5",
+      "medio": "Infobae",
+      "fecha": "2026-11-28T04:59:00.000Z",
+      "imagen": "",
+      "tema": "Fedegán",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Fedegán responde a las críticas por la presencia de Iván Cepeda en el Congreso Ganadero de Valledupar",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTS1RRkFQeE1USkMzUkJDcVBPX3c0UVM5MVIzTGoydEJQUnB2VDI4RXdJMWgxZzVyQl9peEhWcU85ZFNzOWhQS1FPckdVSzF4N29xd1RnRXdrVVIzT012VzZMZ2N3cjVmekpBTGpTSzBPQ1ZLbVY4SlRiQXZGRFpxTmRrUDJRdHJNTFJhMC1TRGhEYWtNLUg1T3plZjU3OFMxeTgxY0ZOWVktWjNnWk1kdXhpdDVzSmRFMEt3Zk1Qbm45aVE?oc=5",
+      "medio": "LaVibrante.Com",
+      "fecha": "2026-11-28T04:38:56.000Z",
       "imagen": "",
       "tema": "Ganadería",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Ganadería: satélites, genética forrajera y drones, herramientas del INTA para producir más en Entre Ríos",
+      "resumen": "Investigadores del INTA presentaron tecnologías y avances en manejo forrajero, mejoramiento genético y aplicaciones agrícolas durante una jornada a campo ...",
+      "link": "https://aireagro.com.ar/ganaderia/ganaderia-satelites-genetica-forrajera-y-drones-herramientas-del-inta-para-producir-mas-en-entre-rios/",
+      "medio": "aireagro.com.ar",
+      "fecha": "2026-11-28T02:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.cg_cMjCGGhwP81WO0og2hQ&pid=News",
+      "tema": "Pastos"
+    },
+    {
+      "titulo": "Surgen primeras voces disidentes en Fedegán tras encuentro de Lafaurie con Iván Cepeda",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbWpfbHI5aFc5R01HYUdmcWFiTEhUUF9WaGdfc28zYy16TTRheFZBZU5GUHc0dGMzRl9YRjRtcDhTVEw5eXg1UnR2cnEyZks5UE9oSDBLN2d3R3YySGhGZnB6ekdNSzRQRjYwb0pxd3Mwbk1UU2hGbjhKdi04VmFvSDZBMVRCZC0wNHRYV29ZNnhLRzcyUExab2UyMnYtSlhoYWVGU3VHazNRUHJZTGRaX0t3b2xmdVRuWEVhY2loV19zVlRrbjdR?oc=5",
+      "medio": "Agencia de Periodismo Investigativo",
+      "fecha": "2026-11-28T01:52:29.000Z",
+      "imagen": "",
+      "tema": "Fedegán",
       "sinFoto": true
     },
     {
@@ -23,6 +52,16 @@
       "sinFoto": true
     },
     {
+      "titulo": "Ingreso de ganado ilegal de Centroamérica a México arriesga el combate contra gusano barrenador: CNA",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWUVpN0VNUjlNNXgzMnVtX2FMclIzLV9SN05uNWNPbHVkSmFnLVdNUk5Id1BQcHpON3Q2ZDNCOHpXdU5sM1VYVnowSGtGc05JNWtDVVB0SUdkbUptSmNCS0VIM0tsMC1kXzJoUm1RVzd5THFFSE9mNFJCS1EteXFMNy1USWFqX2VqQzZIMTl2bWJXTTBkREl3Q3VQRWxWVUxpTENzWlk0REJadlhJd2MxUHV6UU1XdFpPWThneA?oc=5",
+      "medio": "Omnia",
+      "fecha": "2026-11-28T01:12:00.000Z",
+      "imagen": "",
+      "tema": "Precios",
+      "sinFoto": true
+    },
+    {
       "titulo": "Fedegán pide al Gobierno no excluir a gremios en diálogos con productores tras polémica por Cepeda",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYjhuZENyNkJDSURvOWUxU3kyQ0lpMkxhUnVPTmc1NTVpRFd6aDRqSTdWOHRicDNzYWFoVHl2M3Q1bU0yRkRlV3hycC01R19JeDRscTlvQnZCNTdtb0RxVkhSdjg1OGlRU0JjOHU4QVhwUG1uTGF4WmJLeUk5Xy0yQ3JpbkJocjJMdGRReHF2RzdSaFIyMk9fLTBTczdmOGtjTDFsbThkVEUwb0RSbUN6TnpYQU8yZzJGemszTnlxUVNZX01Ud2RhMUxIUzlBQdIB4gFBVV95cUxNTEF1aDNsVEstMF9JcmE1TElzcHdFVkVWNnJ4dG9JdTlkNmNpdjVENDB5ZGtISEdKMG8zaUtzM3A3UU9uNGhpNUFKcVB2ZF9JUlRCdHVfRGZLRkZPRjk1ek1ubHotaWstUFJlTGxfc2JPR2U1d3Y5MTFsZjFSVnlrcWtBVVlVWndGRnZVZ2tZVTR2VWcyQW1uTXpIR000alJhUGVEd1hSanNjUzFLc0lKRXFzeE9WTHlHOC0xell5bV9YYXNrUFNrd2xNMGJnQms5ZXZNZE5GWHF6bDRiOXUxTGRB?oc=5",
@@ -30,6 +69,16 @@
       "fecha": "2026-11-28T01:05:11.000Z",
       "imagen": "",
       "tema": "Fedegán",
+      "sinFoto": true
+    },
+    {
+      "titulo": "La unidad ganadera: una bandera que no se negocia: el mensaje de Lafuarie",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMEMzc0FoYi1ONjAzYUdYamFKX08xd2NHV0ZFMU1ZMGJCaVpxdFlwWVc1eC1kUUNTaUM3bU1lZ3NoUmxfTkZUNkZScFNjWWItS1pMaGF6TFNiaHR4eGJMWWNwcjZQUVBrTE5OWkdBUWd6blpIRDI3UlJwQWJjM3FKNmNGREcxZ3BHQ3dzNnpqNHJjUEM4VXkwSWwycERZV19TQ0NyWmVNZEprZUdZSERLMXQ4aw?oc=5",
+      "medio": "CONtexto ganadero",
+      "fecha": "2026-11-28T01:00:43.000Z",
+      "imagen": "",
+      "tema": "Ganadería",
       "sinFoto": true
     },
     {
@@ -50,16 +99,6 @@
       "fecha": "2026-11-28T00:53:42.000Z",
       "imagen": "",
       "tema": "Fedegán",
-      "sinFoto": true
-    },
-    {
-      "titulo": "La unidad ganadera: una bandera que no se negocia: el mensaje de Lafuarie",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMEMzc0FoYi1ONjAzYUdYamFKX08xd2NHV0ZFMU1ZMGJCaVpxdFlwWVc1eC1kUUNTaUM3bU1lZ3NoUmxfTkZUNkZScFNjWWItS1pMaGF6TFNiaHR4eGJMWWNwcjZQUVBrTE5OWkdBUWd6blpIRDI3UlJwQWJjM3FKNmNGREcxZ3BHQ3dzNnpqNHJjUEM4VXkwSWwycERZV19TQ0NyWmVNZEprZUdZSERLMXQ4aw?oc=5",
-      "medio": "www.contextoganadero.com",
-      "fecha": "2026-11-28T00:51:16.000Z",
-      "imagen": "",
-      "tema": "Ganadería",
       "sinFoto": true
     },
     {
@@ -95,21 +134,11 @@
     {
       "titulo": "Fedegán defendió invitación a Iván Cepeda a su Congreso como parte del diálogo con varios sectores",
       "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcWRHdm5Eam5zMFNRbUxZMlFfMFRDQ1RZVGZRSU4yODlwN093ckF0Z3Q4WWc5OFI3OW5fcHZKbGlLdzhTd1VoNUlqblhzZjBSV3JuM2Q1SmsxYlRjUnYyM2VmZWNKVlN0cjBXWnB5UDRvc202ZnlneWtiRWozSjBBeVNWYTJmWUY1bHZPQ3BEZkNOX21xNDZqNGJSV3RFSjhKVlRZZDJ1UWlkaExVNGs2UmtNTDhwQ2ZySjJjT3RRSzBXakFBNGw1R0VrRnpBQXVR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcWRHdm5Eam5zMFNRbUxZMlFfMFRDQ1RZVGZRSU4yODlwN093ckF0Z3Q4WWc5OFI3OW5fcHZKbGlLdzhTd1VoNUlqblhzZjBSV3JuM2Q1SmsxYlRjUnYyM2VmZWNKVlN0cjBXWnB5UDRvc202ZnlneWtiRWozSjBBeVNWYTJmWUY1bHZPQ3BEZkNOX21xNDZqNGJSV3RFSjhKVlRZZDJ1UWlkaExVNGs2UmtNTDhwQ2ZySjJjT3RRSzBXakFBNGw1R0VrRnpBQXVR0gHeAUFVX3lxTFBZeDhVZWR4TWpNbnI4YUt0TnVyZTFPRlNrVHB1V1o5Y2NEQXFGVFdxd2VTN3ViM3VUUEJHcnR3OTVNTFhubkx6ci1ubXlnNVhucy11c2JYWFN5VFJBdXBFQ0w2aE54YjdKN2FLZkNhZWN0NlR1MURMekw3aXA0N01tSXhhaDhqWElNSGU0ckFuaUhlZHhQZHVFUkNqMHBtQjBvQXlycVV5SlozX1FkY3hJWXlnUEo4dGwxNXR3UGxQRG53YlBuWDBTVkZhU05zZ0V2dUREMUVaeVRGdy1TUQ?oc=5",
       "medio": "Blu Radio",
       "fecha": "2026-11-28T00:34:12.000Z",
       "imagen": "",
       "tema": "Fedegán",
-      "sinFoto": true
-    },
-    {
-      "titulo": "Ingreso de ganado ilegal de Centroamérica a México arriesga el combate contra gusano barrenador: CNA",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWUVpN0VNUjlNNXgzMnVtX2FMclIzLV9SN05uNWNPbHVkSmFnLVdNUk5Id1BQcHpON3Q2ZDNCOHpXdU5sM1VYVnowSGtGc05JNWtDVVB0SUdkbUptSmNCS0VIM0tsMC1kXzJoUm1RVzd5THFFSE9mNFJCS1EteXFMNy1USWFqX2VqQzZIMTl2bWJXTTBkREl3Q3VQRWxWVUxpTENzWlk0REJadlhJd2MxUHV6UU1XdFpPWThneA?oc=5",
-      "medio": "Omnia",
-      "fecha": "2026-11-28T00:33:02.000Z",
-      "imagen": "",
-      "tema": "Precios",
       "sinFoto": true
     },
     {
@@ -133,6 +162,15 @@
       "sinFoto": true
     },
     {
+      "titulo": "SEMANA revela detalles del quiebre entre De La Espriella y Lafaurie: los recursos del Fondo Nacional del Ganado están bajo la lupa",
+      "resumen": "Las imágenes de José Félix Lafaurie e Iván Cepeda en el Congreso Nacional de Ganaderos detonaron la relación entre De La Espriella y Fedegán. El presidente anunció que su Gobierno tratará directamente ...",
+      "link": "https://www.semana.com/nacion/articulo/semana-revela-detalles-del-quiebre-entre-de-la-espriella-y-lafaurie-los-recursos-del-fondo-nacional-del-ganado-estan-bajo-la-lupa/202628/",
+      "medio": "Semana",
+      "fecha": "2026-11-27T23:54:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.3OqdjXaMV-KS7bmZzkJA1w&pid=News",
+      "tema": "Fedegán"
+    },
+    {
       "titulo": "Fedegán entiende el malestar de ganaderos por la visita de Iván Cepeda, pero defiende la invitación",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY1dyQS1OTzVZTnExTkFoenV1c0ttblZGTWZoQkNFMG5BQS12dTBnTF9HM2Z0d2tuYUdpNF9yQ0tvUVNRaHdwbjNFZTlHRVJ4SWctV3VNTlltR04yMVB1enM1NXVXMWd5YndDNW1QZW9mMHhWeFotS0NnR3hKNzJrV1dDWlQ3NWlaWHFHMFM0VVVudkZRdzBFbGlDZ0tGemE5SkJ5NVJQbWx2X3lZdS12QzNySGRpR0s5RFE?oc=5",
@@ -153,14 +191,13 @@
       "sinFoto": true
     },
     {
-      "titulo": "Fedegán defiende el diálogo con todos los congresistas tras la tormenta política por Iván Cepeda en Valledupar",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQjZDNGZuYWdYU3J2WG5QNWdxVV9Ka1VzR2lLc05VRmxiWmdkSU11SDkzNDJiLTNuVW03U3RqT0lQdExJMTQ5RnRxRmhZOXdKODBvNGJyaHBtWVI5dU9zU3ZXNS1mZlBmeWhseWF4b0ZnZ2UwMUhackVzWjhqTk93N3EwNm0wTkpLUTZZMmU1Tk9hY2RkME5MclFoa2lzRmlMZUx2dVB1TmFFZUZTUUJhbDRpODNQWWNIZ0tzT1R4YU1kdmEta090T2hBYm5mZnhUNG5UaF9GWTN5YnJqZVM4b01YNFRXYjlOZGY5cg?oc=5",
-      "medio": "ELHERALDO.CO",
-      "fecha": "2026-11-27T22:52:03.000Z",
-      "imagen": "",
-      "tema": "Fedegán",
-      "sinFoto": true
+      "titulo": "Detalles de pelea entre De la Espriella y Lafaurie: no fue por foto con Cepeda y hay lío de plata",
+      "resumen": "La pelea entre Abelardo de la Espriella y José Félix Lafaurie escaló por una foto con Iván Cepeda y una auditoría a los recursos de Fedegán.",
+      "link": "https://www.pulzo.com/nacion/detalles-pelea-entre-espriella-lafaurie-no-es-foto-con-cepeda-PP5366941",
+      "medio": "Pulzo",
+      "fecha": "2026-11-27T23:32:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.AnmQiUpL8oea6AcMJRBD3Q&pid=News",
+      "tema": "Fedegán"
     },
     {
       "titulo": "Paquete semanal de datos del mercado de la carne de vacuno del USDA AMS con fecha 27 de noviembre de 2026",
@@ -196,7 +233,7 @@
       "titulo": "Seis acciones para enfrentar sequía en provincia Guanentina",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ1N1eFdQeDNNb0FseUdlMHFTdDlOZWEzdmd1WEJrcHo5aFRMNVZacHFCWFN0M0xqVlBuTGIzeTJxR2hURDFaWDU0a0VWQmtoWm1zSzBmT0dEcE9LWGpCT29OU1BEaUxOV2RYNWdqb3hkTGVvUmZBY01rM1lzVzVxMUgyVkxFTG9HaDBmaVBiSDBpYVQwOFFTeFdXM01TNTBwTGZF?oc=5",
-      "medio": "www.contextoganadero.com",
+      "medio": "CONtexto ganadero",
       "fecha": "2026-11-27T21:48:16.000Z",
       "imagen": "",
       "tema": "Ganadería",
@@ -259,7 +296,8 @@
       "medio": "El Norte",
       "fecha": "2026-11-27T19:18:09.000Z",
       "imagen": "",
-      "tema": "Fedegán"
+      "tema": "Fedegán",
+      "sinFoto": true
     },
     {
       "titulo": "De la Espriella desconoce a Lafaurie como presidente de Fedegán tras foto con Cepeda: “Mi gobierno no necesita intermediarios” | El Colombiano",
@@ -268,7 +306,8 @@
       "medio": "El Colombiano",
       "fecha": "2026-11-27T19:09:48.000Z",
       "imagen": "",
-      "tema": "Fedegán"
+      "tema": "Fedegán",
+      "sinFoto": true
     },
     {
       "titulo": "El informe matinal de sacrificio de ganado muestra un comercio regional mixto en efectivo - Noticias y Estadísticas",
@@ -277,7 +316,8 @@
       "medio": "IndexBox",
       "fecha": "2026-11-27T18:30:26.000Z",
       "imagen": "",
-      "tema": "Precios"
+      "tema": "Precios",
+      "sinFoto": true
     },
     {
       "titulo": "Diario del gobierno de Abelardo: se abre una grieta con Fedegán",
@@ -286,7 +326,8 @@
       "medio": "La Silla Vacía",
       "fecha": "2026-11-27T18:26:51.000Z",
       "imagen": "",
-      "tema": "Fedegán"
+      "tema": "Fedegán",
+      "sinFoto": true
     },
     {
       "titulo": "Comercio de ganado en Nebraska ligero con demanda moderada y precios en canal firmes - Noticias y Estadísticas",
@@ -307,6 +348,15 @@
       "tema": "Precios"
     },
     {
+      "titulo": "José Félix Lafaurie volvió a pronunciarse y explicó la presencia de Iván Cepeda en medio del Congreso Nacional de Ganaderos",
+      "resumen": "Según el dirigente gremial, era su deber recibirlo como a cualquier otro invitado. El presidente rompió relaciones.",
+      "link": "https://www.eltiempo.com/economia/sectores/jose-felix-lafaurie-volvio-a-pronunciarse-y-explico-la-presencia-de-ivan-cepeda-en-medio-del-congreso-nacional-de-ganaderos-3605118",
+      "medio": "El Tiempo",
+      "fecha": "2026-11-27T17:45:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.GutWDsJkiVGGuJHpP3AO0g&pid=News",
+      "tema": "Fedegán"
+    },
+    {
       "titulo": "Fedegán defiende diálogo con el Gobierno tras polémica por fotografía de Lafaurie e Iván Cepeda",
       "resumen": "La junta directiva de la Federación Colombiana de Ganaderos (Fedegán) manifestó su disposición de trabajar con el Gobierno nacional en las políticas ...",
       "link": "https://emisoraatlantico.com.co/proceso-de-paz/fedegan-defiende-dialogo-con-el-gobierno-tras-polemica-por-fotografia-de-lafaurie-e-ivan-cepeda/",
@@ -322,7 +372,7 @@
       "medio": "CONtexto ganadero",
       "fecha": "2026-11-27T17:09:19.000Z",
       "imagen": "",
-      "tema": "Fedegán"
+      "tema": "Ganadería"
     },
     {
       "titulo": "De la Espriella desconoce a Lafaurie como presidente de Fedegán tras reunión con Cepeda",
@@ -341,15 +391,6 @@
       "fecha": "2026-11-27T16:51:18.000Z",
       "imagen": "",
       "tema": "Pastos"
-    },
-    {
-      "titulo": "Fedegán da explicación a Gobierno sobre la visita de Iván Cepeda al 41.º Congreso Nacional de Ganaderos en Valledupar",
-      "resumen": "El pronunciamiento se produce en medio de la tensión generada después de que el jefe de Estado cuestionara dicha visita tras las fotos que se viralizaron.",
-      "link": "https://hoydiariodelmagdalena.com.co/archivos/1315359/fedegan-da-explicacion-a-gobierno-sobre-la-visita-de-ivan-cepeda-al-41-congreso-nacional-de-ganaderos-en-valledupar",
-      "medio": "HOY DIARIO DEL MAGDALENA",
-      "fecha": "2026-11-27T16:37:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.A8dYSYTcW8jP8AeN-10GPw&pid=News",
-      "tema": "Fedegán"
     },
     {
       "titulo": "Congresistas presentes en Congreso Nacional Ganadero",
@@ -416,6 +457,15 @@
       "tema": "Fedegán"
     },
     {
+      "titulo": "Presidente reafirma diálogo directo con gremio ganadero y rechaza intermediarios",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORUtvOWRaVGZuNzBKSEQyZWd6aE1lNkNqVVpPTWdlb1hOQkwtRVFRbi1VUnBxYnZkZUJlMDl0Q2pKYWVXVDYwYVRTaVd3ZTFEbzAyQ0w2V01uUWEweWwtWnlqVUpMNHEtLWNrZzdxbEVyQVMzOFo3bUU1SEs0eU5BYVRUQThIeDBqcmdyYnQ1WnVocXA4RkFBbTZhUnNzLWU5OGl1VzVsdGNmRnVLSVE?oc=5",
+      "medio": "BusinessCol.com",
+      "fecha": "2026-11-27T15:50:14.000Z",
+      "imagen": "",
+      "tema": "Ganadería"
+    },
+    {
       "titulo": "Ganaderos de Yucatán prevén recuperación y preparan certificación genética",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ2FtN0t2MmpwTElfci1keWlIZGJsV1hJQW9nZF9hdkFKOC11bFVwNXJlQlBsTHVva3VzVWFSWVhmZkM1dXVsSWo5OWtLb1hXdHBXM2VtUUo3MU0tLUJ2TThWVFlZa2xXdXF6R2JHSUpnM2ROdkFHUWtMQTdjckxHTzY1Q1FIT1hUeWxUZXFYSDZ4ZzhaRm5MOXM4Y1FYbjZiTWFPTE1B?oc=5",
@@ -443,12 +493,39 @@
       "tema": "Pastos"
     },
     {
+      "titulo": "Carolina Soto, Mac Master y ahora Lafaurie: los líderes gremiales que chocaron con De La Espriella",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR2t1d1N0elUzSHR1LVBjZ2JmZmtkSFcyMDVGSTlvdHpPNkluRGR4QVYyMmdDT1M2VkFtN0d2Qm1QemUtYkdvRE93SzRZekhvUE5VeHpZMVRfUzk3Y09kYUhNY2hPRHBoY0tkUEZlVFh2Z1lvdHBxTjVCc2ltak9XLXBnVW9PNGViamFRSjBNQ0o?oc=5",
+      "medio": "Minuto60",
+      "fecha": "2026-11-27T15:08:47.000Z",
+      "imagen": "",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "Fedegán defiende el diálogo con todos los congresistas tras la tormenta política por Iván Cepeda en Valledupar",
+      "resumen": "La junta directiva del gremio ganadero respondió al malestar generado por la presencia del senador en el 41.º Congreso Nacional de Ganaderos. Además defendió su independencia institucional y propuso a ...",
+      "link": "https://www.elheraldo.co/colombia/2026/11/27/fedegan-defiende-el-dialogo-con-todos-los-congresistas-tras-la-tormenta-politica-por-ivan-cepeda-en-valledupar/",
+      "medio": "El Heraldo",
+      "fecha": "2026-11-27T14:52:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.G4OV8CzusUVdRMQc7zC9WA&pid=News",
+      "tema": "Fedegán"
+    },
+    {
       "titulo": "La respuesta de Fedegán frente a la polémica entre el presidente Abelardo De La Espriella y José Félix Lafaurie",
       "resumen": "El gremio de ganaderos explicó las razones de la invitación de Iván Cepeda al congreso en Valledupar.",
       "link": "https://www.semana.com/economia/articulo/la-respuesta-de-fedegan-frente-a-la-polemica-entre-el-presidente-abelardo-de-la-espriella-y-jose-felix-lafaurie/202617/",
       "medio": "Semana",
       "fecha": "2026-11-27T14:52:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.vqu8P3jVNQBCWgfnYEatFg&pid=News",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "La historia de la foto entre José Félix Lafaurie e Iván Cepeda que desató la ruptura entre el Gobierno De La Espriella y el líder de Fedegán",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOWnk1UW5PdE1XSWpfaVFRUlRVbU5KLWl6WjBrUWVKeklpMzFNejlKblJ5RG9WNW4wTmp1MU9rYm90M1dLRFFyb0U4ajN3ZWl0OU8ySlhwTm9SaTVlTUVxcld5MGt3T3hUczRsNXpsRkJsRUtYNjVhNVptYnFncGZIdUp2cWpTblN3R19hbENGRzZtNUh6N2Z4OURFcWcyUWZJaEE1enVOUk1KUlpsZ3VabDhiMTBjT3VmSGFCN3I5d2dBMVh4MlMtMDcwRWNoVHNaWFR2RGM5cmlxSVp5eE1XQ0FyOTlHQzlBd1pDdG9iRTJZRVhwNmFKTTdtRm16UXREWWItMDdXbG1lVVg0SHR6N2ZreVRHczc5ZC1n0gGgAkFVX3lxTE1ia1M1ZE5hZjFwZVRZQld4Umx2cVZ3VUh6MTZnWmJQVUxVRW91QUhqZk1RaExWZGFfVnJHVnhfemxTUUkzak1NVjBkVlduaUt0VTNRd3Z6bzF6eDlMMHVUREUzZDdqZkowZUpiZDRsUEFwVTQxem5zVU1PVmdqV1B1dnJfOTRKQ3FPbWNYX2FFbm5SNk1vbllWR0c2aVk5TkE5UG9aTHJlQVBsN1FhZHE2VC01cUREMndHUWtGU1c1TDctazlFR2IwMnNwYUFHNjNjeTZ0SlpSeDlPVjRqZXhuM2Q1UmpINXY3WjVQd053ZzJWanJlZ3FvVWtDQlVMZ2lZdmFqMXRPaGxNaFIzZnJFMFJUUlNZWjlGWlg4S0RRbg?oc=5",
+      "medio": "El Tiempo",
+      "fecha": "2026-11-27T14:42:32.000Z",
+      "imagen": "",
       "tema": "Fedegán"
     },
     {
@@ -522,8 +599,16 @@
       "medio": "El Tiempo",
       "fecha": "2026-11-27T13:45:06.000Z",
       "imagen": "",
-      "tema": "Fedegán",
-      "sinFoto": true
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "Nueva era para los ganaderos en Colombia: Presidente De La Espriella les avisa cambio radical tras romper relaciones con Fedegán",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNOVJVV0Z1YzAxYmEwVmRXNjRvUkZjaWZncnBPWWZ6T0xsQnZFQkdBcjBnY292VGN5WHhnMEROaXM0dEl2bmhyVXJ2c2N0UnJ6S1VTcDJ6a1RXNHlNSFF3bkQ5eDhQQ3NtT2JfeDFHSi1tNm1KWTJ2emNqbXRHb2JCZEY0dXRlN1FUSUxEUXJfRjRtdWhDT0c0aHRxNGtlR0U3ZWszd0VSQXZjWEs1Y05JS1Z0cEpYa0cwdWNPQjE0WW8xZWlHb3IzMUxwUWcyZFF3dlFETmNOaTlfc19vbGF2dm1aTktNTHM4YmxPeldnUFpfTGdHc3g3bks1OG5DUDRzYktUUEc3LXk?oc=5",
+      "medio": "RED+ Noticias",
+      "fecha": "2026-11-27T13:39:11.000Z",
+      "imagen": "",
+      "tema": "Ganadería"
     },
     {
       "titulo": "Presidente Abelardo de la Espriella dice que el Gobierno desconocerá a José Félix Lafaurie como presidente de Fedegán",
@@ -580,6 +665,24 @@
       "tema": "Ganadería"
     },
     {
+      "titulo": "Fedegán se pronunció sobre polémica entre José Félix Lafaurie y presidente De La Espriella",
+      "resumen": "La participación del senador opositor en el evento realizado en Valledupar fue calificada por el ejecutivo como una 'complicidad política'.",
+      "link": "https://www.eltiempo.com/politica/gobierno/fedegan-se-pronuncio-sobre-polemica-entre-jose-felix-lafaurie-y-presidente-abelardo-de-la-espriella-por-presencia-de-ivan-cepeda-en-congreso-ganadero-3605046",
+      "medio": "El Tiempo",
+      "fecha": "2026-11-27T13:06:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.cbZvLwybhetvhNOlsggejA&pid=News",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "De los cuestionamientos por los parafiscales a la ruptura: así escaló el enfrentamiento entre el Gobierno y Fedegán",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeFJfaWFXVHhkZi16cktmSHM1RWRhMmNPdWVidEdUZmhTdTVxNWdtX0ZMSGY4eHRfNWZLTXNWVENJVGFZNnlrVms4RnNlcWxxZ3BqZ3ZjUzQzVE9HYzFtcE43UFFINFBqSVRVaDFtbzhyRjFJSjdsNlVLckFRMDlTM292akpOMVBfVVU5VFJ6MGc5Q0lybkVBelVNNkNPa0VWVVlaRkhKQlJPYVVScXh2cTBaV0E2N3fSAbcBQVVfeXFMTlhUYTNzaXRsQU1pSWJFSjdyV2UyMFYzRFNZOHplcU9nazdIZzgzUi1fMHM1RkxOZzJWdUJWSkNDX2lVemRmQXQ1cUdZdFFPTmhjNDBRMVhQNGF6Y1JUZ1U0QW44N1lBVnRzT1lsWWJzM2pNZVZuM0FRVmdYSzB0NG5fakhnZE9LeXdQRERlRFdsS1NRaWVEZXhZUDlhenJJTFItTGt0UE5wNk9rNWp0WllKSGQ5SEU4?oc=5",
+      "medio": "La FM",
+      "fecha": "2026-11-27T13:01:11.000Z",
+      "imagen": "",
+      "tema": "Fedegán"
+    },
+    {
       "titulo": "Agroexpo 2027: por qué Venezuela debe ser el país invitado y nuestra gran vitrina exportadora",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM1FHaVBpZFkxbjJ6WVF6M1BtZGd1d1JITExjYkpTQVpWNkpWQVI2VkU5TWpYU3ozcmhFR0FPcGpHMkF6QjB2QUNrSzRrWUg5MmFnVldCdi1pcEJoZi1ZaTFhMERNcGc4a0lrblQ5NVF1LXlXMUJfLWx3V2ZsN3VkeDVkN1JqZTVXckh1RDBuTnNYRXBYaEp5Y25kc1Y2b2JKdEdSSFBldEdMTkZTVGxLcFM5RFBTa0hBY1V6b014Tkp3X091WHZObkpKazBWdw?oc=5",
@@ -634,6 +737,15 @@
       "tema": "Precios"
     },
     {
+      "titulo": "Nuevo rifirrafe entre Gobierno y Fedegán por manejo del Fondo Nacional del Ganado",
+      "resumen": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVnZPZ2V4cEF6U3hwZXhoSkZ4VG15RHI5Z0NpZjE5ME5ybG9pWk5McVFsUlduWUkxZDMwbjZYLVFCZU1mV0IzQ21ZTlJJeVJ4ZS1ZejZnRzExSFU3YXVRU1N1S2Vnd3VieGM2RlZBZEEta05POVVDcFpEV3d4cEZJb0RJb0R6aEw3ZGh0d0hYdEpoQklaRkNUNFVMelRoVXU5ajNIY2licmdvUDJxSmtPX1FDcHR3N0JHaUNwSzF1Q2vSAcABQVVfeXFMT2RheHMwRXFFQUFWZ2IzcWR2dkRnWkFIWWI2U0ZJRkJ1aTIwRHZmaXllOGVkLUFHLTVHOG9TY2FVdzlBNzNDT1hBNVpsSExFWWU0V2lOYUFOeUpxMXBtcnRiQ0pFdXdxM0pIS01FU1hSZksxWUZPZ21uWXpSTG5lUng2dHQtTU1TTF96NmRIeVQtYncwcklCUUFqeU5YU25xNGdNU0h4MlRJVWdIQ2p6V0F5S1NuZ21EUmNFaFdYZTZF?oc=5",
+      "medio": "Agronegocios",
+      "fecha": "2026-11-27T12:06:40.000Z",
+      "imagen": "",
+      "tema": "Ganadería"
+    },
+    {
       "titulo": "Fedegán respondió a De la Espriella por polémica con José Félix Lafaurie e Iván Cepeda",
       "resumen": "Fedegán explicó por qué invitó a Iván Cepeda al Congreso Ganadero y respondió al choque entre Abelardo De la Espriella y José Félix Lafaurie.",
       "link": "https://www.pulzo.com/nacion/fedegan-respondio-espriella-por-polemica-con-lafaurie-cepeda-PP5366784",
@@ -643,21 +755,12 @@
       "tema": "Fedegán"
     },
     {
-      "titulo": "Fedegán asegura que entregó más de 190 GB de información al Ministerio de Agricultura y rechaza narrativa de ocultamiento por parte del titular de ese ministerio. – CasanareOnline.co",
+      "titulo": "Fedegán asegura que entregó más de 190 GB de información al Ministerio de Agricultura y rechaza narrativa de ocultamiento por parte del titular de ese ministerio.",
       "resumen": "",
       "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQVHlUNmxvWHlUTS1QYk90OGNKNDd2WERzdmt4LUpDV3U5SThYVWszWFFzcGE0aXRtU25IcDd1M01qcU84QnR4a2NIQ3hZZi1Vemc1bElRbUNYLWJtTzA2SGFvNXRPRGtqb1VJSVk3aTFqTU1lU21lVGFTU2RkREJpSmNiMFAydDNGSFhRbUpLSFZKcDJhUkFrQWxMVUM2QjRWYTJmTnZKTXpzWk9yNl9aRmgwVTRxOXFTZFE2RWJGakJKQ09hWUdZY3BOVDZWY2EwazNXdjFzUGxydF8yNXhDUHRDT1B5ZTF3Zm5vN3JGZVNZbTdCRzhGLTFVSHNhWmxmcmZFRWVQa0pNSE51UUplOS00cllnMmM?oc=5",
       "medio": "CasanareOnline.co",
       "fecha": "2026-11-27T11:14:33.000Z",
       "imagen": "",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "“Una cortesía no puede convertirse en complicidad”: Lafaurie a De la Espriella por encuentro con Cepeda",
-      "resumen": "José Félix Lafaurie respondió a De la Espriella por recibir a Iván Cepeda en el Congreso Ganadero y negó que el encuentro representara una alianza política ...",
-      "link": "https://www.publimetro.co/noticias/2026/11/27/una-cortesia-no-puede-convertirse-en-complicidad-lafaurie-a-de-la-espriella-por-encuentro-con-cepeda/",
-      "medio": "Publimetro",
-      "fecha": "2026-11-27T11:13:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.sgWvSscCtzcX2suyvpH1hQ&pid=News",
       "tema": "Fedegán"
     },
     {
@@ -667,6 +770,15 @@
       "medio": "El Heraldo",
       "fecha": "2026-11-27T11:13:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.p5Uk92qH-2a6Y3f8rddH6g&pid=News",
+      "tema": "Fedegán"
+    },
+    {
+      "titulo": "“Una cortesía no puede convertirse en complicidad”: Lafaurie a De la Espriella por encuentro con Cepeda",
+      "resumen": "José Félix Lafaurie respondió a De la Espriella por recibir a Iván Cepeda en el Congreso Ganadero y negó que el encuentro representara una alianza política ...",
+      "link": "https://www.publimetro.co/noticias/2026/11/27/una-cortesia-no-puede-convertirse-en-complicidad-lafaurie-a-de-la-espriella-por-encuentro-con-cepeda/",
+      "medio": "Publimetro",
+      "fecha": "2026-11-27T11:13:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.sgWvSscCtzcX2suyvpH1hQ&pid=News",
       "tema": "Fedegán"
     },
     {
@@ -715,15 +827,6 @@
       "tema": "Ganadería"
     },
     {
-      "titulo": "Fedegán se pronunció sobre polémica entre José Félix Lafaurie y presidente De La Espriella",
-      "resumen": "La participación del senador opositor en el evento realizado en Valledupar fue calificada por el ejecutivo como una 'complicidad política'.",
-      "link": "https://www.eltiempo.com/politica/gobierno/fedegan-se-pronuncio-sobre-polemica-entre-jose-felix-lafaurie-y-presidente-abelardo-de-la-espriella-por-presencia-de-ivan-cepeda-en-congreso-ganadero-3605046",
-      "medio": "El Tiempo",
-      "fecha": "2026-11-27T08:28:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.cbZvLwybhetvhNOlsggejA&pid=News",
-      "tema": "Fedegán"
-    },
-    {
       "titulo": "Lafaurie responde a De La Espriella tras polémica con Cepeda: “un saludo no se convierte en alianza”",
       "resumen": "José Félix Lafaurie, presidente de Fedegán, le respondió a Abelardo De La Espriella por la supuesta alianza con el senador opositor Iván Cepeda: “La presidencia representa a la unidad nacional” ...",
       "link": "https://caracol.com.co/2026/11/27/lafaurie-responde-a-de-la-espriella-tras-polemica-con-cepeda-un-saludo-no-se-convierte-en-alianza/",
@@ -739,105 +842,6 @@
       "medio": "impactonews",
       "fecha": "2026-11-27T07:20:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.r7Y7iqc37FPy6LTav4VDqg&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "“Estamos ante un régimen que ataca la democracia”: Cepeda tras choque entre Abelardo y Lafaurie",
-      "resumen": "Iván Cepeda respondió a la controversia entre Abelardo de la Espriella y José Félix Lafaurie con un llamado a defender la democracia y las libertades.",
-      "link": "https://www.msn.com/es-co/noticias/otras/estamos-ante-un-r%C3%A9gimen-que-ataca-la-democracia-cepeda-tras-choque-entre-abelardo-y-lafaurie/ar-AA2imDSS",
-      "medio": "Publimetro on MSN",
-      "fecha": "2026-11-27T06:51:58.000Z",
-      "imagen": "http://www.bing.com/th?id=ORMS.456f5c6365e88f154c5967cc52acf3a9&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "De La Espriella rompe con Fedegán tras encuentro entre Lafaurie y Cepeda ¿Qué pasará con los ganaderos?",
-      "resumen": "El presidente Abelardo De La Espriella anunció que no tendrá a José Félix Lafaurie como interlocutor de Fedegán tras su encuentro con Iván Cepeda.",
-      "link": "https://www.msn.com/es-co/noticias/otras/de-la-espriella-rompe-con-fedeg%C3%A1n-tras-encuentro-entre-lafaurie-y-cepeda-qu%C3%A9-pasar%C3%A1-con-los-ganaderos/ar-AA2imLKt",
-      "medio": "Publimetro on MSN",
-      "fecha": "2026-11-27T06:40:55.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.bFLmdcFmMBgrDAyPitVIYg&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Colombia reporta 9,5 millones de bovinos vacunados contra fiebre aftosa",
-      "resumen": "El ICA reporta que 9,5 millones de bovinos fueron vacunados en el ciclo que termina el 16 de diciembre. La cifra equivale al 31% del hato.",
-      "link": "https://www.diariodelsur.com.co/noticias/colombia-reporta-9-5-millones-de-bovinos-vacunados-contra-fiebre-aftosa",
-      "medio": "Diario del Sur",
-      "fecha": "2026-11-27T06:21:00.000Z",
-      "imagen": "",
-      "tema": "Vacunación"
-    },
-    {
-      "titulo": "MinAgricultura le ganó pulso a Fedegán",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbWYwTVJlRjUxbkZQeTlsTTRYd1lMRHJRY1RqcDVpZXZNLWc1MHhWYlloY09idk44ODhmaTQ0N0tQc08xd1ZydGdWSEFaN0VpcWczZTVhVko3NUJUVEp5MEJFSzZqeWZVMWxJQ01rODloZnFXaDAwTjVDTVZQZUdBODhseWpYUW5peEhEdnllSUxSd0YzRlBV?oc=5",
-      "medio": "El Meridiano",
-      "fecha": "2026-11-27T05:56:55.000Z",
-      "imagen": "",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Pequeños ganaderos de Bochalema crecen ceñidos a la asociatividad",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM2lwTzVSWXZaOENUbGdZWVlhbnpqVzFNNmVwOHkwMVhFcGRwaGh3QVhtLU1Oak01RTVpbk9DZ2xUZ2pUbHdLMDBuWEJ1TzBOd2lJeHVNY29NUzZWRnhHdlA0R1U4Q0g5cGRqUE1tbHJkY1VwWUZNSGxyVktsR2RrOUt1VVFGdHgyaHBjWC14WDFCblgxaFZiZk9VZlNJdlBWU19KOURPeS15dm8?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-27T04:55:41.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "El sacrificio bovino clandestino ya llega a los $12 billones",
-      "resumen": "",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWWg2STZ4bEhGRHlvaEtTdzRJQnZvdUZVTGkxdlB6Zk9iZEg4UzRMeTJqR1ZERktRSWhfbjRGX00yd1hyd0pTc3liSC1qSHVocVdHY2ExMWtFeXBYQjdWUDI4dVBaNjVYWkluTGlGQmNSd1VnbkNyZGlickNtMzJRZGg3R3dzSUs5alZFYmlUc3BTREVQbUlTd3VjZ015QkVJTWZR?oc=5",
-      "medio": "CONtexto ganadero",
-      "fecha": "2026-11-27T04:50:41.000Z",
-      "imagen": "",
-      "tema": "Ganadería"
-    },
-    {
-      "titulo": "“Me correspondía recibirlo con la misma consideración que a los demás”: Lafaurie defiende su encuentro con Cepeda",
-      "resumen": "José Félix Lafaurie defendió haber recibido a Iván Cepeda en el Congreso Ganadero de Valledupar y dijo que el trato no puede depender del Gobierno.",
-      "link": "https://larazon.co/me-correspondia-recibirlo-con-la-misma-consideracion-que-a-los-demas-lafaurie-defiende-su-encuentro-con-cepeda/",
-      "medio": "LA RAZON.CO",
-      "fecha": "2026-11-27T04:38:00.000Z",
-      "imagen": "https://larazon.co/wp-content/uploads/2024/10/Lafaurie-1024x683.jpg",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "Llovería en el centro y occidente del país este viernes. Consulte el pronóstico del Ideam",
-      "resumen": "Para este viernes 27 de noviembre, el Ideam pronostica lluvias en el centro y occidente del país, con los mayores acumulados en las regiones Pacífica, ...",
-      "link": "https://www.elespectador.com/ambiente/lloveria-en-el-centro-y-occidente-del-pais-este-viernes-consulte-el-pronostico-del-ideam/",
-      "medio": "El Espectador",
-      "fecha": "2026-11-27T04:27:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.A8QQ76pZw-AyEfG7NXm7hw&pid=News",
-      "tema": "Clima"
-    },
-    {
-      "titulo": "Abelardo de la Espriella arremetió contra el presidente de Fedegán José Félix Lafaurie por foto con Iván Cepeda: “Se representa a sí mismo”",
-      "resumen": "El presidente de la República criticó los contactos del presidente de la Federación Nacional de Ganaderos con el senador Iván Cepeda y afirmó que una eventual administración suya trataría de manera di ...",
-      "link": "https://www.infobae.com/colombia/2026/11/27/abelardo-de-la-espriella-arremetio-contra-el-presidente-de-fedegan-jose-felix-lafaurie-por-foto-con-ivan-cepeda-se-representa-a-si-mismo/",
-      "medio": "Infobae",
-      "fecha": "2026-11-27T04:25:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.qyWkGFLQfsih2X4tJ2c04Q&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "MinAgricultura gana tutela sobre información de Fedegán y el gremio asegura que ya fue entregada",
-      "resumen": "Un juez ordenó a Fedegán entregar en un plazo de 48 horas información completa sobre 61 requerimientos del Fondo Nacional del Ganado, tras fallar a favor del Ministerio de Agricultura. Fedegan afirmó ...",
-      "link": "https://caracol.com.co/2026/11/27/minagricultura-gana-tutela-sobre-informacion-de-fedegan-y-el-gremio-asegura-que-ya-fue-entregada/",
-      "medio": "Caracol Radio",
-      "fecha": "2026-11-27T04:25:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.0bvlV49FoGLJdQUfIs9b2w&pid=News",
-      "tema": "Fedegán"
-    },
-    {
-      "titulo": "La polémica foto de Lafaurie y Cepeda en Congreso de Fedegán que reabrió el debate sobre la relación del gremio con el Gobierno",
-      "resumen": "Una fotografía de José Félix Lafaurie, presidente de la Federación Colombiana de Ganaderos (Fedegán), junto al senador Iván Cepeda, del Pacto ...",
-      "link": "https://www.elcolombiano.com/negocios/polemica-foto-jose-felix-lafaurie-ivan-cepeda-congreso-ganadero-CC44139391",
-      "medio": "El Colombiano",
-      "fecha": "2026-11-27T04:24:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.3bJ47qae5R46IUox5OVkkw&pid=News",
       "tema": "Fedegán"
     }
   ]
